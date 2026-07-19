@@ -367,7 +367,12 @@
         <div class="booking-box">
             <h3>🏨 {{ lbl_stay }}</h3>
             <p>{{ lbl_stay_desc }}</p>
-            <a href="{{ site.klook_url }}" target="_blank" rel="noopener noreferrer nofollow sponsored" class="booking-btn">
+            <a href="{{ site.klook_url }}"
+               target="_blank"
+               rel="noopener noreferrer nofollow sponsored"
+               class="booking-btn"
+               data-track="affiliate_klook"
+               data-track-label="klook">
                 {{ lbl_stay_btn }}
             </a>
         </div>

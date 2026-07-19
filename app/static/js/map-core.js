@@ -232,6 +232,18 @@ function _showInfoWindow(marker, item) {
             e.preventDefault();
             closeInfoWindow();
         });
+        const detailLink = document.querySelector('.info-box-link');
+        if (detailLink && !detailLink.dataset.gaBound) {
+            detailLink.dataset.gaBound = '1';
+            detailLink.addEventListener('click', () => {
+                if (typeof gtag === 'function') {
+                    gtag('event', 'map_infowindow_detail_click', {
+                        event_category: 'map_home',
+                        event_label: (detailLink.getAttribute('href') || '').split('?')[0],
+                    });
+                }
+            }, { once: true });
+        }
     });
 }
 

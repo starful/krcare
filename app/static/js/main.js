@@ -133,9 +133,29 @@ function renderList(data) {
         btn.addEventListener('click', () => {
             const id = btn.dataset.clinicId;
             if (!id || !focusClinicById(id)) return;
+            if (typeof gtag === 'function') {
+                gtag('event', 'clinic_map_focus', {
+                    event_category: 'map_home',
+                    event_label: id,
+                });
+            }
             document.getElementById('map')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
         });
     });
+
+    if (!container.dataset.gaBound) {
+        container.dataset.gaBound = '1';
+        container.addEventListener('click', (e) => {
+            const a = e.target.closest('a');
+            if (!a || !a.getAttribute('href')) return;
+            if (typeof gtag === 'function') {
+                gtag('event', 'clinic_card_click', {
+                    event_category: 'map_home',
+                    event_label: (a.getAttribute('href') || '').split('#')[0],
+                });
+            }
+        });
+    }
 }
 
 function updateCounts() {
@@ -215,6 +235,12 @@ function bindFilterButtons() {
             btn.classList.add('active');
             currentSido = btn.dataset.sido || 'all';
             currentDistrict = currentSido === 'seoul' || currentSido === 'busan' ? 'all' : null;
+            if (typeof gtag === 'function') {
+                gtag('event', 'region_filter_click', {
+                    event_category: 'map_home',
+                    event_label: currentSido,
+                });
+            }
             closeInfoWindow();
             await updateUI();
             if (window.innerWidth < 768) {
@@ -229,6 +255,12 @@ document.querySelectorAll('.lang-btn[data-lang]').forEach(btn => {
         document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         currentLang = btn.dataset.lang;
+        if (typeof gtag === 'function') {
+            gtag('event', 'lang_switch', {
+                event_category: 'ux_interaction',
+                event_label: currentLang,
+            });
+        }
         await Promise.all([loadClinics(currentLang), loadNearby(currentLang)]);
         closeInfoWindow();
         await updateUI();
