@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="{{ 'ko' if (request.args.get('lang') or active_lang or 'en') == 'ko' else 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — OK Template</title>
+    <meta name="description" content="How OK Template uses cookies, Google Analytics, Google AdSense, and contact form data.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://example.com/privacy.html">
+    <link rel="alternate" hreflang="en" href="https://example.com/privacy.html">
+    <link rel="alternate" hreflang="ko" href="https://example.com/privacy.html?lang=ko">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+               line-height: 1.7; background: #F3F7F6; color: #555; margin: 0; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 40px;
+                      border-radius: 12px; box-shadow: 0 4px 20px rgba(15,42,50,0.06); }
+        h1 { font-size: 2rem; color: #0F2A32; border-bottom: 2px solid #eee; padding-bottom: 15px; text-align: center; }
+        h2 { font-size: 1.25rem; color: #0F2A32; margin-top: 32px; border-left: 4px solid #2EB5A8; padding-left: 12px; }
+        h3 { font-size: 1.05rem; color: #1A3A42; margin-top: 20px; }
+        a { color: #2EB5A8; }
+        .lang-switch { text-align: center; margin-bottom: 20px; }
+        .lang-switch a { margin: 0 8px; color: #2EB5A8; }
+        .btn-row { margin-top: 40px; text-align: center; border-top: 1px solid #eee; padding-top: 28px; }
+        .btn { display: inline-block; background: #0F2A32; color: #fff !important; padding: 12px 24px;
+                border-radius: 30px; text-decoration: none; margin: 6px; font-weight: 600; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="lang-switch">
+        <a href="/privacy.html">English</a> · <a href="/privacy.html?lang=ko">한국어</a>
+    </div>
+    {% set _lang = request.args.get('lang') or active_lang or 'en' %}
+    {% if _lang == 'ko' %}
+    <h1>개인정보 처리방침</h1>
+  Shared Privacy Policy body (Korean).
+  Variables: site_name, domain, contact_url, updated_at
+#}
+<p><strong>최종 업데이트:</strong> 2026년 7월 12일</p>
+
+<p>
+  본 개인정보 처리방침은 <strong>example.com</strong>에서 운영하는
+  <strong>OK Template</strong>(이하 “사이트”)가 웹사이트 이용 시
+  정보를 어떻게 수집·이용·공유하는지 설명합니다. 사이트를 이용하시면
+  본 방침에 동의한 것으로 간주됩니다. 동의하지 않으시면 이용을 중단해 주세요.
+</p>
+
+<h2>1. 운영자 안내</h2>
+<p>
+  OK Template는 가이드, 지도, 디렉터리 등 무료 정보·편집 콘텐츠를 제공합니다.
+  사이트에 소개된 학교·식당·숙소·골프장 등의 공식 사이트가 아니며,
+  별도 명시가 없는 한 해당 업체와 제휴 관계가 없습니다.
+</p>
+
+<h2>2. 수집하는 정보</h2>
+<h3>2.1 이용자가 제공하는 정보</h3>
+<p>
+  브라우징을 위해 회원 가입은 필요하지 않습니다. 문의 폼을 통해 연락하시면
+  제출하신 정보(일반적으로 아래 항목)를 수집합니다.
+</p>
+<ul>
+  <li>이름</li>
+  <li>이메일 주소</li>
+  <li>제목 및 메시지 내용</li>
+  <li>문의가 발생한 사이트 식별 정보</li>
+</ul>
+<p>
+  해당 정보는 문의 응답 및 서비스 개선 목적으로만 사용하며, 연락처를 판매하지 않습니다.
+</p>
+
+<h3>2.2 자동 수집 정보</h3>
+<p>사이트 방문 시 서버 및 서비스 제공업체가 다음을 자동 수집할 수 있습니다.</p>
+<ul>
+  <li>IP 주소</li>
+  <li>브라우저 종류 및 버전</li>
+  <li>기기 및 운영체제</li>
+  <li>유입 URL, 열람 페이지, 시각</li>
+  <li>IP 기반 대략적 위치(도시·지역 수준)</li>
+</ul>
+<p>보안, 부정 이용 방지, 성능, 통계 분석에 사용합니다.</p>
+
+<h2>3. 쿠키 및 유사 기술</h2>
+<p>
+  사이트 운영, 트래픽 측정, 광고 표시(사용 시)를 위해 쿠키·픽셀 등을 사용합니다.
+  브라우저 설정으로 쿠키를 제어할 수 있으며, 일부 쿠키를 차단하면 기능이 제한될 수 있습니다.
+</p>
+
+<h2>4. Google Analytics</h2>
+<p>
+  방문 행태 파악을 위해 <strong>Google Analytics</strong>를 사용합니다.
+  Google이 쿠키를 설정하고 기술 데이터를 처리할 수 있습니다.
+  자세한 내용:
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a>,
+  <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Analytics 선택 해제</a>.
+</p>
+
+<h2>5. Google AdSense 및 광고</h2>
+<p>
+  본 사이트는 <strong>Google AdSense</strong>를 사용하며 Google 및 파트너 광고가 표시될 수 있습니다.
+  Google 등 제3자 광고 사업자는 쿠키를 이용해 이전 방문 기록에 기반한 광고를 게재할 수 있습니다.
+</p>
+<ul>
+  <li>
+    맞춤 광고 설정:
+    <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google 광고 설정</a>
+  </li>
+  <li>
+    관심 기반 광고 선택:
+    <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>
+  </li>
+</ul>
+
+<h2>6. 이용 목적</h2>
+<ul>
+  <li>사이트 운영·유지·개선</li>
+  <li>문의·오류 신고 응대</li>
+  <li>성과·콘텐츠 유용성 측정</li>
+  <li>스팸·부정 이용·장애 대응</li>
+  <li>관련 법령 준수</li>
+</ul>
+
+<h2>7. 정보 제공</h2>
+<p>개인정보를 판매하지 않습니다. 다음의 경우 정보가 제공될 수 있습니다.</p>
+<ul>
+  <li>호스팅, 분석, 문의 처리, 광고 등 서비스 제공업체</li>
+  <li>법령상 요구 또는 권리·안전 보호가 필요한 경우</li>
+  <li>합병·양도 등 사업 이전 시(관련 통지가 필요한 경우 안내)</li>
+</ul>
+
+<h2>8. 외부 링크</h2>
+<p>
+  지도, 예약, 학교·업체 사이트 등 외부 링크가 포함될 수 있습니다.
+  해당 사이트의 개인정보 처리에 대해서는 책임지지 않습니다.
+</p>
+
+<h2>9. 보관 기간</h2>
+<p>
+  로그·분석 데이터는 운영·보안·분석에 필요한 기간 보관 후 삭제 또는 집계 처리합니다.
+  문의 내용은 응대 및 기록 유지를 위해 합리적인 기간 보관합니다.
+</p>
+
+<h2>10. 보안</h2>
+<p>
+  합리적 수준의 관리·기술적 보호 조치를 취하나, 완벽한 보안을 보장할 수는 없습니다.
+</p>
+
+<h2>11. 아동의 개인정보</h2>
+<p>
+  본 사이트는 만 13세 미만(또는 관할 법률상 이에 상응하는 연령) 아동을 대상으로 하지 않으며,
+  고의로 아동의 개인정보를 수집하지 않습니다.
+</p>
+
+<h2>12. 해외 이용자</h2>
+<p>
+  전 세계에서 접속할 수 있으며, 정보 처리가 이루어지는 국가의 법령이
+  이용자 거주 국가와 다를 수 있습니다.
+</p>
+
+<h2>13. 이용자 선택</h2>
+<ul>
+  <li>브라우저 쿠키 설정 변경</li>
+  <li>Google 광고/Analytics 선택 해제 도구 이용</li>
+  <li>제출하신 문의 정보의 수정·삭제 요청(가능한 범위)</li>
+</ul>
+
+<h2>14. 방침 변경</h2>
+<p>
+  본 방침은 변경될 수 있으며, 변경 시 상단의 “최종 업데이트” 날짜를 수정합니다.
+  변경 후에도 사이트를 계속 이용하시면 변경된 방침에 동의한 것으로 봅니다.
+</p>
+
+<h2>15. 문의</h2>
+<p>
+  개인정보 관련 문의:
+  <a href="/contact.html">OK Template 문의하기</a>
+</p>
+    {% else %}
+    <h1>Privacy Policy</h1>
+  Shared Privacy Policy body (English).
+  Variables: site_name, domain, contact_url, updated_at
+#}
+<p><strong>Last updated:</strong> July 12, 2026</p>
+
+<p>
+  This Privacy Policy describes how <strong>OK Template</strong>
+  (“we,” “us,” or “the Site”), operated at
+  <strong>example.com</strong>, collects, uses, and shares information
+  when you visit or use this website. By using the Site, you agree to this Policy.
+  If you do not agree, please do not use the Site.
+</p>
+
+<h2>1. Who we are</h2>
+<p>
+  OK Template provides free editorial and informational content
+  (guides, maps, directories, and related pages). We are not a school, restaurant,
+  hotel, golf course, or other venue listed on the Site, and we are not
+  affiliated with those third parties unless explicitly stated.
+</p>
+
+<h2>2. Information we collect</h2>
+<h3>2.1 Information you provide</h3>
+<p>
+  We do not require an account to browse the Site. If you contact us through
+  our contact form, we collect the information you submit, which typically includes:
+</p>
+<ul>
+  <li>Name</li>
+  <li>Email address</li>
+  <li>Subject and message content</li>
+  <li>The site identifier associated with your inquiry</li>
+</ul>
+<p>
+  We use this information only to respond to your inquiry and to improve our
+  services. We do not sell your contact details.
+</p>
+
+<h3>2.2 Automatically collected information</h3>
+<p>
+  When you visit the Site, our servers and service providers may automatically
+  collect technical data such as:
+</p>
+<ul>
+  <li>IP address</li>
+  <li>Browser type and version</li>
+  <li>Device and operating system</li>
+  <li>Referring URL, pages viewed, and timestamps</li>
+  <li>Approximate location derived from IP (city/region level)</li>
+</ul>
+<p>
+  This information is used for security, abuse prevention, performance,
+  and aggregate analytics.
+</p>
+
+<h2>3. Cookies and similar technologies</h2>
+<p>
+  We and our partners use cookies, pixels, and similar technologies to operate
+  the Site, measure traffic, and (where enabled) show advertisements.
+  You can control cookies through your browser settings. Blocking some cookies
+  may affect Site features.
+</p>
+
+<h2>4. Google Analytics</h2>
+<p>
+  We use <strong>Google Analytics</strong> to understand how visitors use the Site
+  (for example, popular pages and approximate geography). Google Analytics may
+  set cookies and process technical data on our behalf. Learn more in
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s Privacy Policy</a>
+  and about opting out via
+  <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out</a>.
+</p>
+
+<h2>5. Google AdSense and advertising</h2>
+<p>
+  This Site uses <strong>Google AdSense</strong> and may display ads from Google
+  and participating partners. Third-party vendors, including Google, use cookies
+  to serve ads based on your prior visits to this Site and/or other sites on the Internet.
+</p>
+<ul>
+  <li>
+    Google’s use of advertising cookies enables it and its partners to serve ads
+    based on your visits to this and other sites.
+  </li>
+  <li>
+    You may opt out of personalized advertising by visiting
+    <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Google Ads Settings</a>.
+  </li>
+  <li>
+    You can also visit
+    <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer">www.aboutads.info</a>
+    for more choices about interest-based ads.
+  </li>
+</ul>
+<p>
+  We do not control all cookies set by advertisers. Please review those parties’
+  policies for details.
+</p>
+
+<h2>6. How we use information</h2>
+<p>We use collected information to:</p>
+<ul>
+  <li>Operate, maintain, and improve the Site</li>
+  <li>Respond to inquiries and correction requests</li>
+  <li>Measure performance and content usefulness</li>
+  <li>Detect fraud, spam, and technical issues</li>
+  <li>Comply with legal obligations where applicable</li>
+</ul>
+
+<h2>7. Sharing of information</h2>
+<p>
+  We do not sell personal information. We may share information with:
+</p>
+<ul>
+  <li><strong>Service providers</strong> (hosting, analytics, email/contact processing, advertising) who process data on our behalf</li>
+  <li><strong>Legal authorities</strong> when required by law or to protect rights, safety, and security</li>
+  <li><strong>Business transfers</strong> if we undergo a merger, acquisition, or asset sale (you will be notified where required)</li>
+</ul>
+
+<h2>8. External links</h2>
+<p>
+  The Site links to third-party websites (maps, booking partners, schools,
+  venues, social networks, etc.). We are not responsible for their content or
+  privacy practices. Review their policies before providing personal data.
+</p>
+
+<h2>9. Data retention</h2>
+<p>
+  Server logs and analytics data are retained for as long as needed for
+  operations, security, and analysis, then deleted or aggregated.
+  Contact-form submissions are retained as long as reasonably necessary to
+  handle your request and keep basic records of correspondence.
+</p>
+
+<h2>10. Security</h2>
+<p>
+  We take reasonable administrative and technical measures to protect information.
+  No method of transmission or storage is 100% secure; we cannot guarantee absolute security.
+</p>
+
+<h2>11. Children’s privacy</h2>
+<p>
+  The Site is not directed to children under 13 (or the equivalent minimum age
+  in your jurisdiction). We do not knowingly collect personal information from children.
+  If you believe a child has provided information, please contact us and we will delete it.
+</p>
+
+<h2>12. International visitors</h2>
+<p>
+  The Site may be accessed worldwide. Information may be processed in countries
+  where we or our providers operate, which may have different data-protection laws
+  than your country of residence.
+</p>
+
+<h2>13. Your choices</h2>
+<ul>
+  <li>Adjust browser cookie settings</li>
+  <li>Use Google Ads Settings / Analytics opt-out tools linked above</li>
+  <li>Contact us to update or request deletion of inquiry data you submitted, where applicable</li>
+</ul>
+
+<h2>14. Changes to this Policy</h2>
+<p>
+  We may update this Privacy Policy from time to time. The “Last updated” date
+  at the top will change when we do. Continued use of the Site after changes
+  means you accept the revised Policy.
+</p>
+
+<h2>15. Contact</h2>
+<p>
+  Questions about this Privacy Policy or your information:
+</p>
+<p>
+  <a href="/contact.html">Contact OK Template</a>
+</p>
+    {% endif %}
+    <div class="btn-row"><a class="btn" href="/">Back to Home</a></div>
+</div>
+{% include 'footer.html' %}
+</body>
+</html>

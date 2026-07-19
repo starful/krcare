@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="{{ post.lang if post.lang else 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="{{ site.accent_color }}">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.ga_id }}');
+    </script>
+
+    <!-- SEO -->
+    <title>{{ post.title }} - {{ site.site_name }}</title>
+    <meta name="description" content="{{ post.summary }}">
+    <meta name="keywords" content="{{ site.site_name }}, {{ post.categories|join(', ') }}, {{ post.address }}, Korea">
+
+    <link rel="canonical" href="{{ site.site_url }}/item/{{ post.id }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.site_url }}/item/{{ base_id }}_en" />
+    <link rel="alternate" hreflang="ja" href="{{ site.site_url }}/item/{{ base_id }}_ja" />
+    <link rel="alternate" hreflang="zh-Hans" href="{{ site.site_url }}/item/{{ base_id }}_zh" />
+    <link rel="alternate" hreflang="zh-Hant" href="{{ site.site_url }}/item/{{ base_id }}_zh_tw" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}/item/{{ base_id }}_en" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="{{ site.site_name }}">
+    <meta property="og:locale" content="{{ 'ko_KR' if post.lang == 'ko' else 'en_US' }}">
+    <meta property="og:title" content="{{ post.title }}">
+    <meta property="og:description" content="{{ post.summary }}">
+    <meta property="og:url" content="{{ og_page_url }}">
+    <meta property="og:image" content="{{ og_image_abs }}">
+    <meta property="og:image:secure_url" content="{{ og_image_abs }}">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="{{ og_image_width }}">
+    <meta property="og:image:height" content="{{ og_image_height }}">
+    <meta property="og:image:alt" content="{{ post.title }}">
+    <link rel="image_src" href="{{ og_image_abs }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ post.title }}">
+    <meta name="twitter:description" content="{{ post.summary }}">
+    <meta name="twitter:image" content="{{ og_image_abs }}">
+    <meta property="twitter:image" content="{{ og_image_abs }}">
+    <meta name="twitter:image:alt" content="{{ post.title }}">
+
+    {% set website = (post.website or '')|trim %}
+    {% set tel = (post.tel or '')|trim %}
+    {% set tel_href = tel|replace(' ', '')|replace('-', '') %}
+    {% set maps_query = (post.lat|string ~ ',' ~ post.lng|string) if post.lat and post.lng else (post.address or '') %}
+    {% set maps_url = 'https://www.google.com/maps/search/?api=1&query=' ~ (maps_query|urlencode) %}
+
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{{ site.schema_type }}",
+      "name": "{{ post.title }}",
+      "image": "{{ og_image_abs }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ post.address }}",
+        "addressCountry": "KR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": {{ post.lat if post.lat else 0 }},
+        "longitude": {{ post.lng if post.lng else 0 }}
+      },
+      "description": "{{ post.summary }}"{% if tel %},
+      "telephone": "{{ tel }}"{% endif %}{% if website %},
+      "url": "{{ website }}"{% endif %}
+    }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    {% include 'header.html' %}
+
+    {% set lang = post.lang|default('en') %}
+    {% if lang == 'ja' %}
+      {% set lbl_site = '公式サイト' %}
+      {% set lbl_call = '電話する' %}
+      {% set lbl_maps = '地図で見る' %}
+      {% set lbl_info = '基本情報' %}
+      {% set lbl_address = '住所' %}
+      {% set lbl_phone = '電話' %}
+      {% set lbl_website = 'ウェブサイト' %}
+      {% set lbl_stay = '近くの宿泊' %}
+      {% set lbl_stay_desc = 'このエリア周辺のホテルを探す' %}
+      {% set lbl_stay_btn = 'Agodaでホテルを見る →' %}
+      {% set lbl_back = '地図に戻る' %}
+    {% elif lang == 'zh' %}
+      {% set lbl_site = '官方网站' %}
+      {% set lbl_call = '拨打电话' %}
+      {% set lbl_maps = '在地图中打开' %}
+      {% set lbl_info = '基本信息' %}
+      {% set lbl_address = '地址' %}
+      {% set lbl_phone = '电话' %}
+      {% set lbl_website = '网站' %}
+      {% set lbl_stay = '附近住宿' %}
+      {% set lbl_stay_desc = '查找该区域附近的酒店' %}
+      {% set lbl_stay_btn = '在 Agoda 查看酒店 →' %}
+      {% set lbl_back = '返回地图' %}
+    {% elif lang == 'zh_tw' %}
+      {% set lbl_site = '官方網站' %}
+      {% set lbl_call = '撥打電話' %}
+      {% set lbl_maps = '在地圖中開啟' %}
+      {% set lbl_info = '基本資訊' %}
+      {% set lbl_address = '地址' %}
+      {% set lbl_phone = '電話' %}
+      {% set lbl_website = '網站' %}
+      {% set lbl_stay = '附近住宿' %}
+      {% set lbl_stay_desc = '尋找此區域附近的飯店' %}
+      {% set lbl_stay_btn = '在 Agoda 查看飯店 →' %}
+      {% set lbl_back = '返回地圖' %}
+    {% else %}
+      {% set lbl_site = 'Official website' %}
+      {% set lbl_call = 'Call' %}
+      {% set lbl_maps = 'Open in Maps' %}
+      {% set lbl_info = 'At a glance' %}
+      {% set lbl_address = 'Address' %}
+      {% set lbl_phone = 'Phone' %}
+      {% set lbl_website = 'Website' %}
+      {% set lbl_stay = 'Stay nearby' %}
+      {% set lbl_stay_desc = 'Find hotels near this area for your trip.' %}
+      {% set lbl_stay_btn = 'Check hotel deals on Agoda →' %}
+      {% set lbl_back = 'Back to map' %}
+    {% endif %}
+
+    <article class="detail-container">
+        <div class="detail-header">
+            {% if post.categories %}
+            <div class="detail-cats" aria-label="Categories">
+                {% for cat in post.categories %}
+                <span class="detail-cat-chip">{{ cat }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <h1 class="detail-title">{{ post.title }}</h1>
+            {% if post.summary %}
+            <p class="detail-lede">{{ post.summary }}</p>
+            {% endif %}
+        </div>
+
+        {% if website or tel or maps_query %}
+        <div class="detail-actions" role="group" aria-label="Quick actions">
+            {% if website %}
+            <a class="detail-action-btn detail-action-btn--primary"
+               href="{{ website }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                {{ lbl_site }}
+            </a>
+            {% endif %}
+            {% if tel %}
+            <a class="detail-action-btn" href="tel:{{ tel_href }}">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                {{ lbl_call }}
+            </a>
+            {% endif %}
+            {% if maps_query %}
+            <a class="detail-action-btn" href="{{ maps_url }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+                {{ lbl_maps }}
+            </a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        <section class="detail-info-card" aria-labelledby="detail-info-heading">
+            <h2 id="detail-info-heading" class="detail-info-card-title">{{ lbl_info }}</h2>
+            <dl class="detail-info-list">
+                {% if post.address %}
+                <div class="detail-info-row">
+                    <dt><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ lbl_address }}</dt>
+                    <dd>{{ post.address }}</dd>
+                </div>
+                {% endif %}
+                {% if tel %}
+                <div class="detail-info-row">
+                    <dt><i class="fa-solid fa-phone" aria-hidden="true"></i> {{ lbl_phone }}</dt>
+                    <dd><a href="tel:{{ tel_href }}">{{ tel }}</a></dd>
+                </div>
+                {% endif %}
+                {% if website %}
+                <div class="detail-info-row">
+                    <dt><i class="fa-solid fa-globe" aria-hidden="true"></i> {{ lbl_website }}</dt>
+                    <dd>
+                        <a href="{{ website }}" target="_blank" rel="noopener noreferrer">
+                            {{ website|replace('https://', '')|replace('http://', '')|trim('/') }}
+                        </a>
+                    </dd>
+                </div>
+                {% endif %}
+            </dl>
+        </section>
+
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
+
+        <div class="detail-content detail-content-card">
+            {{ content | safe }}
+        </div>
+
+        {% if post.agoda %}
+        <div class="booking-box">
+            <h3>🏨 {{ lbl_stay }}</h3>
+            <p>{{ lbl_stay_desc }}</p>
+            <a href="{{ post.agoda }}" target="_blank" rel="noopener noreferrer nofollow" class="booking-btn">
+                {{ lbl_stay_btn }}
+            </a>
+        </div>
+        {% endif %}
+
+        {% include 'partials/share_bar.html' %}
+
+        {% with reaction_slug=post.id, reaction_lang=post.lang|default('en') %}
+        {% include 'partials/reactions.html' %}
+        {% endwith %}
+
+        <div class="detail-footer-nav">
+            <a href="/" class="back-btn">🗺️ {{ lbl_back }}</a>
+        </div>
+    </article>
+
+    {% include 'footer.html' %}
+</body>
+</html>

@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Compare UX Mock — JP / KR Campus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1e40af;
+            --primary-light: #eff6ff;
+            --accent: #ea580c;
+            --accent-light: #fff7ed;
+            --text: #0f172a;
+            --muted: #64748b;
+            --bg: #f8fafc;
+            --card: #fff;
+            --border: #e2e8f0;
+            --compare: #059669;
+            --compare-light: #ecfdf5;
+        }
+        body.theme-kr {
+            --primary: #2563eb;
+            --accent: #c8102e;
+            --accent-light: #fef2f2;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding-bottom: 100px;
+        }
+        .demo-banner {
+            background: #0f172a;
+            color: #94a3b8;
+            text-align: center;
+            padding: 10px 16px;
+            font-size: 0.78rem;
+        }
+        .demo-banner strong { color: #38bdf8; }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,.98);
+            border-bottom: 1px solid var(--border);
+            box-shadow: 0 2px 10px rgba(0,0,0,.05);
+        }
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .logo { font-weight: 800; font-size: 1.25rem; letter-spacing: -0.02em; }
+        .logo em { font-style: normal; color: var(--accent); }
+        .site-tabs {
+            display: flex;
+            gap: 6px;
+            background: #f1f5f9;
+            padding: 4px;
+            border-radius: 999px;
+        }
+        .site-tab {
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            border: none;
+            background: transparent;
+            color: var(--muted);
+            cursor: pointer;
+        }
+        .site-tab.active {
+            background: var(--card);
+            color: var(--text);
+            box-shadow: 0 1px 4px rgba(0,0,0,.08);
+        }
+        .btn-compare-header {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            border-radius: 999px;
+            border: none;
+            background: var(--primary);
+            color: #fff;
+            font-weight: 800;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+        .btn-compare-header:disabled { opacity: .4; cursor: not-allowed; }
+        .btn-compare-header .badge {
+            background: var(--accent);
+            color: #fff;
+            min-width: 1.5em;
+            padding: 2px 7px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+        }
+
+        .layout {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 28px 20px;
+        }
+        .page-head h1 { margin: 0 0 8px; font-size: 1.75rem; font-weight: 800; }
+        .page-head p { margin: 0 0 24px; color: var(--muted); font-size: 0.95rem; }
+
+        .view-toggle {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        .view-btn {
+            padding: 8px 16px;
+            border-radius: 999px;
+            border: 1.5px solid var(--border);
+            background: var(--card);
+            font-weight: 700;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+        .view-btn.active {
+            border-color: var(--primary);
+            background: var(--primary-light);
+            color: var(--primary);
+        }
+
+        /* School cards (list view) */
+        .school-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+        }
+        .school-card {
+            background: var(--card);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: border-color .2s, box-shadow .2s;
+        }
+        .school-card.in-compare {
+            border-color: var(--compare);
+            box-shadow: 0 0 0 1px rgba(5,150,105,.2);
+        }
+        .school-card-top {
+            height: 100px;
+            background: linear-gradient(135deg, var(--primary-light), var(--accent-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.2rem;
+            position: relative;
+        }
+        .school-type {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 0.68rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: .06em;
+            background: rgba(255,255,255,.9);
+            padding: 4px 8px;
+            border-radius: 6px;
+            color: var(--primary);
+        }
+        .school-body { padding: 16px; }
+        .school-name { font-weight: 800; font-size: 1rem; margin: 0 0 6px; line-height: 1.35; }
+        .school-loc { font-size: 0.82rem; color: var(--muted); margin-bottom: 12px; }
+        .school-quick {
+            display: flex;
+            gap: 12px;
+            font-size: 0.78rem;
+            color: var(--muted);
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+        }
+        .school-quick strong { color: var(--text); }
+        .school-actions { display: flex; gap: 8px; }
+        .btn {
+            flex: 1;
+            padding: 9px 12px;
+            border-radius: 10px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            cursor: pointer;
+            border: 1.5px solid var(--border);
+            background: #fff;
+        }
+        .btn-compare {
+            border-color: var(--compare);
+            color: var(--compare);
+        }
+        .btn-compare.selected {
+            background: var(--compare-light);
+            border-color: var(--compare);
+        }
+        .btn-detail { color: var(--primary); border-color: var(--primary-light); background: var(--primary-light); }
+
+        /* Compare table view */
+        .compare-panel {
+            display: none;
+            background: var(--card);
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0,0,0,.06);
+        }
+        .compare-panel.visible { display: block; }
+        .compare-panel-head {
+            padding: 20px 24px;
+            background: linear-gradient(135deg, var(--primary), #1e3a8a);
+            color: #fff;
+        }
+        body.theme-kr .compare-panel-head {
+            background: linear-gradient(135deg, var(--primary), #1d4ed8);
+        }
+        .compare-panel-head h2 { margin: 0 0 4px; font-size: 1.2rem; }
+        .compare-panel-head p { margin: 0; font-size: 0.82rem; opacity: .9; }
+        .compare-table-wrap { overflow-x: auto; }
+        .compare-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 640px;
+        }
+        .compare-table th,
+        .compare-table td {
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--border);
+            text-align: left;
+            vertical-align: top;
+            font-size: 0.88rem;
+        }
+        .compare-table th {
+            width: 160px;
+            background: #f8fafc;
+            color: var(--muted);
+            font-weight: 700;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: .04em;
+        }
+        .compare-table td strong { display: block; font-size: 0.95rem; margin-bottom: 2px; }
+        .compare-table td small { color: var(--muted); }
+        .tag-list { display: flex; flex-wrap: wrap; gap: 6px; }
+        .tag {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 4px 8px;
+            border-radius: 6px;
+            background: var(--primary-light);
+            color: var(--primary);
+        }
+        .tag.highlight { background: var(--accent-light); color: var(--accent); }
+        .best-cell { background: #f0fdf4; }
+        .compare-table .col-head {
+            background: var(--primary-light);
+            font-weight: 800;
+            color: var(--text);
+        }
+        .remove-col {
+            border: none;
+            background: transparent;
+            color: #dc2626;
+            font-size: 0.78rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+        .compare-footer {
+            padding: 16px 24px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn-primary {
+            padding: 11px 20px;
+            border: none;
+            border-radius: 10px;
+            background: var(--accent);
+            color: #fff;
+            font-weight: 800;
+            font-size: 0.88rem;
+            cursor: pointer;
+        }
+        .btn-secondary {
+            padding: 11px 20px;
+            border: 1.5px solid var(--border);
+            border-radius: 10px;
+            background: #fff;
+            font-weight: 700;
+            font-size: 0.88rem;
+            cursor: pointer;
+        }
+
+        /* Sticky bottom bar */
+        .compare-bar {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 200;
+            background: var(--text);
+            color: #fff;
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            transform: translateY(100%);
+            transition: transform .25s ease;
+            box-shadow: 0 -8px 30px rgba(0,0,0,.15);
+        }
+        .compare-bar.visible { transform: translateY(0); }
+        .compare-bar-text { font-weight: 600; font-size: 0.92rem; }
+        .compare-bar-text span { color: #fbbf24; font-weight: 800; }
+        .compare-bar-actions { display: flex; gap: 10px; }
+        .compare-bar .btn-clear {
+            color: #94a3b8;
+            font-size: 0.85rem;
+            font-weight: 600;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .compare-bar .btn-go {
+            padding: 10px 20px;
+            border-radius: 999px;
+            border: none;
+            background: var(--accent);
+            color: #fff;
+            font-weight: 800;
+            font-size: 0.88rem;
+            cursor: pointer;
+        }
+        .compare-bar .btn-go:disabled { opacity: .45; cursor: not-allowed; }
+
+        .url-hint {
+            margin-top: 20px;
+            padding: 12px 16px;
+            background: #f1f5f9;
+            border-radius: 10px;
+            font-size: 0.78rem;
+            color: var(--muted);
+            font-family: ui-monospace, monospace;
+            word-break: break-all;
+        }
+        .url-hint strong { color: var(--text); }
+
+        .list-view.hidden { display: none; }
+        .empty-compare {
+            padding: 48px 24px;
+            text-align: center;
+            color: var(--muted);
+        }
+        .toast {
+            position: fixed;
+            bottom: 90px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            background: var(--text);
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            opacity: 0;
+            transition: all .2s;
+            z-index: 300;
+            pointer-events: none;
+        }
+        .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+        @media (max-width: 640px) {
+            .compare-bar { flex-direction: column; text-align: center; }
+            .header-inner { justify-content: center; }
+        }
+    </style>
+</head>
+<body class="theme-jp">
+
+<p class="demo-banner">
+    <strong>UX MOCK</strong> — School compare for JP Campus / KR Campus · max 3 schools · localStorage + <code>/compare?ids=...</code>
+</p>
+
+<header>
+    <div class="header-inner">
+        <div class="logo" id="siteLogo">JP <em>Campus</em></div>
+        <div class="site-tabs" role="tablist">
+            <button type="button" class="site-tab active" data-site="jp">🇯🇵 JP Campus</button>
+            <button type="button" class="site-tab" data-site="kr">🇰🇷 KR Campus</button>
+        </div>
+        <button type="button" class="btn-compare-header" id="headerCompareBtn" disabled>
+            Compare <span class="badge" id="headerBadge">0</span>
+        </button>
+    </div>
+</header>
+
+<main class="layout">
+    <div class="page-head">
+        <h1 id="pageTitle">Japanese Language Schools</h1>
+        <p id="pageDesc">Select up to 3 schools to compare tuition, location, and features side by side.</p>
+    </div>
+
+    <div class="view-toggle">
+        <button type="button" class="view-btn active" data-view="list">Browse schools</button>
+        <button type="button" class="view-btn" data-view="compare">Compare table</button>
+    </div>
+
+    <section class="list-view" id="listView">
+        <div class="school-grid" id="schoolGrid"></div>
+    </section>
+
+    <section class="compare-panel" id="comparePanel">
+        <div class="compare-panel-head">
+            <h2>Side-by-side comparison</h2>
+            <p id="compareSubtitle">Pick 2–3 schools for a meaningful comparison</p>
+        </div>
+        <div id="compareContent"></div>
+        <div class="compare-footer" id="compareFooter" style="display:none">
+            <button type="button" class="btn-primary" id="copyCompareBtn">Copy comparison as text</button>
+            <button type="button" class="btn-secondary" id="backListBtn">Back to list</button>
+        </div>
+        <div class="url-hint" id="urlHint"></div>
+    </section>
+</main>
+
+<div class="compare-bar" id="compareBar">
+    <div class="compare-bar-text"><span id="barCount">0</span> / 3 selected</div>
+    <div class="compare-bar-actions">
+        <button type="button" class="btn-clear" id="clearAllBtn">Clear</button>
+        <button type="button" class="btn-go" id="barCompareBtn" disabled>Compare now</button>
+    </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function () {
+    var MAX = 3;
+    var STORAGE_PREFIX = "campus_compare_demo_";
+
+    var DATA = {
+        jp: {
+            theme: "theme-jp",
+            logo: 'JP <em>Campus</em>',
+            title: "Japanese Language Schools",
+            desc: "Select up to 3 schools to compare tuition, location, and features side by side.",
+            currency: "¥",
+            schools: [
+                {
+                    id: "school_kobe-toyo-japanese-language-academy",
+                    emoji: "🏫",
+                    type: "Language School",
+                    name: "Kobe Toyo Japanese Language Academy",
+                    city: "Kobe, Hyogo",
+                    address: "兵庫県神戸市中央区",
+                    capacity: 520,
+                    intl: "—",
+                    yearly: null,
+                    minFee: 720000,
+                    maxFee: 1360000,
+                    months: "Apr · Jul · Oct · Jan",
+                    features: ["Dormitory", "Scholarships", "EJU", "University Prep", "Art & Design"]
+                },
+                {
+                    id: "school_tokyo-nakano-japanese-language-institute",
+                    emoji: "🗼",
+                    type: "Language School",
+                    name: "Tokyo Nakano Japanese Language Institute",
+                    city: "Tokyo (Nakano)",
+                    address: "東京都中野区",
+                    capacity: 380,
+                    intl: 420,
+                    yearly: null,
+                    minFee: 680000,
+                    maxFee: 1280000,
+                    months: "Apr · Oct",
+                    features: ["Part-time OK", "Conversation", "Business", "Short-Term"]
+                },
+                {
+                    id: "univ_kyoto-university",
+                    emoji: "🎓",
+                    type: "University",
+                    name: "Kyoto University",
+                    city: "Kyoto",
+                    address: "京都府京都市",
+                    capacity: 22000,
+                    intl: 2800,
+                    yearly: 535800,
+                    minFee: null,
+                    maxFee: null,
+                    months: "Apr (degree)",
+                    features: ["National", "Research", "English programs (limited)", "Scholarships"]
+                },
+                {
+                    id: "school_kobe-gaigo-kyoiku-gakuin",
+                    emoji: "🌊",
+                    type: "Language School",
+                    name: "Kobe Institute of Computing",
+                    city: "Kobe",
+                    address: "兵庫県神戸市",
+                    capacity: 450,
+                    intl: 310,
+                    yearly: null,
+                    minFee: 750000,
+                    maxFee: 1450000,
+                    months: "Apr · Jul · Oct · Jan",
+                    features: ["IT focus", "Dormitory", "University Prep", "Design"]
+                }
+            ]
+        },
+        kr: {
+            theme: "theme-kr",
+            logo: 'KR <em>Campus</em>',
+            title: "Korean Language Institutes",
+            desc: "Compare up to 3 institutes by fees, city, and TOPIK / pathway support.",
+            currency: "₩",
+            schools: [
+                {
+                    id: "school_yonsei-university-korean-language-institute",
+                    emoji: "🏫",
+                    type: "Language Institute",
+                    name: "Yonsei University KLI",
+                    city: "Seoul (Sinchon)",
+                    address: "서울 서대문구",
+                    capacity: 2000,
+                    intl: "14万+ alumni",
+                    yearly: null,
+                    minFee: 970000,
+                    maxFee: 1850000,
+                    months: "Mar · Jun · Sep · Dec",
+                    features: ["TOPIK prep", "Dormitory", "University pathway", "Culture activities"]
+                },
+                {
+                    id: "school_seoul-national-university-language-education-institute",
+                    emoji: "🎓",
+                    type: "Language Institute",
+                    name: "SNU Language Education Institute",
+                    city: "Seoul (Gwanak)",
+                    address: "서울 관악구",
+                    capacity: 1200,
+                    intl: 900,
+                    yearly: null,
+                    minFee: 1730000,
+                    maxFee: 1730000,
+                    months: "Mar · Jun · Sep · Dec",
+                    features: ["National uni campus", "TOPIK", "Academic Korean", "Strong reputation"]
+                },
+                {
+                    id: "school_hanyang-university-erica-international-language-institute",
+                    emoji: "🏫",
+                    type: "Language Institute",
+                    name: "Hanyang ERICA Language Institute",
+                    city: "Ansan (Gyeonggi)",
+                    address: "경기 안산시",
+                    capacity: 600,
+                    intl: 380,
+                    yearly: null,
+                    minFee: 1500000,
+                    maxFee: 1500000,
+                    months: "Mar · Jun · Sep · Dec",
+                    features: ["Lower living cost", "Campus dorm", "TOPIK", "Suburban campus"]
+                },
+                {
+                    id: "univ_korea-university",
+                    emoji: "🎓",
+                    type: "University",
+                    name: "Korea University",
+                    city: "Seoul (Anam)",
+                    address: "서울 성북구",
+                    capacity: 28000,
+                    intl: 4200,
+                    yearly: 4500000,
+                    minFee: null,
+                    maxFee: null,
+                    months: "Mar (degree)",
+                    features: ["SKY-adjacent", "Scholarships", "Global biz", "Korean track"]
+                }
+            ]
+        }
+    };
+
+    var site = "jp";
+    var compareIds = loadCompare();
+    var currentView = "list";
+
+    function storageKey() { return STORAGE_PREFIX + site; }
+
+    function loadCompare() {
+        try {
+            var raw = localStorage.getItem(storageKey());
+            return raw ? JSON.parse(raw) : [];
+        } catch (e) { return []; }
+    }
+
+    function saveCompare() {
+        localStorage.setItem(storageKey(), JSON.stringify(compareIds));
+        render();
+    }
+
+    function fmtMoney(n, cur) {
+        if (n == null) return "—";
+        return cur + n.toLocaleString();
+    }
+
+    function toast(msg) {
+        var el = document.getElementById("toast");
+        el.textContent = msg;
+        el.classList.add("show");
+        setTimeout(function () { el.classList.remove("show"); }, 2200);
+    }
+
+    function getSchools() { return DATA[site].schools; }
+    function getSchool(id) {
+        return getSchools().find(function (s) { return s.id === id; });
+    }
+
+    function toggleCompare(id) {
+        var idx = compareIds.indexOf(id);
+        if (idx >= 0) {
+            compareIds.splice(idx, 1);
+            toast("Removed from compare");
+        } else {
+            if (compareIds.length >= MAX) {
+                toast("Max 3 schools — remove one first");
+                return;
+            }
+            compareIds.push(id);
+            toast("Added to compare ✓");
+        }
+        saveCompare();
+    }
+
+    function removeFromCompare(id) {
+        compareIds = compareIds.filter(function (x) { return x !== id; });
+        saveCompare();
+    }
+
+    function renderList() {
+        var cur = DATA[site].currency;
+        var grid = document.getElementById("schoolGrid");
+        grid.innerHTML = getSchools().map(function (s) {
+            var selected = compareIds.indexOf(s.id) >= 0;
+            var feeLabel = s.yearly
+                ? fmtMoney(s.yearly, cur) + "/yr"
+                : (s.minFee ? "from " + fmtMoney(s.minFee, cur) : "TBD");
+            return (
+                '<article class="school-card' + (selected ? " in-compare" : "") + '">' +
+                '<div class="school-card-top">' + s.emoji +
+                '<span class="school-type">' + s.type + '</span></div>' +
+                '<div class="school-body">' +
+                '<h3 class="school-name">' + s.name + '</h3>' +
+                '<div class="school-loc">📍 ' + s.city + '</div>' +
+                '<div class="school-quick">' +
+                '<span>Capacity <strong>' + s.capacity.toLocaleString() + '</strong></span>' +
+                '<span>Fees <strong>' + feeLabel + '</strong></span>' +
+                '</div>' +
+                '<div class="school-actions">' +
+                '<button type="button" class="btn btn-compare' + (selected ? " selected" : "") + '" data-compare="' + s.id + '">' +
+                (selected ? "✓ Comparing" : "+ Compare") +
+                '</button>' +
+                '<button type="button" class="btn btn-detail">Detail →</button>' +
+                '</div></div></article>'
+            );
+        }).join("");
+
+        grid.querySelectorAll("[data-compare]").forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                toggleCompare(btn.getAttribute("data-compare"));
+            });
+        });
+    }
+
+    function lowestFee(ids) {
+        var cur = DATA[site].currency;
+        var vals = ids.map(function (id) {
+            var s = getSchool(id);
+            return s ? (s.minFee || s.yearly) : null;
+        }).filter(function (v) { return v != null; });
+        if (!vals.length) return null;
+        return Math.min.apply(null, vals);
+    }
+
+    function renderCompareTable() {
+        var panel = document.getElementById("comparePanel");
+        var content = document.getElementById("compareContent");
+        var footer = document.getElementById("compareFooter");
+        var cur = DATA[site].currency;
+        var minFee = lowestFee(compareIds);
+
+        if (compareIds.length < 2) {
+            content.innerHTML = '<div class="empty-compare">Select at least <strong>2 schools</strong> from the list to see a comparison.</div>';
+            footer.style.display = "none";
+            document.getElementById("compareSubtitle").textContent = compareIds.length + " selected — add one more";
+            document.getElementById("urlHint").innerHTML = "";
+            return;
+        }
+
+        document.getElementById("compareSubtitle").textContent = compareIds.length + " schools compared";
+        footer.style.display = "flex";
+
+        var cols = compareIds.map(function (id) { return getSchool(id); }).filter(Boolean);
+        var rows = [
+            { label: "School", render: function (s) { return "<strong>" + s.name + "</strong><small>" + s.type + "</small>"; } },
+            { label: "City", render: function (s) { return s.city; } },
+            { label: "Capacity", render: function (s) { return s.capacity.toLocaleString(); } },
+            { label: "Intl students", render: function (s) { return String(s.intl); } },
+            {
+                label: "Tuition / fees",
+                render: function (s) {
+                    if (s.yearly) return fmtMoney(s.yearly, cur) + " <small>(yearly, degree)</small>";
+                    if (s.minFee && s.maxFee && s.minFee !== s.maxFee)
+                        return fmtMoney(s.minFee, cur) + " – " + fmtMoney(s.maxFee, cur) + " <small>(course range)</small>";
+                    if (s.minFee) return fmtMoney(s.minFee, cur) + " <small>(per course)</small>";
+                    return "TBD";
+                },
+                best: function (s) {
+                    var v = s.minFee || s.yearly;
+                    return v != null && v === minFee;
+                }
+            },
+            { label: "Intake", render: function (s) { return s.months; } },
+            {
+                label: "Features",
+                render: function (s) {
+                    return '<div class="tag-list">' + s.features.map(function (f, i) {
+                        return '<span class="tag' + (i === 0 ? " highlight" : "") + '">' + f + '</span>';
+                    }).join("") + '</div>';
+                }
+            }
+        ];
+
+        var thead = "<tr><th></th>" + cols.map(function (s) {
+            return '<th class="col-head">' + s.emoji + " " + s.name.split(" ")[0] +
+                '<br><button type="button" class="remove-col" data-remove="' + s.id + '">Remove</button></th>';
+        }).join("") + "</tr>";
+
+        var tbody = rows.map(function (row) {
+            return "<tr><th>" + row.label + "</th>" + cols.map(function (s) {
+                var cls = row.best && row.best(s) ? ' class="best-cell"' : "";
+                return "<td" + cls + ">" + row.render(s) + "</td>";
+            }).join("") + "</tr>";
+        }).join("");
+
+        content.innerHTML = '<div class="compare-table-wrap"><table class="compare-table">' + thead + tbody + '</table></div>';
+
+        content.querySelectorAll("[data-remove]").forEach(function (btn) {
+            btn.addEventListener("click", function () {
+                removeFromCompare(btn.getAttribute("data-remove"));
+            });
+        });
+
+        var idsParam = compareIds.join(",");
+        document.getElementById("urlHint").innerHTML =
+            "<strong>Production URL pattern:</strong> /compare?lang=" + (site === "jp" ? "en" : "ja") + "&ids=" + idsParam;
+    }
+
+    function setView(view) {
+        currentView = view;
+        document.querySelectorAll(".view-btn").forEach(function (b) {
+            b.classList.toggle("active", b.getAttribute("data-view") === view);
+        });
+        document.getElementById("listView").classList.toggle("hidden", view === "compare");
+        document.getElementById("comparePanel").classList.toggle("visible", view === "compare");
+        if (view === "compare") renderCompareTable();
+    }
+
+    function switchSite(newSite) {
+        site = newSite;
+        compareIds = loadCompare();
+        var d = DATA[site];
+        document.body.className = d.theme;
+        document.getElementById("siteLogo").innerHTML = d.logo;
+        document.getElementById("pageTitle").textContent = d.title;
+        document.getElementById("pageDesc").textContent = d.desc;
+        document.querySelectorAll(".site-tab").forEach(function (t) {
+            t.classList.toggle("active", t.getAttribute("data-site") === site);
+        });
+        render();
+    }
+
+    function render() {
+        var n = compareIds.length;
+        document.getElementById("headerBadge").textContent = String(n);
+        document.getElementById("barCount").textContent = String(n);
+        document.getElementById("headerCompareBtn").disabled = n < 2;
+        document.getElementById("barCompareBtn").disabled = n < 2;
+        document.getElementById("compareBar").classList.toggle("visible", n > 0);
+        renderList();
+        if (currentView === "compare") renderCompareTable();
+    }
+
+    function copyComparison() {
+        var cur = DATA[site].currency;
+        var lines = compareIds.map(function (id, i) {
+            var s = getSchool(id);
+            if (!s) return "";
+            var fee = s.yearly ? fmtMoney(s.yearly, cur) + "/yr" : "from " + fmtMoney(s.minFee, cur);
+            return (i + 1) + ". " + s.name + " (" + s.city + ") — " + fee + " — " + s.features.slice(0, 3).join(", ");
+        }).filter(Boolean);
+        var siteName = site === "jp" ? "JP Campus" : "KR Campus";
+        navigator.clipboard.writeText(siteName + " school comparison\n\n" + lines.join("\n")).then(function () {
+            toast("Comparison copied");
+        });
+    }
+
+    document.querySelectorAll(".site-tab").forEach(function (tab) {
+        tab.addEventListener("click", function () {
+            switchSite(tab.getAttribute("data-site"));
+        });
+    });
+    document.querySelectorAll(".view-btn").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            setView(btn.getAttribute("data-view"));
+        });
+    });
+    document.getElementById("headerCompareBtn").addEventListener("click", function () { setView("compare"); });
+    document.getElementById("barCompareBtn").addEventListener("click", function () { setView("compare"); });
+    document.getElementById("clearAllBtn").addEventListener("click", function () {
+        compareIds = [];
+        saveCompare();
+        toast("Compare list cleared");
+    });
+    document.getElementById("copyCompareBtn").addEventListener("click", copyComparison);
+    document.getElementById("backListBtn").addEventListener("click", function () { setView("list"); });
+
+    switchSite("jp");
+})();
+</script>
+</body>
+</html>

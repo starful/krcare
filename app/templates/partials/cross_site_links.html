@@ -1,0 +1,19 @@
+{% if cross_site_links %}
+<section class="cross-site-links" aria-label="{{ 'OK Series 関連サイト' if family_lang == 'ja' else ('함께 보면 좋은 OK Series' if family_lang == 'ko' else 'More from OK Series') }}">
+    <h2 class="cross-site-links__title">
+        {% if family_lang == 'ja' %}あわせて読みたいガイド
+        {% elif family_lang == 'ko' %}함께 보면 좋은 가이드
+        {% else %}You might also like{% endif %}
+    </h2>
+    <ul class="cross-site-links__list">
+        {% for link in cross_site_links %}
+        <li>
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer"
+               data-track="cross_site_link" data-track-label="{{ link.id }}">
+                <span aria-hidden="true">{{ link.emoji }}</span> {{ link.label }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}

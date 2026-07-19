@@ -1,0 +1,69 @@
+<header>
+    <div class="container">
+        <!-- Header top: guide link / logo / language toggle -->
+        <div class="header-top">
+
+            <!-- Left: guide link -->
+            <div class="header-left">
+                <a href="/guide" style="font-weight:bold; color:var(--accent-color); font-size: 0.95rem;">📖 Guide</a>
+            </div>
+
+            <!-- Center: logo -->
+            <h1>
+                <a href="/">
+                    <img src="/static/images/logo.png" alt="{{ site.site_name }}" class="logo-img">
+                </a>
+            </h1>
+
+            <!-- Right: language selector -->
+            <div class="lang-selector">
+                {# Detail pages (with post.id) #}
+                {% if post and post.id %}
+                    {% set base_id = base_id if base_id is defined else post.id.rsplit('_', 1)[0] %}
+                    {% set prefix = '/guide/' if 'guide' in request.path else '/item/' %}
+                    <a href="{{ prefix }}{{ base_id }}_en"
+                       class="lang-btn {% if post.lang == 'en' %}active{% endif %}">EN</a>
+                    <a href="{{ prefix }}{{ base_id }}_ja"
+                       class="lang-btn {% if post.lang == 'ja' %}active{% endif %}">JA</a>
+                    <a href="{{ prefix }}{{ base_id }}_zh"
+                       class="lang-btn {% if post.lang == 'zh' %}active{% endif %}">中文</a>
+                    <a href="{{ prefix }}{{ base_id }}_zh_tw"
+                       class="lang-btn {% if post.lang == 'zh_tw' %}active{% endif %}">繁中</a>
+                {# Guide list page #}
+                {% elif request.path == '/guide' %}
+                    <a href="/guide?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">EN</a>
+                    <a href="/guide?lang=ja" class="lang-btn {% if lang == 'ja' %}active{% endif %}">JA</a>
+                    <a href="/guide?lang=zh" class="lang-btn {% if lang == 'zh' %}active{% endif %}">中文</a>
+                    <a href="/guide?lang=zh_tw" class="lang-btn {% if lang == 'zh_tw' %}active{% endif %}">繁中</a>
+                {# Main/other pages: full reload so Google Maps language matches UI #}
+                {% else %}
+                    <a href="/?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">EN</a>
+                    <a href="/?lang=ja" class="lang-btn {% if lang == 'ja' %}active{% endif %}">JA</a>
+                    <a href="/?lang=zh" class="lang-btn {% if lang == 'zh' %}active{% endif %}">中文</a>
+                    <a href="/?lang=zh_tw" class="lang-btn {% if lang == 'zh_tw' %}active{% endif %}">繁中</a>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Region filter: sido → district (home page only) -->
+        {% if request.path == '/' %}
+        <div class="region-filters" data-group="region">
+            <div class="theme-filter-buttons" data-level="sido" role="toolbar" aria-label="Region">
+                {% for btn in site.filter_buttons %}
+                <button type="button"
+                        class="theme-button {% if loop.first %}active{% endif %}"
+                        data-sido="{{ btn.theme }}">
+                    {{ btn.label }}
+                    <span class="count-badge" id="{{ btn.count_id }}">0</span>
+                </button>
+                {% endfor %}
+            </div>
+            <div class="theme-filter-buttons theme-filter-buttons--district is-hidden"
+                 data-level="district"
+                 role="toolbar"
+                 aria-label="District"
+                 hidden></div>
+        </div>
+        {% endif %}
+    </div>
+</header>

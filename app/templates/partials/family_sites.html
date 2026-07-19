@@ -1,0 +1,19 @@
+{% if family_sites %}
+<div class="family-sites-strip" aria-label="{{ family_section_title }}">
+    <div class="family-sites-inner">
+        <p class="family-sites-title">{{ family_section_title }}</p>
+        <div class="family-sites-row">
+            {% for site in family_sites %}
+            <a href="{{ site.url }}" target="_blank" rel="noopener noreferrer" class="family-site-card"
+               data-track="family_site_click" data-track-label="{{ site.id }}">
+                <span class="family-site-card-emoji" aria-hidden="true">{{ site.emoji }}</span>
+                <div class="family-site-card-text">
+                    <div class="family-site-card-name">{{ site.name }}</div>
+                    <div class="family-site-card-desc">{{ site.desc }}</div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
