@@ -37,7 +37,7 @@ steps:
       - '--allow-unauthenticated'
       - '--port=8080'
       - '--memory=1Gi'
-      - '--set-env-vars=SITE_URL=${_SITE_URL},ASSET_VERSION=${_ASSET_VERSION},MAPS_ID=${_MAPS_ID}'
+      - '--set-env-vars=SITE_URL=${_SITE_URL},ASSET_VERSION=${_ASSET_VERSION},MAPS_ID=${_MAPS_ID},GA_ID=${_GA_ID}'
       - '--set-secrets=MAPS_API_KEY=${_MAPS_API_SECRET}:latest,GOOGLE_PLACES_API_KEY=${_PLACES_API_SECRET}:latest,GEMINI_API_KEY=${_GEMINI_API_SECRET}:latest'
     waitFor: ['docker-push']
 
@@ -50,7 +50,8 @@ substitutions:
   _REPO_NAME: 'krcare-repo'
   _SERVICE_NAME: 'krcare'
   _SITE_URL: 'https://krcare.net'
-  _ASSET_VERSION: '2026-04-29'
+  _ASSET_VERSION: '2026-07-19'
+  _GA_ID: 'G-8FYGGKZ1ST'
   _MAPS_ID: '2938bb3f7f034d78a92f600c'
   _MAPS_API_SECRET: 'KRCARE_GOOGLE_MAPS_API_KEY'
   _PLACES_API_SECRET: 'GOOGLE_PLACES_API_KEY'

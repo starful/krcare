@@ -42,13 +42,8 @@ async function loadClinics(lang) {
     const items = data[key] || [];
     clinicItems = items
         .filter(i => (i.categories || []).some(c => String(c).toLowerCase() === 'clinic'))
-        .map(item => {
-            if (item.region?.sido) return item;
-            return withRegion(item);
-        });
-    if (!clinicItems.length) {
-        clinicItems = items.map(item => (item.region?.sido ? item : withRegion(item)));
-    }
+        .map(withRegion);
+    if (!clinicItems.length) clinicItems = items.map(withRegion);
 
     const el = document.getElementById('last-updated-date');
     if (el) el.textContent = data.last_updated || '';
@@ -89,11 +84,18 @@ async function initApp() {
 
 async function updateUI() {
     const clinics = filteredClinics();
-    const nearby = filteredNearby(clinics);
+    // Sido / "All Seoul" views: clinics only. Nearby Stay/Food pins sprawl
+    // outside the city and keep the map from framing Seoul correctly.
+    const showNearby = Boolean(currentDistrict && currentDistrict !== 'all');
+    const nearby = showNearby ? filteredNearby(clinics) : [];
+    const scope =
+        currentSido === 'all' ? 'all' :
+        (currentDistrict && currentDistrict !== 'all') ? 'district' :
+        'sido';
     renderList(clinics);
     await renderClinicMarkers(clinics);
     await renderNearbyMarkers(nearby);
-    filterMapByClinicIds(clinics.map(clinicBaseId));
+    filterMapByClinicIds(clinics.map(clinicBaseId), { scope });
     updateCounts();
     renderDistrictRow();
 }

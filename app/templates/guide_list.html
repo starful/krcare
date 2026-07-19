@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Guides - {{ site.site_name }}</title>
-    <meta name="description" content="Browse all {{ site.site_name }} guides in {{ lang }}.">
+    <meta name="description" content="Browse all {{ site.site_name }} medical-trip guides.">
     <link rel="canonical" href="{{ canonical }}" />
     <link rel="alternate" hreflang="en" href="{{ site.site_url }}/guide" />
-    <link rel="alternate" hreflang="ko" href="{{ site.site_url }}/guide?lang=ko" />
+    <link rel="alternate" hreflang="ja" href="{{ site.site_url }}/guide?lang=ja" />
+    <link rel="alternate" hreflang="zh-Hans" href="{{ site.site_url }}/guide?lang=zh" />
+    <link rel="alternate" hreflang="zh-Hant" href="{{ site.site_url }}/guide?lang=zh_tw" />
     <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}/guide" />
     <meta property="og:type" content="website">
     <meta property="og:title" content="All Guides - {{ site.site_name }}">
-    <meta property="og:description" content="Browse all {{ site.site_name }} guides in {{ lang }}.">
+    <meta property="og:description" content="Browse all {{ site.site_name }} medical-trip guides.">
     <meta property="og:url" content="{{ canonical }}">
     <meta property="og:image" content="{{ site.site_url }}/static/images/logo.png">
+    <meta property="og:site_name" content="{{ site.site_name }}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -21,15 +24,52 @@
     <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="{{ site.accent_color }}">
     <link rel="stylesheet" href="/static/css/style.css">
+    {% if site.ga_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.ga_id }}');
+    </script>
+    {% endif %}
 </head>
 <body>
     {% include 'header.html' %}
 
-    <div class="content-wrapper" style="margin-top: 40px;">
-        <h2 class="list-title" style="text-align: center;">📖 All {{ site.site_name }} Guides</h2>
+    {% if lang == 'ja' %}
+      {% set lbl_guides_title = 'すべてのガイド' %}
+      {% set lbl_guides_lead = '準備・エリア・回復滞在など、メディカルツーリズムの実務ガイドです。' %}
+      {% set lbl_browse_clinics = 'クリニック一覧' %}
+      {% set lbl_back_map = '地図に戻る' %}
+      {% set lbl_empty = 'この言語のガイドはまだありません。EN / 中文をお試しください。' %}
+    {% elif lang == 'zh' %}
+      {% set lbl_guides_title = '全部指南' %}
+      {% set lbl_guides_lead = '赴韩医疗旅游实务指南：准备、区域、恢复住宿与诊所确认事项。' %}
+      {% set lbl_browse_clinics = '浏览诊所' %}
+      {% set lbl_back_map = '返回地图' %}
+      {% set lbl_empty = '该语言暂无指南。请尝试 EN / JA。' %}
+    {% elif lang == 'zh_tw' %}
+      {% set lbl_guides_title = '全部指南' %}
+      {% set lbl_guides_lead = '赴韓醫療旅遊實務指南：準備、區域、恢復住宿與診所確認事項。' %}
+      {% set lbl_browse_clinics = '瀏覽診所' %}
+      {% set lbl_back_map = '返回地圖' %}
+      {% set lbl_empty = '此語言尚無指南。請嘗試 EN / JA。' %}
+    {% else %}
+      {% set lbl_guides_title = 'All Guides' %}
+      {% set lbl_guides_lead = 'Practical medical-trip guides — prep, areas, recovery stays, and what to ask clinics.' %}
+      {% set lbl_browse_clinics = 'Browse clinics' %}
+      {% set lbl_back_map = 'Back to Map' %}
+      {% set lbl_empty = 'No guides in this language yet. Try EN / JA.' %}
+    {% endif %}
 
+    <div class="content-wrapper directory-page">
+        <h2 class="list-title">📖 {{ lbl_guides_title }}</h2>
+        <p class="directory-lead">{{ lbl_guides_lead }}</p>
+
+        {% if guide_rows %}
         <div class="onsen-grid">
-            {% for guide in guides.get(lang, []) %}
+            {% for guide in guide_rows %}
             <a href="/guide/{{ guide.id }}" class="onsen-card">
                 <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
                 <div class="card-content">
@@ -39,9 +79,13 @@
             </a>
             {% endfor %}
         </div>
+        {% else %}
+        <p class="directory-empty">{{ lbl_empty }}</p>
+        {% endif %}
 
-        <div style="text-align: center; margin-top: 50px;">
-            <a href="/" class="back-btn">🗺️ Back to Map</a>
+        <div class="directory-actions">
+            <a href="/clinics{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="btn-view-all">{{ lbl_browse_clinics }}</a>
+            <a href="/{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="back-btn">🗺️ {{ lbl_back_map }}</a>
         </div>
     </div>
 
@@ -52,12 +96,12 @@
       "@type": "ItemList",
       "name": "{{ site.site_name }} guides",
       "itemListElement": [
-        {% for guide in guides.get(lang, []) %}
+        {% for guide in guide_rows %}
         {
           "@type": "ListItem",
           "position": {{ loop.index }},
           "url": "{{ site.site_url }}/guide/{{ guide.id }}",
-          "name": "{{ guide.title }}"
+          "name": {{ guide.title|tojson }}
         }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Clinics - {{ site.site_name }}</title>
+    <meta name="description" content="Browse {{ total }} medical-tourism clinics listed on {{ site.site_name }}.">
+    <link rel="canonical" href="{{ canonical }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.site_url }}/clinics" />
+    <link rel="alternate" hreflang="ja" href="{{ site.site_url }}/clinics?lang=ja" />
+    <link rel="alternate" hreflang="zh-Hans" href="{{ site.site_url }}/clinics?lang=zh" />
+    <link rel="alternate" hreflang="zh-Hant" href="{{ site.site_url }}/clinics?lang=zh_tw" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}/clinics" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="All Clinics - {{ site.site_name }}">
+    <meta property="og:description" content="Browse medical-tourism clinics on {{ site.site_name }}.">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:image" content="{{ site.site_url }}/static/images/logo.png">
+    <meta property="og:site_name" content="{{ site.site_name }}">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="{{ site.accent_color }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    {% if site.ga_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.ga_id }}');
+    </script>
+    {% endif %}
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <div class="content-wrapper directory-page">
+        <h2 class="list-title">💚 All Clinics</h2>
+        <p class="directory-lead">{{ total }} clinics · filter by region · open details from each card</p>
+
+        <div class="theme-filter-buttons directory-filters" role="toolbar" aria-label="Region">
+            {% for btn in filter_buttons %}
+            {% set count = sido_counts.get(btn.theme, 0) %}
+            {% set href = '/clinics?sido=' ~ btn.theme %}
+            {% if lang != 'en' %}{% set href = href ~ '&lang=' ~ lang %}{% endif %}
+            <a class="theme-button {% if sido == btn.theme %}active{% endif %}"
+               href="{{ href if btn.theme != 'all' else ('/clinics' ~ ('?lang=' ~ lang if lang != 'en' else '')) }}">
+                {{ btn.label }}
+                <span class="count-badge">{{ count }}</span>
+            </a>
+            {% endfor %}
+        </div>
+
+        {% if clinics %}
+        <div class="onsen-grid">
+            {% for item in clinics %}
+            <div class="onsen-card">
+                <a href="{{ item.link }}">
+                    <img src="{{ item.thumbnail }}" class="card-thumb" alt="{{ item.title }}" loading="lazy">
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title"><a href="{{ item.link }}">{{ item.title }}</a></h3>
+                    <p class="card-summary">{{ item.summary }}</p>
+                    <div class="card-meta">
+                        <span>📍 {{ item.address or '' }}</span>
+                        {% if item.region and item.region.sido %}
+                        <span>🗺 {{ item.region.sido|title }}{% if item.region.district %} · {{ item.region.district|title }}{% endif %}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        {% if pages > 1 %}
+        <nav class="directory-pager" aria-label="Pagination">
+            {% set base = '/clinics?' %}
+            {% if lang != 'en' %}{% set base = base ~ 'lang=' ~ lang ~ '&' %}{% endif %}
+            {% if sido != 'all' %}{% set base = base ~ 'sido=' ~ sido ~ '&' %}{% endif %}
+            {% if page > 1 %}
+            <a class="back-btn" href="{{ base }}page={{ page - 1 }}">← Prev</a>
+            {% endif %}
+            <span class="directory-page-num">{{ page }} / {{ pages }}</span>
+            {% if page < pages %}
+            <a class="back-btn" href="{{ base }}page={{ page + 1 }}">Next →</a>
+            {% endif %}
+        </nav>
+        {% endif %}
+        {% else %}
+        <p class="directory-empty">No clinics in this region.</p>
+        {% endif %}
+
+        <div class="directory-actions">
+            <a href="/guide{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="btn-view-all">Read guides</a>
+            <a href="/{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="back-btn">🗺️ Back to Map</a>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>

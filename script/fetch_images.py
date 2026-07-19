@@ -62,6 +62,7 @@ PROTECTED = {
 LANG_SUFFIXES = ("_zh_tw", "_en", "_ja", "_zh", "_ko")
 PREFERRED_LANG_FILES = ("_en.md", "_ja.md", "_zh.md", "_zh_tw.md", "_ko.md")
 HANGUL_RE = re.compile(r"[\uac00-\ud7a3]")
+# Kept for callers that only need a simple Hangul-in-parens probe.
 PAREN_KO_RE = re.compile(r"\(([^)]*[\uac00-\ud7a3][^)]*)\)")
 
 
@@ -260,9 +261,27 @@ def pick_place_with_photo(places: list, name: str):
     return with_photos[0]
 
 
+def _paren_groups(text: str) -> list[str]:
+    groups: list[str] = []
+    depth = 0
+    start: int | None = None
+    for i, ch in enumerate(text):
+        if ch == "(":
+            if depth == 0:
+                start = i + 1
+            depth += 1
+        elif ch == ")" and depth > 0:
+            depth -= 1
+            if depth == 0 and start is not None:
+                groups.append(text[start:i])
+                start = None
+    return groups
+
+
 def korean_name_from_title(title: str) -> str:
-    m = PAREN_KO_RE.search(title or "")
-    return (m.group(1).strip() if m else "").strip()
+    """Last top-level (…한글…) group; supports '((주)이름)' nesting."""
+    korean = [g.strip() for g in _paren_groups(title or "") if re.search(r"[\uac00-\ud7a3]", g)]
+    return korean[-1] if korean else ""
 
 
 def places_queries(item: dict) -> list[str]:

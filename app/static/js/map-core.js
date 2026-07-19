@@ -99,25 +99,31 @@ export async function renderNearbyMarkers(pois) {
         const theme = findMainTheme(item.categories || [item.kind]);
         const color = getThemeColor(theme);
         const iconClass = theme === 'food' ? 'fa-utensils' : 'fa-bed';
+        const kindLabel = item.kind === 'Food' ? 'Food' : 'Stay';
 
         const el = document.createElement('div');
-        el.className = `marker-dot marker-dot--nearby marker-dot--${theme}`;
+        el.className = `marker-dot marker-dot--nearby marker-dot--pick marker-dot--${theme}`;
         el.style.backgroundColor = color;
-        el.innerHTML = `<i class="fa-solid ${iconClass}" aria-hidden="true"></i>`;
+        el.innerHTML = `
+            <span class="marker-dot-icon"><i class="fa-solid ${iconClass}" aria-hidden="true"></i></span>
+            <span class="marker-dot-brand" aria-hidden="true">KR</span>
+        `;
         el.setAttribute('role', 'img');
-        el.setAttribute('aria-label', item.kind || theme);
+        el.setAttribute('aria-label', `KR Care ${kindLabel} pick: ${item.title || kindLabel}`);
 
         const marker = new AdvancedMarkerElement({
             map,
             position: { lat: parseFloat(item.lat), lng: parseFloat(item.lng) },
-            title: item.title,
+            title: `KR Care ${kindLabel}: ${item.title || ''}`,
             content: el,
-            zIndex: 10,
+            zIndex: 20,
         });
         marker.itemData = { ...item, is_nearby: true };
         marker.addListener('click', () => _showInfoWindow(marker, marker.itemData));
         nearbyMarkers.push(marker);
     });
+
+    _syncMapLegend();
 }
 
 /**
@@ -144,11 +150,17 @@ export function filterMapMarkers(theme) {
 /**
  * Region filter: clinic markers are already rendered for the filtered set.
  * Keep nearby pins that relate to any visible clinic id.
+ * Fit the map to clinics only — nearby Stay/Food would pull the viewport
+ * out to Incheon/Gyeonggi and make "All Seoul" feel like it never zoomed.
+ *
+ * @param {string[]} clinicIds
+ * @param {{ scope?: 'all'|'sido'|'district' }} [opts]
  */
-export function filterMapByClinicIds(clinicIds) {
+export function filterMapByClinicIds(clinicIds, opts = {}) {
     const ids = new Set(
         (clinicIds || []).map(id => String(id || '').replace(/_(en|ja|zh_tw|zh|ko)$/i, ''))
     );
+    const scope = opts.scope || 'sido';
 
     clinicMarkers.forEach(m => {
         m.map = map;
@@ -160,7 +172,8 @@ export function filterMapByClinicIds(clinicIds) {
         );
         m.map = visible ? map : null;
     });
-    _fitVisible();
+    _fitVisible({ clinicsOnly: true, scope });
+    _syncMapLegend();
 }
 
 export function closeInfoWindow() {
@@ -233,7 +246,8 @@ function _clinicInfoHtml(item) {
 }
 
 function _nearbyInfoHtml(item) {
-    const kind = escapeHtml(item.kind || '');
+    const kind = (item.kind || 'Stay').trim();
+    const kindKey = kind.toLowerCase();
     const tel = (item.tel || '').trim();
     const website = (item.website || '').trim();
     const telHref = tel.replace(/[\s-]/g, '');
@@ -263,11 +277,17 @@ function _nearbyInfoHtml(item) {
 
     return `
         <div class="info-box-content info-box-content--nearby">
+            <div class="info-box-pick">
+                <span class="info-box-pick-brand">KR Care</span>
+                <span class="info-box-pick-sep">·</span>
+                <span class="info-box-pick-kind">${escapeHtml(kind)} pick</span>
+            </div>
             <div class="info-box-media">
                 <img src="${thumb}" alt="" loading="lazy">
             </div>
-            <div class="info-box-badge info-box-badge--${kind.toLowerCase()}">${kind}</div>
+            <div class="info-box-badge info-box-badge--${escapeHtml(kindKey)} info-box-badge--pick">KR Care Pick · ${escapeHtml(kind)}</div>
             <div class="info-box-title">${escapeHtml(item.title)}</div>
+            <p class="info-box-curated">Curated near this clinic for medical-trip convenience — not a Google default place.</p>
             <div class="info-box-address"><i class="fa-solid fa-location-dot"></i> ${escapeHtml(item.address || '')}</div>
             ${item.overview ? `<p class="info-box-overview">${escapeHtml(item.overview)}</p>` : ''}
             ${details ? `<dl class="info-box-dl">${details}</dl>` : ''}
@@ -276,11 +296,21 @@ function _nearbyInfoHtml(item) {
         </div>`;
 }
 
-function _fitVisible() {
+function _syncMapLegend() {
+    const legend = document.querySelector('.map-legend');
+    if (!legend) return;
+    const hasNearby = nearbyMarkers.some(m => m.map);
+    legend.classList.toggle('is-emphasis', hasNearby);
+}
+
+function _fitVisible({ clinicsOnly = false, scope = 'sido' } = {}) {
     if (!map) return;
+    const markers = clinicsOnly
+        ? clinicMarkers
+        : [...clinicMarkers, ...nearbyMarkers];
     const bounds = new google.maps.LatLngBounds();
     let n = 0;
-    [...clinicMarkers, ...nearbyMarkers].forEach(m => {
+    markers.forEach(m => {
         if (m.map) {
             bounds.extend(m.position);
             n += 1;
@@ -288,11 +318,34 @@ function _fitVisible() {
     });
     if (n === 0) return;
     if (n === 1) {
-        map.setCenter([...clinicMarkers, ...nearbyMarkers].find(m => m.map).position);
+        map.setCenter(markers.find(m => m.map).position);
         map.setZoom(14);
-    } else {
-        map.fitBounds(bounds, { padding: 80 });
+        return;
     }
+
+    // Nationwide "All": frame Korea; do not clamp zoom up (that cropped to 남원/지리산).
+    if (scope === 'all') {
+        map.fitBounds(bounds, { padding: 48 });
+        google.maps.event.addListenerOnce(map, 'idle', () => {
+            const z = map.getZoom();
+            if (z > 8) map.setZoom(8);
+            if (z < 6) map.setZoom(6);
+        });
+        return;
+    }
+
+    map.fitBounds(bounds, { padding: 72 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+        const z = map.getZoom();
+        if (scope === 'district') {
+            if (z > 14) map.setZoom(14);
+            if (z < 11) map.setZoom(11);
+        } else {
+            // sido (Seoul / Busan / …)
+            if (z > 13) map.setZoom(13);
+            if (z < 10) map.setZoom(10);
+        }
+    });
 }
 
 function _addLocationButton() {

@@ -24,7 +24,7 @@ SITE_CONFIG = {
     # ----------------------------------------------------------
     # 2. SEO / analytics
     # ----------------------------------------------------------
-    "ga_id":         os.getenv("GA_ID", "G-XXXXXXXXXX"),
+    "ga_id":         os.getenv("GA_ID", "G-8FYGGKZ1ST"),
     # Maps JS key: Cloud secret name is KRCARE_GOOGLE_MAPS_API_KEY
     "maps_api_key":  (
         os.getenv("MAPS_API_KEY")
@@ -91,7 +91,12 @@ SITE_CONFIG = {
     ],
 
     # ----------------------------------------------------------
-    # 9. Footer
+    # 9. Affiliate (same Klook short link as krcampus)
+    # ----------------------------------------------------------
+    "klook_url": "https://klook.tpo.mx/ED7IfKaq",
+
+    # ----------------------------------------------------------
+    # 10. Footer
     # ----------------------------------------------------------
     "footer_tagline":  "Medical trip care in Korea.",
     "footer_year":     "2026",

@@ -56,6 +56,19 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertEqual(detail.status_code, 200)
         self.assertIn(b"reaction-panel", detail.data)
 
+    def test_item_detail_shows_klook_cta(self):
+        items_resp = self.client.get("/api/items?lang=en")
+        payload = items_resp.get_json()
+        items = payload.get("items") or []
+        self.assertTrue(items)
+        item_id = items[0]["id"]
+        detail = self.client.get(f"/item/{item_id}")
+        self.assertEqual(detail.status_code, 200)
+        body = detail.get_data(as_text=True)
+        self.assertIn("https://klook.tpo.mx/ED7IfKaq", body)
+        self.assertIn("booking-box", body)
+        self.assertNotIn("Agoda", body)
+
 
 if __name__ == "__main__":
     unittest.main()

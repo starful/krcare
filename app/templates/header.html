@@ -3,9 +3,11 @@
         <!-- Header top: guide link / logo / language toggle -->
         <div class="header-top">
 
-            <!-- Left: guide link -->
+            <!-- Left: guide + clinics -->
             <div class="header-left">
-                <a href="/guide" style="font-weight:bold; color:var(--accent-color); font-size: 0.95rem;">📖 Guide</a>
+                {% set lang_q = ('?lang=' ~ lang) if lang and lang != 'en' else '' %}
+                <a href="/guide{{ lang_q }}" class="header-nav-link">📖 Guides</a>
+                <a href="/clinics{{ lang_q }}" class="header-nav-link">💚 Clinics</a>
             </div>
 
             <!-- Center: logo -->
@@ -17,10 +19,16 @@
 
             <!-- Right: language selector -->
             <div class="lang-selector">
-                {# Detail pages (with post.id) #}
+                {# Detail pages: swap content-id language suffix #}
                 {% if post and post.id %}
-                    {% set base_id = base_id if base_id is defined else post.id.rsplit('_', 1)[0] %}
-                    {% set prefix = '/guide/' if 'guide' in request.path else '/item/' %}
+                    {% if base_id is not defined %}
+                        {% if post.id.endswith('_zh_tw') %}
+                            {% set base_id = post.id[:-6] %}
+                        {% else %}
+                            {% set base_id = post.id.rsplit('_', 1)[0] %}
+                        {% endif %}
+                    {% endif %}
+                    {% set prefix = '/guide/' if request.path.startswith('/guide/') else '/item/' %}
                     <a href="{{ prefix }}{{ base_id }}_en"
                        class="lang-btn {% if post.lang == 'en' %}active{% endif %}">EN</a>
                     <a href="{{ prefix }}{{ base_id }}_ja"
@@ -29,18 +37,13 @@
                        class="lang-btn {% if post.lang == 'zh' %}active{% endif %}">中文</a>
                     <a href="{{ prefix }}{{ base_id }}_zh_tw"
                        class="lang-btn {% if post.lang == 'zh_tw' %}active{% endif %}">繁中</a>
-                {# Guide list page #}
-                {% elif request.path == '/guide' %}
-                    <a href="/guide?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">EN</a>
-                    <a href="/guide?lang=ja" class="lang-btn {% if lang == 'ja' %}active{% endif %}">JA</a>
-                    <a href="/guide?lang=zh" class="lang-btn {% if lang == 'zh' %}active{% endif %}">中文</a>
-                    <a href="/guide?lang=zh_tw" class="lang-btn {% if lang == 'zh_tw' %}active{% endif %}">繁中</a>
-                {# Main/other pages: full reload so Google Maps language matches UI #}
+                {# List / home / other: keep current path + non-lang query #}
                 {% else %}
-                    <a href="/?lang=en" class="lang-btn {% if lang == 'en' %}active{% endif %}">EN</a>
-                    <a href="/?lang=ja" class="lang-btn {% if lang == 'ja' %}active{% endif %}">JA</a>
-                    <a href="/?lang=zh" class="lang-btn {% if lang == 'zh' %}active{% endif %}">中文</a>
-                    <a href="/?lang=zh_tw" class="lang-btn {% if lang == 'zh_tw' %}active{% endif %}">繁中</a>
+                    {% set active_lang = lang if lang is defined else 'en' %}
+                    <a href="{{ lang_switch_url('en') }}" class="lang-btn {% if active_lang == 'en' %}active{% endif %}">EN</a>
+                    <a href="{{ lang_switch_url('ja') }}" class="lang-btn {% if active_lang == 'ja' %}active{% endif %}">JA</a>
+                    <a href="{{ lang_switch_url('zh') }}" class="lang-btn {% if active_lang == 'zh' %}active{% endif %}">中文</a>
+                    <a href="{{ lang_switch_url('zh_tw') }}" class="lang-btn {% if active_lang == 'zh_tw' %}active{% endif %}">繁中</a>
                 {% endif %}
             </div>
         </div>

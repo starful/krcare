@@ -12,11 +12,13 @@
     <link rel="alternate" hreflang="ja" href="{{ site.site_url }}?lang=ja" />
     <link rel="alternate" hreflang="zh-Hans" href="{{ site.site_url }}?lang=zh" />
     <link rel="alternate" hreflang="zh-Hant" href="{{ site.site_url }}?lang=zh_tw" />
-    <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}" />    <meta property="og:type" content="website">
+    <link rel="alternate" hreflang="x-default" href="{{ site.site_url }}" />
+    <meta property="og:type" content="website">
     <meta property="og:title" content="{{ site.site_name }} - {{ site.tagline }}">
     <meta property="og:description" content="{{ site.tagline }}">
     <meta property="og:url" content="{{ canonical }}">
     <meta property="og:image" content="{{ site.site_url }}/static/images/logo.png">
+    <meta property="og:site_name" content="{{ site.site_name }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ site.site_name }} - {{ site.tagline }}">
     <meta name="twitter:description" content="{{ site.tagline }}">
@@ -46,6 +48,24 @@
         <!-- Map section -->
         <section class="map-section">
             <div id="map" data-map-id="{{ site.maps_id }}"></div>
+            <aside class="map-legend" aria-label="Map legend">
+                <div class="map-legend-title">KR Care map</div>
+                <ul class="map-legend-list">
+                    <li>
+                        <span class="map-legend-swatch map-legend-swatch--clinic" aria-hidden="true"></span>
+                        Clinic (main)
+                    </li>
+                    <li>
+                        <span class="map-legend-swatch map-legend-swatch--stay" aria-hidden="true"><i class="fa-solid fa-bed"></i></span>
+                        KR Care Stay pick
+                    </li>
+                    <li>
+                        <span class="map-legend-swatch map-legend-swatch--food" aria-hidden="true"><i class="fa-solid fa-utensils"></i></span>
+                        KR Care Food pick
+                    </li>
+                </ul>
+                <p class="map-legend-note">Stay &amp; Food pins are curated near a clinic — not Google’s default POIs.</p>
+            </aside>
         </section>
 
         <div class="content-wrapper">
@@ -53,8 +73,9 @@
             <article class="intro-box">
                 <h2>{{ site.emoji }} {{ site.tagline }}</h2>
                 <p>
-                    Map-first medical trip care in Korea. Clinics are the main guides;
-                    nearby Stay &amp; Food pins show practical API-style info (address, phone, website).
+                    Map-first medical trip care in Korea. Clinics are the main content.
+                    Colored Stay &amp; Food pins with a <strong>KR</strong> badge are
+                    <strong>KR Care picks</strong> near that clinic — not Google Map defaults.
                 </p>
             </article>
 
@@ -62,37 +83,28 @@
             <section class="guide-highlight-section">
                 <h2 class="guide-section-title">📖 {{ site.site_name }} Guides</h2>
                 <div class="onsen-grid" id="guide-list">
-
-                    <!-- English guides (top 3) -->
-                    {% for guide in guides.get('en', [])[:3] %}
-                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-en">
+                    {% set home_guides = guides.get(lang, []) or guides.get('en', []) %}
+                    {% for guide in home_guides[:3] %}
+                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card">
                         <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
                         <div class="card-content">
                             <h3 class="card-title">{{ guide.title }}</h3>
                             <p class="card-summary">{{ guide.summary }}</p>
                         </div>
                     </a>
-                    {% endfor %}
-
-                    <!-- Korean guides (top 3, hidden by default) -->
-                    {% for guide in guides.get('ko', [])[:3] %}
-                    <a href="/guide/{{ guide.id }}" class="onsen-card guide-card guide-ko" style="display: none;">
-                        <img src="{{ guide.thumbnail }}" alt="{{ guide.title }}" class="card-thumb">
-                        <div class="card-content">
-                            <h3 class="card-title">{{ guide.title }}</h3>
-                            <p class="card-summary">{{ guide.summary }}</p>
-                        </div>
-                    </a>
+                    {% else %}
+                    <p class="directory-empty">Guides coming soon.</p>
                     {% endfor %}
                 </div>
-                <div class="view-all-container">
-                    <a href="/guide" class="btn-view-all">View All Guides</a>
+                <div class="view-all-container directory-actions">
+                    <a href="/guide{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="btn-view-all">View All Guides</a>
+                    <a href="/clinics{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="btn-view-all btn-view-all--ghost">View All Clinics</a>
                 </div>
             </section>
 
             <!-- Item list -->
             <section id="list-section">
-                <h2 class="list-title">{{ site.emoji }} Latest {{ site.site_name }}</h2>
+                <h2 class="list-title">{{ site.emoji }} Latest Clinics</h2>
                 <div id="item-list" class="onsen-grid">
                     {% for item in initial_items %}
                     <div class="onsen-card">
@@ -109,6 +121,9 @@
                         </div>
                     </div>
                     {% endfor %}
+                </div>
+                <div class="view-all-container">
+                    <a href="/clinics{% if lang != 'en' %}?lang={{ lang }}{% endif %}" class="btn-view-all">View All Clinics</a>
                 </div>
             </section>
         </div>

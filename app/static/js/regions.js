@@ -126,16 +126,42 @@ export function parseDistrict(address, sido) {
     return null;
 }
 
-export function parseRegion(address) {
-    const sido = parseSido(address);
+export function sidoFromLatLng(lat, lng) {
+    const la = Number(lat);
+    const ln = Number(lng);
+    if (!Number.isFinite(la) || !Number.isFinite(ln)) return null;
+
+    if (la >= 33.05 && la <= 33.62 && ln >= 126.05 && ln <= 127.0) return 'jeju';
+    if (la >= 34.95 && la <= 35.45 && ln >= 128.75 && ln <= 129.35) return 'busan';
+    if (la >= 35.70 && la <= 36.05 && ln >= 128.40 && ln <= 128.85) return 'daegu';
+    // Incheon (airport / west) before Seoul
+    if (la >= 37.25 && la <= 37.70 && ln >= 126.30 && ln < 126.78) return 'incheon';
+    if (la >= 37.42 && la <= 37.72 && ln >= 126.78 && ln <= 127.20) return 'seoul';
+    if (la >= 36.85 && la <= 38.35 && ln >= 126.40 && ln <= 127.95) return 'gyeonggi';
+    return null;
+}
+
+export function parseRegion(address, lat, lng) {
+    const fromCoords = sidoFromLatLng(lat, lng);
+    const fromAddr = parseSido(address);
+    let sido = fromCoords || fromAddr;
+    if (
+        fromCoords &&
+        TOP_SIDO.has(fromAddr) &&
+        fromAddr !== fromCoords &&
+        /Seoul|서울|ソウル|首尔|Busan|부산|釜山|Incheon|인천|仁川|Gyeonggi|경기|京畿|Daegu|대구|大邱/i.test(
+            String(address || '')
+        )
+    ) {
+        sido = fromAddr;
+    }
     const district = parseDistrict(address, sido);
     return { sido, district };
 }
 
-/** Enrich item with region keys (mutates for convenience, also returns). */
+/** Enrich item with region keys from its own address + coordinates. */
 export function withRegion(item) {
-    const region = parseRegion(item?.address);
-    item.region = region;
+    item.region = parseRegion(item?.address, item?.lat, item?.lng);
     return item;
 }
 

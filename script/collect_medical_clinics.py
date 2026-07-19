@@ -158,9 +158,33 @@ def geo_key(item: dict) -> str:
     return f"{lat},{lng}"
 
 
+def _paren_groups(text: str) -> list[str]:
+    """Top-level (...) groups, supporting nesting (e.g. ((주)이름))."""
+    groups: list[str] = []
+    depth = 0
+    start: int | None = None
+    for i, ch in enumerate(text):
+        if ch == "(":
+            if depth == 0:
+                start = i + 1
+            depth += 1
+        elif ch == ")" and depth > 0:
+            depth -= 1
+            if depth == 0 and start is not None:
+                groups.append(text[start:i])
+                start = None
+    return groups
+
+
 def korean_name(title: str) -> str:
-    m = re.search(r"\(([^)]*[\uac00-\ud7a3][^)]*)\)", title or "")
-    return (m.group(1).strip() if m else "").strip()
+    """Korean name inside parentheses for cross-language matching.
+
+    Prefer the last top-level (…한글…) group so nested forms like
+    'Medical Avenue ((주)메디컬애비뉴)' resolve to '(주)메디컬애비뉴',
+    not a truncated '(주'.
+    """
+    korean = [g.strip() for g in _paren_groups(title or "") if re.search(r"[\uac00-\ud7a3]", g)]
+    return korean[-1] if korean else ""
 
 
 def esc(s: str) -> str:

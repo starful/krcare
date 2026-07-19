@@ -96,9 +96,10 @@
       {% set lbl_address = '住所' %}
       {% set lbl_phone = '電話' %}
       {% set lbl_website = 'ウェブサイト' %}
-      {% set lbl_stay = '近くの宿泊' %}
-      {% set lbl_stay_desc = 'このエリア周辺のホテルを探す' %}
-      {% set lbl_stay_btn = 'Agodaでホテルを見る →' %}
+      {% set lbl_na = '公開情報なし — クリニックへ確認' %}
+      {% set lbl_stay = '近くの宿泊・旅の準備' %}
+      {% set lbl_stay_desc = 'ホテル・eSIM・空港アクセスをKlookで探す' %}
+      {% set lbl_stay_btn = 'Klookで見る →' %}
       {% set lbl_back = '地図に戻る' %}
     {% elif lang == 'zh' %}
       {% set lbl_site = '官方网站' %}
@@ -108,9 +109,10 @@
       {% set lbl_address = '地址' %}
       {% set lbl_phone = '电话' %}
       {% set lbl_website = '网站' %}
-      {% set lbl_stay = '附近住宿' %}
-      {% set lbl_stay_desc = '查找该区域附近的酒店' %}
-      {% set lbl_stay_btn = '在 Agoda 查看酒店 →' %}
+      {% set lbl_na = '公开信息未收录 — 请向诊所确认' %}
+      {% set lbl_stay = '附近住宿与出行' %}
+      {% set lbl_stay_desc = '在 Klook 查找酒店、eSIM 与机场接送' %}
+      {% set lbl_stay_btn = '在 Klook 查看 →' %}
       {% set lbl_back = '返回地图' %}
     {% elif lang == 'zh_tw' %}
       {% set lbl_site = '官方網站' %}
@@ -120,9 +122,10 @@
       {% set lbl_address = '地址' %}
       {% set lbl_phone = '電話' %}
       {% set lbl_website = '網站' %}
-      {% set lbl_stay = '附近住宿' %}
-      {% set lbl_stay_desc = '尋找此區域附近的飯店' %}
-      {% set lbl_stay_btn = '在 Agoda 查看飯店 →' %}
+      {% set lbl_na = '公開資訊未收錄 — 請向診所確認' %}
+      {% set lbl_stay = '附近住宿與出行' %}
+      {% set lbl_stay_desc = '在 Klook 尋找飯店、eSIM 與機場接送' %}
+      {% set lbl_stay_btn = '在 Klook 查看 →' %}
       {% set lbl_back = '返回地圖' %}
     {% else %}
       {% set lbl_site = 'Official website' %}
@@ -132,9 +135,10 @@
       {% set lbl_address = 'Address' %}
       {% set lbl_phone = 'Phone' %}
       {% set lbl_website = 'Website' %}
-      {% set lbl_stay = 'Stay nearby' %}
-      {% set lbl_stay_desc = 'Find hotels near this area for your trip.' %}
-      {% set lbl_stay_btn = 'Check hotel deals on Agoda →' %}
+      {% set lbl_na = 'Not in public listing — ask the clinic' %}
+      {% set lbl_stay = 'Stay & trip prep' %}
+      {% set lbl_stay_desc = 'Find hotels, eSIM, and airport transfers on Klook.' %}
+      {% set lbl_stay_btn = 'Check Klook →' %}
       {% set lbl_back = 'Back to map' %}
     {% endif %}
 
@@ -180,42 +184,190 @@
         <section class="detail-info-card" aria-labelledby="detail-info-heading">
             <h2 id="detail-info-heading" class="detail-info-card-title">{{ lbl_info }}</h2>
             <dl class="detail-info-list">
-                {% if post.address %}
                 <div class="detail-info-row">
                     <dt><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ lbl_address }}</dt>
-                    <dd>{{ post.address }}</dd>
+                    <dd {% if not post.address %}class="is-empty"{% endif %}>
+                        {{ post.address if post.address else lbl_na }}
+                    </dd>
                 </div>
-                {% endif %}
-                {% if tel %}
                 <div class="detail-info-row">
                     <dt><i class="fa-solid fa-phone" aria-hidden="true"></i> {{ lbl_phone }}</dt>
-                    <dd><a href="tel:{{ tel_href }}">{{ tel }}</a></dd>
+                    <dd {% if not tel %}class="is-empty"{% endif %}>
+                        {% if tel %}
+                        <a href="tel:{{ tel_href }}">{{ tel }}</a>
+                        {% else %}
+                        {{ lbl_na }}
+                        {% endif %}
+                    </dd>
                 </div>
-                {% endif %}
-                {% if website %}
                 <div class="detail-info-row">
                     <dt><i class="fa-solid fa-globe" aria-hidden="true"></i> {{ lbl_website }}</dt>
-                    <dd>
+                    <dd {% if not website %}class="is-empty"{% endif %}>
+                        {% if website %}
                         <a href="{{ website }}" target="_blank" rel="noopener noreferrer">
                             {{ website|replace('https://', '')|replace('http://', '')|trim('/') }}
                         </a>
+                        {% else %}
+                        {{ lbl_na }}
+                        {% endif %}
                     </dd>
                 </div>
-                {% endif %}
             </dl>
         </section>
 
         <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
 
+        {% if content %}
         <div class="detail-content detail-content-card">
             {{ content | safe }}
         </div>
+        {% endif %}
 
-        {% if post.agoda %}
+        {% if plan and (plan.listed or plan.before or plan.checklist or plan.getting or plan.nearby) %}
+        <div class="detail-plan">
+            {% if plan.listed and plan.listed.rows %}
+            <section class="detail-plan-card" aria-labelledby="plan-listed-title">
+                <div class="detail-plan-card-head">
+                    <span class="detail-plan-icon" aria-hidden="true"><i class="fa-solid fa-circle-info"></i></span>
+                    <h2 id="plan-listed-title" class="detail-plan-card-title">{{ plan.listed.title }}</h2>
+                </div>
+                <dl class="detail-transit-list">
+                    {% for row in plan.listed.rows %}
+                    <div class="detail-transit-row {% if not row.label %}detail-transit-row--plain{% endif %}">
+                        {% if row.label %}
+                        <dt>{{ row.label }}</dt>
+                        {% endif %}
+                        <dd {% if row.empty %}class="is-empty"{% endif %}>
+                            {% if row.href and row.href.startswith('tel:') %}
+                            <a href="{{ row.href }}">{{ row.text }}</a>
+                            {% elif row.href %}
+                            <a href="{{ row.href }}" target="_blank" rel="noopener noreferrer">{{ row.text|replace('https://','')|replace('http://','') }}</a>
+                            {% else %}
+                            {{ row.text_html|safe }}
+                            {% endif %}
+                        </dd>
+                    </div>
+                    {% endfor %}
+                </dl>
+            </section>
+            {% endif %}
+
+            {% if plan.before and (plan.before.paras_html or plan.before.asks) %}
+            <section class="detail-plan-card" aria-labelledby="plan-before-title">
+                <div class="detail-plan-card-head">
+                    <span class="detail-plan-icon" aria-hidden="true"><i class="fa-solid fa-comments"></i></span>
+                    <h2 id="plan-before-title" class="detail-plan-card-title">{{ plan.before.title }}</h2>
+                </div>
+                {% for para in plan.before.paras_html %}
+                <p class="detail-plan-intro">{{ para|safe }}</p>
+                {% endfor %}
+                {% if plan.before.asks %}
+                {% if plan.before.prompt %}
+                <p class="detail-plan-prompt">{{ plan.before.prompt }}</p>
+                {% endif %}
+                <ul class="detail-ask-list">
+                    {% for ask in plan.before.asks %}
+                    <li class="detail-ask-item">
+                        <span class="detail-ask-icon" aria-hidden="true"><i class="fa-solid fa-circle-question"></i></span>
+                        <span class="detail-ask-text">{{ ask }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </section>
+            {% endif %}
+
+            {% if plan.checklist and plan.checklist.checks %}
+            <section class="detail-plan-card" aria-labelledby="plan-checklist-title">
+                <div class="detail-plan-card-head">
+                    <span class="detail-plan-icon" aria-hidden="true"><i class="fa-solid fa-clipboard-check"></i></span>
+                    <h2 id="plan-checklist-title" class="detail-plan-card-title">{{ plan.checklist.title }}</h2>
+                </div>
+                {% if plan.checklist.intro %}
+                <p class="detail-plan-intro">{{ plan.checklist.intro }}</p>
+                {% endif %}
+                <ul class="detail-checklist">
+                    {% for item in plan.checklist.checks %}
+                    <li class="detail-checklist-item">
+                        <span class="detail-checklist-box" aria-hidden="true"></span>
+                        <span class="detail-checklist-text">{{ item }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% if plan.checklist.note %}
+                <p class="detail-plan-note">{{ plan.checklist.note }}</p>
+                {% endif %}
+            </section>
+            {% endif %}
+
+            {% if plan.getting and plan.getting.rows %}
+            <section class="detail-plan-card" aria-labelledby="plan-getting-title">
+                <div class="detail-plan-card-head">
+                    <span class="detail-plan-icon" aria-hidden="true"><i class="fa-solid fa-train-subway"></i></span>
+                    <h2 id="plan-getting-title" class="detail-plan-card-title">{{ plan.getting.title }}</h2>
+                </div>
+                <dl class="detail-transit-list">
+                    {% for row in plan.getting.rows %}
+                    <div class="detail-transit-row {% if not row.label %}detail-transit-row--plain{% endif %}">
+                        {% if row.label %}
+                        <dt>{{ row.label }}</dt>
+                        {% endif %}
+                        <dd>{{ row.text_html|safe }}</dd>
+                    </div>
+                    {% endfor %}
+                </dl>
+            </section>
+            {% endif %}
+
+            {% if plan.nearby %}
+            <section class="detail-plan-card" aria-labelledby="plan-nearby-title">
+                <div class="detail-plan-card-head">
+                    <span class="detail-plan-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span>
+                    <h2 id="plan-nearby-title" class="detail-plan-card-title">{{ plan.nearby.title }}</h2>
+                </div>
+                {% if plan.nearby.intro %}
+                <p class="detail-plan-intro {% if not plan.nearby.places %}is-empty{% endif %}">{{ plan.nearby.intro }}</p>
+                {% endif %}
+                {% if plan.nearby.map_href %}
+                <a class="detail-action-btn detail-plan-map-btn" href="{{ plan.nearby.map_href }}">
+                    <i class="fa-solid fa-map" aria-hidden="true"></i>
+                    {{ plan.nearby.map_label or 'KR Care map' }}
+                </a>
+                {% endif %}
+                {% if plan.nearby.places %}
+                <div class="detail-nearby-grid" role="list">
+                    {% for place in plan.nearby.places %}
+                    <a class="detail-nearby-card"
+                       role="listitem"
+                       href="{{ place.href or maps_url }}"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <span class="detail-nearby-kind">{{ place.kind }}</span>
+                        <span class="detail-nearby-name">{{ place.name }}</span>
+                        {% if place.meta %}
+                        <span class="detail-nearby-meta">{{ place.meta }}</span>
+                        {% endif %}
+                        {% if place.tip %}
+                        <span class="detail-nearby-tip">{{ place.tip }}</span>
+                        {% endif %}
+                        <span class="detail-nearby-cta">
+                            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+                            Maps
+                        </span>
+                    </a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </section>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        {% if site.klook_url %}
         <div class="booking-box">
             <h3>🏨 {{ lbl_stay }}</h3>
             <p>{{ lbl_stay_desc }}</p>
-            <a href="{{ post.agoda }}" target="_blank" rel="noopener noreferrer nofollow" class="booking-btn">
+            <a href="{{ site.klook_url }}" target="_blank" rel="noopener noreferrer nofollow sponsored" class="booking-btn">
                 {{ lbl_stay_btn }}
             </a>
         </div>
