@@ -17,7 +17,18 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY = os.environ.get("GEMINI_API_KEY")
+
+def _claude_md(prompt: str) -> str:
+    """MD text via Claude CLI subscription (not Claude API)."""
+    import sys
+    from pathlib import Path
+    _shared = Path(__file__).resolve().parents[2] / "shared"
+    if str(_shared) not in sys.path:
+        sys.path.insert(0, str(_shared))
+    from site_llm import generate_md_text
+    return generate_md_text(prompt)
+
+# GEMINI_API_KEY no longer required for MD (Claude CLI)
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
@@ -43,17 +54,8 @@ def clean_ai_response(text: str) -> str:
 
 
 def generate_guide(guide_id: str, topic: str, lang: str, keywords: str) -> None:
-    if not API_KEY:
-        print("❌ GEMINI_API_KEY is missing")
-        return
+    pass  # Claude CLI auth checked in _claude_md
 
-    try:
-        from google import genai
-
-        client = genai.Client(api_key=API_KEY)
-    except ImportError:
-        print("❌ google-genai package required: pip install google-genai")
-        return
 
     print(f"🚀 [Guide AI] Generating {lang}: {topic}...")
 
@@ -87,11 +89,8 @@ summary: "Two compelling sentences on ONE line."
 """
 
     try:
-        response = client.models.generate_content(
-            model=os.getenv("GEMINI_MODEL", "gemini-flash-latest"),
-            contents=prompt,
-        )
-        final_text = clean_ai_response(response.text or "")
+        response_text = _claude_md(prompt)
+        final_text = clean_ai_response(response_text or "")
         if len(final_text) < 800:
             print(f"⚠️  Short output for {guide_id}_{lang} ({len(final_text)} chars) — keeping anyway")
         os.makedirs(GUIDE_DIR, exist_ok=True)
