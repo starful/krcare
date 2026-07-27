@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1268,
+  "total_count": 1264,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -9465,25 +9465,6 @@
       "link": "/item/mdcl_3364606_zh"
     },
     {
-      "id": "mdcl_3441544_zh",
-      "lang": "zh",
-      "title": "CMC Confidence (씨엠씨 컨피던스)",
-      "lat": 37.5205717242,
-      "lng": 127.0356782255,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441544.jpg",
-      "address": "首尔特别市江南区彦州路148街14，Ra栋207号 (06057)",
-      "published": "2026-07-20",
-      "summary": "CMC Confidence (씨엠씨 컨피던스)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441544_zh"
-    },
-    {
       "id": "mdcl_3366399_en",
       "lang": "en",
       "title": "Nunevit Eye Clinic (누네빛안과의원)",
@@ -10529,25 +10510,6 @@
       "link": "/item/mdcl_3547509_en"
     },
     {
-      "id": "mdcl_3441544_en",
-      "lang": "en",
-      "title": "CMC Confidence (씨엠씨 컨피던스)",
-      "lat": 37.5205717242,
-      "lng": 127.0356782255,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441544.jpg",
-      "address": "#207, Ra-dong, 14 Eonju-ro 148-gil, Gangnam-gu, Seoul (06057)",
-      "published": "2026-07-20",
-      "summary": "CMC Confidence (씨엠씨 컨피던스) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441544_en"
-    },
-    {
       "id": "mdcl_3364566_zh",
       "lang": "zh",
       "title": "江南安娜柯琳皮肤科 (강남 아름다운나라 피부과)",
@@ -10888,25 +10850,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364978_ja"
-    },
-    {
-      "id": "mdcl_3441544_zh_tw",
-      "lang": "zh_tw",
-      "title": "CMC Confidence (씨엠씨 컨피던스)",
-      "lat": 37.5205717242,
-      "lng": 127.0356782255,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441544.jpg",
-      "address": "#207, Ra-dong, 14 Eonju-ro 148-gil, Gangnam-gu, Seoul (06057)",
-      "published": "2026-07-20",
-      "summary": "CMC Confidence (씨엠씨 컨피던스)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441544_zh_tw"
     },
     {
       "id": "mdcl_3562464_ja",
@@ -22193,25 +22136,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3574827_zh_tw"
-    },
-    {
-      "id": "mdcl_3441544_ja",
-      "lang": "ja",
-      "title": "CMCコンフィデンス (씨엠씨 컨피던스)",
-      "lat": 37.5205717242,
-      "lng": 127.0356782255,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441544.jpg",
-      "address": "ソウル特別市カンナム区オンジュロ148ギル14、ラ棟207号 (06057)",
-      "published": "2026-07-20",
-      "summary": "CMCコンフィデンス (씨엠씨 컨피던스)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441544_ja"
     },
     {
       "id": "mdcl_3549374_ja",
