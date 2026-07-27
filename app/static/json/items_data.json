@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1256,
+  "total_count": 1252,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -7850,25 +7850,6 @@
       "link": "/item/mdcl_3562585_zh_tw"
     },
     {
-      "id": "mdcl_3441413_zh_tw",
-      "lang": "zh_tw",
-      "title": "Star Parks (스타팍스 주식회사)",
-      "lat": 37.4576313727,
-      "lng": 127.1658348375,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441413.jpg",
-      "address": "#101, 11 Euni-ro, Jungwon-gu, Seongnam-si, Gyeonggi-do (13153)",
-      "published": "2026-07-20",
-      "summary": "Star Parks (스타팍스 주식회사)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441413_zh_tw"
-    },
-    {
       "id": "mdcl_3477597_zh_tw",
       "lang": "zh_tw",
       "title": "Jin Convalescent Hospital (진요양병원)",
@@ -8950,25 +8931,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3548924_ja"
-    },
-    {
-      "id": "mdcl_3441413_ja",
-      "lang": "ja",
-      "title": "スターパックス株式会社 (스타팍스 주식회사)",
-      "lat": 37.4576313727,
-      "lng": 127.1658348375,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441413.jpg",
-      "address": "キョンギ道ソンナム市チュンウォン区ウニロ11、101号, 101호 (13153)",
-      "published": "2026-07-20",
-      "summary": "スターパックス株式会社 (스타팍스 주식회사)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441413_ja"
     },
     {
       "id": "mdcl_3467329_ja",
@@ -20048,25 +20010,6 @@
       "link": "/item/mdcl_3548924_zh"
     },
     {
-      "id": "mdcl_3441413_zh",
-      "lang": "zh",
-      "title": "Star Parks (스타팍스 주식회사)",
-      "lat": 37.4576313727,
-      "lng": 127.1658348375,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441413.jpg",
-      "address": "京畿道城南市中院区银二路11，101号 (13153)",
-      "published": "2026-07-20",
-      "summary": "Star Parks (스타팍스 주식회사)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441413_zh"
-    },
-    {
       "id": "mdcl_3563121_zh_tw",
       "lang": "zh_tw",
       "title": "Allforskin Dermatology Clinic (올포스킨피부과)",
@@ -20369,25 +20312,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3548986_zh_tw"
-    },
-    {
-      "id": "mdcl_3441413_en",
-      "lang": "en",
-      "title": "Star Parks (스타팍스 주식회사)",
-      "lat": 37.4576313727,
-      "lng": 127.1658348375,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441413.jpg",
-      "address": "#101, 11 Euni-ro, Jungwon-gu, Seongnam-si, Gyeonggi-do (13153)",
-      "published": "2026-07-20",
-      "summary": "Star Parks (스타팍스 주식회사) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441413_en"
     },
     {
       "id": "mdcl_3467329_en",
