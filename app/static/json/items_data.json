@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1304,
+  "total_count": 1300,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -248,25 +248,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364627_zh"
-    },
-    {
-      "id": "mdcl_3366551_zh",
-      "lang": "zh",
-      "title": "趣味旅游株式会社 (주식회사 재미난투어)",
-      "lat": 35.1725000849,
-      "lng": 129.1310156347,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366551.jpg",
-      "address": "釜山广域市海云台区Centum东路35，803室 (48059)",
-      "published": "2026-07-20",
-      "summary": "趣味旅游株式会社 (주식회사 재미난투어)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366551_zh"
     },
     {
       "id": "mdcl_3364741_zh_tw",
@@ -1426,25 +1407,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364627_en"
-    },
-    {
-      "id": "mdcl_3366551_en",
-      "lang": "en",
-      "title": "Funtour Inc. (주식회사 재미난투어)",
-      "lat": 35.1725000849,
-      "lng": 129.1310156347,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366551.jpg",
-      "address": "(#803), 35 Centum dong-ro, Haeundae-gu, Busan (48059)",
-      "published": "2026-07-20",
-      "summary": "Funtour Inc. (주식회사 재미난투어) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366551_en"
     },
     {
       "id": "mdcl_3466939_zh",
@@ -13303,25 +13265,6 @@
       "link": "/item/mdcl_3574999_ja"
     },
     {
-      "id": "mdcl_3366551_ja",
-      "lang": "ja",
-      "title": "株式会社楽しいツアー (주식회사 재미난투어)",
-      "lat": 35.1725000849,
-      "lng": 129.1310156347,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366551.jpg",
-      "address": "釜山広域市海雲台区セントムドンロ35、803号 (48059)",
-      "published": "2026-07-20",
-      "summary": "株式会社楽しいツアー (주식회사 재미난투어)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366551_ja"
-    },
-    {
       "id": "mdcl_3364627_ja",
       "lang": "ja",
       "title": "チャウム医院 (차움의원)",
@@ -19723,25 +19666,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366266_ja"
-    },
-    {
-      "id": "mdcl_3366551_zh_tw",
-      "lang": "zh_tw",
-      "title": "Funtour Inc. (주식회사 재미난투어)",
-      "lat": 35.1725000849,
-      "lng": 129.1310156347,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366551.jpg",
-      "address": "(#803), 35 Centum dong-ro, Haeundae-gu, Busan (48059)",
-      "published": "2026-07-20",
-      "summary": "Funtour Inc. (주식회사 재미난투어)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366551_zh_tw"
     },
     {
       "id": "mdcl_3364678_ja",
