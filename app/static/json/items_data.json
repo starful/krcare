@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1236,
+  "total_count": 1232,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -5969,25 +5969,6 @@
       "link": "/item/mdcl_3451988_en"
     },
     {
-      "id": "mdcl_3367406_ja",
-      "lang": "ja",
-      "title": "トウォン国際旅行社 (도원국제여행사)",
-      "lat": 37.6339536307,
-      "lng": 127.0710745564,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367406.jpg",
-      "address": "ソウル特別市蘆原区コンヌンロ59ガギル9,323号 (01830)",
-      "published": "2026-07-20",
-      "summary": "トウォン国際旅行社 (도원국제여행사)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367406_ja"
-    },
-    {
       "id": "mdcl_3366080_en",
       "lang": "en",
       "title": "Soonplus Plastic Surgery · Dermatology (순플러스성형외과의원)",
@@ -7601,25 +7582,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3467170_zh_tw"
-    },
-    {
-      "id": "mdcl_3367406_zh_tw",
-      "lang": "zh_tw",
-      "title": "DOWON TOUR (도원국제여행사)",
-      "lat": 37.6339536307,
-      "lng": 127.0710745564,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367406.jpg",
-      "address": "(#323), 9 Gongneung-ro 59ga-gil, Nowon-gu, Seoul (01830)",
-      "published": "2026-07-20",
-      "summary": "DOWON TOUR (도원국제여행사)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367406_zh_tw"
     },
     {
       "id": "mdcl_3364569_ja",
@@ -16590,25 +16552,6 @@
       "link": "/item/mdcl_3364735_zh"
     },
     {
-      "id": "mdcl_3367406_zh",
-      "lang": "zh",
-      "title": "道元国际旅行社  (도원국제여행사)",
-      "lat": 37.6339536307,
-      "lng": 127.0710745564,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367406.jpg",
-      "address": "首尔特别市芦原区孔陵路59ga街9，323室 (01830)",
-      "published": "2026-07-20",
-      "summary": "道元国际旅行社  (도원국제여행사)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367406_zh"
-    },
-    {
       "id": "mdcl_3365455_en",
       "lang": "en",
       "title": "Samsung Miracle Eye Clinic (삼성미라클안과의원)",
@@ -17025,25 +16968,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3365455_zh"
-    },
-    {
-      "id": "mdcl_3367406_en",
-      "lang": "en",
-      "title": "DOWON TOUR (도원국제여행사)",
-      "lat": 37.6339536307,
-      "lng": 127.0710745564,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367406.jpg",
-      "address": "(#323), 9 Gongneung-ro 59ga-gil, Nowon-gu, Seoul (01830)",
-      "published": "2026-07-20",
-      "summary": "DOWON TOUR (도원국제여행사) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367406_en"
     },
     {
       "id": "mdcl_3453934_zh",
