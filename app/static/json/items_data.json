@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1308,
+  "total_count": 1304,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -1466,25 +1466,6 @@
       "link": "/item/mdcl_3466939_zh"
     },
     {
-      "id": "mdcl_3539793_zh_tw",
-      "lang": "zh_tw",
-      "title": "Healthpedia Co., Ltd. (㈜헬스피디아)",
-      "lat": 37.5607968483,
-      "lng": 126.9934475995,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539793.jpg",
-      "address": "#1014, 2 Toegye-ro 36-gil, Jung-gu, Seoul (04626)",
-      "published": "2026-07-20",
-      "summary": "Healthpedia Co., Ltd. (㈜헬스피디아)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539793_zh_tw"
-    },
-    {
       "id": "mdcl_3467109_ja",
       "lang": "ja",
       "title": "ハイ眼科 (하이안과)",
@@ -1540,25 +1521,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539857_en"
-    },
-    {
-      "id": "mdcl_3539793_ja",
-      "lang": "ja",
-      "title": "ヘルスピディア株式会社（㈜헬스피디아）",
-      "lat": 37.5607968483,
-      "lng": 126.9934475995,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539793.jpg",
-      "address": "ソウル特別市チュン区トェギェロ36ギル2、1014号 (04626)",
-      "published": "2026-07-20",
-      "summary": "ヘルスピディア株式会社（㈜헬스피디아）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539793_ja"
     },
     {
       "id": "mdcl_3364728_ja",
@@ -12790,25 +12752,6 @@
       "link": "/item/mdcl_3539944_zh_tw"
     },
     {
-      "id": "mdcl_3539793_zh",
-      "lang": "zh",
-      "title": "健康百科有限公司(㈜헬스피디아)",
-      "lat": 37.5607968483,
-      "lng": 126.9934475995,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539793.jpg",
-      "address": "首尔特别市中区退溪路36街2 1014号 (04626)",
-      "published": "2026-07-20",
-      "summary": "健康百科有限公司(㈜헬스피디아)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539793_zh"
-    },
-    {
       "id": "mdcl_3547829_en",
       "lang": "en",
       "title": "Ewha Womans University Mokdong Hospital (이화의대부속목동병원)",
@@ -13282,25 +13225,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539857_ja"
-    },
-    {
-      "id": "mdcl_3539793_en",
-      "lang": "en",
-      "title": "Healthpedia Co., Ltd. (㈜헬스피디아)",
-      "lat": 37.5607968483,
-      "lng": 126.9934475995,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539793.jpg",
-      "address": "#1014, 2 Toegye-ro 36-gil, Jung-gu, Seoul (04626)",
-      "published": "2026-07-20",
-      "summary": "Healthpedia Co., Ltd. (㈜헬스피디아) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539793_en"
     },
     {
       "id": "mdcl_3365654_zh_tw",
