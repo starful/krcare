@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1296,
+  "total_count": 1292,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -1103,25 +1103,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366241_en"
-    },
-    {
-      "id": "mdcl_3539998_ja",
-      "lang": "ja",
-      "title": "ヤッラコリア（얄라코리아）",
-      "lat": 37.5704592339,
-      "lng": 126.9722575901,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539998.jpg",
-      "address": "ソウル特別市チョンノ区セムナンロ69 救世軍会館700号 (03175)",
-      "published": "2026-07-20",
-      "summary": "ヤッラコリア（얄라코리아）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539998_ja"
     },
     {
       "id": "mdcl_3549426_zh_tw",
@@ -12353,25 +12334,6 @@
       "link": "/item/mdcl_3451318_zh"
     },
     {
-      "id": "mdcl_3539998_zh",
-      "lang": "zh",
-      "title": "YallaKOREA(얄라코리아)",
-      "lat": 37.5704592339,
-      "lng": 126.9722575901,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539998.jpg",
-      "address": "首尔特别市钟路区新门内路69救世军会馆700号 (03175)",
-      "published": "2026-07-20",
-      "summary": "YallaKOREA(얄라코리아)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539998_zh"
-    },
-    {
       "id": "mdcl_3367754_ja",
       "lang": "ja",
       "title": "株式会社ファストレイン(ヨシンチケット) (㈜패스트레인(여신티켓))",
@@ -13567,25 +13529,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366241_ja"
-    },
-    {
-      "id": "mdcl_3539998_en",
-      "lang": "en",
-      "title": "YallaKOREA (얄라코리아)",
-      "lat": 37.5704592339,
-      "lng": 126.9722575901,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539998.jpg",
-      "address": "#700, The Salvation Army Building, 69 Saemunan-ro, Jongno-gu, Seoul (03175)",
-      "published": "2026-07-20",
-      "summary": "YallaKOREA (얄라코리아) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539998_en"
     },
     {
       "id": "mdcl_3365595_zh",
@@ -21718,25 +21661,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539825_zh"
-    },
-    {
-      "id": "mdcl_3539998_zh_tw",
-      "lang": "zh_tw",
-      "title": "YallaKOREA (얄라코리아)",
-      "lat": 37.5704592339,
-      "lng": 126.9722575901,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539998.jpg",
-      "address": "#700, The Salvation Army Building, 69 Saemunan-ro, Jongno-gu, Seoul (03175)",
-      "published": "2026-07-20",
-      "summary": "YallaKOREA (얄라코리아)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539998_zh_tw"
     },
     {
       "id": "mdcl_3450808_ja",
