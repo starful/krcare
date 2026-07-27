@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1220,
+  "total_count": 1216,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -6064,25 +6064,6 @@
       "link": "/item/mdcl_3364916_zh"
     },
     {
-      "id": "mdcl_3364584_zh",
-      "lang": "zh",
-      "title": "Lee YoungJun韩医院 (이영준한의원)",
-      "lat": 36.8366972281,
-      "lng": 127.1458206683,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364584.jpg",
-      "address": "忠清南道天安市西北区 凤亭路388, Yongam大厦4-5层 (31103)",
-      "published": "2026-07-20",
-      "summary": "Lee YoungJun韩医院 (이영준한의원)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364584_zh"
-    },
-    {
       "id": "mdcl_3366266_zh",
       "lang": "zh",
       "title": "利兹奥恩 with 延世资丽来姻医院 (리즈온위드 연세슬림라인의원)",
@@ -7050,25 +7031,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366266_en"
-    },
-    {
-      "id": "mdcl_3364584_en",
-      "lang": "en",
-      "title": "Lee YoungJun Clinic of Korean Medicine (이영준한의원)",
-      "lat": 36.8366972281,
-      "lng": 127.1458206683,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364584.jpg",
-      "address": "(4th-5th Floors, Yongam Building), 388 Bongjeong-ro, Seobuk-gu, Cheonan-si, Chungcheongnam-do (31103)",
-      "published": "2026-07-20",
-      "summary": "Lee YoungJun Clinic of Korean Medicine (이영준한의원) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364584_en"
     },
     {
       "id": "mdcl_3364916_en",
@@ -18471,25 +18433,6 @@
       "link": "/item/mdcl_3364916_ja"
     },
     {
-      "id": "mdcl_3364584_ja",
-      "lang": "ja",
-      "title": "イヨンジュン韓医院 (이영준한의원)",
-      "lat": 36.8366972281,
-      "lng": 127.1458206683,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364584.jpg",
-      "address": "忠清南道天安市西北区ポンジョンロ388 ヨンアムビル4・5階 (31103)",
-      "published": "2026-07-20",
-      "summary": "イヨンジュン韓医院 (이영준한의원)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364584_ja"
-    },
-    {
       "id": "mdcl_3366266_ja",
       "lang": "ja",
       "title": "LIZON with 延世スリムライン医院 (리즈온위드 연세슬림라인의원)",
@@ -18792,25 +18735,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364075_ja"
-    },
-    {
-      "id": "mdcl_3364584_zh_tw",
-      "lang": "zh_tw",
-      "title": "Lee YoungJun Clinic of Korean Medicine (이영준한의원)",
-      "lat": 36.8366972281,
-      "lng": 127.1458206683,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364584.jpg",
-      "address": "(4th-5th Floors, Yongam Building), 388 Bongjeong-ro, Seobuk-gu, Cheonan-si, Chungcheongnam-do (31103)",
-      "published": "2026-07-20",
-      "summary": "Lee YoungJun Clinic of Korean Medicine (이영준한의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364584_zh_tw"
     },
     {
       "id": "mdcl_3366484_en",
