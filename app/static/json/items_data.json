@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1316,
+  "total_count": 1312,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -5608,25 +5608,6 @@
       "link": "/item/mdcl_3547906_en"
     },
     {
-      "id": "mdcl_3547594_en",
-      "lang": "en",
-      "title": "Stenlee (스텐리)",
-      "lat": 37.5709981632,
-      "lng": 126.9779959406,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547594.jpg",
-      "address": "15th Floor, 1 Jongno (Kyobo Life Building), Jongno-gu, Seoul (03154)",
-      "published": "2026-07-20",
-      "summary": "Stenlee (스텐리) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547594_en"
-    },
-    {
       "id": "mdcl_3548684_zh_tw",
       "lang": "zh_tw",
       "title": "GANGNAM BRIGHT-SMILE EYE CLINIC (강남밝은미소안과)",
@@ -5891,25 +5872,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3453344_zh"
-    },
-    {
-      "id": "mdcl_3547594_zh",
-      "lang": "zh",
-      "title": "Stenlee(스텐리)",
-      "lat": 37.5709981632,
-      "lng": 126.9779959406,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547594.jpg",
-      "address": "首尔特别市钟路区钟路1（教保生命大厦）15楼 (03154)",
-      "published": "2026-07-20",
-      "summary": "Stenlee(스텐리)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547594_zh"
     },
     {
       "id": "mdcl_3547906_zh",
@@ -17350,25 +17312,6 @@
       "link": "/item/mdcl_3467148_en"
     },
     {
-      "id": "mdcl_3547594_ja",
-      "lang": "ja",
-      "title": "ステンリー（스텐리）",
-      "lat": 37.5709981632,
-      "lng": 126.9779959406,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547594.jpg",
-      "address": "ソウル特別市チョンノ区チョンノ1 教保生命ビル15階 (03154)",
-      "published": "2026-07-20",
-      "summary": "ステンリー（스텐리）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547594_ja"
-    },
-    {
       "id": "mdcl_3547906_ja",
       "lang": "ja",
       "title": "仁済大学海雲台白病院（인제대학교 해운대백병원）",
@@ -19628,25 +19571,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364920_en"
-    },
-    {
-      "id": "mdcl_3547594_zh_tw",
-      "lang": "zh_tw",
-      "title": "Stenlee (스텐리)",
-      "lat": 37.5709981632,
-      "lng": 126.9779959406,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547594.jpg",
-      "address": "15th Floor, 1 Jongno (Kyobo Life Building), Jongno-gu, Seoul (03154)",
-      "published": "2026-07-20",
-      "summary": "Stenlee (스텐리)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547594_zh_tw"
     },
     {
       "id": "mdcl_3364716_zh",
