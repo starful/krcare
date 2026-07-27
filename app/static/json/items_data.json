@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1184,
+  "total_count": 1180,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -2891,25 +2891,6 @@
       "link": "/item/mdcl_3365275_zh"
     },
     {
-      "id": "mdcl_3366146_zh",
-      "lang": "zh",
-      "title": "BOOMBIZ (붐비즈)",
-      "lat": 37.4003730269,
-      "lng": 127.1048919964,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366146.jpg",
-      "address": "京畿道城南市盆唐区大旺板桥路645号街8，9层65室，京畿创造经济革新中心",
-      "published": "2026-07-20",
-      "summary": "BOOMBIZ (붐비즈)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366146_zh"
-    },
-    {
       "id": "mdcl_3549447_zh_tw",
       "lang": "zh_tw",
       "title": "Healingeye Clinic (힐링안과의원)",
@@ -4219,25 +4200,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366054_zh_tw"
-    },
-    {
-      "id": "mdcl_3366146_en",
-      "lang": "en",
-      "title": "Boombiz (붐비즈)",
-      "lat": 37.4003730269,
-      "lng": 127.1048919964,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366146.jpg",
-      "address": "(#65, 9th Floor), 8 Daewangpangyo-ro 645beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (13487)",
-      "published": "2026-07-20",
-      "summary": "Boombiz (붐비즈) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366146_en"
     },
     {
       "id": "mdcl_3539538_zh_tw",
@@ -11061,25 +11023,6 @@
       "link": "/item/mdcl_3548871_zh"
     },
     {
-      "id": "mdcl_3366146_zh_tw",
-      "lang": "zh_tw",
-      "title": "Boombiz (붐비즈)",
-      "lat": 37.4003730269,
-      "lng": 127.1048919964,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366146.jpg",
-      "address": "(#65, 9th Floor), 8 Daewangpangyo-ro 645beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (13487)",
-      "published": "2026-07-20",
-      "summary": "Boombiz (붐비즈)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366146_zh_tw"
-    },
-    {
       "id": "mdcl_3364772_zh_tw",
       "lang": "zh_tw",
       "title": "Live Again (리브어게인)",
@@ -15011,25 +14954,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366684_en"
-    },
-    {
-      "id": "mdcl_3366146_ja",
-      "lang": "ja",
-      "title": "ブームビズ (붐비즈)",
-      "lat": 37.4003730269,
-      "lng": 127.1048919964,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366146.jpg",
-      "address": "京畿道成南市盆唐区テワンパンギョロ645ボンギル、8・9階65号",
-      "published": "2026-07-20",
-      "summary": "ブームビズ (붐비즈)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366146_ja"
     },
     {
       "id": "mdcl_3563108_en",
