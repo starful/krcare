@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1152,
+  "total_count": 1148,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -134,25 +134,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3563121_zh"
-    },
-    {
-      "id": "mdcl_3547648_en",
-      "lang": "en",
-      "title": "Exprive (주식회사 엑스프리베)",
-      "lat": 37.5414641477,
-      "lng": 127.0582478006,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547648.jpg",
-      "address": "#705, 38 Ttukseom-ro 13-gil (Seongsu-dong 2-ga, Sangsang Planet), Seongdong-gu, Seoul (04785)",
-      "published": "2026-07-20",
-      "summary": "Exprive (주식회사 엑스프리베) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547648_en"
     },
     {
       "id": "mdcl_3466939_en",
@@ -1065,25 +1046,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3563121_en"
-    },
-    {
-      "id": "mdcl_3547648_zh",
-      "lang": "zh",
-      "title": "Exprive Inc.(주식회사 엑스프리베)",
-      "lat": 37.5414641477,
-      "lng": 127.0582478006,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547648.jpg",
-      "address": "首尔特别市城东区纛岛路13街38（圣水洞2街，想象星球）705号 (04785)",
-      "published": "2026-07-20",
-      "summary": "Exprive Inc.(주식회사 엑스프리베)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547648_zh"
     },
     {
       "id": "mdcl_3366506_ja",
@@ -7109,25 +7071,6 @@
       "link": "/item/mdcl_3467038_zh"
     },
     {
-      "id": "mdcl_3547648_zh_tw",
-      "lang": "zh_tw",
-      "title": "Exprive (주식회사 엑스프리베)",
-      "lat": 37.5414641477,
-      "lng": 127.0582478006,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547648.jpg",
-      "address": "#705, 38 Ttukseom-ro 13-gil (Seongsu-dong 2-ga, Sangsang Planet), Seongdong-gu, Seoul (04785)",
-      "published": "2026-07-20",
-      "summary": "Exprive (주식회사 엑스프리베)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547648_zh_tw"
-    },
-    {
       "id": "mdcl_3539759_zh_tw",
       "lang": "zh_tw",
       "title": "ID Clinic Hongdae (홍대 아이디의원)",
@@ -11382,25 +11325,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3367085_zh_tw"
-    },
-    {
-      "id": "mdcl_3547648_ja",
-      "lang": "ja",
-      "title": "Exprive（주식회사 엑스프리베）",
-      "lat": 37.5414641477,
-      "lng": 127.0582478006,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3547648.jpg",
-      "address": "ソウル特別市ソンドン区トゥクソムロ13ギル38 サンサンプラネット705号 (04785)",
-      "published": "2026-07-20",
-      "summary": "Exprive（주식회사 엑스프리베）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3547648_ja"
     },
     {
       "id": "mdcl_3366506_zh",
