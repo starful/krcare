@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1212,
+  "total_count": 1208,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -10719,25 +10719,6 @@
       "link": "/item/mdcl_3548388_zh_tw"
     },
     {
-      "id": "mdcl_3364592_ja",
-      "lang": "ja",
-      "title": "ドクファインダーコリア (닥파인더코리아)",
-      "lat": 37.5006906522,
-      "lng": 127.0330706923,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364592.jpg",
-      "address": "ソウル特別市江南区カンナムデロ94ギル72、3階301号",
-      "published": "2026-07-20",
-      "summary": "ドクファインダーコリア (닥파인더코리아)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364592_ja"
-    },
-    {
       "id": "mdcl_3547906_zh_tw",
       "lang": "zh_tw",
       "title": "Inje University Haeundae Paik Hospital (인제대학교 해운대백병원)",
@@ -21074,25 +21055,6 @@
       "link": "/item/mdcl_3477589_ja"
     },
     {
-      "id": "mdcl_3364592_zh_tw",
-      "lang": "zh_tw",
-      "title": "Docfinderkorea (닥파인더코리아)",
-      "lat": 37.5006906522,
-      "lng": 127.0330706923,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364592.jpg",
-      "address": "(#301, 3rd Floor), 72 Gangnam-daero 94-gil, Gangnam-gu, Seoul (06133)",
-      "published": "2026-07-20",
-      "summary": "Docfinderkorea (닥파인더코리아)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364592_zh_tw"
-    },
-    {
       "id": "mdcl_3562474_ja",
       "lang": "ja",
       "title": "YOU&I美容クリニック明洞店（유앤아이의원 명동점）",
@@ -21851,25 +21813,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364945_en"
-    },
-    {
-      "id": "mdcl_3364592_en",
-      "lang": "en",
-      "title": "Docfinderkorea (닥파인더코리아)",
-      "lat": 37.5006906522,
-      "lng": 127.0330706923,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364592.jpg",
-      "address": "(#301, 3rd Floor), 72 Gangnam-daero 94-gil, Gangnam-gu, Seoul (06133)",
-      "published": "2026-07-20",
-      "summary": "Docfinderkorea (닥파인더코리아) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364592_en"
     },
     {
       "id": "mdcl_3364681_ja",
@@ -22744,25 +22687,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3451721_ja"
-    },
-    {
-      "id": "mdcl_3364592_zh",
-      "lang": "zh",
-      "title": "Docfinderkorea (닥파인더코리아)",
-      "lat": 37.5006906522,
-      "lng": 127.0330706923,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364592.jpg",
-      "address": "首尔特别市江南区江南大路94街72，3层301室",
-      "published": "2026-07-20",
-      "summary": "Docfinderkorea (닥파인더코리아)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364592_zh"
     },
     {
       "id": "mdcl_3364945_zh",
