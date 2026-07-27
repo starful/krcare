@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1320,
+  "total_count": 1316,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -1255,25 +1255,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3563121_en"
-    },
-    {
-      "id": "mdcl_3539958_ja",
-      "lang": "ja",
-      "title": "株式会社ウィナード（주식회사 위너드）",
-      "lat": 37.5590677414,
-      "lng": 126.9080443215,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539958.jpg",
-      "address": "ソウル特別市マポ区ソンミサンロ1ギル21 サウルビル201号 (03971)",
-      "published": "2026-07-20",
-      "summary": "株式会社ウィナード（주식회사 위너드）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539958_ja"
     },
     {
       "id": "mdcl_3547648_zh",
@@ -13113,25 +13094,6 @@
       "link": "/item/mdcl_3367085_zh_tw"
     },
     {
-      "id": "mdcl_3539958_zh",
-      "lang": "zh",
-      "title": "株式会社Wenerd(주식회사 위너드)",
-      "lat": 37.5590677414,
-      "lng": 126.9080443215,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539958.jpg",
-      "address": "首尔特别市麻浦区城美山路1街21首尔大厦201号 (03971)",
-      "published": "2026-07-20",
-      "summary": "株式会社Wenerd(주식회사 위너드)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539958_zh"
-    },
-    {
       "id": "mdcl_3547648_ja",
       "lang": "ja",
       "title": "Exprive（주식회사 엑스프리베）",
@@ -13681,25 +13643,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3365278_zh"
-    },
-    {
-      "id": "mdcl_3539958_en",
-      "lang": "en",
-      "title": "WENERD Corp. (주식회사 위너드)",
-      "lat": 37.5590677414,
-      "lng": 126.9080443215,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539958.jpg",
-      "address": "#201, Saul Building, 21 Seongmisan-ro 1-gil, Mapo-gu, Seoul (03971)",
-      "published": "2026-07-20",
-      "summary": "WENERD Corp. (주식회사 위너드) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539958_en"
     },
     {
       "id": "mdcl_3563121_ja",
@@ -17709,25 +17652,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3453934_en"
-    },
-    {
-      "id": "mdcl_3539958_zh_tw",
-      "lang": "zh_tw",
-      "title": "WENERD Corp. (주식회사 위너드)",
-      "lat": 37.5590677414,
-      "lng": 126.9080443215,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539958.jpg",
-      "address": "#201, Saul Building, 21 Seongmisan-ro 1-gil, Mapo-gu, Seoul (03971)",
-      "published": "2026-07-20",
-      "summary": "WENERD Corp. (주식회사 위너드)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539958_zh_tw"
     },
     {
       "id": "mdcl_3364770_zh",
