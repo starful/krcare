@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1264,
+  "total_count": 1260,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -4468,25 +4468,6 @@
       "link": "/item/mdcl_3539538_zh_tw"
     },
     {
-      "id": "mdcl_3441528_zh_tw",
-      "lang": "zh_tw",
-      "title": "MJ FLB ((주)엠제이에프엘비)",
-      "lat": 37.568581843,
-      "lng": 126.9816428989,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441528.jpg",
-      "address": "#809, 8F, 40 Cheonggyecheon-ro, Jung-gu, Seoul (04521)",
-      "published": "2026-07-20",
-      "summary": "MJ FLB ((주)엠제이에프엘비)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441528_zh_tw"
-    },
-    {
       "id": "mdcl_3539891_en",
       "lang": "en",
       "title": "The First Skin Clinic (더퍼스트피부과의원 부산본점)",
@@ -7449,25 +7430,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366167_en"
-    },
-    {
-      "id": "mdcl_3441528_ja",
-      "lang": "ja",
-      "title": "㈱MJ FLB ((주)엠제이에프엘비)",
-      "lat": 37.568581843,
-      "lng": 126.9816428989,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441528.jpg",
-      "address": "ソウル特別市チュン区チョンゲチョンロ40、8階809号 (04521)",
-      "published": "2026-07-20",
-      "summary": "㈱MJ FLB ((주)엠제이에프엘비)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441528_ja"
     },
     {
       "id": "mdcl_3574535_zh",
@@ -18680,25 +18642,6 @@
       "link": "/item/mdcl_3365977_ja"
     },
     {
-      "id": "mdcl_3441528_zh",
-      "lang": "zh",
-      "title": "MJ FLB ((주)엠제이에프엘비)",
-      "lat": 37.568581843,
-      "lng": 126.9816428989,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441528.jpg",
-      "address": "首尔特别市中区清溪川路40，8层809号 (04521)",
-      "published": "2026-07-20",
-      "summary": "MJ FLB ((주)엠제이에프엘비)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441528_zh"
-    },
-    {
       "id": "mdcl_3574535_ja",
       "lang": "ja",
       "title": "ザ・リバー皮膚科医院（더리버피부과의원）",
@@ -19001,25 +18944,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366167_ja"
-    },
-    {
-      "id": "mdcl_3441528_en",
-      "lang": "en",
-      "title": "MJ FLB ((주)엠제이에프엘비)",
-      "lat": 37.568581843,
-      "lng": 126.9816428989,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441528.jpg",
-      "address": "#809, 8F, 40 Cheonggyecheon-ro, Jung-gu, Seoul (04521)",
-      "published": "2026-07-20",
-      "summary": "MJ FLB ((주)엠제이에프엘비) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441528_en"
     },
     {
       "id": "mdcl_3366188_en",
