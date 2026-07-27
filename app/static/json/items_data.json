@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1280,
+  "total_count": 1276,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -2775,25 +2775,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3367054_ja"
-    },
-    {
-      "id": "mdcl_3539449_ja",
-      "lang": "ja",
-      "title": "ヘウグァン海外貿易（해우광해외무역）",
-      "lat": 37.5135056947,
-      "lng": 127.0254460242,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539449.jpg",
-      "address": "ソウル特別市カンナム区カンナムデロ132ギル55 MVタワー510号 (06045)",
-      "published": "2026-07-20",
-      "summary": "ヘウグァン海外貿易（해우광해외무역）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539449_ja"
     },
     {
       "id": "mdcl_3366140_zh_tw",
@@ -14044,25 +14025,6 @@
       "link": "/item/mdcl_3367054_zh"
     },
     {
-      "id": "mdcl_3539449_zh",
-      "lang": "zh",
-      "title": "海宇光海外贸易(해우광해외무역)",
-      "lat": 37.5135056947,
-      "lng": 127.0254460242,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539449.jpg",
-      "address": "首尔特别市江南区江南大路132街55 MV Tower510号 (06045)",
-      "published": "2026-07-20",
-      "summary": "海宇光海外贸易(해우광해외무역)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539449_zh"
-    },
-    {
       "id": "mdcl_3366062_ja",
       "lang": "ja",
       "title": "蓮山堂堂韓方病院 (연산당당한방병원)",
@@ -14365,25 +14327,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3367054_en"
-    },
-    {
-      "id": "mdcl_3539449_en",
-      "lang": "en",
-      "title": "SHINE BEAUTY MEDICAL (해우광해외무역)",
-      "lat": 37.5135056947,
-      "lng": 127.0254460242,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539449.jpg",
-      "address": "#510, MV Tower, 55 Gangnam-daero 132-gil, Gangnam-gu, Seoul (06045)",
-      "published": "2026-07-20",
-      "summary": "SHINE BEAUTY MEDICAL (해우광해외무역) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539449_en"
     },
     {
       "id": "mdcl_3548986_en",
@@ -22174,25 +22117,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3548857_ja"
-    },
-    {
-      "id": "mdcl_3539449_zh_tw",
-      "lang": "zh_tw",
-      "title": "SHINE BEAUTY MEDICAL (해우광해외무역)",
-      "lat": 37.5135056947,
-      "lng": 127.0254460242,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539449.jpg",
-      "address": "#510, MV Tower, 55 Gangnam-daero 132-gil, Gangnam-gu, Seoul (06045)",
-      "published": "2026-07-20",
-      "summary": "SHINE BEAUTY MEDICAL (해우광해외무역)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539449_zh_tw"
     },
     {
       "id": "mdcl_3451721_zh_tw",
