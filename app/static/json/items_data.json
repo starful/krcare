@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-20",
-  "total_count": 1324,
+  "last_updated": "2026.07.27",
+  "total_count": 1320,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -6653,25 +6653,6 @@
       "link": "/item/mdcl_3367207_en"
     },
     {
-      "id": "mdcl_3575655_zh",
-      "lang": "zh",
-      "title": "株式会社Frientrip(주식회사 프렌트립)",
-      "lat": 37.5479742491,
-      "lng": 127.0441516773,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3575655.jpg",
-      "address": "首尔特别市城东区往十里路115 Heyground G704 (04768)",
-      "published": "2026-07-20",
-      "summary": "株式会社Frientrip(주식회사 프렌트립)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3575655_zh"
-    },
-    {
       "id": "mdcl_3366242_en",
       "lang": "en",
       "title": "Gangnam JS Hospital (강남제이에스병원)",
@@ -7658,25 +7639,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366188_ja"
-    },
-    {
-      "id": "mdcl_3575655_en",
-      "lang": "en",
-      "title": "Frientrip Co., Ltd. (주식회사 프렌트립)",
-      "lat": 37.5479742491,
-      "lng": 127.0441516773,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3575655.jpg",
-      "address": "#G704, HEYGROUND, 115 Wangsimni-ro, Seongdong-gu, Seoul (04768)",
-      "published": "2026-07-20",
-      "summary": "Frientrip Co., Ltd. (주식회사 프렌트립) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3575655_en"
     },
     {
       "id": "mdcl_3364596_ja",
@@ -11363,25 +11325,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3563030_ja"
-    },
-    {
-      "id": "mdcl_3575655_zh_tw",
-      "lang": "zh_tw",
-      "title": "Frientrip Co., Ltd. (주식회사 프렌트립)",
-      "lat": 37.5479742491,
-      "lng": 127.0441516773,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3575655.jpg",
-      "address": "#G704, HEYGROUND, 115 Wangsimni-ro, Seongdong-gu, Seoul (04768)",
-      "published": "2026-07-20",
-      "summary": "Frientrip Co., Ltd. (주식회사 프렌트립)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3575655_zh_tw"
     },
     {
       "id": "mdcl_3364369_zh",
@@ -19913,25 +19856,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364596_en"
-    },
-    {
-      "id": "mdcl_3575655_ja",
-      "lang": "ja",
-      "title": "フレントリップ（주식회사 프렌트립）",
-      "lat": 37.5479742491,
-      "lng": 127.0441516773,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3575655.jpg",
-      "address": "ソウル特別市ソンドン区ワンシムニロ115 ヘイグラウンドG704 (04768)",
-      "published": "2026-07-20",
-      "summary": "フレントリップ（주식회사 프렌트립）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3575655_ja"
     },
     {
       "id": "mdcl_3366167_ja",

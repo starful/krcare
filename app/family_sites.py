@@ -241,6 +241,8 @@ def site_home_url(site_id: str, lang: str) -> str:
         return f"{base}/?lang=kr"
     if site_id == "krcampus" and lang == "ja":
         return f"{base}/?lang=ja"
+    if site_id == "krcare" and lang in ("ja", "zh", "zh_tw", "ko"):
+        return f"{base}/?lang={lang}"
     if lang == "ko" and site_id in OK_SERIES_IDS:
         return f"{base}/?lang=ko"
     return f"{base}/"
@@ -374,25 +376,39 @@ def cross_links_for(
             if len(links) >= 2:
                 break
 
-    # Campus cluster: partner site only on detail pages.
+    # Campus / KR cluster: partner sites on detail pages.
     if current_id == "jpcampus":
         partner = _SITES_BY_ID["krcampus"]
-        partner_link = {
-            "id": "krcampus",
-            "url": site_home_url("krcampus", lang),
-            "emoji": partner["emoji"],
-            "label": site_description(partner, lang),
-        }
-        links = [partner_link]
+        links = [
+            {
+                "id": "krcampus",
+                "url": site_home_url("krcampus", lang),
+                "emoji": partner["emoji"],
+                "label": site_description(partner, lang),
+            }
+        ]
     elif current_id == "krcampus":
-        partner = _SITES_BY_ID["jpcampus"]
-        partner_link = {
-            "id": "jpcampus",
-            "url": site_home_url("jpcampus", lang),
-            "emoji": partner["emoji"],
-            "label": site_description(partner, lang),
-        }
-        links = [partner_link]
+        links = []
+        for pid in ("jpcampus", "krcare"):
+            partner = _SITES_BY_ID[pid]
+            links.append(
+                {
+                    "id": pid,
+                    "url": site_home_url(pid, lang),
+                    "emoji": partner["emoji"],
+                    "label": site_description(partner, lang),
+                }
+            )
+    elif current_id == "krcare":
+        partner = _SITES_BY_ID["krcampus"]
+        links = [
+            {
+                "id": "krcampus",
+                "url": site_home_url("krcampus", lang),
+                "emoji": partner["emoji"],
+                "label": site_description(partner, lang),
+            }
+        ]
 
     deduped: list[dict[str, str]] = []
     seen: set[str] = set()

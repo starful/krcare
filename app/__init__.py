@@ -58,6 +58,18 @@ def _inject_lang_switch():
     return {'lang_switch_url': lang_switch_url}
 
 
+@app.context_processor
+def _inject_family_sites():
+    try:
+        from .family_sites import inject_family_context
+    except ImportError:
+        from family_sites import inject_family_context
+    lang = request.args.get('lang', 'en')
+    if lang not in SUPPORTED_LANGS:
+        lang = 'en'
+    return inject_family_context('krcare', lang)
+
+
 # ==========================================
 # Paths
 # ==========================================

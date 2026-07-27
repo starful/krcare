@@ -994,3 +994,57 @@ footer {
 @media (max-width: 480px) {
     .logo-img { height: 44px; max-width: 70vw; }
 }
+
+/* Family sites strip (KR Campus ↔ KR Care) */
+.family-sites-strip {
+    background: #0F2A32;
+    padding: 36px 16px 40px;
+    margin: 28px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.family-sites-inner { max-width: 960px; margin: 0 auto; }
+.family-sites-title {
+    font-size: 0.72rem;
+    color: #94a3b8;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.family-sites-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.family-site-card {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #1e4a54;
+    border-radius: 12px;
+    background-color: #163840;
+    padding: 14px 22px;
+    min-width: 200px;
+    max-width: 280px;
+    flex: 1 1 200px;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    color: inherit;
+    text-align: left;
+}
+.family-site-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+}
+.family-site-card-emoji { font-size: 1.35rem; margin-right: 12px; line-height: 1; flex-shrink: 0; }
+.family-site-card-text { min-width: 0; text-align: left; }
+.family-site-card-name { font-size: 0.95rem; font-weight: 800; color: #fff; letter-spacing: -0.02em; }
+.family-site-card-desc { font-size: 0.72rem; color: #94a3b8; margin-top: 2px; line-height: 1.35; }
+@media (max-width: 768px) {
+    .family-sites-strip { padding: 28px 12px 32px; }
+    .family-site-card { flex: 1 1 100%; max-width: none; justify-content: center; }
+}
