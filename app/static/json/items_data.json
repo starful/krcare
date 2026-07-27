@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1248,
+  "total_count": 1244,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -1276,25 +1276,6 @@
       "link": "/item/mdcl_3364662_en"
     },
     {
-      "id": "mdcl_3367607_ja",
-      "lang": "ja",
-      "title": "株式会社レッドテーブル (주식회사 레드테이블)",
-      "lat": 37.5675404193,
-      "lng": 126.9884367538,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367607.jpg",
-      "address": "ソウル特別市中区チョンゲチョンロ100シグネチャータワー西館10階 (04542)",
-      "published": "2026-07-20",
-      "summary": "株式会社レッドテーブル (주식회사 레드테이블)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367607_ja"
-    },
-    {
       "id": "mdcl_3450820_zh_tw",
       "lang": "zh_tw",
       "title": "Korea Medical Institute Gwangju Branch ((재)한국의학연구소 광주분사무소)",
@@ -2376,25 +2357,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366266_zh_tw"
-    },
-    {
-      "id": "mdcl_3367607_zh_tw",
-      "lang": "zh_tw",
-      "title": "Redtable Inc (주식회사 레드테이블)",
-      "lat": 37.5675404193,
-      "lng": 126.9884367538,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367607.jpg",
-      "address": "10F, SIGNATURE TOWER(WEST),100,Cheonggyecheon-ro, Jung-gu, Seoul (04542)",
-      "published": "2026-07-20",
-      "summary": "Redtable Inc (주식회사 레드테이블)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367607_zh_tw"
     },
     {
       "id": "mdcl_3547521_ja",
@@ -12258,25 +12220,6 @@
       "link": "/item/mdcl_3367379_zh_tw"
     },
     {
-      "id": "mdcl_3367607_zh",
-      "lang": "zh",
-      "title": "Redtable股份有限公司 (주식회사 레드테이블)",
-      "lat": 37.5675404193,
-      "lng": 126.9884367538,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367607.jpg",
-      "address": "首尔特别市中区清溪川路100，SIGNATURE TOWER 西楼10层 (04542)",
-      "published": "2026-07-20",
-      "summary": "Redtable股份有限公司 (주식회사 레드테이블)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367607_zh"
-    },
-    {
       "id": "mdcl_3451537_zh_tw",
       "lang": "zh_tw",
       "title": "Marble Plastic Surgery (마블성형외과의원)",
@@ -12750,25 +12693,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364627_ja"
-    },
-    {
-      "id": "mdcl_3367607_en",
-      "lang": "en",
-      "title": "Redtable Inc (주식회사 레드테이블)",
-      "lat": 37.5675404193,
-      "lng": 126.9884367538,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367607.jpg",
-      "address": "10F, SIGNATURE TOWER(WEST),100,Cheonggyecheon-ro, Jung-gu, Seoul (04542)",
-      "published": "2026-07-20",
-      "summary": "Redtable Inc (주식회사 레드테이블) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367607_en"
     },
     {
       "id": "mdcl_3364662_ja",
