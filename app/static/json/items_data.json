@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1284,
+  "total_count": 1280,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -10757,25 +10757,6 @@
       "link": "/item/mdcl_3366399_zh"
     },
     {
-      "id": "mdcl_3539864_ja",
-      "lang": "ja",
-      "title": "KMO（케이엠오）",
-      "lat": 35.8359757647,
-      "lng": 127.1509387343,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539864.jpg",
-      "address": "チョンブク特別自治道チョンジュ市トクチン区アンドグォンロ218、202号 (55008)",
-      "published": "2026-07-20",
-      "summary": "KMO（케이엠오）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539864_ja"
-    },
-    {
       "id": "mdcl_3562474_zh_tw",
       "lang": "zh_tw",
       "title": "YOU&I Clinic Myeongdong (유앤아이의원 명동점)",
@@ -16075,25 +16056,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3562759_zh"
-    },
-    {
-      "id": "mdcl_3539864_zh_tw",
-      "lang": "zh_tw",
-      "title": "KMO (케이엠오)",
-      "lat": 35.8359757647,
-      "lng": 127.1509387343,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539864.jpg",
-      "address": "#202, 218 Andeokwon-ro, Deokjin-gu, Jeonju-si, Jeonbuk-do (55008)",
-      "published": "2026-07-20",
-      "summary": "KMO (케이엠오)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539864_zh_tw"
     },
     {
       "id": "mdcl_3539891_ja",
@@ -21967,25 +21929,6 @@
       "link": "/item/mdcl_3364619_zh_tw"
     },
     {
-      "id": "mdcl_3539864_zh",
-      "lang": "zh",
-      "title": "KMO(케이엠오)",
-      "lat": 35.8359757647,
-      "lng": 127.1509387343,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539864.jpg",
-      "address": "全北特别自治道全州市德津区安德院路218 202号 (55008)",
-      "published": "2026-07-20",
-      "summary": "KMO(케이엠오)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539864_zh"
-    },
-    {
       "id": "mdcl_3366449_ja",
       "lang": "ja",
       "title": "エスエヌユー眼科医院 (에스앤유안과의원)",
@@ -22269,25 +22212,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3451721_zh_tw"
-    },
-    {
-      "id": "mdcl_3539864_en",
-      "lang": "en",
-      "title": "KMO (케이엠오)",
-      "lat": 35.8359757647,
-      "lng": 127.1509387343,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539864.jpg",
-      "address": "#202, 218 Andeokwon-ro, Deokjin-gu, Jeonju-si, Jeonbuk-do (55008)",
-      "published": "2026-07-20",
-      "summary": "KMO (케이엠오) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539864_en"
     },
     {
       "id": "mdcl_3477589_ja",
