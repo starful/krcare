@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1204,
+  "total_count": 1200,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -6634,25 +6634,6 @@
       "link": "/item/mdcl_3562945_zh"
     },
     {
-      "id": "mdcl_3364645_zh",
-      "lang": "zh",
-      "title": "（株）WOWVOS ((주)와우보스)",
-      "lat": 37.5024106311,
-      "lng": 126.7629813619,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364645.jpg",
-      "address": "京畿道富川市素乡路135，Buil大厦4层",
-      "published": "2026-07-20",
-      "summary": "（株）WOWVOS ((주)와우보스)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364645_zh"
-    },
-    {
       "id": "mdcl_3540163_zh",
       "lang": "zh",
       "title": "江南365牙科医院(강남365치과의원)",
@@ -6841,25 +6822,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3365939_ja"
-    },
-    {
-      "id": "mdcl_3364645_en",
-      "lang": "en",
-      "title": "Wowvos ((주)와우보스)",
-      "lat": 37.5024106311,
-      "lng": 126.7629813619,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364645.jpg",
-      "address": "(4th Floor, Buil Building), 135 Sohyang-ro, Bucheon-si, Gyeonggi-do (14547)",
-      "published": "2026-07-20",
-      "summary": "Wowvos ((주)와우보스) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364645_en"
     },
     {
       "id": "mdcl_3549360_ja",
@@ -10736,25 +10698,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3466682_ja"
-    },
-    {
-      "id": "mdcl_3364645_zh_tw",
-      "lang": "zh_tw",
-      "title": "Wowvos ((주)와우보스)",
-      "lat": 37.5024106311,
-      "lng": 126.7629813619,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364645.jpg",
-      "address": "(4th Floor, Buil Building), 135 Sohyang-ro, Bucheon-si, Gyeonggi-do (14547)",
-      "published": "2026-07-20",
-      "summary": "Wowvos ((주)와우보스)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364645_zh_tw"
     },
     {
       "id": "mdcl_3364681_en",
@@ -18374,25 +18317,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364770_zh_tw"
-    },
-    {
-      "id": "mdcl_3364645_ja",
-      "lang": "ja",
-      "title": "Wowvos ((주)와우보스)",
-      "lat": 37.5024106311,
-      "lng": 126.7629813619,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364645.jpg",
-      "address": "京畿道富川市ソヒャンロ135 プイルビル4階",
-      "published": "2026-07-20",
-      "summary": "Wowvos ((주)와우보스)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364645_ja"
     },
     {
       "id": "mdcl_3549360_en",
