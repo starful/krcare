@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1276,
+  "total_count": 1272,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -8439,25 +8439,6 @@
       "link": "/item/mdcl_3452285_zh"
     },
     {
-      "id": "mdcl_3441496_ja",
-      "lang": "ja",
-      "title": "アイムドクター(I'mdr.)有限責任会社  (아임닥터 유한책임회사)",
-      "lat": 37.5583964706,
-      "lng": 126.9568315593,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441496.jpg",
-      "address": "ソウル特別市ソデムン区プガヒョンロ2ギル6-3、3階 (03757)",
-      "published": "2026-07-20",
-      "summary": "アイムドクター(I'mdr.)有限責任会社  (아임닥터 유한책임회사)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441496_ja"
-    },
-    {
       "id": "mdcl_3364333_zh",
       "lang": "zh",
       "title": "G-SAM医院 (지샘병원)",
@@ -11363,25 +11344,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364681_en"
-    },
-    {
-      "id": "mdcl_3441496_zh_tw",
-      "lang": "zh_tw",
-      "title": "I'mdr. LLC. (아임닥터 유한책임회사)",
-      "lat": 37.5583964706,
-      "lng": 126.9568315593,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441496.jpg",
-      "address": "3F, 6-3 Bugahyeon-ro 2-gil, Seodaemun-gu, Seoul (03757)",
-      "published": "2026-07-20",
-      "summary": "I'mdr. LLC. (아임닥터 유한책임회사)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441496_zh_tw"
     },
     {
       "id": "mdcl_3548775_ja",
@@ -20124,25 +20086,6 @@
       "link": "/item/mdcl_3539825_en"
     },
     {
-      "id": "mdcl_3441496_zh",
-      "lang": "zh",
-      "title": "我是医生（I'mdr.）有限责任公司 (아임닥터 유한책임회사)",
-      "lat": 37.5583964706,
-      "lng": 126.9568315593,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441496.jpg",
-      "address": "首尔特别市西大门区北阿岘路2街6-3，3层 (03757)",
-      "published": "2026-07-20",
-      "summary": "我是医生（I'mdr.）有限责任公司 (아임닥터 유한책임회사)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441496_zh"
-    },
-    {
       "id": "mdcl_3365748_en",
       "lang": "en",
       "title": "Ppeum Global Clinic (쁨글로벌의원)",
@@ -21357,25 +21300,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364748_zh"
-    },
-    {
-      "id": "mdcl_3441496_en",
-      "lang": "en",
-      "title": "I'mdr. LLC. (아임닥터 유한책임회사)",
-      "lat": 37.5583964706,
-      "lng": 126.9568315593,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441496.jpg",
-      "address": "3F, 6-3 Bugahyeon-ro 2-gil, Seodaemun-gu, Seoul (03757)",
-      "published": "2026-07-20",
-      "summary": "I'mdr. LLC. (아임닥터 유한책임회사) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441496_en"
     },
     {
       "id": "mdcl_3365748_zh",
