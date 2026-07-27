@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1224,
+  "total_count": 1220,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -7964,25 +7964,6 @@
       "link": "/item/mdcl_3539759_en"
     },
     {
-      "id": "mdcl_3441540_en",
-      "lang": "en",
-      "title": "Human Care Service ((주)휴먼케어서비스)",
-      "lat": 35.1761940203,
-      "lng": 129.1258743142,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441540.jpg",
-      "address": "#1012, 10F, 1-dong, 99 Centum dong-ro, Haeundae-gu, Busan (48059)",
-      "published": "2026-07-20",
-      "summary": "Human Care Service ((주)휴먼케어서비스) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441540_en"
-    },
-    {
       "id": "mdcl_3364647_en",
       "lang": "en",
       "title": "Riz Laser Center (리즈산부인과)",
@@ -8437,25 +8418,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366193_ja"
-    },
-    {
-      "id": "mdcl_3441540_zh",
-      "lang": "zh",
-      "title": "HUMAN CARE SEVICE ((주)휴먼케어서비스)",
-      "lat": 35.1761940203,
-      "lng": 129.1258743142,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441540.jpg",
-      "address": "釜山广域市海云台区Centum东路99，1栋10层1012号 (48059)",
-      "published": "2026-07-20",
-      "summary": "HUMAN CARE SEVICE ((주)휴먼케어서비스)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441540_zh"
     },
     {
       "id": "mdcl_3366181_en",
@@ -14405,25 +14367,6 @@
       "link": "/item/mdcl_3548866_zh_tw"
     },
     {
-      "id": "mdcl_3441540_zh_tw",
-      "lang": "zh_tw",
-      "title": "Human Care Service ((주)휴먼케어서비스)",
-      "lat": 35.1761940203,
-      "lng": 129.1258743142,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441540.jpg",
-      "address": "#1012, 10F, 1-dong, 99 Centum dong-ro, Haeundae-gu, Busan (48059)",
-      "published": "2026-07-20",
-      "summary": "Human Care Service ((주)휴먼케어서비스)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441540_zh_tw"
-    },
-    {
       "id": "mdcl_3364793_zh_tw",
       "lang": "zh_tw",
       "title": "Premiumpass International ((주)프리미엄패스 인터내셔널)",
@@ -19058,25 +19001,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366193_zh"
-    },
-    {
-      "id": "mdcl_3441540_ja",
-      "lang": "ja",
-      "title": "㈱ヒューマンケアサービス ((주)휴먼케어서비스)",
-      "lat": 35.1761940203,
-      "lng": 129.1258743142,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441540.jpg",
-      "address": "プサン広域市ヘウンデ区センタムドンロ99、1棟10階1012号 (48059)",
-      "published": "2026-07-20",
-      "summary": "㈱ヒューマンケアサービス ((주)휴먼케어서비스)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441540_ja"
     },
     {
       "id": "mdcl_3367418_zh_tw",
