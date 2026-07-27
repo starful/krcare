@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1192,
+  "total_count": 1188,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -362,25 +362,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539776_zh_tw"
-    },
-    {
-      "id": "mdcl_3364782_zh",
-      "lang": "zh",
-      "title": "株式会社MEDI WIN  (주식회사 메디윈)",
-      "lat": 37.4908139796,
-      "lng": 127.0307239634,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364782.jpg",
-      "address": "首尔特别市瑞草区江南大路309，Korea Business Center，1111室",
-      "published": "2026-07-20",
-      "summary": "株式会社MEDI WIN  (주식회사 메디윈)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364782_zh"
     },
     {
       "id": "mdcl_3364076_en",
@@ -1464,25 +1445,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364835_zh"
-    },
-    {
-      "id": "mdcl_3364782_en",
-      "lang": "en",
-      "title": "Mediwin Co., Ltd. (주식회사 메디윈)",
-      "lat": 37.4908139796,
-      "lng": 127.0307239634,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364782.jpg",
-      "address": "(#1111, Korea Business Center), 309 Gangnam-daero, Seocho-gu, Seoul (06628)",
-      "published": "2026-07-20",
-      "summary": "Mediwin Co., Ltd. (주식회사 메디윈) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364782_en"
     },
     {
       "id": "mdcl_3365690_zh_tw",
@@ -11916,25 +11878,6 @@
       "link": "/item/mdcl_3365278_en"
     },
     {
-      "id": "mdcl_3364782_ja",
-      "lang": "ja",
-      "title": "株式会社メディウィン (주식회사 메디윈)",
-      "lat": 37.4908139796,
-      "lng": 127.0307239634,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364782.jpg",
-      "address": "ソウル特別市瑞草区カンナムデロ309 コリアビジネスセンター1111号",
-      "published": "2026-07-20",
-      "summary": "株式会社メディウィン (주식회사 메디윈)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364782_ja"
-    },
-    {
       "id": "mdcl_3591234_zh",
       "lang": "zh",
       "title": "瑳旼整形外科医院（차민성형외과의원）",
@@ -20578,25 +20521,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366684_zh_tw"
-    },
-    {
-      "id": "mdcl_3364782_zh_tw",
-      "lang": "zh_tw",
-      "title": "Mediwin Co., Ltd. (주식회사 메디윈)",
-      "lat": 37.4908139796,
-      "lng": 127.0307239634,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364782.jpg",
-      "address": "(#1111, Korea Business Center), 309 Gangnam-daero, Seocho-gu, Seoul (06628)",
-      "published": "2026-07-20",
-      "summary": "Mediwin Co., Ltd. (주식회사 메디윈)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364782_zh_tw"
     },
     {
       "id": "mdcl_3366399_ja",
