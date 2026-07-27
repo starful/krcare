@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1176,
+  "total_count": 1172,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -6007,25 +6007,6 @@
       "link": "/item/mdcl_3574535_en"
     },
     {
-      "id": "mdcl_3366167_zh",
-      "lang": "zh",
-      "title": "安心国际株式会社 (안심국제 주식회사)",
-      "lat": 37.519654969,
-      "lng": 127.0248264612,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366167.jpg",
-      "address": "首尔特别市江南区论岘路151街41，3532室",
-      "published": "2026-07-20",
-      "summary": "安心国际株式会社 (안심국제 주식회사)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366167_zh"
-    },
-    {
       "id": "mdcl_3364619_en",
       "lang": "en",
       "title": "Aimeigroup (아이메이그룹)",
@@ -6993,25 +6974,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3562921_zh_tw"
-    },
-    {
-      "id": "mdcl_3366167_en",
-      "lang": "en",
-      "title": "Anxin International Medical Co,.Ltd (안심국제 주식회사)",
-      "lat": 37.519654969,
-      "lng": 127.0248264612,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366167.jpg",
-      "address": "(#3532), 41 Nonhyeon-ro 151-gil, Gangnam-gu, Seoul (06037)",
-      "published": "2026-07-20",
-      "summary": "Anxin International Medical Co,.Ltd (안심국제 주식회사) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366167_en"
     },
     {
       "id": "mdcl_3574535_zh",
@@ -17806,25 +17768,6 @@
       "link": "/item/mdcl_3364596_en"
     },
     {
-      "id": "mdcl_3366167_ja",
-      "lang": "ja",
-      "title": "安心国際株式会社 (안심국제 주식회사)",
-      "lat": 37.519654969,
-      "lng": 127.0248264612,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366167.jpg",
-      "address": "ソウル特別市江南区ノンヒョンロ151ギル41、3532号",
-      "published": "2026-07-20",
-      "summary": "安心国際株式会社 (안심국제 주식회사)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366167_ja"
-    },
-    {
       "id": "mdcl_3366188_en",
       "lang": "en",
       "title": "COANMI PLASTIC SURGERY (코앤미성형외과의원)",
@@ -21642,25 +21585,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3562464_en"
-    },
-    {
-      "id": "mdcl_3366167_zh_tw",
-      "lang": "zh_tw",
-      "title": "Anxin International Medical Co,.Ltd (안심국제 주식회사)",
-      "lat": 37.519654969,
-      "lng": 127.0248264612,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366167.jpg",
-      "address": "(#3532), 41 Nonhyeon-ro 151-gil, Gangnam-gu, Seoul (06037)",
-      "published": "2026-07-20",
-      "summary": "Anxin International Medical Co,.Ltd (안심국제 주식회사)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366167_zh_tw"
     },
     {
       "id": "mdcl_3364207_zh_tw",
