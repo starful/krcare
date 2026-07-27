@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1188,
+  "total_count": 1184,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -495,25 +495,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366468_zh_tw"
-    },
-    {
-      "id": "mdcl_3364789_ja",
-      "lang": "ja",
-      "title": "株式会社ドウT&B (주식회사 도우티앤비)",
-      "lat": 35.8458032001,
-      "lng": 128.5911165067,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364789.jpg",
-      "address": "大邱広域市南区ポンドクロ1ギル7、2階",
-      "published": "2026-07-20",
-      "summary": "株式会社ドウT&B (주식회사 도우티앤비)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364789_ja"
     },
     {
       "id": "mdcl_3366963_zh_tw",
@@ -11403,25 +11384,6 @@
       "link": "/item/mdcl_3452019_zh_tw"
     },
     {
-      "id": "mdcl_3364789_en",
-      "lang": "en",
-      "title": "Dowoo Health Care (주식회사 도우티앤비)",
-      "lat": 35.8458032001,
-      "lng": 128.5911165067,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364789.jpg",
-      "address": "(2nd Floor), 7 Bongdeok-ro 1-gil, Nam-gu, Daegu (42430)",
-      "published": "2026-07-20",
-      "summary": "Dowoo Health Care (주식회사 도우티앤비) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364789_en"
-    },
-    {
       "id": "mdcl_3364728_zh",
       "lang": "zh",
       "title": "Herne医院 (에르네의원)",
@@ -12484,25 +12446,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364621_zh_tw"
-    },
-    {
-      "id": "mdcl_3364789_zh",
-      "lang": "zh",
-      "title": "株式会社DOWOO T&B (주식회사 도우티앤비)",
-      "lat": 35.8458032001,
-      "lng": 128.5911165067,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364789.jpg",
-      "address": "大邱广域市南区凤德路1街7，2层",
-      "published": "2026-07-20",
-      "summary": "株式会社DOWOO T&B (주식회사 도우티앤비)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364789_zh"
     },
     {
       "id": "mdcl_3563149_en",
@@ -21585,25 +21528,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366241_zh_tw"
-    },
-    {
-      "id": "mdcl_3364789_zh_tw",
-      "lang": "zh_tw",
-      "title": "Dowoo Health Care (주식회사 도우티앤비)",
-      "lat": 35.8458032001,
-      "lng": 128.5911165067,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364789.jpg",
-      "address": "(2nd Floor), 7 Bongdeok-ro 1-gil, Nam-gu, Daegu (42430)",
-      "published": "2026-07-20",
-      "summary": "Dowoo Health Care (주식회사 도우티앤비)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364789_zh_tw"
     },
     {
       "id": "mdcl_3563137_zh_tw",
