@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1172,
+  "total_count": 1168,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -6710,25 +6710,6 @@
       "link": "/item/mdcl_3366148_ja"
     },
     {
-      "id": "mdcl_3366181_zh_tw",
-      "lang": "zh_tw",
-      "title": "GONGGAM HL MANAGEMENT Co., Ltd. ((주)공감에이치엘 매니지먼트)",
-      "lat": 37.5751673404,
-      "lng": 126.9901086076,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366181.jpg",
-      "address": "#B119, 59 Donhwamun-ro 11ga-gil, Jongno-gu, Seoul (03132)",
-      "published": "2026-07-20",
-      "summary": "GONGGAM HL MANAGEMENT Co., Ltd. ((주)공감에이치엘 매니지먼트)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366181_zh_tw"
-    },
-    {
       "id": "mdcl_3364678_en",
       "lang": "en",
       "title": "April 31 Plastic Surgery (4월31일성형외과)",
@@ -7774,25 +7755,6 @@
       "link": "/item/mdcl_3539938_ja"
     },
     {
-      "id": "mdcl_3366181_zh",
-      "lang": "zh",
-      "title": "共感HL管理有限公司（(주)공감에이치엘 매니지먼트）",
-      "lat": 37.5751673404,
-      "lng": 126.9901086076,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366181.jpg",
-      "address": "首尔特别市钟路区敦化门路11ga街59B119 (03132)",
-      "published": "2026-07-20",
-      "summary": "共感HL管理有限公司（(주)공감에이치엘 매니지먼트）为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366181_zh"
-    },
-    {
       "id": "mdcl_3367550_zh",
       "lang": "zh",
       "title": "Golden Tour Korea DMC (골든투어코리아 디엠씨)",
@@ -8114,25 +8076,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366193_ja"
-    },
-    {
-      "id": "mdcl_3366181_en",
-      "lang": "en",
-      "title": "GONGGAM HL MANAGEMENT Co., Ltd. ((주)공감에이치엘 매니지먼트)",
-      "lat": 37.5751673404,
-      "lng": 126.9901086076,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366181.jpg",
-      "address": "#B119, 59 Donhwamun-ro 11ga-gil, Jongno-gu, Seoul (03132)",
-      "published": "2026-07-20",
-      "summary": "GONGGAM HL MANAGEMENT Co., Ltd. ((주)공감에이치엘 매니지먼트) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366181_en"
     },
     {
       "id": "mdcl_3367550_en",
@@ -19362,25 +19305,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539613_zh"
-    },
-    {
-      "id": "mdcl_3366181_ja",
-      "lang": "ja",
-      "title": "株式会社ゴンガムHLマネジメント（(주)공감에이치엘 매니지먼트）",
-      "lat": 37.5751673404,
-      "lng": 126.9901086076,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366181.jpg",
-      "address": "ソウル特別市チョンノ区トンファムンロ11ガギル59、B119 (03132)",
-      "published": "2026-07-20",
-      "summary": "株式会社ゴンガムHLマネジメント（(주)공감에이치엘 매니지먼트）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366181_ja"
     },
     {
       "id": "mdcl_3539938_zh",
