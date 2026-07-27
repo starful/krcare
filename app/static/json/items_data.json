@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1228,
+  "total_count": 1224,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -10928,25 +10928,6 @@
       "link": "/item/mdcl_3364645_zh_tw"
     },
     {
-      "id": "mdcl_3366246_zh",
-      "lang": "zh",
-      "title": "Ray商业集团（株）(레이비즈니스그룹(주))",
-      "lat": 37.5077180576,
-      "lng": 127.0577404698,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366246.jpg",
-      "address": "首尔特别市江南区德黑兰路507，WeWork大厦10层 105室 (06168)",
-      "published": "2026-07-20",
-      "summary": "Ray商业集团（株）(레이비즈니스그룹(주))为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366246_zh"
-    },
-    {
       "id": "mdcl_3364681_en",
       "lang": "en",
       "title": "JaneDMCKorea (주)제인디엠씨코리아)",
@@ -11268,25 +11249,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364681_zh"
-    },
-    {
-      "id": "mdcl_3366246_en",
-      "lang": "en",
-      "title": "Ray Business Group Inc. (레이비즈니스그룹(주))",
-      "lat": 37.5077180576,
-      "lng": 127.0577404698,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366246.jpg",
-      "address": "(#105, 10th Floor, WeWork Building), 507 Teheran-ro, Gangnam-gu, Seoul (06168)",
-      "published": "2026-07-20",
-      "summary": "Ray Business Group Inc. (레이비즈니스그룹(주)) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366246_en"
     },
     {
       "id": "mdcl_3365252_zh_tw",
@@ -12940,25 +12902,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3563149_en"
-    },
-    {
-      "id": "mdcl_3366246_zh_tw",
-      "lang": "zh_tw",
-      "title": "Ray Business Group Inc. (레이비즈니스그룹(주))",
-      "lat": 37.5077180576,
-      "lng": 127.0577404698,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366246.jpg",
-      "address": "(#105, 10th Floor, WeWork Building), 507 Teheran-ro, Gangnam-gu, Seoul (06168)",
-      "published": "2026-07-20",
-      "summary": "Ray Business Group Inc. (레이비즈니스그룹(주))為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366246_zh_tw"
     },
     {
       "id": "mdcl_3366638_en",
@@ -23086,25 +23029,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539548_en"
-    },
-    {
-      "id": "mdcl_3366246_ja",
-      "lang": "ja",
-      "title": "レイビジネスグループ(株) (레이비즈니스그룹(주))",
-      "lat": 37.5077180576,
-      "lng": 127.0577404698,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366246.jpg",
-      "address": "ソウル特別市江南区テヘランロ507 WeWorkビル10階105号 (06168)",
-      "published": "2026-07-20",
-      "summary": "レイビジネスグループ(株) (레이비즈니스그룹(주))は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366246_ja"
     },
     {
       "id": "mdcl_3548775_zh",
