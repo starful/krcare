@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1160,
+  "total_count": 1156,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -6273,25 +6273,6 @@
       "link": "/item/mdcl_3540163_en"
     },
     {
-      "id": "mdcl_3366418_ja",
-      "lang": "ja",
-      "title": "株式会社サークルツアー (주식회사 써클투어)",
-      "lat": 37.4919055257,
-      "lng": 127.0310627899,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366418.jpg",
-      "address": "ソウル特別市江南区カンナムデロ320 ファンファビル1411号 (06252)",
-      "published": "2026-07-20",
-      "summary": "株式会社サークルツアー (주식회사 써클투어)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366418_ja"
-    },
-    {
       "id": "mdcl_3367418_ja",
       "lang": "ja",
       "title": "バノバギ美容外科医院 (바노바기성형외과의원)",
@@ -9273,25 +9254,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364691_ja"
-    },
-    {
-      "id": "mdcl_3366418_zh_tw",
-      "lang": "zh_tw",
-      "title": "Circletour Co., Ltd. (주식회사 써클투어)",
-      "lat": 37.4919055257,
-      "lng": 127.0310627899,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366418.jpg",
-      "address": "(#1411, Hwanghwa Building), 320 Gangnam-daero, Gangnam-gu, Seoul (06252)",
-      "published": "2026-07-20",
-      "summary": "Circletour Co., Ltd. (주식회사 써클투어)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366418_zh_tw"
     },
     {
       "id": "mdcl_3549091_zh",
@@ -16989,25 +16951,6 @@
       "link": "/item/mdcl_3364793_en"
     },
     {
-      "id": "mdcl_3366418_en",
-      "lang": "en",
-      "title": "Circletour Co., Ltd. (주식회사 써클투어)",
-      "lat": 37.4919055257,
-      "lng": 127.0310627899,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366418.jpg",
-      "address": "(#1411, Hwanghwa Building), 320 Gangnam-daero, Gangnam-gu, Seoul (06252)",
-      "published": "2026-07-20",
-      "summary": "Circletour Co., Ltd. (주식회사 써클투어) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366418_en"
-    },
-    {
       "id": "mdcl_3540163_ja",
       "lang": "ja",
       "title": "江南365歯科医院（강남365치과의원）",
@@ -18013,25 +17956,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366484_en"
-    },
-    {
-      "id": "mdcl_3366418_zh",
-      "lang": "zh",
-      "title": "CIRCLETOUR株式会社 (주식회사 써클투어)",
-      "lat": 37.4919055257,
-      "lng": 127.0310627899,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366418.jpg",
-      "address": "首尔特别市江南区江南大 路320，皇和大厦1411室 (06252)",
-      "published": "2026-07-20",
-      "summary": "CIRCLETOUR株式会社 (주식회사 써클투어)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366418_zh"
     },
     {
       "id": "mdcl_3367418_zh",
