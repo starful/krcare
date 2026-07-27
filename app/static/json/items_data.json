@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1288,
+  "total_count": 1284,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -5152,25 +5152,6 @@
       "link": "/item/mdcl_3447106_ja"
     },
     {
-      "id": "mdcl_3539724_zh",
-      "lang": "zh",
-      "title": "YH.KOREA株式会社(와이에이치코리아 주식회사)",
-      "lat": 37.5338740369,
-      "lng": 126.6285733053,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539724.jpg",
-      "address": "仁川广域市西海区青萝大川路100号街10青罗Cube Signature1期商住两用公寓2211号 (22758)",
-      "published": "2026-07-20",
-      "summary": "YH.KOREA株式会社(와이에이치코리아 주식회사)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539724_zh"
-    },
-    {
       "id": "mdcl_3366347_zh_tw",
       "lang": "zh_tw",
       "title": "Hyein Medical Foundation Medical Corporation Hankook   Hospital (의료법인 혜인의료재단 한국병원)",
@@ -6214,25 +6195,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3367406_ja"
-    },
-    {
-      "id": "mdcl_3539724_en",
-      "lang": "en",
-      "title": "YH Korea Inc. (와이에이치코리아 주식회사)",
-      "lat": 37.5338740369,
-      "lng": 126.6285733053,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539724.jpg",
-      "address": "#2211, Cheongna Cube Signature 1st Officetel, 10 Cheongna hannae-ro 100beon-gil, Seohae-gu, Incheon (22758)",
-      "published": "2026-07-20",
-      "summary": "YH Korea Inc. (와이에이치코리아 주식회사) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539724_en"
     },
     {
       "id": "mdcl_3366080_en",
@@ -8152,25 +8114,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3365748_ja"
-    },
-    {
-      "id": "mdcl_3539724_zh_tw",
-      "lang": "zh_tw",
-      "title": "YH Korea Inc. (와이에이치코리아 주식회사)",
-      "lat": 37.5338740369,
-      "lng": 126.6285733053,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539724.jpg",
-      "address": "#2211, Cheongna Cube Signature 1st Officetel, 10 Cheongna hannae-ro 100beon-gil, Seohae-gu, Incheon (22758)",
-      "published": "2026-07-20",
-      "summary": "YH Korea Inc. (와이에이치코리아 주식회사)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539724_zh_tw"
     },
     {
       "id": "mdcl_3539825_ja",
@@ -17614,25 +17557,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3447106_zh"
-    },
-    {
-      "id": "mdcl_3539724_ja",
-      "lang": "ja",
-      "title": "YH Korea株式会社（와이에이치코리아 주식회사）",
-      "lat": 37.5338740369,
-      "lng": 126.6285733053,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539724.jpg",
-      "address": "インチョン広域市ソ区チョンナハンネロ100ボンギル10 チョンナキューブシグネチャー1次オフィステル2211号 (22758)",
-      "published": "2026-07-20",
-      "summary": "YH Korea株式会社（와이에이치코리아 주식회사）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539724_ja"
     },
     {
       "id": "mdcl_3451988_ja",
