@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1156,
+  "total_count": 1152,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -7698,25 +7698,6 @@
       "link": "/item/mdcl_3539938_ja"
     },
     {
-      "id": "mdcl_3367550_zh",
-      "lang": "zh",
-      "title": "Golden Tour Korea DMC (골든투어코리아 디엠씨)",
-      "lat": 37.5499529653,
-      "lng": 126.9544736796,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367550.jpg",
-      "address": "首尔特别市麻浦区麻浦大路173，1227室 (04130)",
-      "published": "2026-07-20",
-      "summary": "Golden Tour Korea DMC (골든투어코리아 디엠씨)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367550_zh"
-    },
-    {
       "id": "mdcl_3548816_zh",
       "lang": "zh",
       "title": "首尔富民医院(서울부민병원)",
@@ -8019,25 +8000,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366193_ja"
-    },
-    {
-      "id": "mdcl_3367550_en",
-      "lang": "en",
-      "title": "Golden Tour Korea DMC (골든투어코리아 디엠씨)",
-      "lat": 37.5499529653,
-      "lng": 126.9544736796,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367550.jpg",
-      "address": "(#1227), 173 Mapo-daero, Mapo-gu, Seoul (04130)",
-      "published": "2026-07-20",
-      "summary": "Golden Tour Korea DMC (골든투어코리아 디엠씨) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367550_en"
     },
     {
       "id": "mdcl_3548816_en",
@@ -9900,25 +9862,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366798_zh_tw"
-    },
-    {
-      "id": "mdcl_3367550_zh_tw",
-      "lang": "zh_tw",
-      "title": "Golden Tour Korea DMC (골든투어코리아 디엠씨)",
-      "lat": 37.5499529653,
-      "lng": 126.9544736796,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367550.jpg",
-      "address": "(#1227), 173 Mapo-daero, Mapo-gu, Seoul (04130)",
-      "published": "2026-07-20",
-      "summary": "Golden Tour Korea DMC (골든투어코리아 디엠씨)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367550_zh_tw"
     },
     {
       "id": "mdcl_3365517_ja",
@@ -19134,25 +19077,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3548816_ja"
-    },
-    {
-      "id": "mdcl_3367550_ja",
-      "lang": "ja",
-      "title": "ゴールデンツアーコリアDMC (골든투어코리아 디엠씨)",
-      "lat": 37.5499529653,
-      "lng": 126.9544736796,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367550.jpg",
-      "address": "ソウル特別市麻浦区マポデロ173、1227号 (04130)",
-      "published": "2026-07-20",
-      "summary": "ゴールデンツアーコリアDMC (골든투어코리아 디엠씨)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367550_ja"
     },
     {
       "id": "mdcl_3574617_zh_tw",
