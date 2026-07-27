@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1168,
+  "total_count": 1164,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -611,25 +611,6 @@
       "link": "/item/mdcl_3547942_zh_tw"
     },
     {
-      "id": "mdcl_3366241_zh",
-      "lang": "zh",
-      "title": "（社）大韩医疗观光振兴协会 ((사)대한의료관광진흥협회)",
-      "lat": 37.5713258534,
-      "lng": 126.9752434045,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366241.jpg",
-      "address": "首尔特别市钟路区新门内路9街29-3，601室 (03183)",
-      "published": "2026-07-20",
-      "summary": "（社）大韩医疗观光振兴协会 ((사)대한의료관광진흥협회)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366241_zh"
-    },
-    {
       "id": "mdcl_3364686_en",
       "lang": "en",
       "title": "Nanoori Hospital (나누리병원)",
@@ -970,25 +951,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3451318_ja"
-    },
-    {
-      "id": "mdcl_3366241_en",
-      "lang": "en",
-      "title": "Korea Medical Tourism Promotion Association ((사)대한의료관광진흥협회)",
-      "lat": 37.5713258534,
-      "lng": 126.9752434045,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366241.jpg",
-      "address": "(#601) 29-3 Saemunan-ro 9-gil, Jongno-gu, Seoul (03183)",
-      "published": "2026-07-20",
-      "summary": "Korea Medical Tourism Promotion Association ((사)대한의료관광진흥협회) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366241_en"
     },
     {
       "id": "mdcl_3549426_zh_tw",
@@ -12182,25 +12144,6 @@
       "link": "/item/mdcl_3451318_en"
     },
     {
-      "id": "mdcl_3366241_ja",
-      "lang": "ja",
-      "title": "(社)大韓医療観光振興協会 ((사)대한의료관광진흥협회)",
-      "lat": 37.5713258534,
-      "lng": 126.9752434045,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366241.jpg",
-      "address": "ソウル特別市鐘路区セムナンロ9ギル29-3、601号 (03183)",
-      "published": "2026-07-20",
-      "summary": "(社)大韓医療観光振興協会 ((사)대한의료관광진흥협회)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366241_ja"
-    },
-    {
       "id": "mdcl_3365595_zh",
       "lang": "zh",
       "title": "一美牙科医院 (일미치과의원)",
@@ -21243,25 +21186,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3450964_en"
-    },
-    {
-      "id": "mdcl_3366241_zh_tw",
-      "lang": "zh_tw",
-      "title": "Korea Medical Tourism Promotion Association ((사)대한의료관광진흥협회)",
-      "lat": 37.5713258534,
-      "lng": 126.9752434045,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366241.jpg",
-      "address": "(#601) 29-3 Saemunan-ro 9-gil, Jongno-gu, Seoul (03183)",
-      "published": "2026-07-20",
-      "summary": "Korea Medical Tourism Promotion Association ((사)대한의료관광진흥협회)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366241_zh_tw"
     },
     {
       "id": "mdcl_3563137_zh_tw",
