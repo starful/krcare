@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1260,
+  "total_count": 1256,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -1922,25 +1922,6 @@
       "link": "/item/mdcl_3364565_zh_tw"
     },
     {
-      "id": "mdcl_3441357_en",
-      "lang": "en",
-      "title": "Korea Global Culture Exchange Center (KGCEC) ((주)케이지문화교류센터)",
-      "lat": 37.4977440297,
-      "lng": 126.8922697078,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441357.jpg",
-      "address": "#1404, 3 Gongwon-ro, Guro-gu, Seoul (08298)",
-      "published": "2026-07-20",
-      "summary": "Korea Global Culture Exchange Center (KGCEC) ((주)케이지문화교류센터) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441357_en"
-    },
-    {
       "id": "mdcl_3450814_zh_tw",
       "lang": "zh_tw",
       "title": "Korea Medical Institute Busan Branch ((재)한국의학연구소 부산분사무소)",
@@ -2851,25 +2832,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3466847_zh"
-    },
-    {
-      "id": "mdcl_3441357_zh",
-      "lang": "zh",
-      "title": "韩国国际文化交流中心 ((주)케이지문화교류센터)",
-      "lat": 37.4977440297,
-      "lng": 126.8922697078,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441357.jpg",
-      "address": "首尔特别市九老区公园路3，1404号 (08298)",
-      "published": "2026-07-20",
-      "summary": "韩国国际文化交流中心 ((주)케이지문화교류센터)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441357_zh"
     },
     {
       "id": "mdcl_3364983_zh_tw",
@@ -9009,25 +8971,6 @@
       "link": "/item/mdcl_3441413_ja"
     },
     {
-      "id": "mdcl_3441357_zh_tw",
-      "lang": "zh_tw",
-      "title": "Korea Global Culture Exchange Center (KGCEC) ((주)케이지문화교류센터)",
-      "lat": 37.4977440297,
-      "lng": 126.8922697078,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441357.jpg",
-      "address": "#1404, 3 Gongwon-ro, Guro-gu, Seoul (08298)",
-      "published": "2026-07-20",
-      "summary": "Korea Global Culture Exchange Center (KGCEC) ((주)케이지문화교류센터)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441357_zh_tw"
-    },
-    {
       "id": "mdcl_3467329_ja",
       "lang": "ja",
       "title": "WOOA整形外科&皮膚科 (우아성형외과의원)",
@@ -13738,25 +13681,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3549199_en"
-    },
-    {
-      "id": "mdcl_3441357_ja",
-      "lang": "ja",
-      "title": "㈱KG文化交流センター ((주)케이지문화교류센터)",
-      "lat": 37.4977440297,
-      "lng": 126.8922697078,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3441357.jpg",
-      "address": "ソウル特別市クロ区コンウォンロ3、1404号 (08298)",
-      "published": "2026-07-20",
-      "summary": "㈱KG文化交流センター ((주)케이지문화교류센터)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3441357_ja"
     },
     {
       "id": "mdcl_3467319_zh_tw",
