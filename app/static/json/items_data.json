@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1292,
+  "total_count": 1288,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -362,25 +362,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539776_zh_tw"
-    },
-    {
-      "id": "mdcl_3539857_zh",
-      "lang": "zh",
-      "title": "（株）NEW CFC(㈜뉴씨에프씨)",
-      "lat": 37.5068404766,
-      "lng": 126.7520016842,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539857.jpg",
-      "address": "京畿道富川市远美区吉州路77号街33号渡口大厦303号 (14543)",
-      "published": "2026-07-20",
-      "summary": "（株）NEW CFC(㈜뉴씨에프씨)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539857_zh"
     },
     {
       "id": "mdcl_3364782_zh",
@@ -1445,25 +1426,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3574999_en"
-    },
-    {
-      "id": "mdcl_3539857_en",
-      "lang": "en",
-      "title": "NEW CFC lnc (㈜뉴씨에프씨)",
-      "lat": 37.5068404766,
-      "lng": 126.7520016842,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539857.jpg",
-      "address": "#303, Naru Building, 33 Gilju-ro 77beon-gil, Wonmi-gu, Bucheon-si, Gyeonggi-do (14543)",
-      "published": "2026-07-20",
-      "summary": "NEW CFC lnc (㈜뉴씨에프씨) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539857_en"
     },
     {
       "id": "mdcl_3364728_ja",
@@ -13094,25 +13056,6 @@
       "link": "/item/mdcl_3547829_zh"
     },
     {
-      "id": "mdcl_3539857_ja",
-      "lang": "ja",
-      "title": "株式会社ニューCFC（㈜뉴씨에프씨）",
-      "lat": 37.5068404766,
-      "lng": 126.7520016842,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539857.jpg",
-      "address": "キョンギ道プチョン市ウォンミ区キルジュロ77ボンギル33 ナルビル303号 (14543)",
-      "published": "2026-07-20",
-      "summary": "株式会社ニューCFC（㈜뉴씨에프씨）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539857_ja"
-    },
-    {
       "id": "mdcl_3365654_zh_tw",
       "lang": "zh_tw",
       "title": "We Hospital (WE병원)",
@@ -20597,25 +20540,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3562726_zh_tw"
-    },
-    {
-      "id": "mdcl_3539857_zh_tw",
-      "lang": "zh_tw",
-      "title": "NEW CFC lnc (㈜뉴씨에프씨)",
-      "lat": 37.5068404766,
-      "lng": 126.7520016842,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539857.jpg",
-      "address": "#303, Naru Building, 33 Gilju-ro 77beon-gil, Wonmi-gu, Bucheon-si, Gyeonggi-do (14543)",
-      "published": "2026-07-20",
-      "summary": "NEW CFC lnc (㈜뉴씨에프씨)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539857_zh_tw"
     },
     {
       "id": "mdcl_3548924_zh",
