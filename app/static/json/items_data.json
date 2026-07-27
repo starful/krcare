@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1148,
+  "total_count": 1144,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -5209,25 +5209,6 @@
       "link": "/item/mdcl_3365815_zh"
     },
     {
-      "id": "mdcl_3467335_ja",
-      "lang": "ja",
-      "title": "株式会社BT MEDI (주식회사 비티메디)",
-      "lat": 37.6643446378,
-      "lng": 126.7667459162,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3467335.jpg",
-      "address": "キョンギ道コヤン市イルサンドン区コボンロ32-19、605号 (10364)",
-      "published": "2026-07-20",
-      "summary": "株式会社BT MEDI (주식회사 비티메디)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3467335_ja"
-    },
-    {
       "id": "mdcl_3547820_zh_tw",
       "lang": "zh_tw",
       "title": "Leaders Dermatology Clinic CheongdamLuxuryStreet (리더스피부과의원 청담명품거리점)",
@@ -9064,25 +9045,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364734_ja"
-    },
-    {
-      "id": "mdcl_3467335_zh_tw",
-      "lang": "zh_tw",
-      "title": "BTMedi Inc. (주식회사 비티메디)",
-      "lat": 37.6643446378,
-      "lng": 126.7667459162,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3467335.jpg",
-      "address": "#605, 32-19 Gobong-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10364)",
-      "published": "2026-07-20",
-      "summary": "BTMedi Inc. (주식회사 비티메디)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3467335_zh_tw"
     },
     {
       "id": "mdcl_3539436_ja",
@@ -15317,25 +15279,6 @@
       "link": "/item/mdcl_3365815_ja"
     },
     {
-      "id": "mdcl_3467335_zh",
-      "lang": "zh",
-      "title": "碧媞美 (주식회사 비티메디)",
-      "lat": 37.6643446378,
-      "lng": 126.7667459162,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3467335.jpg",
-      "address": "京畿道高阳市一山东区高峰路32-19，605号 (10364)",
-      "published": "2026-07-20",
-      "summary": "碧媞美 (주식회사 비티메디)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3467335_zh"
-    },
-    {
       "id": "mdcl_3367052_zh",
       "lang": "zh",
       "title": "AB整形外科 (에이비성형외과)",
@@ -16436,25 +16379,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3365345_zh"
-    },
-    {
-      "id": "mdcl_3467335_en",
-      "lang": "en",
-      "title": "BTMedi Inc. (주식회사 비티메디)",
-      "lat": 37.6643446378,
-      "lng": 126.7667459162,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3467335.jpg",
-      "address": "#605, 32-19 Gobong-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10364)",
-      "published": "2026-07-20",
-      "summary": "BTMedi Inc. (주식회사 비티메디) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3467335_en"
     },
     {
       "id": "mdcl_3364369_zh_tw",
