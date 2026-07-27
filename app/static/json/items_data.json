@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1300,
+  "total_count": 1296,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -11213,25 +11213,6 @@
       "link": "/item/mdcl_3365009_en"
     },
     {
-      "id": "mdcl_3539762_en",
-      "lang": "en",
-      "title": "Style82 Co., Ltd. (㈜스타일82)",
-      "lat": 37.4800458328,
-      "lng": 126.8781298265,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539762.jpg",
-      "address": "#303, Gasan Urban Work I, 135 Gasan digital 2-ro, Geumcheon-gu, Seoul (08504)",
-      "published": "2026-07-20",
-      "summary": "Style82 Co., Ltd. (㈜스타일82) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539762_en"
-    },
-    {
       "id": "mdcl_3575408_en",
       "lang": "en",
       "title": "Toxnfill Clinic (톡스앤필의원 강남)",
@@ -11762,25 +11743,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366798_ja"
-    },
-    {
-      "id": "mdcl_3539762_zh",
-      "lang": "zh",
-      "title": "（株）STYLE82(㈜스타일82)",
-      "lat": 37.4800458328,
-      "lng": 126.8781298265,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539762.jpg",
-      "address": "首尔特别市衿川区加山数码2路135加山Urban Work1栋303号 (08504)",
-      "published": "2026-07-20",
-      "summary": "（株）STYLE82(㈜스타일82)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539762_zh"
     },
     {
       "id": "mdcl_3364757_ja",
@@ -14194,25 +14156,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364481_ja"
-    },
-    {
-      "id": "mdcl_3539762_zh_tw",
-      "lang": "zh_tw",
-      "title": "Style82 Co., Ltd. (㈜스타일82)",
-      "lat": 37.4800458328,
-      "lng": 126.8781298265,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539762.jpg",
-      "address": "#303, Gasan Urban Work I, 135 Gasan digital 2-ro, Geumcheon-gu, Seoul (08504)",
-      "published": "2026-07-20",
-      "summary": "Style82 Co., Ltd. (㈜스타일82)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539762_zh_tw"
     },
     {
       "id": "mdcl_3539802_en",
@@ -23675,25 +23618,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366798_zh"
-    },
-    {
-      "id": "mdcl_3539762_ja",
-      "lang": "ja",
-      "title": "株式会社スタイル82（㈜스타일82）",
-      "lat": 37.4800458328,
-      "lng": 126.8781298265,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539762.jpg",
-      "address": "ソウル特別市クムチョン区カサンデジタル2ロ135 加山アーバンワーク1棟303号 (08504)",
-      "published": "2026-07-20",
-      "summary": "株式会社スタイル82（㈜스타일82）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539762_ja"
     },
     {
       "id": "mdcl_3365009_ja",
