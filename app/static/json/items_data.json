@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1216,
+  "total_count": 1212,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -10434,25 +10434,6 @@
       "link": "/item/mdcl_3548871_en"
     },
     {
-      "id": "mdcl_3364665_zh",
-      "lang": "zh",
-      "title": "株式会社Atlas21 (주식회사 아틀라스21)",
-      "lat": 35.8670508606,
-      "lng": 128.594673935,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364665.jpg",
-      "address": "大邱广域市中区东城路1街15，5层",
-      "published": "2026-07-20",
-      "summary": "株式会社Atlas21 (주식회사 아틀라스21)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364665_zh"
-    },
-    {
       "id": "mdcl_3364978_ja",
       "lang": "ja",
       "title": "(財)韓国医学研究所　韓国中部医院 ((재)한국의학연구소 한국중부의원)",
@@ -11382,25 +11363,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364772_zh_tw"
-    },
-    {
-      "id": "mdcl_3364665_en",
-      "lang": "en",
-      "title": "Atlas21 (주식회사 아틀라스21)",
-      "lat": 35.8670508606,
-      "lng": 128.594673935,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364665.jpg",
-      "address": "(5th Floor), 15 Dongseong-ro 1-gil, Jung-gu, Daegu (41942)",
-      "published": "2026-07-20",
-      "summary": "Atlas21 (주식회사 아틀라스21) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364665_en"
     },
     {
       "id": "mdcl_3547799_ja",
@@ -22575,25 +22537,6 @@
       "link": "/item/mdcl_3547799_en"
     },
     {
-      "id": "mdcl_3364665_ja",
-      "lang": "ja",
-      "title": "株式会社アトラス21 (주식회사 아틀라스21)",
-      "lat": 35.8670508606,
-      "lng": 128.594673935,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364665.jpg",
-      "address": "大邱広域市中区トンソンロ1ギル15、5階",
-      "published": "2026-07-20",
-      "summary": "株式会社アトラス21 (주식회사 아틀라스21)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364665_ja"
-    },
-    {
       "id": "mdcl_3547799_zh_tw",
       "lang": "zh_tw",
       "title": "SYNERGY Plastic Surgery (시너지성형외과의원)",
@@ -23067,25 +23010,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364664_zh_tw"
-    },
-    {
-      "id": "mdcl_3364665_zh_tw",
-      "lang": "zh_tw",
-      "title": "Atlas21 (주식회사 아틀라스21)",
-      "lat": 35.8670508606,
-      "lng": 128.594673935,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364665.jpg",
-      "address": "(5th Floor), 15 Dongseong-ro 1-gil, Jung-gu, Daegu (41942)",
-      "published": "2026-07-20",
-      "summary": "Atlas21 (주식회사 아틀라스21)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364665_zh_tw"
     },
     {
       "id": "mdcl_3366798_en",
