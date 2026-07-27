@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1312,
+  "total_count": 1308,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -3841,25 +3841,6 @@
       "link": "/item/mdcl_3562921_zh"
     },
     {
-      "id": "mdcl_3539523_zh",
-      "lang": "zh",
-      "title": "汉江爱春(한강애봄)",
-      "lat": 37.5917269245,
-      "lng": 127.0122366762,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539523.jpg",
-      "address": "首尔特别市城北区东小门路63 6楼 (02832)",
-      "published": "2026-07-20",
-      "summary": "汉江爱春(한강애봄)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539523_zh"
-    },
-    {
       "id": "mdcl_3539987_ja",
       "lang": "ja",
       "title": "バログ医院（徳川）（바로그의원（덕천））",
@@ -4219,25 +4200,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366186_zh_tw"
-    },
-    {
-      "id": "mdcl_3539523_en",
-      "lang": "en",
-      "title": "K-medi Spring (한강애봄)",
-      "lat": 37.5917269245,
-      "lng": 127.0122366762,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539523.jpg",
-      "address": "6th Floor, 63 Dongsomun-ro, Seongbuk-gu, Seoul (02832)",
-      "published": "2026-07-20",
-      "summary": "K-medi Spring (한강애봄) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539523_en"
     },
     {
       "id": "mdcl_3364565_en",
@@ -12315,25 +12277,6 @@
       "link": "/item/mdcl_3364916_zh_tw"
     },
     {
-      "id": "mdcl_3539523_zh_tw",
-      "lang": "zh_tw",
-      "title": "K-medi Spring (한강애봄)",
-      "lat": 37.5917269245,
-      "lng": 127.0122366762,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539523.jpg",
-      "address": "6th Floor, 63 Dongsomun-ro, Seongbuk-gu, Seoul (02832)",
-      "published": "2026-07-20",
-      "summary": "K-medi Spring (한강애봄)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539523_zh_tw"
-    },
-    {
       "id": "mdcl_3365841_ja",
       "lang": "ja",
       "title": "三育釜山病院 (삼육부산병원)",
@@ -17006,25 +16949,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3549040_en"
-    },
-    {
-      "id": "mdcl_3539523_ja",
-      "lang": "ja",
-      "title": "ケイ・メディ スプリング（한강애봄）",
-      "lat": 37.5917269245,
-      "lng": 127.0122366762,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539523.jpg",
-      "address": "ソウル特別市ソンブク区トンソムンロ63、6階 (02832)",
-      "published": "2026-07-20",
-      "summary": "ケイ・メディ スプリング（한강애봄）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539523_ja"
     },
     {
       "id": "mdcl_3539987_zh",
