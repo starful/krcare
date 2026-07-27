@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1244,
+  "total_count": 1240,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -818,25 +818,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3446967_zh_tw"
-    },
-    {
-      "id": "mdcl_3367727_ja",
-      "lang": "ja",
-      "title": "ゴールデンナビス (골든나비스)",
-      "lat": 35.1493491662,
-      "lng": 129.0913502747,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367727.jpg",
-      "address": "釜山広域市南区ファンリョンデロ319ボンギル128、5階 (48431)",
-      "published": "2026-07-20",
-      "summary": "ゴールデンナビス (골든나비스)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367727_ja"
     },
     {
       "id": "mdcl_3366754_zh",
@@ -5093,25 +5074,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364495_ja"
-    },
-    {
-      "id": "mdcl_3367727_zh_tw",
-      "lang": "zh_tw",
-      "title": "Golden Navis (골든나비스)",
-      "lat": 35.1493491662,
-      "lng": 129.0913502747,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367727.jpg",
-      "address": "(5th Floor), 128 Hwangnyeong-daero 319beon-gil, Nam-gu, Busan (48431)",
-      "published": "2026-07-20",
-      "summary": "Golden Navis (골든나비스)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367727_zh_tw"
     },
     {
       "id": "mdcl_3563030_zh_tw",
@@ -11878,25 +11840,6 @@
       "link": "/item/mdcl_3451318_zh"
     },
     {
-      "id": "mdcl_3367727_zh",
-      "lang": "zh",
-      "title": "Golden Navis (골든나비스)",
-      "lat": 35.1493491662,
-      "lng": 129.0913502747,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367727.jpg",
-      "address": "釜山广域市南区黄岭大路319号街128，5层 (48431)",
-      "published": "2026-07-20",
-      "summary": "Golden Navis (골든나비스)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367727_zh"
-    },
-    {
       "id": "mdcl_3366754_ja",
       "lang": "ja",
       "title": "パルグンヌン眼科病院 (밝은눈안과병원)",
@@ -13035,25 +12978,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3539704_ja"
-    },
-    {
-      "id": "mdcl_3367727_en",
-      "lang": "en",
-      "title": "Golden Navis (골든나비스)",
-      "lat": 35.1493491662,
-      "lng": 129.0913502747,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3367727.jpg",
-      "address": "(5th Floor), 128 Hwangnyeong-daero 319beon-gil, Nam-gu, Busan (48431)",
-      "published": "2026-07-20",
-      "summary": "Golden Navis (골든나비스) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3367727_en"
     },
     {
       "id": "mdcl_3364621_zh_tw",
