@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1200,
+  "total_count": 1196,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -10700,25 +10700,6 @@
       "link": "/item/mdcl_3466682_ja"
     },
     {
-      "id": "mdcl_3364681_en",
-      "lang": "en",
-      "title": "JaneDMCKorea (주)제인디엠씨코리아)",
-      "lat": 37.5460923338,
-      "lng": 126.9562291847,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364681.jpg",
-      "address": "(4th Floor), 51 Mallijae-ro, Mapo-gu, Seoul (04209)",
-      "published": "2026-07-20",
-      "summary": "JaneDMCKorea (주)제인디엠씨코리아) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364681_en"
-    },
-    {
       "id": "mdcl_3548775_ja",
       "lang": "ja",
       "title": "江南ペトロ病院（강남베드로종합병원）",
@@ -11002,25 +10983,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364700_en"
-    },
-    {
-      "id": "mdcl_3364681_zh",
-      "lang": "zh",
-      "title": "Jane DMC Korea株式会社 (주)제인디엠씨코리아)",
-      "lat": 37.5460923338,
-      "lng": 126.9562291847,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364681.jpg",
-      "address": "首尔特别市麻浦区万里Jae路51，4层",
-      "published": "2026-07-20",
-      "summary": "Jane DMC Korea株式会社 (주)제인디엠씨코리아)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364681_zh"
     },
     {
       "id": "mdcl_3365252_zh_tw",
@@ -21606,25 +21568,6 @@
       "link": "/item/mdcl_3467117_en"
     },
     {
-      "id": "mdcl_3364681_zh_tw",
-      "lang": "zh_tw",
-      "title": "JaneDMCKorea (주)제인디엠씨코리아)",
-      "lat": 37.5460923338,
-      "lng": 126.9562291847,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364681.jpg",
-      "address": "(4th Floor), 51 Mallijae-ro, Mapo-gu, Seoul (04209)",
-      "published": "2026-07-20",
-      "summary": "JaneDMCKorea (주)제인디엠씨코리아)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364681_zh_tw"
-    },
-    {
       "id": "mdcl_3364680_zh_tw",
       "lang": "zh_tw",
       "title": "Lift Plastic Surgery (리프트성형외과의원)",
@@ -21661,25 +21604,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364945_en"
-    },
-    {
-      "id": "mdcl_3364681_ja",
-      "lang": "ja",
-      "title": "株式会社ゴンガムHLマネジメント（(주)공감에이치엘 매니지먼트）",
-      "lat": 37.5751673404,
-      "lng": 126.9901086076,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364681.jpg",
-      "address": "ソウル特別市チョンノ区トンファムンロ11ガギル59、B119 (03132)",
-      "published": "2026-07-20",
-      "summary": "株式会社ゴンガムHLマネジメント（(주)공감에이치엘 매니지먼트）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364681_ja"
     },
     {
       "id": "mdcl_3548775_en",
