@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1164,
+  "total_count": 1160,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -8173,25 +8173,6 @@
       "link": "/item/mdcl_3450849_en"
     },
     {
-      "id": "mdcl_3366217_ja",
-      "lang": "ja",
-      "title": "株式会社BF生命科学 ((주) 비에프생명과학)",
-      "lat": 37.52425448,
-      "lng": 127.0273372138,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366217.jpg",
-      "address": "ソウル特別市 江南区 ノニョン路163ギル 10、5階 1号（新沙洞） (06031)",
-      "published": "2026-07-20",
-      "summary": "株式会社BF生命科学 ((주) 비에프생명과학)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366217_ja"
-    },
-    {
       "id": "mdcl_3366252_ja",
       "lang": "ja",
       "title": "JK美容外科 (제이케이성형외과의원)",
@@ -10413,25 +10394,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3548775_ja"
-    },
-    {
-      "id": "mdcl_3366217_zh_tw",
-      "lang": "zh_tw",
-      "title": "BF Life Sciences Co., Ltd ((주) 비에프생명과학)",
-      "lat": 37.52425448,
-      "lng": 127.0273372138,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366217.jpg",
-      "address": "(#1, 5th Floor), 10 Nonhyeon-ro 163-gil, Gangnam-gu, Seoul (06031)",
-      "published": "2026-07-20",
-      "summary": "BF Life Sciences Co., Ltd ((주) 비에프생명과학)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366217_zh_tw"
     },
     {
       "id": "mdcl_3365516_zh_tw",
@@ -18813,25 +18775,6 @@
       "link": "/item/mdcl_3473879_zh_tw"
     },
     {
-      "id": "mdcl_3366217_zh",
-      "lang": "zh",
-      "title": "BF生命科学株式会社 ((주) 비에프생명과학)",
-      "lat": 37.52425448,
-      "lng": 127.0273372138,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366217.jpg",
-      "address": "首尔特别市江南区理论岘路163街10，5层 1室 (06031)",
-      "published": "2026-07-20",
-      "summary": "BF生命科学株式会社 ((주) 비에프생명과학)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366217_zh"
-    },
-    {
       "id": "mdcl_3366252_zh",
       "lang": "zh",
       "title": "JK整形外科医院 (제이케이성형외과의원)",
@@ -19134,25 +19077,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366252_en"
-    },
-    {
-      "id": "mdcl_3366217_en",
-      "lang": "en",
-      "title": "BF Life Sciences Co., Ltd ((주) 비에프생명과학)",
-      "lat": 37.52425448,
-      "lng": 127.0273372138,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366217.jpg",
-      "address": "(#1, 5th Floor), 10 Nonhyeon-ro 163-gil, Gangnam-gu, Seoul (06031)",
-      "published": "2026-07-20",
-      "summary": "BF Life Sciences Co., Ltd ((주) 비에프생명과학) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366217_en"
     },
     {
       "id": "mdcl_3365967_en",
