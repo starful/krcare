@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1196,
+  "total_count": 1192,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -3138,25 +3138,6 @@
       "link": "/item/mdcl_3366432_zh"
     },
     {
-      "id": "mdcl_3364744_zh",
-      "lang": "zh",
-      "title": "Ebookers 韩国 ((주)이부커스코리아)",
-      "lat": 37.563588438,
-      "lng": 127.0072129322,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364744.jpg",
-      "address": "首尔特别市中区奖忠坛路212",
-      "published": "2026-07-20",
-      "summary": "Ebookers 韩国 ((주)이부커스코리아)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364744_zh"
-    },
-    {
       "id": "mdcl_3548942_ja",
       "lang": "ja",
       "title": "ネル医院（넬의원）",
@@ -4542,25 +4523,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366432_en"
-    },
-    {
-      "id": "mdcl_3364744_en",
-      "lang": "en",
-      "title": "Ebookers Korea Inc. ((주)이부커스코리아)",
-      "lat": 37.563588438,
-      "lng": 127.0072129322,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364744.jpg",
-      "address": "(2nd Floor), 212 Jangchungdan-ro, Jung-gu, Seoul (04614)",
-      "published": "2026-07-20",
-      "summary": "Ebookers Korea Inc. ((주)이부커스코리아) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364744_en"
     },
     {
       "id": "mdcl_3562418_zh_tw",
@@ -14842,25 +14804,6 @@
       "link": "/item/mdcl_3548137_ja"
     },
     {
-      "id": "mdcl_3364744_ja",
-      "lang": "ja",
-      "title": "Ebookers コリア ((주)이부커스코리아)",
-      "lat": 37.563588438,
-      "lng": 127.0072129322,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364744.jpg",
-      "address": "ソウル特別市中区チャンチュンダンロ212",
-      "published": "2026-07-20",
-      "summary": "Ebookers コリア ((주)이부커스코리아)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364744_ja"
-    },
-    {
       "id": "mdcl_3540229_zh",
       "lang": "zh",
       "title": "Gold J诊所(골드제이의원)",
@@ -18811,25 +18754,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3367337_zh"
-    },
-    {
-      "id": "mdcl_3364744_zh_tw",
-      "lang": "zh_tw",
-      "title": "Ebookers Korea Inc. ((주)이부커스코리아)",
-      "lat": 37.563588438,
-      "lng": 127.0072129322,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3364744.jpg",
-      "address": "(2nd Floor), 212 Jangchungdan-ro, Jung-gu, Seoul (04614)",
-      "published": "2026-07-20",
-      "summary": "Ebookers Korea Inc. ((주)이부커스코리아)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3364744_zh_tw"
     },
     {
       "id": "mdcl_3539759_ja",
