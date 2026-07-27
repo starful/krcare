@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1272,
+  "total_count": 1268,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -5872,25 +5872,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3365690_ja"
-    },
-    {
-      "id": "mdcl_3539693_ja",
-      "lang": "ja",
-      "title": "ハキームトラベルコリア（하킴트래블코리아）",
-      "lat": 37.5179193723,
-      "lng": 126.8871668279,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539693.jpg",
-      "address": "ソウル特別市ヨンドゥンポ区ソニュロ9ギル10、7階 (07281)",
-      "published": "2026-07-20",
-      "summary": "ハキームトラベルコリア（하킴트래블코리아）は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539693_ja"
     },
     {
       "id": "mdcl_3453435_en",
@@ -15982,25 +15963,6 @@
       "link": "/item/mdcl_3539891_ja"
     },
     {
-      "id": "mdcl_3539693_zh_tw",
-      "lang": "zh_tw",
-      "title": "Hakeem Travel Korea (하킴트래블코리아)",
-      "lat": 37.5179193723,
-      "lng": 126.8871668279,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539693.jpg",
-      "address": "7th Floor, 10 Seonyu-ro 9-gil, Yeongdeungpo-gu, Seoul (07281)",
-      "published": "2026-07-20",
-      "summary": "Hakeem Travel Korea (하킴트래블코리아)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539693_zh_tw"
-    },
-    {
       "id": "mdcl_3364450_zh_tw",
       "lang": "zh_tw",
       "title": "Gangnam Joeunnun Vision Clinic (강남조은눈안과의원)",
@@ -17274,25 +17236,6 @@
       "link": "/item/mdcl_3549360_zh_tw"
     },
     {
-      "id": "mdcl_3539693_zh",
-      "lang": "zh",
-      "title": "Hakeem Travel Korea(하킴트래블코리아)",
-      "lat": 37.5179193723,
-      "lng": 126.8871668279,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539693.jpg",
-      "address": "首尔特别市永登浦区仙游路9街10 7楼 (07281)",
-      "published": "2026-07-20",
-      "summary": "Hakeem Travel Korea(하킴트래블코리아)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539693_zh"
-    },
-    {
       "id": "mdcl_3364810_zh_tw",
       "lang": "zh_tw",
       "title": "Korea University Guro Hospital (고려대학교의과대학부속 구로병원)",
@@ -17728,25 +17671,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3366125_ja"
-    },
-    {
-      "id": "mdcl_3539693_en",
-      "lang": "en",
-      "title": "Hakeem Travel Korea (하킴트래블코리아)",
-      "lat": 37.5179193723,
-      "lng": 126.8871668279,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3539693.jpg",
-      "address": "7th Floor, 10 Seonyu-ro 9-gil, Yeongdeungpo-gu, Seoul (07281)",
-      "published": "2026-07-20",
-      "summary": "Hakeem Travel Korea (하킴트래블코리아) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3539693_en"
     },
     {
       "id": "mdcl_3364882_zh_tw",
