@@ -1,6 +1,6 @@
 {
   "last_updated": "2026.07.27",
-  "total_count": 1180,
+  "total_count": 1176,
   "items": [
     {
       "id": "mdcl_3539560_zh",
@@ -7793,25 +7793,6 @@
       "link": "/item/mdcl_3539613_ja"
     },
     {
-      "id": "mdcl_3366158_en",
-      "lang": "en",
-      "title": "We Trip Korea ((주)우리클럽관광개발)",
-      "lat": 37.5452284392,
-      "lng": 126.9503158589,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366158.jpg",
-      "address": "(101-1204, Lotte Castle President), 467 Gongdeok-dong, Mapo-gu, Seoul (04146)",
-      "published": "2026-07-20",
-      "summary": "We Trip Korea ((주)우리클럽관광개발) is listed in Korea Tourism Organization medical-tourism OpenAPI. Confirm languages, hours, and booking directly with the clinic.",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366158_en"
-    },
-    {
       "id": "mdcl_3539938_ja",
       "lang": "ja",
       "title": "トックスエンフィル江南本店（톡스앤필의원 강남）",
@@ -8247,25 +8228,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3364765_zh_tw"
-    },
-    {
-      "id": "mdcl_3366158_zh",
-      "lang": "zh",
-      "title": "WOORI CLUB观光开发株式会社 ((주)우리클럽관광개발)",
-      "lat": 37.5452284392,
-      "lng": 126.9503158589,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366158.jpg",
-      "address": "首尔特别市麻浦区孔德洞 467，乐天Castle President 101栋 1204室 (04146)",
-      "published": "2026-07-20",
-      "summary": "WOORI CLUB观光开发株式会社 ((주)우리클럽관광개발)为韩国旅游发展局医疗观光 OpenAPI 收录信息。请直接向诊所确认语言、时间与预约。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366158_zh"
     },
     {
       "id": "mdcl_3364624_zh_tw",
@@ -18338,25 +18300,6 @@
       "link": "/item/mdcl_3365815_zh_tw"
     },
     {
-      "id": "mdcl_3366158_ja",
-      "lang": "ja",
-      "title": "株式会社ウリクラブ観光開発 ((주)우리클럽관광개발)",
-      "lat": 37.5452284392,
-      "lng": 126.9503158589,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366158.jpg",
-      "address": "ソウル特別市麻浦区マポデロ109 ロッテキャッスルプレジデント101棟1204号 (04146)",
-      "published": "2026-07-20",
-      "summary": "株式会社ウリクラブ観光開発 ((주)우리클럽관광개발)は韓国観光公社の医療ツーリズムOpenAPI掲載情報です。対応言語・診療時間・予約はクリニックへ直接ご確認ください。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366158_ja"
-    },
-    {
       "id": "mdcl_3539613_en",
       "lang": "en",
       "title": "MEDIPACT (메디팩트)",
@@ -22060,25 +22003,6 @@
       "tel": "",
       "source_image": "",
       "link": "/item/mdcl_3365517_zh"
-    },
-    {
-      "id": "mdcl_3366158_zh_tw",
-      "lang": "zh_tw",
-      "title": "We Trip Korea ((주)우리클럽관광개발)",
-      "lat": 37.5452284392,
-      "lng": 126.9503158589,
-      "categories": [
-        "Clinic"
-      ],
-      "thumbnail": "/static/images/mdcl_3366158.jpg",
-      "address": "(101-1204, Lotte Castle President), 467 Gongdeok-dong, Mapo-gu, Seoul (04146)",
-      "published": "2026-07-20",
-      "summary": "We Trip Korea ((주)우리클럽관광개발)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。",
-      "agoda": "",
-      "website": "",
-      "tel": "",
-      "source_image": "",
-      "link": "/item/mdcl_3366158_zh_tw"
     },
     {
       "id": "mdcl_3467117_zh",
