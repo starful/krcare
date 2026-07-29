@@ -97,7 +97,6 @@ def main():
                 "address":     str(post.get('address', 'Korea')),
                 "published":   str(post.get('date', datetime.now().strftime('%Y-%m-%d'))),
                 "summary":     summary,
-                "agoda":       str(post.get('agoda', '')),
                 "website":     str(post.get('website', '')).strip(),
                 "tel":         str(post.get('tel', '')).strip(),
                 "source_image": str(post.get('source_image') or post.get('thumb_image') or post.get('org_image') or '').strip(),

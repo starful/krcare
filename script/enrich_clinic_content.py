@@ -551,7 +551,6 @@ categories: ["Clinic"]
 thumbnail: "{esc(thumb)}"
 address: "{esc(address)}"
 date: "{today}"
-agoda: "{esc(meta.get('agoda') or '')}"
 website: "{esc(website)}"
 tel: "{esc(tel)}"
 source_image: "{esc(meta.get('source_image') or '')}"

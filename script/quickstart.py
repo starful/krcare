@@ -39,7 +39,6 @@ def _item_markdown(
     lng: str,
     address: str,
     features: str,
-    agoda: str,
     lang: str,
     website: str = "",
     tel: str = "",
@@ -74,7 +73,6 @@ categories: {categories}
 thumbnail: "/static/images/{safe_name}.jpg"
 address: "{address}"
 date: "{today}"
-agoda: "{agoda}"
 website: "{website}"
 tel: "{tel}"
 source_image: "{source_image}"
@@ -141,7 +139,6 @@ def generate_items(force: bool) -> int:
                 continue
             address = (row.get("Address") or "Korea").strip().replace('"', '\\"')
             features = (row.get("Features") or "").strip().replace('"', '\\"')
-            agoda = (row.get("Agoda") or "").strip().replace('"', '\\"')
             website = (row.get("Website") or "").strip().replace('"', '\\"')
             tel = (row.get("Tel") or "").strip().replace('"', '\\"')
             source_image = (
@@ -158,7 +155,6 @@ def generate_items(force: bool) -> int:
                     lng,
                     address,
                     features,
-                    agoda,
                     lang,
                     website=website,
                     tel=tel,

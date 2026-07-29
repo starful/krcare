@@ -515,7 +515,6 @@ categories: ["Clinic"]
 thumbnail: "/static/images/{cid}.jpg"
 address: "{address}"
 date: "{today}"
-agoda: ""
 website: "{website}"
 tel: "{tel}"
 source_image: ""

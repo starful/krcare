@@ -64,7 +64,6 @@ def generate_item_article(
     address: str,
     lang: str,
     features: str,
-    agoda: str = "",
     website: str = "",
     tel: str = "",
     source_image: str = "",
@@ -79,7 +78,6 @@ def generate_item_article(
     source_image = (source_image or "").strip()
     website = (website or "").strip()
     tel = (tel or "").strip()
-    agoda = (agoda or "").strip()
 
     print(f"🚀 [AI] Generating {lang} article: {name}...")
 
@@ -109,7 +107,6 @@ categories: ["Category1"]
 thumbnail: "/static/images/{safe_name}.jpg"
 address: "{address}"
 date: "{datetime.now().strftime('%Y-%m-%d')}"
-agoda: "{agoda}"
 website: "{website}"
 tel: "{tel}"
 source_image: "{source_image}"
@@ -167,8 +164,7 @@ def run_generator(limit: int = 10):
                             row.get("Address", "Seoul, Korea"),
                             lang,
                             row.get("Features", ""),
-                            row.get("Agoda", ""),
-                            row.get("Website", ""),
+                                                        row.get("Website", ""),
                             row.get("Tel", ""),
                             source_image,
                         )

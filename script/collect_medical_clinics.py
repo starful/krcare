@@ -331,7 +331,6 @@ categories: ["Clinic"]
 thumbnail: "{thumb}"
 address: "{esc(address)}"
 date: "{today}"
-agoda: ""
 website: "{esc(website)}"
 tel: "{esc(tel)}"
 source_image: "{esc(source_image)}"
@@ -362,8 +361,7 @@ def sync_csv(eng_items: list[dict]) -> None:
                 "Lng": it.get("mapX") or "",
                 "Address": address_of(it),
                 "Features": "Clinic",
-                "Agoda": "",
-                "Website": website_of(it),
+                                "Website": website_of(it),
                 "Tel": tel_of(it),
                 "SourceImage": image_of(it),
                 "Region": "",
@@ -376,8 +374,7 @@ def sync_csv(eng_items: list[dict]) -> None:
         "Lng",
         "Address",
         "Features",
-        "Agoda",
-        "Website",
+                "Website",
         "Tel",
         "SourceImage",
         "Region",
