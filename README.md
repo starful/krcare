@@ -1,110 +1,87 @@
-# OK Series Template
+# KR Care
 
-Shared Flask + Google Maps + Gemini template for map-driven Japan curation sites.
+**Medical trip care in Korea** — discover clinics and medical tourism POIs on a map, with nearby stay and food recommendations powered by TourAPI and Google Places.
 
-## Project Structure
+| | |
+|--|--|
+| **Live** | [https://krcare.net](https://krcare.net) |
+| **GitHub** | [starful/krcare](https://github.com/starful/krcare) |
+| **Hub ID** | `krcare` |
+
+## Features
+
+- Map-based browsing of medical clinics (Korea Tourism API / TourAPI)
+- Markdown-driven item pages with frontmatter
+- Nearby **stay** and **food** POI cache per clinic (`fetch_nearby_pois.py`)
+- No runtime database — compiled JSON + in-memory cache
+- GCS-backed static images under `ok-project-assets/krcare/`
+
+## Tech stack
+
+- **Backend:** Python, Flask, Gunicorn, flask-compress
+- **Frontend:** Jinja2, vanilla JS, Google Maps
+- **Data:** Markdown → `script/build_data.py` → `app/static/json/items_data.json`
+- **Infra:** Docker, Cloud Build, Cloud Run (`GCP_PROJECT_ID=starful-258005`)
+
+## OK Admin pipeline
+
+Typical Hub **Content** tab steps:
+
+1. `collect_medical_clinics.py` — TourAPI clinic list (skip-detail mode in pipeline)
+2. `fetch_images.py` — Places / asset images
+3. `fetch_nearby_pois.py` — stay + food neighbors
+4. `optimize_images.py`
+5. `build_data.py`
+
+## Local setup
+
+```bash
+cd /opt/work/krcare
+pip install -r requirements.txt
+cp .env.example .env    # TOURAPI_KEY, MAPS_API_KEY, etc.
+python3 script/build_data.py
+python run.py           # http://localhost:8080
+```
+
+Maps key: `KRCARE_GOOGLE_MAPS_API_KEY` (local `.env` or Secret Manager on Cloud Run).
+
+## Deploy
+
+```bash
+./deploy.sh --full                      # sync GCS images + generate + build
+./deploy.sh --content-only
+./deploy.sh --deploy-only --with-deploy
+```
+
+Env: `CONTENT_LIMIT`, `GUIDE_LIMIT`, `SERVICE_URL=https://krcare.net`.
+
+## GCS images
+
+- Bucket: `ok-project-assets` · prefix: `krcare/`
+- Places search types: `hospital`, `doctor`, `spa`, `lodging`, `restaurant`
+
+## Project structure
 
 ```text
-oktemplate/
+krcare/
 ├── app/
-│   ├── __init__.py
-│   ├── config.py
-│   ├── content/
-│   │   └── guides/
-│   ├── static/
-│   │   ├── css/style.css
-│   │   ├── js/
-│   │   ├── json/items_data.json
-│   │   └── site.webmanifest
-│   └── templates/
+│   ├── __init__.py       # Flask routes, cache
+│   ├── config.py         # SITE_CONFIG, categories
+│   ├── content/          # Clinic markdown
+│   └── static/json/      # Built data
 ├── script/
-│   ├── item_generator.py
-│   ├── guide_generator.py
+│   ├── collect_medical_clinics.py
+│   ├── fetch_nearby_pois.py
 │   ├── build_data.py
-│   ├── fetch_images.py
-│   ├── optimize_images.py
-│   ├── quickstart.py
 │   └── csv/
-│       ├── items.csv
-│       └── guides.csv
-├── cloudbuild.yaml
 ├── deploy.sh
-└── .env.example
+└── cloudbuild.yaml
 ```
 
-## Quick Start
+## OK Admin
 
-1. Fill starter data:
-   - `script/csv/items.csv`
-   - `script/csv/guides.csv`
-2. Generate starter markdown and JSON:
+Git: **Ship prep** → **Review & merge** on `main`. Deploy only from production branch.
 
-```bash
-python script/quickstart.py
-```
+## Related
 
-3. Run locally:
-
-```bash
-python run.py
-```
-
-Open `http://localhost:8080`.
-
-## New Project Setup
-
-1. Copy template:
-
-```bash
-cp -r oktemplate okSomething
-cd okSomething
-```
-
-2. Update `app/config.py`:
-   - `project_name`
-   - `site_name`
-   - `site_url`
-   - `tagline`
-   - category mapping/theme values
-
-3. Update CSV inputs:
-   - `script/csv/items.csv` (`Name,Lat,Lng,Address,Features,Agoda`)
-   - `script/csv/guides.csv` (`id,topic_en,topic_ko,keywords`)
-
-4. Check deploy settings:
-   - `cloudbuild.yaml` substitutions and secret names
-   - optional env overrides in `deploy.sh`
-
-## Deployment
-
-Default full flow:
-
-```bash
-chmod +x deploy.sh
-./deploy.sh
-```
-
-Optional modes:
-
-```bash
-./deploy.sh --content-only
-./deploy.sh --content-only --with-git --with-deploy
-./deploy.sh --deploy-only
-```
-
-## Environment Variables
-
-Copy `.env.example` to `.env`:
-
-```env
-GEMINI_API_KEY=your_key
-GOOGLE_PLACES_API_KEY=your_key
-MAPS_API_KEY=your_maps_js_key
-# Same value; Cloud secret name is KRCARE_GOOGLE_MAPS_API_KEY
-KRCARE_GOOGLE_MAPS_API_KEY=your_maps_js_key
-MAPS_ID=2938bb3f7f034d78a92f600c
-SITE_URL=https://krcare.net
-ASSET_VERSION=2026-04-29
-```
-
-Cloud Run maps the Secret Manager secret `KRCARE_GOOGLE_MAPS_API_KEY` → env `MAPS_API_KEY`, and sets `MAPS_ID` for the Cloud-based map style named **krcare**.
+- [OK Admin](../okadmin/README.md) · [WORK_ROOT](../README.md)
