@@ -31,6 +31,14 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertIn("<loc>", body)
         self.assertIn("xhtml:link", body)
 
+    def test_ads_txt(self):
+        ads = self.client.get("/ads.txt")
+        self.assertEqual(ads.status_code, 200)
+        self.assertIn(
+            "google.com, pub-8780435268193938, DIRECT, f08c47fec0942fa0",
+            ads.get_data(as_text=True),
+        )
+
     def test_favicon_and_manifest_routes_exist(self):
         favicon = self.client.get("/favicon.ico")
         self.assertIn(favicon.status_code, (200, 302))

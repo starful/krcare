@@ -1028,6 +1028,11 @@ def robots_txt():
     return Response(content, mimetype='text/plain')
 
 
+@app.route('/ads.txt')
+def ads_txt():
+    return send_from_directory(STATIC_DIR, 'ads.txt', mimetype='text/plain')
+
+
 _HREFLANG = {
     'en': 'en',
     'ja': 'ja',
