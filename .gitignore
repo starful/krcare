@@ -5,7 +5,7 @@ __pycache__/
 .venv/
 venv/
 tmp/
-app/content/
+# app/content/ tracked so SEO/Ship shows dirty like other sites
 app/static/images/*.jpg
 app/static/images/*.jpeg
 app/static/images/*.png

@@ -1,4 +1,4 @@
-# Cloud Build source upload — keep sample content for template demo deploys.
+# Cloud Build source upload. Post images live on GCS — keep them out of the image.
 .git
 .gitignore
 .env
@@ -12,4 +12,3 @@ app/static/images/*.png
 !app/static/images/logo.png
 !app/static/images/favicon.ico
 !app/static/images/default.jpg
-!app/content/**
