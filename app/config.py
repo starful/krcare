@@ -91,9 +91,9 @@ SITE_CONFIG = {
     ],
 
     # ----------------------------------------------------------
-    # 9. Affiliate (same Klook short link as krcampus)
+    # 9. Affiliate (same Klook short links as krcampus — fallback)
     # ----------------------------------------------------------
-    "klook_url": "https://klook.tpo.mx/ED7IfKaq",
+    "klook_url": "https://klook.tpo.mx/IHDxaMD6",
 
     # ----------------------------------------------------------
     # 10. Footer

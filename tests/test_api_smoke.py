@@ -73,7 +73,7 @@ class ApiSmokeTest(unittest.TestCase):
         detail = self.client.get(f"/item/{item_id}")
         self.assertEqual(detail.status_code, 200)
         body = detail.get_data(as_text=True)
-        self.assertIn("https://klook.tpo.mx/ED7IfKaq", body)
+        self.assertIn("https://klook.tpo.mx/IHDxaMD6", body)
         self.assertIn("booking-box", body)
         self.assertNotIn("Agoda", body)
 
