@@ -101,6 +101,7 @@
       {% set lbl_stay = '近くの宿泊・旅の準備' %}
       {% set lbl_stay_desc = 'ホテル・eSIM・空港アクセスをKlookで探す' %}
       {% set lbl_stay_btn = 'Klookで見る →' %}
+      {% set lbl_stay_note = 'アフィリエイトリンク · 新しいタブで開きます' %}
       {% set lbl_back = '地図に戻る' %}
     {% elif lang == 'zh' %}
       {% set lbl_site = '官方网站' %}
@@ -114,6 +115,7 @@
       {% set lbl_stay = '附近住宿与出行' %}
       {% set lbl_stay_desc = '在 Klook 查找酒店、eSIM 与机场接送' %}
       {% set lbl_stay_btn = '在 Klook 查看 →' %}
+      {% set lbl_stay_note = '联盟链接 · 在新标签页打开' %}
       {% set lbl_back = '返回地图' %}
     {% elif lang == 'zh_tw' %}
       {% set lbl_site = '官方網站' %}
@@ -127,6 +129,7 @@
       {% set lbl_stay = '附近住宿與出行' %}
       {% set lbl_stay_desc = '在 Klook 尋找飯店、eSIM 與機場接送' %}
       {% set lbl_stay_btn = '在 Klook 查看 →' %}
+      {% set lbl_stay_note = '聯盟連結 · 於新分頁開啟' %}
       {% set lbl_back = '返回地圖' %}
     {% else %}
       {% set lbl_site = 'Official website' %}
@@ -140,6 +143,7 @@
       {% set lbl_stay = 'Stay & trip prep' %}
       {% set lbl_stay_desc = 'Find hotels, eSIM, and airport transfers on Klook.' %}
       {% set lbl_stay_btn = 'Check Klook →' %}
+      {% set lbl_stay_note = 'Affiliate link · opens in a new tab' %}
       {% set lbl_back = 'Back to map' %}
     {% endif %}
 
@@ -217,6 +221,22 @@
         </section>
 
         <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
+
+        {% if site.klook_url %}
+        <aside class="booking-box booking-box--prominent" role="complementary" aria-label="Travel prep">
+            <p class="booking-box__title">{{ lbl_stay }}</p>
+            <p class="booking-box__desc">{{ lbl_stay_desc }}</p>
+            <a href="{{ site.klook_url }}"
+               target="_blank"
+               rel="noopener noreferrer nofollow sponsored"
+               class="booking-btn"
+               data-track="affiliate_klook"
+               data-track-label="klook">
+                {{ lbl_stay_btn }}
+            </a>
+            <p class="booking-box__note">{{ lbl_stay_note }}</p>
+        </aside>
+        {% endif %}
 
         {% if content %}
         <div class="detail-content detail-content-card">
@@ -361,21 +381,6 @@
                 {% endif %}
             </section>
             {% endif %}
-        </div>
-        {% endif %}
-
-        {% if site.klook_url %}
-        <div class="booking-box">
-            <h3>🏨 {{ lbl_stay }}</h3>
-            <p>{{ lbl_stay_desc }}</p>
-            <a href="{{ site.klook_url }}"
-               target="_blank"
-               rel="noopener noreferrer nofollow sponsored"
-               class="booking-btn"
-               data-track="affiliate_klook"
-               data-track-label="klook">
-                {{ lbl_stay_btn }}
-            </a>
         </div>
         {% endif %}
 
