@@ -13,3 +13,8 @@ app/static/images/*.png
 !app/static/images/favicon.ico
 !app/static/images/default.jpg
 !app/static/images/default.png
+
+
+
+# macOS Finder custom folder icon (Icon + CR; Icon? matches one trailing char)
+Icon?
