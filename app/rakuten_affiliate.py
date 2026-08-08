@@ -1,25 +1,16 @@
-"""Thin Rakuten Travel HGC wrap for Korea hotel search (krcare)."""
+"""Rakuten Travel short links for Korea trip prep (krcare)."""
 
 from __future__ import annotations
 
-import os
-from urllib.parse import quote, quote_plus
-
-RAKUTEN_HGC = os.getenv(
-    "RAKUTEN_TRAVEL_HGC", "55b9427b.a63c2df8.55b9427c.3a0d270c"
-)
-_RAKUTEN_UT = "eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9"
-KOREA_HOTEL_KEYWORD = "韓国 ホテル"
+# Fixed Travelpayouts / Rakuten a.r10.to short links.
+RAKUTEN_KOREA_TRAVEL_URL = "https://a.r10.to/hPhGZl"
+RAKUTEN_KOREA_ESIM_URL = "https://a.r10.to/h9O1Fq"
 
 
-def rakuten_korea_hotel_url(keyword: str = KOREA_HOTEL_KEYWORD) -> str:
-    raw = (
-        "https://kw.travel.rakuten.co.jp/keyword/Search.do?"
-        + "f_key="
-        + quote_plus(keyword)
-    )
-    pc = quote(raw, safe="")
-    return (
-        f"https://hb.afl.rakuten.co.jp/hgc/{RAKUTEN_HGC}/"
-        f"?pc={pc}&link_type=text&ut={_RAKUTEN_UT}"
-    )
+def rakuten_korea_hotel_url() -> str:
+    """Back-compat alias for Korea travel short link."""
+    return RAKUTEN_KOREA_TRAVEL_URL
+
+
+def rakuten_korea_esim_url() -> str:
+    return RAKUTEN_KOREA_ESIM_URL

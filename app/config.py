@@ -4,9 +4,15 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 try:
-    from .rakuten_affiliate import rakuten_korea_hotel_url
+    from .rakuten_affiliate import (
+        RAKUTEN_KOREA_ESIM_URL,
+        RAKUTEN_KOREA_TRAVEL_URL,
+    )
 except ImportError:
-    from rakuten_affiliate import rakuten_korea_hotel_url
+    from rakuten_affiliate import (
+        RAKUTEN_KOREA_ESIM_URL,
+        RAKUTEN_KOREA_TRAVEL_URL,
+    )
 
 # Load local .env before reading SITE_CONFIG (dev / local only)
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
@@ -96,10 +102,11 @@ SITE_CONFIG = {
     ],
 
     # ----------------------------------------------------------
-    # 9. Affiliate (Klook Travelpayouts + Rakuten Travel)
+    # 9. Affiliate (Rakuten Travel/eSIM + Klook airport/fallback)
     # ----------------------------------------------------------
     "klook_url": "https://klook.tpo.mx/IHDxaMD6",
-    "rakuten_travel_url": rakuten_korea_hotel_url(),
+    "rakuten_travel_url": RAKUTEN_KOREA_TRAVEL_URL,
+    "rakuten_esim_url": RAKUTEN_KOREA_ESIM_URL,
 
     # ----------------------------------------------------------
     # 10. Footer

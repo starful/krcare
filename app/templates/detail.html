@@ -99,9 +99,10 @@
       {% set lbl_website = 'ウェブサイト' %}
       {% set lbl_na = '公開情報なし — クリニックへ確認' %}
       {% set lbl_stay = '近くの宿泊・旅の準備' %}
-      {% set lbl_stay_desc = 'ホテルは楽天トラベル、eSIM・空港アクセスはKlookで探す' %}
-      {% set lbl_stay_btn_rakuten = '楽天トラベルで韓国ホテルを見る →' %}
-      {% set lbl_stay_btn = 'Klookで見る →' %}
+      {% set lbl_stay_desc = '宿泊は楽天トラベル、韓国eSIMは楽天、空港アクセスはKlook' %}
+      {% set lbl_stay_btn_rakuten = '楽天で韓国旅行を見る →' %}
+      {% set lbl_stay_btn_esim = '楽天で韓国eSIMを見る →' %}
+      {% set lbl_stay_btn = 'Klookで空港アクセスを見る →' %}
       {% set lbl_stay_note = 'アフィリエイトリンク · 新しいタブで開きます' %}
       {% set lbl_back = '地図に戻る' %}
     {% elif lang == 'zh' %}
@@ -114,9 +115,10 @@
       {% set lbl_website = '网站' %}
       {% set lbl_na = '公开信息未收录 — 请向诊所确认' %}
       {% set lbl_stay = '附近住宿与出行' %}
-      {% set lbl_stay_desc = '在乐天旅游搜索韩国酒店，在 Klook 查找 eSIM 与机场接送' %}
-      {% set lbl_stay_btn_rakuten = '在乐天旅游查看韩国酒店 →' %}
-      {% set lbl_stay_btn = '在 Klook 查看 →' %}
+      {% set lbl_stay_desc = '乐天旅游订住宿、乐天买韩国 eSIM，机场接送用 Klook' %}
+      {% set lbl_stay_btn_rakuten = '在乐天查看韩国旅行 →' %}
+      {% set lbl_stay_btn_esim = '在乐天查看韩国 eSIM →' %}
+      {% set lbl_stay_btn = '在 Klook 查看机场接送 →' %}
       {% set lbl_stay_note = '联盟链接 · 在新标签页打开' %}
       {% set lbl_back = '返回地图' %}
     {% elif lang == 'zh_tw' %}
@@ -129,9 +131,10 @@
       {% set lbl_website = '網站' %}
       {% set lbl_na = '公開資訊未收錄 — 請向診所確認' %}
       {% set lbl_stay = '附近住宿與出行' %}
-      {% set lbl_stay_desc = '在樂天旅遊搜尋韓國飯店，在 Klook 尋找 eSIM 與機場接送' %}
-      {% set lbl_stay_btn_rakuten = '在樂天旅遊查看韓國飯店 →' %}
-      {% set lbl_stay_btn = '在 Klook 查看 →' %}
+      {% set lbl_stay_desc = '樂天旅遊訂住宿、樂天買韓國 eSIM，機場接送用 Klook' %}
+      {% set lbl_stay_btn_rakuten = '在樂天查看韓國旅行 →' %}
+      {% set lbl_stay_btn_esim = '在樂天查看韓國 eSIM →' %}
+      {% set lbl_stay_btn = '在 Klook 查看機場接送 →' %}
       {% set lbl_stay_note = '聯盟連結 · 於新分頁開啟' %}
       {% set lbl_back = '返回地圖' %}
     {% else %}
@@ -144,9 +147,10 @@
       {% set lbl_website = 'Website' %}
       {% set lbl_na = 'Not in public listing — ask the clinic' %}
       {% set lbl_stay = 'Stay & trip prep' %}
-      {% set lbl_stay_desc = 'Search Korea hotels on Rakuten Travel; eSIM & transfers on Klook.' %}
-      {% set lbl_stay_btn_rakuten = 'Korea hotels on Rakuten Travel →' %}
-      {% set lbl_stay_btn = 'Check Klook →' %}
+      {% set lbl_stay_desc = 'Korea travel on Rakuten, Korea eSIM on Rakuten, airport transfers on Klook.' %}
+      {% set lbl_stay_btn_rakuten = 'Korea travel on Rakuten →' %}
+      {% set lbl_stay_btn_esim = 'Korea eSIM on Rakuten →' %}
+      {% set lbl_stay_btn = 'Airport transfers on Klook →' %}
       {% set lbl_stay_note = 'Affiliate links · opens in a new tab' %}
       {% set lbl_back = 'Back to map' %}
     {% endif %}
@@ -226,7 +230,7 @@
 
         <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
 
-        {% if site.rakuten_travel_url or site.klook_url %}
+        {% if site.rakuten_travel_url or site.rakuten_esim_url or site.klook_url %}
         <aside class="booking-box booking-box--prominent" role="complementary" aria-label="Travel prep">
             <p class="booking-box__title">{{ lbl_stay }}</p>
             <p class="booking-box__desc">{{ lbl_stay_desc }}</p>
@@ -237,8 +241,18 @@
                    rel="noopener noreferrer nofollow sponsored"
                    class="booking-btn booking-btn--rakuten"
                    data-track="affiliate_rakuten"
-                   data-track-label="korea-hotel">
+                   data-track-label="korea-travel">
                     {{ lbl_stay_btn_rakuten }}
+                </a>
+                {% endif %}
+                {% if site.rakuten_esim_url %}
+                <a href="{{ site.rakuten_esim_url }}"
+                   target="_blank"
+                   rel="noopener noreferrer nofollow sponsored"
+                   class="booking-btn booking-btn--rakuten"
+                   data-track="affiliate_rakuten_esim"
+                   data-track-label="korea-esim">
+                    {{ lbl_stay_btn_esim }}
                 </a>
                 {% endif %}
                 {% if site.klook_url %}
