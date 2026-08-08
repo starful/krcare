@@ -75,6 +75,8 @@ class ApiSmokeTest(unittest.TestCase):
         body = detail.get_data(as_text=True)
         self.assertIn("https://klook.tpo.mx/IHDxaMD6", body)
         self.assertIn("booking-box", body)
+        self.assertIn("hb.afl.rakuten.co.jp/hgc/", body)
+        self.assertIn("booking-btn--rakuten", body)
         self.assertNotIn("Agoda", body)
 
 

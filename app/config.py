@@ -3,6 +3,11 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
+try:
+    from .rakuten_affiliate import rakuten_korea_hotel_url
+except ImportError:
+    from rakuten_affiliate import rakuten_korea_hotel_url
+
 # Load local .env before reading SITE_CONFIG (dev / local only)
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
@@ -91,9 +96,10 @@ SITE_CONFIG = {
     ],
 
     # ----------------------------------------------------------
-    # 9. Affiliate (same Klook short links as krcampus — fallback)
+    # 9. Affiliate (Klook Travelpayouts + Rakuten Travel)
     # ----------------------------------------------------------
     "klook_url": "https://klook.tpo.mx/IHDxaMD6",
+    "rakuten_travel_url": rakuten_korea_hotel_url(),
 
     # ----------------------------------------------------------
     # 10. Footer

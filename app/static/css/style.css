@@ -782,6 +782,12 @@ header {
     line-height: 1.55;
     color: #4a5c63;
 }
+.booking-box__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
 .booking-btn {
     display: inline-flex;
     align-items: center;
@@ -799,6 +805,13 @@ header {
 .booking-btn:hover {
     background: var(--accent-hover);
     transform: translateY(-2px);
+}
+.booking-btn--rakuten {
+    background: #bf0000;
+    box-shadow: 0 12px 24px rgba(191, 0, 0, 0.25);
+}
+.booking-btn--rakuten:hover {
+    background: #a00000;
 }
 .booking-box__note {
     margin: 14px 0 0;
