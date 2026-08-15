@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: BASE DERMATOLOGY CLINIC (베이스피부과의원)
+title: "BASE DERMATOLOGY CLINIC (베이스피부과의원)"
 lat: 35.1667063162
 lng: 129.1324795555
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3547900.jpg
-address: '#203-#204, Centum Diamond Building, 24 Centum 2-ro, Haeundae-gu, Busan (48060)'
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: BASE DERMATOLOGY CLINIC (베이스피부과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3547900'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3547900.jpg"
+address: "#203-#204, Centum Diamond Building, 24 Centum 2-ro, Haeundae-gu, Busan (48060)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "BASE DERMATOLOGY CLINIC (베이스피부과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3547900"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Dogo Dental Clinic (도고치과의원)
+title: "Dogo Dental Clinic (도고치과의원)"
 lat: 37.5142423132
 lng: 127.0584791065
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366209.jpg
-address: (4th Floor, Yungok Building), 533 Bongeunsa-ro, Gangnam-gu, Seoul (06087)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Dogo Dental Clinic (도고치과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366209'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366209.jpg"
+address: "(4th Floor, Yungok Building), 533 Bongeunsa-ro, Gangnam-gu, Seoul (06087)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Dogo Dental Clinic (도고치과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366209"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Minish Dental Hospital (미니쉬치과병원)
+title: "Minish Dental Hospital (미니쉬치과병원)"
 lat: 37.5199134535
 lng: 127.0349116472
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3446967.jpg
-address: 728 Eonju-ro, Gangnam-gu, 728 Eonju-ro, Gangnam-gu, Seoul (06057)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Minish Dental Hospital (미니쉬치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3446967'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3446967.jpg"
+address: "728 Eonju-ro, Gangnam-gu, 728 Eonju-ro, Gangnam-gu, Seoul (06057)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Minish Dental Hospital (미니쉬치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3446967"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

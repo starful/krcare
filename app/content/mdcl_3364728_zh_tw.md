@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Herneclinic (에르네의원)
+title: "Herneclinic (에르네의원)"
 lat: 37.5023264116
 lng: 127.0240159147
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364728.jpg
-address: (#301-304), 59 Seocho-daero 77-gil, Seocho-gu, Seoul (06611)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Herneclinic (에르네의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364728'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364728.jpg"
+address: "(#301-304), 59 Seocho-daero 77-gil, Seocho-gu, Seoul (06611)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Herneclinic (에르네의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364728"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: GSam Hospital (지샘병원)
+title: "GSam Hospital (지샘병원)"
 lat: 37.3587250356
 lng: 126.9473297081
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364333.jpg
-address: 591 Gunpo-ro, Gunpo-si, Gyeonggi-do (15839)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: GSam Hospital (지샘병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364333'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364333.jpg"
+address: "591 Gunpo-ro, Gunpo-si, Gyeonggi-do (15839)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "GSam Hospital (지샘병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364333"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

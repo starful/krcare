@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Nanoori Hospital (나누리병원)
+title: "Nanoori Hospital (나누리병원)"
 lat: 37.5203606073
 lng: 127.0339950515
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364686.jpg
-address: (Nonhyeon-dong), 731 Eonju-ro, Gangnam-gu, Seoul (06048)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Nanoori Hospital (나누리병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364686'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364686.jpg"
+address: "(Nonhyeon-dong), 731 Eonju-ro, Gangnam-gu, Seoul (06048)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Nanoori Hospital (나누리병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364686"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

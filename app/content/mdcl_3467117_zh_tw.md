@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: First Samsung Eye Center (퍼스트삼성안과의원)
+title: "First Samsung Eye Center (퍼스트삼성안과의원)"
 lat: 37.4958577817
 lng: 127.0275629971
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3467117.jpg
-address: 5F, 22 Seocho-daero 78-gil, Seocho-gu, Seoul (06621)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: First Samsung Eye Center (퍼스트삼성안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3467117'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3467117.jpg"
+address: "5F, 22 Seocho-daero 78-gil, Seocho-gu, Seoul (06621)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "First Samsung Eye Center (퍼스트삼성안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3467117"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

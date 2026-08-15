@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Mediround.Corp (주식회사 메디라운드)
-lat: 37.568581843
+title: "Mediround.Corp (주식회사 메디라운드)"
+lat: 37.5685818430
 lng: 126.9816428989
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366498.jpg
-address: 10F, Unit B1031, 8, Gangnam-daero 69-gil, Seocho-gu, Seoul (04521)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Mediround.Corp (주식회사 메디라운드)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366498'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366498.jpg"
+address: "10F, Unit B1031, 8, Gangnam-daero 69-gil, Seocho-gu, Seoul (04521)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Mediround.Corp (주식회사 메디라운드)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366498"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Woo Joo Yon Clinic (우주연한의원)
+title: "Woo Joo Yon Clinic (우주연한의원)"
 lat: 37.5830941296
-lng: 126.986350392
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364920.jpg
-address: (2nd Floor, Hanok), 41 Bukchon-ro 12-gil, Jongno-gu, Seoul (03056)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Woo Joo Yon Clinic (우주연한의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364920'
-source: MdclTursmService
+lng: 126.9863503920
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364920.jpg"
+address: "(2nd Floor, Hanok), 41 Bukchon-ro 12-gil, Jongno-gu, Seoul (03056)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Woo Joo Yon Clinic (우주연한의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364920"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

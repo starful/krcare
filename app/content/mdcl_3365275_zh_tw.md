@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Kang Dong Hospital (강동병원)
+title: "Kang Dong Hospital (강동병원)"
 lat: 35.0894065745
 lng: 128.9784811731
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3365275.jpg
-address: 145 Dadae-ro, Saha-gu, Busan (49393)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Kang Dong Hospital (강동병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3365275'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3365275.jpg"
+address: "145 Dadae-ro, Saha-gu, Busan (49393)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Kang Dong Hospital (강동병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3365275"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

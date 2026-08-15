@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Chung-Ang Uiversity Hospital (중앙대학교병원)
+title: "Chung-Ang Uiversity Hospital (중앙대학교병원)"
 lat: 37.5076357737
 lng: 126.9608659589
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366398.jpg
-address: 102 Heukseok-ro, Dongjak-gu, Seoul (06973)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Chung-Ang Uiversity Hospital (중앙대학교병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366398'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366398.jpg"
+address: "102 Heukseok-ro, Dongjak-gu, Seoul (06973)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Chung-Ang Uiversity Hospital (중앙대학교병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366398"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

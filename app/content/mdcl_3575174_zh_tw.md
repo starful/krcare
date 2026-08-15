@@ -1,24 +1,20 @@
 ---
 lang: zh_tw
-title: Korea Institute of Radiological & Medical Sciences, Korea Cancer Center Hospital  (한국원자력의학원
-  원자력병원)
-lat: 37.62818788
+title: "Korea Institute of Radiological & Medical Sciences, Korea Cancer Center Hospital  (한국원자력의학원 원자력병원)"
+lat: 37.6281878800
 lng: 127.0847179215
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3575174.jpg
-address: 75 Nowon-ro, Nowon-gu, Seoul (01812)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Korea Institute of Radiological & Medical Sciences, Korea Cancer Center Hospital  (한국원자력의학원
-  원자력병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3575174'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3575174.jpg"
+address: "75 Nowon-ro, Nowon-gu, Seoul (01812)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Korea Institute of Radiological & Medical Sciences, Korea Cancer Center Hospital  (한국원자력의학원 원자력병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3575174"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

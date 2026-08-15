@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Good Moonhwa Hospital (좋은문화병원)
+title: "Good Moonhwa Hospital (좋은문화병원)"
 lat: 35.1408078609
 lng: 129.0591560867
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3549488.jpg
-address: 119 Beomil-ro, Dong-gu, Busan (48735)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Good Moonhwa Hospital (좋은문화병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3549488'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3549488.jpg"
+address: "119 Beomil-ro, Dong-gu, Busan (48735)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Good Moonhwa Hospital (좋은문화병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3549488"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

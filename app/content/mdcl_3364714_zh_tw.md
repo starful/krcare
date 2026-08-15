@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: 21 Century Hospital (서울21세기병원)
+title: "21 Century Hospital (서울21세기병원)"
 lat: 37.4853310133
 lng: 127.0157254829
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364714.jpg
-address: 39 Seochojungang-ro, Seocho-gu, Seoul (06654)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: 21 Century Hospital (서울21세기병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364714'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364714.jpg"
+address: "39 Seochojungang-ro, Seocho-gu, Seoul (06654)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "21 Century Hospital (서울21세기병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364714"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

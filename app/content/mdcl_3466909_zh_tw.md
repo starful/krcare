@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Busan BGSS Eye Clinic (부산밝은세상안과)
+title: "Busan BGSS Eye Clinic (부산밝은세상안과)"
 lat: 35.1572448908
 lng: 129.0581557245
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3466909.jpg
-address: 8F-11F, 74 Seomyeon-ro, Busanjin-gu, Busan (47286)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Busan BGSS Eye Clinic (부산밝은세상안과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3466909'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3466909.jpg"
+address: "8F-11F, 74 Seomyeon-ro, Busanjin-gu, Busan (47286)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Busan BGSS Eye Clinic (부산밝은세상안과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3466909"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

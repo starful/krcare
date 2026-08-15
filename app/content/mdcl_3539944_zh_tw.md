@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: medicity Co., Ltd (주식회사 메디씨티)
+title: "medicity Co., Ltd (주식회사 메디씨티)"
 lat: 37.6645446192
 lng: 126.7669875552
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3539944.jpg
-address: '#302, 43-55 Mugunghwa-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10364)'
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: medicity Co., Ltd (주식회사 메디씨티)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3539944'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3539944.jpg"
+address: "#302, 43-55 Mugunghwa-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10364)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "medicity Co., Ltd (주식회사 메디씨티)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3539944"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Soonplus Plastic Surgery · Dermatology (순플러스성형외과의원)
+title: "Soonplus Plastic Surgery · Dermatology (순플러스성형외과의원)"
 lat: 37.5144943596
 lng: 127.0194021015
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366080.jpg
-address: (12th-13th Floors, Mulberry Hills Medical Building), 589 Gangnam-daero, Seocho-gu,
-  Seoul (06526)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Soonplus Plastic Surgery · Dermatology (순플러스성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366080'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366080.jpg"
+address: "(12th-13th Floors, Mulberry Hills Medical Building), 589 Gangnam-daero, Seocho-gu, Seoul (06526)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Soonplus Plastic Surgery · Dermatology (순플러스성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366080"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: B&VIIT Eye Center (비앤빛안과의원)
+title: "B&VIIT Eye Center (비앤빛안과의원)"
 lat: 37.4981602632
 lng: 127.0259380793
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3562945.jpg
-address: B2 Floor, GT Tower, 411 Seocho-daero, Seocho-gu, Seoul (06615)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: B&VIIT Eye Center (비앤빛안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3562945'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3562945.jpg"
+address: "B2 Floor, GT Tower, 411 Seocho-daero, Seocho-gu, Seoul (06615)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "B&VIIT Eye Center (비앤빛안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3562945"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

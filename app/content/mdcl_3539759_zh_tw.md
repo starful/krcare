@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: ID Clinic Hongdae (홍대 아이디의원)
+title: "ID Clinic Hongdae (홍대 아이디의원)"
 lat: 37.5551573371
 lng: 126.9221598111
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3539759.jpg
-address: 10th Floor, H-CUBE, 140 Yanghwa-ro, Mapo-gu, Seoul (04050)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: ID Clinic Hongdae (홍대 아이디의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3539759'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3539759.jpg"
+address: "10th Floor, H-CUBE, 140 Yanghwa-ro, Mapo-gu, Seoul (04050)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "ID Clinic Hongdae (홍대 아이디의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3539759"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

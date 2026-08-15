@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: BGN Eye Hospital (밝은눈안과병원)
+title: "BGN Eye Hospital (밝은눈안과병원)"
 lat: 35.1579502424
 lng: 129.0514007375
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366754.jpg
-address: 729 Gaya-daero, Busanjin-gu, Busan (47195)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: BGN Eye Hospital (밝은눈안과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366754'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366754.jpg"
+address: "729 Gaya-daero, Busanjin-gu, Busan (47195)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "BGN Eye Hospital (밝은눈안과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366754"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

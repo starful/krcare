@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: First Eye Clinic (퍼스트안과의원)
+title: "First Eye Clinic (퍼스트안과의원)"
 lat: 35.0976066965
 lng: 129.0350065894
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3539560.jpg
-address: 6th–7th Floors, Eungwa & Medical Building, 5 Gudeok-ro, Jung-gu, Busan (48984)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: First Eye Clinic (퍼스트안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3539560'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3539560.jpg"
+address: "6th–7th Floors, Eungwa & Medical Building, 5 Gudeok-ro, Jung-gu, Busan (48984)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "First Eye Clinic (퍼스트안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3539560"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

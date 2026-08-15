@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Ewha Womans University Mokdong Hospital (이화의대부속목동병원)
+title: "Ewha Womans University Mokdong Hospital (이화의대부속목동병원)"
 lat: 37.5371171312
 lng: 126.8865857849
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3547829.jpg
-address: 1071 Anyangcheon-ro, Yangcheon-gu, Seoul (07985)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Ewha Womans University Mokdong Hospital (이화의대부속목동병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3547829'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3547829.jpg"
+address: "1071 Anyangcheon-ro, Yangcheon-gu, Seoul (07985)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Ewha Womans University Mokdong Hospital (이화의대부속목동병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3547829"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

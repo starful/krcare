@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Kyung Hee University Medical Center (경희의료원)
+title: "Kyung Hee University Medical Center (경희의료원)"
 lat: 37.5938024091
-lng: 127.052585718
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3365939.jpg
-address: 23 Kyungheedae-ro, Dongdaemun-gu, Seoul (02447)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Kyung Hee University Medical Center (경희의료원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3365939'
-source: MdclTursmService
+lng: 127.0525857180
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3365939.jpg"
+address: "23 Kyungheedae-ro, Dongdaemun-gu, Seoul (02447)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Kyung Hee University Medical Center (경희의료원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3365939"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

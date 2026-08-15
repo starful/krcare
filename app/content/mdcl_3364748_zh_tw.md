@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Stantop Urology & Andrology Clinic (스탠탑비뇨의학과의원)
-lat: 37.505070562
+title: "Stantop Urology & Andrology Clinic (스탠탑비뇨의학과의원)"
+lat: 37.5050705620
 lng: 127.0254101547
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364748.jpg
-address: (2nd,B2 Floors), 107 Bongeunsa-ro, Gangnam-gu, Seoul (06120)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Stantop Urology & Andrology Clinic (스탠탑비뇨의학과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364748'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364748.jpg"
+address: "(2nd,B2 Floors), 107 Bongeunsa-ro, Gangnam-gu, Seoul (06120)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Stantop Urology & Andrology Clinic (스탠탑비뇨의학과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364748"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

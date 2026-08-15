@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Daegu Fatima Hospital (대구파티마병원)
+title: "Daegu Fatima Hospital (대구파티마병원)"
 lat: 35.8835606423
-lng: 128.623934787
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3562921.jpg
-address: 99 Ayang-ro, Dong-gu, Daegu (41199)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Daegu Fatima Hospital (대구파티마병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3562921'
-source: MdclTursmService
+lng: 128.6239347870
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3562921.jpg"
+address: "99 Ayang-ro, Dong-gu, Daegu (41199)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Daegu Fatima Hospital (대구파티마병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3562921"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

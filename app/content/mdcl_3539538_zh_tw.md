@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: KwangDong Hospital (광동병원)
-lat: 37.514334036
+title: "KwangDong Hospital (광동병원)"
+lat: 37.5143340360
 lng: 127.0621621026
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3539538.jpg
-address: 612 Bongeunsa-ro, Gangnam-gu, Seoul (06170)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: KwangDong Hospital (광동병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3539538'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3539538.jpg"
+address: "612 Bongeunsa-ro, Gangnam-gu, Seoul (06170)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "KwangDong Hospital (광동병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3539538"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

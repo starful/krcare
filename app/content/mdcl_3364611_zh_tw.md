@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Youth Clinic (유스의원)
+title: "Youth Clinic (유스의원)"
 lat: 37.5210641098
 lng: 126.9240022713
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364611.jpg
-address: (4th Floor, Islex), 108 Uisadang-daero, Yeongdeungpo-gu, Seoul (07322)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Youth Clinic (유스의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364611'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364611.jpg"
+address: "(4th Floor, Islex), 108 Uisadang-daero, Yeongdeungpo-gu, Seoul (07322)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Youth Clinic (유스의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364611"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

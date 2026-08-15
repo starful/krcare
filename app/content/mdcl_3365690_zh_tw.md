@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Korea University Anam Hospital (고려대학교 안암병원)
+title: "Korea University Anam Hospital (고려대학교 안암병원)"
 lat: 37.5867138974
 lng: 127.0277631817
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3365690.jpg
-address: 73 Goryeodae-ro, Seongbuk-gu, Seoul (02841)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Korea University Anam Hospital (고려대학교 안암병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3365690'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3365690.jpg"
+address: "73 Goryeodae-ro, Seongbuk-gu, Seoul (02841)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Korea University Anam Hospital (고려대학교 안암병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3365690"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

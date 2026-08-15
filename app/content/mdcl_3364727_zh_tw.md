@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Medictel Co., Ltd.(㈜메딕텔)
+title: "Medictel Co., Ltd.(㈜메딕텔)"
 lat: 37.3497456003
 lng: 127.1070098987
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364727.jpg
-address: (#428-36), 46 Dolma-ro, Bundang-gu, Seongnam-si, Gyeonggi-do (13630)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Medictel Co., Ltd.(㈜메딕텔)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364727'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364727.jpg"
+address: "(#428-36), 46 Dolma-ro, Bundang-gu, Seongnam-si, Gyeonggi-do (13630)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Medictel Co., Ltd.(㈜메딕텔)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364727"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

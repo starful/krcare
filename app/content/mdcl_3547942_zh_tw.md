@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Incheon Himchan General Hospital (인천힘찬종합병원)
+title: "Incheon Himchan General Hospital (인천힘찬종합병원)"
 lat: 37.4011132089
 lng: 126.7146996967
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3547942.jpg
-address: 72 Nonhyeon-ro (Nonhyeon-dong), Namdong-gu, Incheon (21655)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Incheon Himchan General Hospital (인천힘찬종합병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3547942'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3547942.jpg"
+address: "72 Nonhyeon-ro (Nonhyeon-dong), Namdong-gu, Incheon (21655)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Incheon Himchan General Hospital (인천힘찬종합병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3547942"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

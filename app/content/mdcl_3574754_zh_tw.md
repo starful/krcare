@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: line-up dental hospital (라인업치과병원)
+title: "line-up dental hospital (라인업치과병원)"
 lat: 35.1597306905
 lng: 129.0563558132
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3574754.jpg
-address: 3rd–4th Floors, 26 Seomyeonmunhwa-ro, Busanjin-gu, Busan (47256)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: line-up dental hospital (라인업치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3574754'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3574754.jpg"
+address: "3rd–4th Floors, 26 Seomyeonmunhwa-ro, Busanjin-gu, Busan (47256)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "line-up dental hospital (라인업치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3574754"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

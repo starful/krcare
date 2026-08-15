@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Maria Fertility Hospital (마리아병원)
+title: "Maria Fertility Hospital (마리아병원)"
 lat: 37.5742653041
 lng: 127.0255415154
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3467148.jpg
-address: 20 Cheonho-daero, Dongdaemun-gu, Seoul (02586)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Maria Fertility Hospital (마리아병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3467148'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3467148.jpg"
+address: "20 Cheonho-daero, Dongdaemun-gu, Seoul (02586)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Maria Fertility Hospital (마리아병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3467148"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

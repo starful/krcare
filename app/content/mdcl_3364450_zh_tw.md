@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Gangnam Joeunnun Vision Clinic (강남조은눈안과의원)
+title: "Gangnam Joeunnun Vision Clinic (강남조은눈안과의원)"
 lat: 37.4987352472
 lng: 127.0287683616
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364450.jpg
-address: (7th,9th Floors, Meditower), 107 Teheran-ro, Gangnam-gu, Seoul (06134)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Gangnam Joeunnun Vision Clinic (강남조은눈안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364450'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364450.jpg"
+address: "(7th,9th Floors, Meditower), 107 Teheran-ro, Gangnam-gu, Seoul (06134)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Gangnam Joeunnun Vision Clinic (강남조은눈안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364450"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

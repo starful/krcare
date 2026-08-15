@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: CM Hospital (CM병원)
+title: "CM Hospital (CM병원)"
 lat: 37.5188612288
-lng: 126.903934718
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3562726.jpg
-address: CM Chungmu Hospital, 13 Yeongdeungpo-ro 36-gil, Yeongdeungpo-gu, Seoul (07301)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: CM Hospital (CM병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3562726'
-source: MdclTursmService
+lng: 126.9039347180
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3562726.jpg"
+address: "CM Chungmu Hospital, 13 Yeongdeungpo-ro 36-gil, Yeongdeungpo-gu, Seoul (07301)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "CM Hospital (CM병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3562726"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

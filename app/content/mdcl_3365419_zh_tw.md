@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Oganacell Dermatology Clinic (오가나셀피부과의원)
+title: "Oganacell Dermatology Clinic (오가나셀피부과의원)"
 lat: 37.5231076562
 lng: 127.0420970134
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3365419.jpg
-address: (2nd Floor, Building A, Cheongdam Square), 420 Dosan-daero, Gangnam-gu, Seoul
-  (06062)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Oganacell Dermatology Clinic (오가나셀피부과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3365419'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3365419.jpg"
+address: "(2nd Floor, Building A, Cheongdam Square), 420 Dosan-daero, Gangnam-gu, Seoul (06062)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Oganacell Dermatology Clinic (오가나셀피부과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3365419"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

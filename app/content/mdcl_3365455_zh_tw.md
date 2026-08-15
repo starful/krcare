@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Samsung Miracle Eye Clinic (삼성미라클안과의원)
-lat: 37.499113002
+title: "Samsung Miracle Eye Clinic (삼성미라클안과의원)"
+lat: 37.4991130020
 lng: 127.0299210232
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3365455.jpg
-address: (7th,14th Floors), 115 Teheran-ro, Gangnam-gu, Seoul (06134)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Samsung Miracle Eye Clinic (삼성미라클안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3365455'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3365455.jpg"
+address: "(7th,14th Floors), 115 Teheran-ro, Gangnam-gu, Seoul (06134)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Samsung Miracle Eye Clinic (삼성미라클안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3365455"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

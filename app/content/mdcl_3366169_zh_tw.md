@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Hanshin Medipia Health Care ((사) 정해복지부설 한신메디피아의원)
+title: "Hanshin Medipia Health Care ((사) 정해복지부설 한신메디피아의원)"
 lat: 37.5127832221
 lng: 127.0068560705
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366169.jpg
-address: (3rd Floor), 94 Jamwon-ro, Seocho-gu, Seoul (06520)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Hanshin Medipia Health Care ((사) 정해복지부설 한신메디피아의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366169'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366169.jpg"
+address: "(3rd Floor), 94 Jamwon-ro, Seocho-gu, Seoul (06520)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Hanshin Medipia Health Care ((사) 정해복지부설 한신메디피아의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366169"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

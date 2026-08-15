@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Cha Gangnam Medical Center, Cha University (차의과학대학교 강남차병원)
+title: "Cha Gangnam Medical Center, Cha University (차의과학대학교 강남차병원)"
 lat: 37.5066983126
-lng: 127.034412067
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364756.jpg
-address: (Yeoksam-dong), 566 Nonhyeon-ro, Gangnam-gu, Seoul (06135)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Cha Gangnam Medical Center, Cha University (차의과학대학교 강남차병원)為韓國觀光公社醫療觀光 OpenAPI
-  收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364756'
-source: MdclTursmService
+lng: 127.0344120670
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364756.jpg"
+address: "(Yeoksam-dong), 566 Nonhyeon-ro, Gangnam-gu, Seoul (06135)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Cha Gangnam Medical Center, Cha University (차의과학대학교 강남차병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364756"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

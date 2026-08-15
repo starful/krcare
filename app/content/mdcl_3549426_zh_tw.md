@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: JAYJUN Plastic Surgery & Aesthetic (제이준성형외과)
+title: "JAYJUN Plastic Surgery & Aesthetic (제이준성형외과)"
 lat: 37.5047291149
 lng: 127.0354231416
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3549426.jpg
-address: 667 Yeoksam-dong, Gangnam-gu, Seoul (06136)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: JAYJUN Plastic Surgery & Aesthetic (제이준성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3549426'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3549426.jpg"
+address: "667 Yeoksam-dong, Gangnam-gu, Seoul (06136)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "JAYJUN Plastic Surgery & Aesthetic (제이준성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3549426"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

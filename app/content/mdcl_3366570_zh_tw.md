@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Children's Dental Center (씨디씨어린이치과의원)
+title: "Children's Dental Center (씨디씨어린이치과의원)"
 lat: 37.5206692889
 lng: 127.0553653192
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366570.jpg
-address: 11, Hakdong-ro 97-gil, Gangnam-gu, Seoul (06072)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Children's Dental Center (씨디씨어린이치과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366570'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366570.jpg"
+address: "11, Hakdong-ro 97-gil, Gangnam-gu, Seoul (06072)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Children's Dental Center (씨디씨어린이치과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366570"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

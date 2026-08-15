@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Busan JMJ (부산제이엠제이)
+title: "Busan JMJ (부산제이엠제이)"
 lat: 35.1521316444
 lng: 129.0619694214
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366484.jpg
-address: 50 Jungang-daero 666beon-gil, Busanjin-gu, Busan (47300)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Busan JMJ (부산제이엠제이)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366484'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366484.jpg"
+address: "50 Jungang-daero 666beon-gil, Busanjin-gu, Busan (47300)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Busan JMJ (부산제이엠제이)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366484"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

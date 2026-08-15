@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Ain Hospital (의료법인 아인의료재단 아인병원)
+title: "Ain Hospital (의료법인 아인의료재단 아인병원)"
 lat: 37.4582365393
-lng: 126.681265046
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366125.jpg
-address: 372 Gyeongin-ro, Michuhol-gu, Incheon (22148)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Ain Hospital (의료법인 아인의료재단 아인병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366125'
-source: MdclTursmService
+lng: 126.6812650460
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366125.jpg"
+address: "372 Gyeongin-ro, Michuhol-gu, Incheon (22148)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Ain Hospital (의료법인 아인의료재단 아인병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366125"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

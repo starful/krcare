@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Kodi Plastic Surgery (코디성형외과의원)
+title: "Kodi Plastic Surgery (코디성형외과의원)"
 lat: 37.5003683433
 lng: 127.0261602197
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3366054.jpg
-address: (5th Floor, Hanseung Building), 423 Gangnam-daero, Seocho-gu, Seoul (06614)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Kodi Plastic Surgery (코디성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3366054'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3366054.jpg"
+address: "(5th Floor, Hanseung Building), 423 Gangnam-daero, Seocho-gu, Seoul (06614)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Kodi Plastic Surgery (코디성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3366054"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 
