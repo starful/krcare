@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Gangnam Grand Eye Clinic (강남그랜드안과의원)
+title: "Gangnam Grand Eye Clinic (강남그랜드안과의원)"
 lat: 37.4951606561
 lng: 127.0284684895
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3452285.jpg
-address: 4F-5F, 363 Gangnam-daero, Seocho-gu, Seoul (06621)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Gangnam Grand Eye Clinic (강남그랜드안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3452285'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3452285.jpg"
+address: "4F-5F, 363 Gangnam-daero, Seocho-gu, Seoul (06621)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Gangnam Grand Eye Clinic (강남그랜드안과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3452285"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

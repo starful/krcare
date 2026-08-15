@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Nana Plastic Surgery (나나성형외과의원)
-lat: 37.50625929
-lng: 127.024129682
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364783.jpg
-address: (2nd-10th and 12th-13th Floors, HM Tower), 492 Gamnam-daero, Gangnam-gu,
-  Seoul (06119)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Nana Plastic Surgery (나나성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364783'
-source: MdclTursmService
+title: "Nana Plastic Surgery (나나성형외과의원)"
+lat: 37.5062592900
+lng: 127.0241296820
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364783.jpg"
+address: "(2nd-10th and 12th-13th Floors, HM Tower), 492 Gamnam-daero, Gangnam-gu, Seoul (06119)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Nana Plastic Surgery (나나성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364783"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

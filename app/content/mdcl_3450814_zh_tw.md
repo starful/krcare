@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Korea Medical Institute Busan Branch ((재)한국의학연구소 부산분사무소)
+title: "Korea Medical Institute Busan Branch ((재)한국의학연구소 부산분사무소)"
 lat: 35.1387665027
 lng: 129.0634807673
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3450814.jpg
-address: 5F, 14 Jobang-ro, Dong-gu, Busan (48741)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Korea Medical Institute Busan Branch ((재)한국의학연구소 부산분사무소)為韓國觀光公社醫療觀光 OpenAPI
-  收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3450814'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3450814.jpg"
+address: "5F, 14 Jobang-ro, Dong-gu, Busan (48741)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Korea Medical Institute Busan Branch ((재)한국의학연구소 부산분사무소)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3450814"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

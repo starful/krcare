@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Hansarang Hospital (의료법인 서전의료재단 한사랑병원)
+title: "Hansarang Hospital (의료법인 서전의료재단 한사랑병원)"
 lat: 37.3071320362
 lng: 126.8484512468
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364734.jpg
-address: 345 Gwandeok 1-ro, Sangnok-gu, Ansan-si, Gyeonggi-do (15494)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Hansarang Hospital (의료법인 서전의료재단 한사랑병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364734'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364734.jpg"
+address: "345 Gwandeok 1-ro, Sangnok-gu, Ansan-si, Gyeonggi-do (15494)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Hansarang Hospital (의료법인 서전의료재단 한사랑병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364734"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: NUNE EYE HOSPITAL (누네안과병원)
+title: "NUNE EYE HOSPITAL (누네안과병원)"
 lat: 35.8637930304
 lng: 128.6019511626
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3562825.jpg
-address: 2179 Dalgubeol-daero, Jung-gu, Daegu (41940)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: NUNE EYE HOSPITAL (누네안과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3562825'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3562825.jpg"
+address: "2179 Dalgubeol-daero, Jung-gu, Daegu (41940)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "NUNE EYE HOSPITAL (누네안과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3562825"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

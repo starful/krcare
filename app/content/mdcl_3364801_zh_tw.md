@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Galaxy Plastic Surgery (갤럭시성형외과)
+title: "Galaxy Plastic Surgery (갤럭시성형외과)"
 lat: 35.1569143711
 lng: 129.0581001826
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364801.jpg
-address: (9th Floor, Noblesse Tower), 1 Seomyeon-ro 68beon-gil, Busanjin-gu, Busan
-  (47286)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Galaxy Plastic Surgery (갤럭시성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364801'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364801.jpg"
+address: "(9th Floor, Noblesse Tower), 1 Seomyeon-ro 68beon-gil, Busanjin-gu, Busan (47286)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Galaxy Plastic Surgery (갤럭시성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364801"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

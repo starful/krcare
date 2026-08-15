@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: The Catholic University of Korea Seoul St. Mary's Hospital  (가톨릭대학교 서울성모병원)
+title: "The Catholic University of Korea Seoul St. Mary's Hospital  (가톨릭대학교 서울성모병원)"
 lat: 37.4996902526
 lng: 127.0043094496
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3466682.jpg
-address: 222 Banpo-daero, Seocho-gu, Seoul (06591)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: The Catholic University of Korea Seoul St. Mary's Hospital  (가톨릭대학교 서울성모병원)為韓國觀光公社醫療觀光
-  OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3466682'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3466682.jpg"
+address: "222 Banpo-daero, Seocho-gu, Seoul (06591)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "The Catholic University of Korea Seoul St. Mary's Hospital  (가톨릭대학교 서울성모병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3466682"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

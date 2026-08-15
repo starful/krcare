@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Incheon Sejong Hospital (인천세종병원)
+title: "Incheon Sejong Hospital (인천세종병원)"
 lat: 37.5325927697
 lng: 126.7368662338
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3365345.jpg
-address: 20 Geyangmunhwa-ro, Geyang-gu, Incheon (21080)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Incheon Sejong Hospital (인천세종병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3365345'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3365345.jpg"
+address: "20 Geyangmunhwa-ro, Geyang-gu, Incheon (21080)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Incheon Sejong Hospital (인천세종병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3365345"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

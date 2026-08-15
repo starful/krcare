@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: BIOFACE CLINIC (비오페이스의원)
+title: "BIOFACE CLINIC (비오페이스의원)"
 lat: 37.5157942046
 lng: 127.0191743078
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3563030.jpg
-address: 10th Floor, Human Tower, 605 Gangnam-daero, Seocho-gu, Seoul (06526)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: BIOFACE CLINIC (비오페이스의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3563030'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3563030.jpg"
+address: "10th Floor, Human Tower, 605 Gangnam-daero, Seocho-gu, Seoul (06526)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "BIOFACE CLINIC (비오페이스의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3563030"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

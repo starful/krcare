@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Lime Tree Dental Hospital (라임나무치과병원)
+title: "Lime Tree Dental Hospital (라임나무치과병원)"
 lat: 37.5640657568
 lng: 126.9847760746
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3467038.jpg
-address: 7F, 43 Myeongdong-gil, Jung-gu, Seoul (04534)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Lime Tree Dental Hospital (라임나무치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3467038'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3467038.jpg"
+address: "7F, 43 Myeongdong-gil, Jung-gu, Seoul (04534)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Lime Tree Dental Hospital (라임나무치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3467038"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

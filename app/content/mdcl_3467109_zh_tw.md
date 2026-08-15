@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: High Eye Center (하이안과)
+title: "High Eye Center (하이안과)"
 lat: 37.5173801727
 lng: 127.0214796083
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3467109.jpg
-address: 3F, 119 Dosan-daero, Gangnam-gu, Seoul (06035)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: High Eye Center (하이안과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3467109'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3467109.jpg"
+address: "3F, 119 Dosan-daero, Gangnam-gu, Seoul (06035)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "High Eye Center (하이안과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3467109"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

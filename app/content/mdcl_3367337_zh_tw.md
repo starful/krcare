@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Samsung Medical Center (삼성서울병원)
+title: "Samsung Medical Center (삼성서울병원)"
 lat: 37.4869209273
 lng: 127.0830526451
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3367337.jpg
-address: 81 Irwon-ro, Gangnam-gu, Seoul (06351)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Samsung Medical Center (삼성서울병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3367337'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3367337.jpg"
+address: "81 Irwon-ro, Gangnam-gu, Seoul (06351)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Samsung Medical Center (삼성서울병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3367337"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

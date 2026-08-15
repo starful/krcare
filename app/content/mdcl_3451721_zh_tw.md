@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Goodwill Dental Hospital (굿윌치과병원)
+title: "Goodwill Dental Hospital (굿윌치과병원)"
 lat: 35.1539730619
 lng: 129.0596167976
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3451721.jpg
-address: 4F, 686 Jungang-daero, Busanjin-gu, Busan (47296)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Goodwill Dental Hospital (굿윌치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3451721'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3451721.jpg"
+address: "4F, 686 Jungang-daero, Busanjin-gu, Busan (47296)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Goodwill Dental Hospital (굿윌치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3451721"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Jin Convalescent Hospital (진요양병원)
+title: "Jin Convalescent Hospital (진요양병원)"
 lat: 35.1801564905
 lng: 126.8740745411
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3477597.jpg
-address: 33, Daejasil-ro, Buk-gu, Jeonnam-Gwangju Special Metropolitan City (61256)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Jin Convalescent Hospital (진요양병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3477597'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3477597.jpg"
+address: "33, Daejasil-ro, Buk-gu, Jeonnam-Gwangju Special Metropolitan City (61256)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Jin Convalescent Hospital (진요양병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3477597"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

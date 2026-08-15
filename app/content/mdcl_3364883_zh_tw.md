@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Trueman Clinic (트루맨남성의원)
+title: "Trueman Clinic (트루맨남성의원)"
 lat: 37.4981130564
 lng: 127.0265213615
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364883.jpg
-address: (7th Floor, Ara Tower), 3 Seocho-daero 77-gil, Seocho-gu, Seoul (06615)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Trueman Clinic (트루맨남성의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364883'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364883.jpg"
+address: "(7th Floor, Ara Tower), 3 Seocho-daero 77-gil, Seocho-gu, Seoul (06615)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Trueman Clinic (트루맨남성의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364883"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

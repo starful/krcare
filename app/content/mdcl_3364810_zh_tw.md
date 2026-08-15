@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Korea University Guro Hospital (고려대학교의과대학부속 구로병원)
+title: "Korea University Guro Hospital (고려대학교의과대학부속 구로병원)"
 lat: 37.4917056942
 lng: 126.8839734117
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364810.jpg
-address: 148 Gurodong-ro, Guro-gu, Seoul (08308)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Korea University Guro Hospital (고려대학교의과대학부속 구로병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364810'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364810.jpg"
+address: "148 Gurodong-ro, Guro-gu, Seoul (08308)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Korea University Guro Hospital (고려대학교의과대학부속 구로병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364810"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

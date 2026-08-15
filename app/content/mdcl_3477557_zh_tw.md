@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Design Plastic Surgery Clinic (디자인성형외과의원)
+title: "Design Plastic Surgery Clinic (디자인성형외과의원)"
 lat: 35.1580947831
 lng: 129.0574863151
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3477557.jpg
-address: 10F, 785, Gaya-daero, Busanjin-gu, Busan (47257)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Design Plastic Surgery Clinic (디자인성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3477557'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3477557.jpg"
+address: "10F, 785, Gaya-daero, Busanjin-gu, Busan (47257)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Design Plastic Surgery Clinic (디자인성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3477557"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: St. Peter's General Hospital (강남베드로종합병원)
+title: "St. Peter's General Hospital (강남베드로종합병원)"
 lat: 37.4854202876
 lng: 127.0377873616
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3548775.jpg
-address: 2633 Nambusunhwan-ro, Gangnam-gu, Seoul (06268)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: St. Peter's General Hospital (강남베드로종합병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3548775'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3548775.jpg"
+address: "2633 Nambusunhwan-ro, Gangnam-gu, Seoul (06268)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "St. Peter's General Hospital (강남베드로종합병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3548775"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

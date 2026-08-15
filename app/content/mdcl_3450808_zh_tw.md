@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Korea Medical Institute Suwon Branch ((재)한국의학연구소 수원분사무소)
+title: "Korea Medical Institute Suwon Branch ((재)한국의학연구소 수원분사무소)"
 lat: 37.2503086002
-lng: 127.034710916
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3450808.jpg
-address: 1F-2F, 232 Dongsuwon-ro, Gwonseon-gu, Suwon-si, Gyeonggi-do (16553)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Korea Medical Institute Suwon Branch ((재)한국의학연구소 수원분사무소)為韓國觀光公社醫療觀光 OpenAPI
-  收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3450808'
-source: MdclTursmService
+lng: 127.0347109160
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3450808.jpg"
+address: "1F-2F, 232 Dongsuwon-ro, Gwonseon-gu, Suwon-si, Gyeonggi-do (16553)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Korea Medical Institute Suwon Branch ((재)한국의학연구소 수원분사무소)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3450808"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

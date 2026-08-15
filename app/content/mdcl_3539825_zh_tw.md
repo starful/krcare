@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: Pixelab Beauty Clinic (픽셀랩성형외과의원)
+title: "Pixelab Beauty Clinic (픽셀랩성형외과의원)"
 lat: 37.5012793188
 lng: 127.0244575708
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3539825.jpg
-address: 3rd Floor, Gangnam Station Riga Square, 42 Seocho-daero 73-gil, Seocho-gu,
-  Seoul (06612)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Pixelab Beauty Clinic (픽셀랩성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3539825'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3539825.jpg"
+address: "3rd Floor, Gangnam Station Riga Square, 42 Seocho-daero 73-gil, Seocho-gu, Seoul (06612)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Pixelab Beauty Clinic (픽셀랩성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3539825"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

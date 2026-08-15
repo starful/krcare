@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Dongpyun Korean Medicine Clinic (동편부부한의원)
+title: "Dongpyun Korean Medicine Clinic (동편부부한의원)"
 lat: 37.3997288677
 lng: 126.9616244818
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3574617.jpg
-address: '#202, 2nd Floor, 188 Burim-ro, Dongan-gu, Anyang-si, Gyeonggi-do (14055)'
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Dongpyun Korean Medicine Clinic (동편부부한의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3574617'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3574617.jpg"
+address: "#202, 2nd Floor, 188 Burim-ro, Dongan-gu, Anyang-si, Gyeonggi-do (14055)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Dongpyun Korean Medicine Clinic (동편부부한의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3574617"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

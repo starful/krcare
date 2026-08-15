@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: MisoU Plastic Surgery (미소유성형외과의원)
+title: "MisoU Plastic Surgery (미소유성형외과의원)"
 lat: 37.5053427377
 lng: 127.0245713344
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3466973.jpg
-address: 3F, 480 Gangnam-daero, Gangnam-gu, Seoul (06120)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: MisoU Plastic Surgery (미소유성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3466973'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3466973.jpg"
+address: "3F, 480 Gangnam-daero, Gangnam-gu, Seoul (06120)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "MisoU Plastic Surgery (미소유성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3466973"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

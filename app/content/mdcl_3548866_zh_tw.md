@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: SUNGJI HOSPITAL (성지병원)
+title: "SUNGJI HOSPITAL (성지병원)"
 lat: 37.3455699012
 lng: 127.9542500014
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3548866.jpg
-address: 22 Wonil-ro, Wonju-si, Gangwon-do (26429)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: SUNGJI HOSPITAL (성지병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3548866'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3548866.jpg"
+address: "22 Wonil-ro, Wonju-si, Gangwon-do (26429)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "SUNGJI HOSPITAL (성지병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3548866"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

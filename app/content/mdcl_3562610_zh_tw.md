@@ -1,23 +1,20 @@
 ---
 lang: zh_tw
-title: YOU&I Clinic Jamsil (유앤아이의원 잠실점)
+title: "YOU&I Clinic Jamsil (유앤아이의원 잠실점)"
 lat: 37.5123821225
 lng: 127.0976311526
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3562610.jpg
-address: 3rd Floor, Lotte World Wellbeing Center, 240 Olympic-ro, Songpa-gu, Seoul
-  (05554)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: YOU&I Clinic Jamsil (유앤아이의원 잠실점)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3562610'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3562610.jpg"
+address: "3rd Floor, Lotte World Wellbeing Center, 240 Olympic-ro, Songpa-gu, Seoul (05554)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "YOU&I Clinic Jamsil (유앤아이의원 잠실점)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3562610"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

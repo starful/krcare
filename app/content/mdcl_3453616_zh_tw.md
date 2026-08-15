@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: ATOP Plastic Surgery (에이탑 성형외과)
+title: "ATOP Plastic Surgery (에이탑 성형외과)"
 lat: 37.4992490666
-lng: 127.028243395
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3453616.jpg
-address: 4F-5F, 10 Gangnam-daero 94-gil, Gangnam-gu, Seoul (06134)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: ATOP Plastic Surgery (에이탑 성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3453616'
-source: MdclTursmService
+lng: 127.0282433950
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3453616.jpg"
+address: "4F-5F, 10 Gangnam-daero 94-gil, Gangnam-gu, Seoul (06134)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "ATOP Plastic Surgery (에이탑 성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3453616"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

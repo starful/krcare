@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Seoul Jaeil Hospital (서울제일병원)
+title: "Seoul Jaeil Hospital (서울제일병원)"
 lat: 37.0799232456
 lng: 127.0624936985
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364802.jpg
-address: (1078 Jisan-dong), 70 Jisan-ro, Pyeongtaek-si, Gyeonggi-do (17763)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Seoul Jaeil Hospital (서울제일병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364802'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364802.jpg"
+address: "(1078 Jisan-dong), 70 Jisan-ro, Pyeongtaek-si, Gyeonggi-do (17763)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Seoul Jaeil Hospital (서울제일병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364802"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

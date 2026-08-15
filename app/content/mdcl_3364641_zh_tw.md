@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: DM Plastic Surgery (디엠성형외과)
+title: "DM Plastic Surgery (디엠성형외과)"
 lat: 37.5262542413
 lng: 127.0269982998
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3364641.jpg
-address: (2nd Floor), 158 Apgujeong-ro, Gangnam-gu, Seoul (06030)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: DM Plastic Surgery (디엠성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3364641'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3364641.jpg"
+address: "(2nd Floor), 158 Apgujeong-ro, Gangnam-gu, Seoul (06030)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "DM Plastic Surgery (디엠성형외과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3364641"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: WOOA Plastic Surgery (우아성형외과의원)
-lat: 37.50625929
-lng: 127.024129682
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3467329.jpg
-address: 492 Gangnam-daero, Gangnam-gu, Seoul (06119)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: WOOA Plastic Surgery (우아성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3467329'
-source: MdclTursmService
+title: "WOOA Plastic Surgery (우아성형외과의원)"
+lat: 37.5062592900
+lng: 127.0241296820
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3467329.jpg"
+address: "492 Gangnam-daero, Gangnam-gu, Seoul (06119)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "WOOA Plastic Surgery (우아성형외과의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3467329"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 

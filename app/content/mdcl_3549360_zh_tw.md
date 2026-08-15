@@ -1,22 +1,20 @@
 ---
 lang: zh_tw
-title: Charmdaun Korean Medical Clinic (참다운 한의원)
+title: "Charmdaun Korean Medical Clinic (참다운 한의원)"
 lat: 35.8703567587
 lng: 128.6335259766
-categories:
-- Clinic
-thumbnail: /static/images/mdcl_3549360.jpg
-address: 3rd Floor, Jasam Building, 50 Hwarang-ro, Suseong-gu, Daegu (42038)
-date: '2026-07-20'
-website: ''
-tel: ''
-source_image: ''
-summary: Charmdaun Korean Medical Clinic (참다운 한의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
-image_prompt: ''
-content_id: '3549360'
-source: MdclTursmService
+categories: ["Clinic"]
+thumbnail: "/static/images/mdcl_3549360.jpg"
+address: "3rd Floor, Jasam Building, 50 Hwarang-ro, Suseong-gu, Daegu (42038)"
+date: "2026-08-15"
+website: ""
+tel: ""
+source_image: ""
+summary: "Charmdaun Korean Medical Clinic (참다운 한의원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。"
+image_prompt: ""
+content_id: "3549360"
+source: "MdclTursmService"
 ---
-
 
 ## Overview
 
