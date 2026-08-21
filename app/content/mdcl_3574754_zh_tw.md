@@ -6,7 +6,7 @@ lng: 129.0563558132
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3574754.jpg"
 address: "3rd–4th Floors, 26 Seomyeonmunhwa-ro, Busanjin-gu, Busan (47256)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

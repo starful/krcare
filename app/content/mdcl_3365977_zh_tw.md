@@ -6,7 +6,7 @@ lng: 126.9582581162
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365977.jpg"
 address: "895 Muwang-ro, Iksan-si, Jeonbuk-do (54538)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

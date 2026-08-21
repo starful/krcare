@@ -6,7 +6,7 @@ lng: 127.0279649663
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366252.jpg"
 address: "(JK Building), 835 Nonhyeon-ro, Gangnam-gu, Seoul (06031)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

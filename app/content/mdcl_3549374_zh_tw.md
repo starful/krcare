@@ -6,7 +6,7 @@ lng: 127.0162559735
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549374.jpg"
 address: "B2-4th Floors, Bluefin Tower,, Jangdeok Hospital of Korean Medicine, 42 Seochojungang-ro, Seocho-gu, Seoul (06643)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

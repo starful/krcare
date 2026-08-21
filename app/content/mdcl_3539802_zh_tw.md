@@ -6,7 +6,7 @@ lng: 127.0400305417
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539802.jpg"
 address: "2nd Floor, Cheongdam First Tower, 406 Dosan-daero, Gangnam-gu, Seoul (06062)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

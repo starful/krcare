@@ -6,7 +6,7 @@ lng: 127.3778850862
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364207.jpg"
 address: "(3rd,4th,11th Floors, Calix Building), 128 Cheongsa-ro, Seo-gu, Daejeon (35220)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

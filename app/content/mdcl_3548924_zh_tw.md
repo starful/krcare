@@ -6,7 +6,7 @@ lng: 126.7930551539
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548924.jpg"
 address: "100 Ilsan-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10444)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

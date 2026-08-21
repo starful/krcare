@@ -6,7 +6,7 @@ lng: 127.0157254829
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364714.jpg"
 address: "39 Seochojungang-ro, Seocho-gu, Seoul (06654)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

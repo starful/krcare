@@ -6,7 +6,7 @@ lng: 126.8784298962
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364735.jpg"
 address: "(#411), 534 Seobusaet-gil, Geumcheon-gu, Seoul (08505)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.7248797595
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367054.jpg"
 address: "56 Dongsu-ro, Bupyeong-gu, Incheon (21431)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

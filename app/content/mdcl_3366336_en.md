@@ -6,7 +6,7 @@ lng: 127.0279232756
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366336.jpg"
 address: "(#601, 6th Floor, JB Miso Building), 841 Nonhyeon-ro, Gangnam-gu, Seoul (06031)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

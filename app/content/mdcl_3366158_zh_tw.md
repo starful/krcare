@@ -6,7 +6,7 @@ lng: 126.9503158589
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366158.jpg"
 address: "(101-1204, Lotte Castle President), 467 Gongdeok-dong, Mapo-gu, Seoul (04146)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.7596047057
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364481.jpg"
 address: "1450 Jungang-ro, Ilsanseo-gu, Goyang-si, Gyeonggi-do (10387)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

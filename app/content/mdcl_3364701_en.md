@@ -6,7 +6,7 @@ lng: 126.7008997299
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364701.jpg"
 address: "(6th Floor, LINK 126), 126 Yesul-ro, Namdong-gu, Incheon (21574)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

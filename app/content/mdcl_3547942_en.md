@@ -6,7 +6,7 @@ lng: 126.7146996967
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547942.jpg"
 address: "72 Nonhyeon-ro (Nonhyeon-dong), Namdong-gu, Incheon (21655)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

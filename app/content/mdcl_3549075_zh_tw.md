@@ -6,7 +6,7 @@ lng: 127.0316930691
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549075.jpg"
 address: "DA Plastic Surgery Building, 125 Teheran-ro, Gangnam-gu, Seoul (06133)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

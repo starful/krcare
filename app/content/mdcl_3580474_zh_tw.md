@@ -6,7 +6,7 @@ lng: 127.0271961857
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3580474.jpg"
 address: "6th Floor, 16 Gangnam-daero 102-gil, Gangnam-gu, Seoul (06128)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

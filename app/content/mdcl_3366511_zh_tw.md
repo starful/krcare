@@ -6,7 +6,7 @@ lng: 129.2424018483
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366511.jpg"
 address: "40 Jwadong-gil, Jangan-eup, Gijang-gun, Busan (46033)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

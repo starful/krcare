@@ -6,7 +6,7 @@ lng: 127.0261602197
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366054.jpg"
 address: "(5th Floor, Hanseung Building), 423 Gangnam-daero, Seocho-gu, Seoul (06614)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

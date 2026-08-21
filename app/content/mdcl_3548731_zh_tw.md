@@ -6,7 +6,7 @@ lng: 127.1278748958
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548731.jpg"
 address: "1041 Cheonho-daero, Gangdong-gu, Seoul (05335)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

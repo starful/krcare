@@ -6,7 +6,7 @@ lng: 126.8484512468
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364734.jpg"
 address: "345 Gwandeok 1-ro, Sangnok-gu, Ansan-si, Gyeonggi-do (15494)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

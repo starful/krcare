@@ -6,7 +6,7 @@ lng: 127.0288509545
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367146.jpg"
 address: "(2nd Floor, Seokyeong University Building), 848 Nonhyeon-ro, Gangnam-gu, Seoul (06022)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

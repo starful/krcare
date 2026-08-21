@@ -6,7 +6,7 @@ lng: 126.7669875552
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539944.jpg"
 address: "#302, 43-55 Mugunghwa-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10364)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

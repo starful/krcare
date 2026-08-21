@@ -6,7 +6,7 @@ lng: 126.5171153570
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366347.jpg"
 address: "(Samdo 1(il)-dong), 193 Seogwang-ro, Jeju-si, Jeju-do) (63183)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

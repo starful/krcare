@@ -6,7 +6,7 @@ lng: 126.9208657915
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364564.jpg"
 address: "42 Jebong-ro, Dong-gu, Jeonnam-Gwangju Special Metropolitan City (61469)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

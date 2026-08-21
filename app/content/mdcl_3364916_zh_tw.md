@@ -6,7 +6,7 @@ lng: 127.0203686636
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364916.jpg"
 address: "(10th-11th Floors, Geukdong Building), 596 Gangnam-daero, Seocho-gu, Seoul (06038)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

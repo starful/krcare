@@ -6,7 +6,7 @@ lng: 126.9752434045
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366241.jpg"
 address: "(#601) 29-3 Saemunan-ro 9-gil, Jongno-gu, Seoul (03183)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

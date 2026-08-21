@@ -6,7 +6,7 @@ lng: 127.0508828223
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364978.jpg"
 address: "B1, 3rd, and 4th Floors, Gwanghwamun Building, 149 Sejong-daero, Jongno-gu, Seoul"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

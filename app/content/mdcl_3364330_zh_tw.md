@@ -6,7 +6,7 @@ lng: 126.8303796163
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364330.jpg"
 address: "55 Hwasu-ro 14beon-gil, Deogyang-gu, Goyang-si, Gyeonggi-do (10475)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

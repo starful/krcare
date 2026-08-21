@@ -6,7 +6,7 @@ lng: 126.9884367538
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367607.jpg"
 address: "10F, SIGNATURE TOWER(WEST),100,Cheonggyecheon-ro, Jung-gu, Seoul (04542)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

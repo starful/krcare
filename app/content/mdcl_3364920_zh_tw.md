@@ -6,7 +6,7 @@ lng: 126.9863503920
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364920.jpg"
 address: "(2nd Floor, Hanok), 41 Bukchon-ro 12-gil, Jongno-gu, Seoul (03056)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

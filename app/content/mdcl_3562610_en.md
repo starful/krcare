@@ -6,7 +6,7 @@ lng: 127.0976311526
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562610.jpg"
 address: "3rd Floor, Lotte World Wellbeing Center, 240 Olympic-ro, Songpa-gu, Seoul (05554)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

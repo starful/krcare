@@ -6,7 +6,7 @@ lng: 126.7369851962
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364152.jpg"
 address: "381 Gunjacheon-ro, Siheung-si, Gyeonggi-do (15034)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

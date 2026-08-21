@@ -6,7 +6,7 @@ lng: 126.7028882920
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548986.jpg"
 address: "7th Floor, Entas Building, 593 Inju-daero, Namdong-gu, Incheon (21558)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

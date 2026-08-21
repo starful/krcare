@@ -6,7 +6,7 @@ lng: 127.0250713153
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549447.jpg"
 address: "10th-11th Floors, 808 Tower, 470 Gangnam-daero, Gangnam-gu, Seoul (06123)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

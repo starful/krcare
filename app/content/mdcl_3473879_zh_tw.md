@@ -6,7 +6,7 @@ lng: 126.9216848363
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3473879.jpg"
 address: "3F, 141 Yanghwa-ro, Mapo-gu, Seoul (03995)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.9413711727
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539613.jpg"
 address: "2nd Floor, 9 Bongcheon-ro 31-gil, Gwanak-gu, Seoul (08750)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0254101547
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364779.jpg"
 address: "107 Bongeunsa-ro, Gangnam-gu, Seoul (06120)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

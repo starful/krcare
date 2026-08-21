@@ -6,7 +6,7 @@ lng: 127.0474298483
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3447019.jpg"
 address: "773 Samseong-ro, Gangnam-gu, Seoul (06062)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

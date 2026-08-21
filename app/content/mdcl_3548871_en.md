@@ -6,7 +6,7 @@ lng: 129.0596167976
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548871.jpg"
 address: "5th Floor, Gyeongnam Building, 686 Jungang-daero, Busanjin-gu, Busan (47296)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.8359845849
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562418.jpg"
 address: "1st–2nd Floor, Ujangsan Harrington Tower, 231 Gangseo-ro, Gangseo-gu, Seoul (07705)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

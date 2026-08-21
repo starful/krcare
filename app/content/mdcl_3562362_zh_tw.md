@@ -6,7 +6,7 @@ lng: 126.8954400577
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562362.jpg"
 address: "3rd Floor, 63 Dongsong-ro, Deogyang-gu, Goyang-si, Gyeonggi-do (10590)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

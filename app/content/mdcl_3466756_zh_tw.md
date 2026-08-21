@@ -6,7 +6,7 @@ lng: 127.3408926121
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3466756.jpg"
 address: "158 Gwanjeodong-ro, Seo-gu, Daejeon (35365)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

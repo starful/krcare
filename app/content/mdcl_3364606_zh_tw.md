@@ -6,7 +6,7 @@ lng: 127.0047362327
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364606.jpg"
 address: "59 Daesagwan-ro, Yongsan-gu, Seoul (04401)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

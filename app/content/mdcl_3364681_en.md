@@ -6,7 +6,7 @@ lng: 126.9562291847
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364681.jpg"
 address: "(4th Floor), 51 Mallijae-ro, Mapo-gu, Seoul (04209)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

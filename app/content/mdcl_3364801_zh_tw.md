@@ -6,7 +6,7 @@ lng: 129.0581001826
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364801.jpg"
 address: "(9th Floor, Noblesse Tower), 1 Seomyeon-ro 68beon-gil, Busanjin-gu, Busan (47286)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

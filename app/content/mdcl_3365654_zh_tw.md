@@ -6,7 +6,7 @@ lng: 126.4442681743
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365654.jpg"
 address: "453-95 1100-ro, Seogwipo-si, Jeju-do (63551)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

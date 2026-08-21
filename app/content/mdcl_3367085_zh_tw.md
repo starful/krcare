@@ -6,7 +6,7 @@ lng: 126.6835847124
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367085.jpg"
 address: "25 Simgok-ro 100beon-gil, Seohae-gu, Incheon (22711)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.7520016842
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539857.jpg"
 address: "#303, Naru Building, 33 Gilju-ro 77beon-gil, Wonmi-gu, Bucheon-si, Gyeonggi-do (14543)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

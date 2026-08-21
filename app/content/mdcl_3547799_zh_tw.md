@@ -6,7 +6,7 @@ lng: 127.0201241919
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547799.jpg"
 address: "1st, 5th Floors, SYH Tower, 107 Dosan-daero, Gangnam-gu, Seoul (06035)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

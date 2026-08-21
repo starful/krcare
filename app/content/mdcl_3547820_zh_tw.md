@@ -6,7 +6,7 @@ lng: 127.0461243258
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547820.jpg"
 address: "3rd Floor, Diana Building, 445 Apgujeong-ro (Cheongdam-dong), Gangnam-gu, Seoul (06010)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

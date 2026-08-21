@@ -6,7 +6,7 @@ lng: 127.1658348375
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3441413.jpg"
 address: "#101, 11 Euni-ro, Jungwon-gu, Seongnam-si, Gyeonggi-do (13153)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

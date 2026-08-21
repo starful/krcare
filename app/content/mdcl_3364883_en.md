@@ -6,7 +6,7 @@ lng: 127.0265213615
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364883.jpg"
 address: "(7th Floor, Ara Tower), 3 Seocho-daero 77-gil, Seocho-gu, Seoul (06615)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 129.0545393801
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366399.jpg"
 address: "(7th-13th Floors, Nune Medi Tower), 77 Bujeon-ro, Busanjin-gu, Busan (47284)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

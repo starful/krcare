@@ -6,7 +6,7 @@ lng: 127.1315920088
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3441533.jpg"
 address: "2F, Na-dong, 13-8 Jangmi-ro 92beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (13505)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

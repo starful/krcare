@@ -6,7 +6,7 @@ lng: 126.9776930947
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549040.jpg"
 address: "4th, 6th Floors, Hanil Plaza, 7 Namhyeon-gil (Namhyeon-dong), Gwanak-gu, Seoul (08806)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

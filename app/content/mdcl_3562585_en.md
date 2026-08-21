@@ -6,7 +6,7 @@ lng: 127.0342577423
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562585.jpg"
 address: "2nd–3rd Floor, Handong Tower, 315 Wangsimni-ro, Seongdong-gu, Seou (04715)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

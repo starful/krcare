@@ -6,7 +6,7 @@ lng: 127.1048919964
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366146.jpg"
 address: "(#65, 9th Floor), 8 Daewangpangyo-ro 645beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (13487)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

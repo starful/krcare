@@ -6,7 +6,7 @@ lng: 126.7667459162
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3467335.jpg"
 address: "#605, 32-19 Gobong-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10364)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

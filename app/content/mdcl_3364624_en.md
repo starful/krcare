@@ -6,7 +6,7 @@ lng: 126.8052158814
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364624.jpg"
 address: "(Wonjong-dong), 726 Sosa-ro, Ojeong-gu, Bucheon-si, Gyeonggi-do (14466)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

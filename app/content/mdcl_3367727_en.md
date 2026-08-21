@@ -6,7 +6,7 @@ lng: 129.0913502747
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367727.jpg"
 address: "(5th Floor), 128 Hwangnyeong-daero 319beon-gil, Nam-gu, Busan (48431)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

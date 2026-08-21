@@ -6,7 +6,7 @@ lng: 127.0404999179
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547793.jpg"
 address: "4th-5th Floors, S&S TOWER, 409 Dosan-daero (Cheongdam-dong), Gangnam-gu, Seoul (06014)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""
