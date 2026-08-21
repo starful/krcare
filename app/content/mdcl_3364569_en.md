@@ -6,7 +6,7 @@ lng: 127.0278178057
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364569.jpg"
 address: "(5th Floor, Burda Moon Building), 815 Nonhyeon-ro, Gangnam-gu, Seoul (06032)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

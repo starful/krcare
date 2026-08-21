@@ -6,7 +6,7 @@ lng: 126.7376745016
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3575672.jpg"
 address: "2nd Floor, 5-9 Ojosan-ro 21beon-gil, Gyeyang-gu, Incheon (21080)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

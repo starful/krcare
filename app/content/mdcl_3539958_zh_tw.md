@@ -6,7 +6,7 @@ lng: 126.9080443215
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539958.jpg"
 address: "#201, Saul Building, 21 Seongmisan-ro 1-gil, Mapo-gu, Seoul (03971)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

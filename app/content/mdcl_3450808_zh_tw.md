@@ -6,7 +6,7 @@ lng: 127.0347109160
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3450808.jpg"
 address: "1F-2F, 232 Dongsuwon-ro, Gwonseon-gu, Suwon-si, Gyeonggi-do (16553)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

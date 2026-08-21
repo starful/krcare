@@ -6,7 +6,7 @@ lng: 126.6797948763
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366081.jpg"
 address: "23 Wonjeok-ro, Seohae-gu, Incheon (22819)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

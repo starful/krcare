@@ -6,7 +6,7 @@ lng: 126.4909845373
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366468.jpg"
 address: "(3rd Floor), 46 Eunnam 1-gil, Jeju-si, Jeju-do (63124)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

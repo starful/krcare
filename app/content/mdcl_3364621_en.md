@@ -6,7 +6,7 @@ lng: 127.0349787497
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364621.jpg"
 address: "(6th Floor, Sinsoae Building), 537 Nonhyeon-ro, Gangnam-gu, Seoul (06126)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

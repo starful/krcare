@@ -6,7 +6,7 @@ lng: 127.0019157204
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548388.jpg"
 address: "101 Daehak-ro, Jongno-gu, Seoul (03080)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

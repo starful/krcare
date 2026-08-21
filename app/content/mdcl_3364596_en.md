@@ -6,7 +6,7 @@ lng: 126.6671725746
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364596.jpg"
 address: "(Western Blue Hill 210-1402), 37 Bongojae-ro, Seohae-gu, Incheon (22732)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

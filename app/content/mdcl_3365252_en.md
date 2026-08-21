@@ -6,7 +6,7 @@ lng: 127.0206713808
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365252.jpg"
 address: "(14th-15th Floors, Nonhyeon-dong), 108 Dosan-daero, Gangnam-gu, Seoul (06038)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

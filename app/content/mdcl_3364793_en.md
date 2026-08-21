@@ -6,7 +6,7 @@ lng: 126.8293043003
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364793.jpg"
 address: "(#501-507, Pine Square Building A), 22 Magokjungang 4-ro, Gangseo-gu, Seoul (07631)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

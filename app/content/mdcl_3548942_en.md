@@ -6,7 +6,7 @@ lng: 129.0580529855
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548942.jpg"
 address: "1st Floor, Centum Medical Tower, 60 Seomyeon-ro, Busanjin-gu, Busan (47286)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

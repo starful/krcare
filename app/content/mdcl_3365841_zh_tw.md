@@ -6,7 +6,7 @@ lng: 129.0115082254
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365841.jpg"
 address: "(Seodaesin-dong 2(i)-ga),170 Daeti-ro, Seo-gu, Busan (49230)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

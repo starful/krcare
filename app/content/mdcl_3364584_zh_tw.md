@@ -6,7 +6,7 @@ lng: 127.1458206683
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364584.jpg"
 address: "(4th-5th Floors, Yongam Building), 388 Bongjeong-ro, Seobuk-gu, Cheonan-si, Chungcheongnam-do (31103)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.1509387343
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539864.jpg"
 address: "#202, 218 Andeokwon-ro, Deokjin-gu, Jeonju-si, Jeonbuk-do (55008)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

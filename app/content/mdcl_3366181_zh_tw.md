@@ -6,7 +6,7 @@ lng: 126.9901086076
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366181.jpg"
 address: "#B119, 59 Donhwamun-ro 11ga-gil, Jongno-gu, Seoul (03132)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.8258279683
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548857.jpg"
 address: "123 Jeokgeum-ro, Danwon-gu, Ansan-si, Gyeonggi-do (15355)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

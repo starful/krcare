@@ -6,7 +6,7 @@ lng: 127.1031202287
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3574999.jpg"
 address: "2nd Floor, Suseo Office Building, 281 Gwangpyeong-ro, Gangnam-gu, Seoul (06349)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

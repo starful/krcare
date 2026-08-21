@@ -6,7 +6,7 @@ lng: 127.0273372138
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366217.jpg"
 address: "(#1, 5th Floor), 10 Nonhyeon-ro 163-gil, Gangnam-gu, Seoul (06031)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

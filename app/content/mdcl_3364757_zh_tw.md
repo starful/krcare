@@ -6,7 +6,7 @@ lng: 126.9838790209
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364757.jpg"
 address: "(12th Floor, 2431 Building),109 Toegye-ro, Jung-gu, Seoul (04536)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

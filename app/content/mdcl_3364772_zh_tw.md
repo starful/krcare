@@ -6,7 +6,7 @@ lng: 126.8992972227
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364772.jpg"
 address: "(B201-161-6, Kolon Science Valley 2) 55 Digital-ro 34-gil, Guro-gu, Seoul (08378)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

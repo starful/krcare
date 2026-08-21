@@ -6,7 +6,7 @@ lng: 126.9830206742
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562474.jpg"
 address: "#F301, 3rd Floor, Timewalk Myeong-dong Building, 78 Namdaemun-ro, Jung-gu, Seoul (04534)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

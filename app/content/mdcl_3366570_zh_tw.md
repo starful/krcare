@@ -6,7 +6,7 @@ lng: 127.0553653192
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366570.jpg"
 address: "11, Hakdong-ro 97-gil, Gangnam-gu, Seoul (06072)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.9909336758
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539776.jpg"
 address: "3rd Floor, 120 Jongno, Jongno-gu, Seoul (03192)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.8995207648
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3574535.jpg"
 address: "6th Floor, 68 Yangpyeong-ro, Yeongdeungpo-gu, Seoul (07222)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

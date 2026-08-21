@@ -6,7 +6,7 @@ lng: 126.6336443978
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364863.jpg"
 address: "27 Inhang-ro, Jemulpo-gu, Incheon (22332)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

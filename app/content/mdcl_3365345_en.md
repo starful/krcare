@@ -6,7 +6,7 @@ lng: 126.7368662338
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365345.jpg"
 address: "20 Geyangmunhwa-ro, Geyang-gu, Incheon (21080)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

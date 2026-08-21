@@ -6,7 +6,7 @@ lng: 127.0245713344
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3466973.jpg"
 address: "3F, 480 Gangnam-daero, Gangnam-gu, Seoul (06120)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

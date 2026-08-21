@@ -6,7 +6,7 @@ lng: 126.8358705393
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366506.jpg"
 address: "295 Gangseo-ro, Gangseo-gu, Seoul (07639)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

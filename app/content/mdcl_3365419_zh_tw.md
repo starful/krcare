@@ -6,7 +6,7 @@ lng: 127.0420970134
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365419.jpg"
 address: "(2nd Floor, Building A, Cheongdam Square), 420 Dosan-daero, Gangnam-gu, Seoul (06062)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

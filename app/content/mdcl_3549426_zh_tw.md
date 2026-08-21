@@ -6,7 +6,7 @@ lng: 127.0354231416
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549426.jpg"
 address: "667 Yeoksam-dong, Gangnam-gu, Seoul (06136)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

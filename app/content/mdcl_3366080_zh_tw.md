@@ -6,7 +6,7 @@ lng: 127.0194021015
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366080.jpg"
 address: "(12th-13th Floors, Mulberry Hills Medical Building), 589 Gangnam-daero, Seocho-gu, Seoul (06526)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

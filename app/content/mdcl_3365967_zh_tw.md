@@ -6,7 +6,7 @@ lng: 127.0274566711
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365967.jpg"
 address: "(4th Floor, Cham Building, Sinsa-dong), 48 Apgujeong-ro 28-gil, Gangnam-gu, Seoul (06031)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

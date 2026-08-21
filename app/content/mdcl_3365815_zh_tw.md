@@ -6,7 +6,7 @@ lng: 127.1573245539
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365815.jpg"
 address: "892 Dongnam-ro, Gangdong-gu, Seoul (05278)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

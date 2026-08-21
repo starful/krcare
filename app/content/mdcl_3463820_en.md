@@ -6,7 +6,7 @@ lng: 126.5595943387
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3463820.jpg"
 address: "61 Sororeum-ro, Seogwipo-si, Jeju-do (63579)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

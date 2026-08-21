@@ -6,7 +6,7 @@ lng: 127.0624936985
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364802.jpg"
 address: "(1078 Jisan-dong), 70 Jisan-ro, Pyeongtaek-si, Gyeonggi-do (17763)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

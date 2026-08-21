@@ -6,7 +6,7 @@ lng: 126.9537710481
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366684.jpg"
 address: "(#1433, Mapo T Town), 144 Mapo-daero, Mapo-gu, Seoul (04212)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

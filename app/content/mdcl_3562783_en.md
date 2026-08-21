@@ -6,7 +6,7 @@ lng: 126.9324886413
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562783.jpg"
 address: "1636 Nambusunhwan-ro, Gwanak-gu, Seoul (08779)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

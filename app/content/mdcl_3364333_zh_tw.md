@@ -6,7 +6,7 @@ lng: 126.9473297081
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364333.jpg"
 address: "591 Gunpo-ro, Gunpo-si, Gyeonggi-do (15839)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

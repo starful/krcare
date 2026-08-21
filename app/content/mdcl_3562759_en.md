@@ -6,7 +6,7 @@ lng: 127.0236103311
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562759.jpg"
 address: "5th Floor, Hyeoncheol Building, 371 Sapyeong-daero, Seocho-gu, Seoul (06541)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

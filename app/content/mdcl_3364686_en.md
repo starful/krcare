@@ -6,7 +6,7 @@ lng: 127.0339950515
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364686.jpg"
 address: "(Nonhyeon-dong), 731 Eonju-ro, Gangnam-gu, Seoul (06048)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

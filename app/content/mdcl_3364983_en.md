@@ -6,7 +6,7 @@ lng: 126.9360734763
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364983.jpg"
 address: "(Yeouido-dong), 10 63-ro, Yeongdeungpo-gu, Seoul (07345)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

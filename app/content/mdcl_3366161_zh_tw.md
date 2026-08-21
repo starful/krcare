@@ -6,7 +6,7 @@ lng: 126.8362814705
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366161.jpg"
 address: "260 Gonghang-daero, Gangseo-gu, Seoul (07804)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

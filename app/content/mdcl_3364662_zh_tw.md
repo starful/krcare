@@ -6,7 +6,7 @@ lng: 127.0468113333
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364662.jpg"
 address: "211 Eonju-ro, Gangnam-gu, Seoul (06273)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

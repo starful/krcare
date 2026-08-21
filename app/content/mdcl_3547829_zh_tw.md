@@ -6,7 +6,7 @@ lng: 126.8865857849
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547829.jpg"
 address: "1071 Anyangcheon-ro, Yangcheon-gu, Seoul (07985)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

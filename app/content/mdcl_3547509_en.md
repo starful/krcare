@@ -6,7 +6,7 @@ lng: 129.0654997742
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547509.jpg"
 address: "#110, 14th Floor, 133 Jeonpo-daero, Nam-gu, Busan (48400)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

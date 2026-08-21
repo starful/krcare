@@ -6,7 +6,7 @@ lng: 127.0310627899
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366418.jpg"
 address: "(#1411, Hwanghwa Building), 320 Gangnam-daero, Gangnam-gu, Seoul (06252)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""

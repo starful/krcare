@@ -6,7 +6,7 @@ lng: 127.0236686375
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365278.jpg"
 address: "(12th Floor, Cheongho Building), 483 Gangnam-daero, Seocho-gu, Seoul (06541)"
-date: "2026-08-15"
+date: "2026-08-22"
 website: ""
 tel: ""
 source_image: ""
