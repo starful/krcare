@@ -18,7 +18,6 @@
     gtag('js', new Date());
     gtag('config', '{{ site.ga_id }}');
     </script>
-    {% include 'partials/travelpayouts_drive.html' %}
 
     <!-- SEO -->
     <title>{{ post.title }} - {{ site.site_name }}</title>
@@ -230,7 +229,7 @@
 
         <img src="{{ post.thumbnail }}" alt="{{ post.title }} in {{ post.address }}" class="detail-img">
 
-        {% if site.rakuten_travel_url or site.rakuten_esim_url or site.klook_url %}
+        {% if site.rakuten_travel_url or site.rakuten_esim_url %}
         <aside class="booking-box booking-box--prominent" role="complementary" aria-label="Travel prep">
             <p class="booking-box__title">{{ lbl_stay }}</p>
             <p class="booking-box__desc">{{ lbl_stay_desc }}</p>
@@ -255,19 +254,10 @@
                     {{ lbl_stay_btn_esim }}
                 </a>
                 {% endif %}
-                {% if site.klook_url %}
-                <a href="{{ site.klook_url }}"
-                   target="_blank"
-                   rel="noopener noreferrer nofollow sponsored"
-                   class="booking-btn"
-                   data-track="affiliate_klook"
-                   data-track-label="klook">
-                    {{ lbl_stay_btn }}
-                </a>
-                {% endif %}
             </div>
             <p class="booking-box__note">{{ lbl_stay_note }}</p>
         </aside>
+        {% include 'partials/a8_banners.html' %}
         {% endif %}
 
         {% if content %}

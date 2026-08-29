@@ -64,7 +64,7 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertEqual(detail.status_code, 200)
         self.assertIn(b"reaction-panel", detail.data)
 
-    def test_item_detail_shows_klook_cta(self):
+    def test_item_detail_shows_a8_and_rakuten(self):
         items_resp = self.client.get("/api/items?lang=en")
         payload = items_resp.get_json()
         items = payload.get("items") or []
@@ -73,12 +73,13 @@ class ApiSmokeTest(unittest.TestCase):
         detail = self.client.get(f"/item/{item_id}")
         self.assertEqual(detail.status_code, 200)
         body = detail.get_data(as_text=True)
-        self.assertIn("https://klook.tpo.mx/IHDxaMD6", body)
+        self.assertIn("px.a8.net/svt/ejp", body)
+        self.assertIn("a8-banners", body)
         self.assertIn("booking-box", body)
         self.assertIn("https://a.r10.to/hPhGZl", body)
         self.assertIn("https://a.r10.to/h9O1Fq", body)
         self.assertIn("booking-btn--rakuten", body)
-        self.assertNotIn("Agoda", body)
+        self.assertNotIn("klook.tpo.mx", body)
 
 
 if __name__ == "__main__":

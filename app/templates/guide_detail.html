@@ -18,7 +18,6 @@
     gtag('js', new Date());
     gtag('config', '{{ site.ga_id }}');
     </script>
-    {% include 'partials/travelpayouts_drive.html' %}
 
     <title>{{ title }} - {{ site.site_name }} Guide</title>
     <meta name="description" content="{{ post.summary }}">
@@ -113,6 +112,8 @@
         </div>
 
         {% include 'partials/share_bar.html' %}
+
+        {% include 'partials/a8_banners.html' %}
 
         {% with reaction_slug=guide_id, reaction_lang=lang|default('en') %}
         {% include 'partials/reactions.html' %}

@@ -104,7 +104,6 @@ SITE_CONFIG = {
     # ----------------------------------------------------------
     # 9. Affiliate (Rakuten Travel/eSIM + Klook airport/fallback)
     # ----------------------------------------------------------
-    "klook_url": "https://klook.tpo.mx/IHDxaMD6",
     "rakuten_travel_url": RAKUTEN_KOREA_TRAVEL_URL,
     "rakuten_esim_url": RAKUTEN_KOREA_ESIM_URL,
 
