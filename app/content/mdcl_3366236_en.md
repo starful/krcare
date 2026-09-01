@@ -6,7 +6,7 @@ lng: 126.7961330816
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366236.jpg"
 address: "(#101), 26 Hwarang-ro, Danwon-gu, Ansan-si, Gyeonggi-do (15375)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -2,6 +2,7 @@ from flask import Flask, jsonify, render_template, abort, redirect, request, Res
 from flask_compress import Compress
 import json, os, frontmatter, markdown, re, glob, hashlib, copy, urllib.parse, urllib.request, io
 from datetime import datetime
+from pathlib import Path
 from urllib.parse import quote
 
 app = Flask(__name__)
@@ -637,6 +638,14 @@ load_items()
 load_nearby()
 load_guides()
 
+try:
+    from .seo_index import load_indexable_clinic_base_ids
+except ImportError:
+    from seo_index import load_indexable_clinic_base_ids
+
+INDEXABLE_CLINIC_IDS = load_indexable_clinic_base_ids(Path(CONTENT_DIR))
+print(f"✅ Indexable clinics: {len(INDEXABLE_CLINIC_IDS)}")
+
 # ==========================================
 # Category mapping
 # ==========================================
@@ -858,6 +867,7 @@ def item_detail(item_id):
     content_html = _md_to_html(content_md) if content_md else ''
     lang = str(post.get('lang', 'en'))
     base_id, _lang_from_id = _split_lang_id(item_id)
+    indexable = base_id in INDEXABLE_CLINIC_IDS
     stats = _get_footer_stats(lang)
     page_path = f"/item/{item_id}"
     share_ctx = _share_context(
@@ -878,6 +888,7 @@ def item_detail(item_id):
         content=content_html,
         plan=plan,
         base_id=base_id,
+        indexable=indexable,
         thumbnail_abs=_absolute_url(str(post.get('thumbnail', '/static/images/default.jpg'))),
         **_og_image_context(base_id),
         **share_ctx,
@@ -1095,7 +1106,7 @@ def sitemap_xml():
         nodes.append(_sitemap_url_node(alts['en'], today, alts, priority=pri))
 
     # Static pages
-    for path in ('/about.html', '/contact.html', '/privacy.html'):
+    for path in ('/about.html', '/contact.html', '/privacy.html', '/terms.html', '/disclaimer.html'):
         nodes.append(_sitemap_url_node(f'{base}{path}', today, changefreq='monthly', priority='0.3'))
 
     # Clinic detail pages (all UI langs)
@@ -1106,6 +1117,8 @@ def sitemap_xml():
         if not item_id or lang not in list_langs:
             continue
         base_id, _ = _split_lang_id(item_id)
+        if base_id not in INDEXABLE_CLINIC_IDS:
+            continue
         item_pairs.setdefault(base_id, {})[lang] = f'{base}/item/{item_id}'
     for pair in item_pairs.values():
         primary = pair.get('en') or next(iter(pair.values()))
@@ -1142,6 +1155,14 @@ def about():
 @app.route('/privacy.html')
 def privacy():
     return render_template('privacy.html', site=SITE_CONFIG)
+
+@app.route('/terms.html')
+def terms():
+    return render_template('terms.html', site=SITE_CONFIG)
+
+@app.route('/disclaimer.html')
+def disclaimer():
+    return render_template('disclaimer.html', site=SITE_CONFIG)
 
 @app.route('/contact.html')
 @app.route('/contact')

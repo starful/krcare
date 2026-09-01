@@ -6,7 +6,7 @@ lng: 126.9196498398
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366193.jpg"
 address: "(B103, Bethel Building), 875 Tongil-ro, Eunpyeong-gu, Seoul (03329)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

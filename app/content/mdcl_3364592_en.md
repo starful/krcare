@@ -6,7 +6,7 @@ lng: 127.0330706923
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364592.jpg"
 address: "(#301, 3rd Floor), 72 Gangnam-daero 94-gil, Gangnam-gu, Seoul (06133)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

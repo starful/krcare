@@ -6,7 +6,7 @@ lng: 127.0377873616
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548775.jpg"
 address: "2633 Nambusunhwan-ro, Gangnam-gu, Seoul (06268)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

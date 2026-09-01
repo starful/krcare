@@ -6,7 +6,7 @@ lng: 127.0495019551
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549377.jpg"
 address: "2nd-4th Floors, 730 Samseong-ro, Cheongdam-dong, Gangnam-gu, Seoul (06073)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

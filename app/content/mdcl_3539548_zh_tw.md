@@ -6,7 +6,7 @@ lng: 127.0255269137
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539548.jpg"
 address: "11th Floor, Daewon Building, 437 Gangnam-daero, Seocho-gu, Seoul (06612)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

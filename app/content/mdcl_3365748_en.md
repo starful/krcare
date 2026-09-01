@@ -6,7 +6,7 @@ lng: 127.0244742114
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365748.jpg"
 address: "(2nd Floor, APRO Square), 55 Seocho-daero 77-gil, Seocho-gu, Seoul (06611)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

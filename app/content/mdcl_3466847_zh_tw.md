@@ -6,7 +6,7 @@ lng: 126.6705174206
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3466847.jpg"
 address: "98 Meonugeum-ro, Yeonsu-gu, Incheon (21972)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

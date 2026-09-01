@@ -6,7 +6,7 @@ lng: 127.0393583011
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3466895.jpg"
 address: "2F & 5F-7F, 823 Seolleung-ro, Gangnam-gu, Seoul (06018)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

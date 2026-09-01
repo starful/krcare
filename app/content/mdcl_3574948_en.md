@@ -6,7 +6,7 @@ lng: 127.0293988774
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3574948.jpg"
 address: "3rd, 16th, 17th, and 18th Floors, Cambridge Building, 110 Teheran-ro, Gangnam-gu, Seoul (06232)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

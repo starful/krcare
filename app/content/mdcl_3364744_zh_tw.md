@@ -6,7 +6,7 @@ lng: 127.0072129322
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364744.jpg"
 address: "(2nd Floor), 212 Jangchungdan-ro, Jung-gu, Seoul (04614)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

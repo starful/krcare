@@ -6,7 +6,7 @@ lng: 127.0719465561
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365295.jpg"
 address: "120-1 Neungdong-ro, Gwangjin-gu, Seoul (05030)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0195270045
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366449.jpg"
 address: "(3rd,12th Floors, ICT Tower), 624 Gangnam-daero, Gangnam-gu, Seoul (06035)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

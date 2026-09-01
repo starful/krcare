@@ -6,7 +6,7 @@ lng: 128.5940128393
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562464.jpg"
 address: "3rd Floor, Hyundai Building, 398 Jungang-daero, Jung-gu, Daegu (41937)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.1253093166
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366432.jpg"
 address: "59 Yatap-ro, Bundang-gu, Seongnam-si, Gyeonggi-do (13496)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0231519347
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366148.jpg"
 address: "(2nd-4th Floors, Made U Building), 516 Gangnam-daero, Gangnam-gu, Seoul (06114)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

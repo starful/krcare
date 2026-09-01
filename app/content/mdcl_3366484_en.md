@@ -6,7 +6,7 @@ lng: 129.0619694214
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366484.jpg"
 address: "50 Jungang-daero 666beon-gil, Busanjin-gu, Busan (47300)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

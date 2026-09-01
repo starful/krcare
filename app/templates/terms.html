@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <meta name="theme-color" content="{{ site.accent_color }}">
+    <title>Terms of Use — {{ site.site_name }}</title>
+    <meta name="description" content="Terms of Use for {{ site.site_name }} — editorial medical-travel information for Korea.">
+    <link rel="canonical" href="{{ site.site_url }}/terms.html">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        .legal-container { max-width: 800px; margin: 40px auto; padding: 40px; background: #fff; border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08); line-height: 1.8; color: #444; }
+        .legal-container h1 { font-size: 2rem; color: var(--primary-color); text-align: center; margin-bottom: 8px; }
+        .legal-container h2 { font-size: 1.25rem; color: var(--accent-color); margin-top: 32px; }
+        .legal-meta { text-align: center; color: #888; font-size: 0.9rem; margin-bottom: 24px; }
+    </style>
+</head>
+<body>
+    <header style="padding: 20px; text-align: center; border-bottom: 1px solid #eaeaea;">
+        <a href="/"><img src="/static/images/logo.png" alt="{{ site.site_name }} Logo" style="height: 60px;"></a>
+    </header>
+    <div class="legal-container">
+        {% set _lang = request.args.get('lang') or active_lang or 'en' %}
+        {% if _lang == 'ko' %}
+        <h1>이용약관</h1>
+        <p class="legal-meta">최종 업데이트: 2026년 9월 1일 · {{ site.site_url }}</p>
+        <p><strong>{{ site.site_name }}</strong>(“사이트”)를 이용하면 본 약관에 동의한 것으로 봅니다.</p>
+        <h2>1. 서비스 성격</h2>
+        <p>사이트는 한국 의료·여행 관련 <strong>편집·정보 콘텐츠</strong>(가이드, 지도, 클리닉 목록)를 무료로 제공합니다. 병원·클리닉·예약 대행이 아닙니다.</p>
+        <h2>2. 정보의 정확성</h2>
+        <p>공개 데이터(KTO 의료관광 API 등)와 편집 가이드를 바탕으로 운영합니다. 정보는 예고 없이 변경될 수 있으며, 완전성·최신성을 보장하지 않습니다. 예약·치료 전 반드시 해당 클리닉에 직접 확인하세요.</p>
+        <h2>3. 금지 행위</h2>
+        <ul>
+            <li>자동 수집·과도한 크롤링·서비스 방해</li>
+            <li>허위 문의·스팸·불법 목적 이용</li>
+            <li>콘텐츠 무단 복제(법령상 허용 범위 제외)</li>
+        </ul>
+        <h2>4. 제휴·광고</h2>
+        <p>일부 페이지에 제휴 링크·배너·(승인 시) Google AdSense 광고가 표시될 수 있습니다. 제휴 링크를 통해 구매·예약이 이루어져도 추가 비용 없이 운영을 지원할 수 있습니다. 자세한 내용은 <a href="/privacy.html?lang=ko">개인정보 처리방침</a>을 참고하세요.</p>
+        <h2>5. 면책</h2>
+        <p>의료·법률·여행 결과에 대한 책임은 이용자와 해당 제공자에게 있습니다. <a href="/disclaimer.html?lang=ko">면책 조항</a>을 함께 읽어 주세요.</p>
+        <h2>6. 문의</h2>
+        <p><a href="/contact.html?lang=ko">문의하기</a></p>
+        {% else %}
+        <h1>Terms of Use</h1>
+        <p class="legal-meta">Last updated: September 1, 2026 · {{ site.site_url }}</p>
+        <p>By using <strong>{{ site.site_name }}</strong> (“the Site”), you agree to these Terms.</p>
+        <h2>1. What we provide</h2>
+        <p>The Site publishes free <strong>editorial information</strong> about medical travel in South Korea — guides, maps, and clinic listings. We are not a clinic, hospital, or booking agency.</p>
+        <h2>2. Accuracy</h2>
+        <p>Content may combine public sources (including KTO medical-tourism listings) with written guides. Information can change without notice. We do not guarantee completeness or fitness for your situation. Always confirm details with the clinic before booking or treatment.</p>
+        <h2>3. Acceptable use</h2>
+        <ul>
+            <li>No abusive scraping, spam, or attempts to disrupt the Site</li>
+            <li>No unlawful use of contact forms or user-submitted data</li>
+            <li>No copying substantial portions of the Site beyond fair use</li>
+        </ul>
+        <h2>4. Affiliate links and ads</h2>
+        <p>Some pages include affiliate links, partner banners, and (if approved) Google AdSense ads. We may earn a commission when you use affiliate links at no extra cost to you. See our <a href="/privacy.html">Privacy Policy</a> for details.</p>
+        <h2>5. Disclaimer</h2>
+        <p>Medical and travel decisions are yours and your providers’. Read our full <a href="/disclaimer.html">Medical &amp; travel disclaimer</a>.</p>
+        <h2>6. Contact</h2>
+        <p><a href="/contact.html">Contact form</a></p>
+        {% endif %}
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>

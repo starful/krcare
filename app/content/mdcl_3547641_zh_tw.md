@@ -6,7 +6,7 @@ lng: 126.9806210362
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547641.jpg"
 address: "B1 Floor, 72 Toegye-ro (Hoehyeon-dong 1-ga, SK Leaders' View Namsan), Jung-gu, Seoul (04632)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.7787979424
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366149.jpg"
 address: "(10th Floor, New Samchang Building), 123 Gangseok-ro, Ilsandong-gu, Goyang-si, Gyeonggi-do (10414)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0214796083
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3467109.jpg"
 address: "3F, 119 Dosan-daero, Gangnam-gu, Seoul (06035)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

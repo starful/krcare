@@ -6,7 +6,7 @@ lng: 128.7002536293
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366829.jpg"
 address: "11 Angsil-ro, Andong-si, Gyeongsangbuk-do (36743)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

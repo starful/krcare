@@ -6,7 +6,7 @@ lng: 129.0586113750
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547521.jpg"
 address: "5th Floor, 34 Sincheon-daero 62beon-gil, Busanjin-gu, Busan (47289)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

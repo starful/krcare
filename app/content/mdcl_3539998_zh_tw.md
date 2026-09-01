@@ -6,7 +6,7 @@ lng: 126.9722575901
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539998.jpg"
 address: "#700, The Salvation Army Building, 69 Saemunan-ro, Jongno-gu, Seoul (03175)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

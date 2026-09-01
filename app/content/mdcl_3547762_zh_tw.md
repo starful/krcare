@@ -6,7 +6,7 @@ lng: 127.0329533260
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547762.jpg"
 address: "4th-5th Floors, 843 Eonju-ro, Gangnam-gu, Seoul (06023)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — OK Template</title>
-    <meta name="description" content="How OK Template uses cookies, Google Analytics, Google AdSense, and contact form data.">
+    <title>Privacy Policy — {{ site.site_name }}</title>
+    <meta name="description" content="How {{ site.site_name }} uses cookies, Google Analytics, Google AdSense, and contact form data.">
     <meta name="robots" content="index,follow">
-    <link rel="canonical" href="https://example.com/privacy.html">
-    <link rel="alternate" hreflang="en" href="https://example.com/privacy.html">
-    <link rel="alternate" hreflang="ko" href="https://example.com/privacy.html?lang=ko">
+    <link rel="canonical" href="{{ site.site_url }}/privacy.html">
+    <link rel="alternate" hreflang="en" href="{{ site.site_url }}/privacy.html">
+    <link rel="alternate" hreflang="ko" href="{{ site.site_url }}/privacy.html?lang=ko">
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
                line-height: 1.7; background: #F3F7F6; color: #555; margin: 0; padding: 40px 20px; }
@@ -36,20 +36,20 @@
   Shared Privacy Policy body (Korean).
   Variables: site_name, domain, contact_url, updated_at
 #}
-<p><strong>최종 업데이트:</strong> 2026년 7월 12일</p>
+<p><strong>최종 업데이트:</strong> 2026년 9월 1일</p>
 
 <p>
-  본 개인정보 처리방침은 <strong>example.com</strong>에서 운영하는
-  <strong>OK Template</strong>(이하 “사이트”)가 웹사이트 이용 시
+  본 개인정보 처리방침은 <strong>{{ site.site_url }}</strong>에서 운영하는
+  <strong>{{ site.site_name }}</strong>(이하 “사이트”)가 웹사이트 이용 시
   정보를 어떻게 수집·이용·공유하는지 설명합니다. 사이트를 이용하시면
   본 방침에 동의한 것으로 간주됩니다. 동의하지 않으시면 이용을 중단해 주세요.
 </p>
 
 <h2>1. 운영자 안내</h2>
 <p>
-  OK Template는 가이드, 지도, 디렉터리 등 무료 정보·편집 콘텐츠를 제공합니다.
-  사이트에 소개된 학교·식당·숙소·골프장 등의 공식 사이트가 아니며,
-  별도 명시가 없는 한 해당 업체와 제휴 관계가 없습니다.
+  {{ site.site_name }}는 한국 의료·여행 관련 가이드, 지도, 클리닉 목록 등 무료 정보·편집 콘텐츠를 제공하는
+  독립 정보 사이트입니다. 병원·클리닉·숙소 등의 공식 사이트가 아닙니다.
+  일부 페이지에는 제휴 링크·배너가 포함될 수 있으며, 이 경우 별도 표시합니다.
 </p>
 
 <h2>2. 수집하는 정보</h2>
@@ -96,7 +96,7 @@
 
 <h2>5. Google AdSense 및 광고</h2>
 <p>
-  본 사이트는 <strong>Google AdSense</strong>를 사용하며 Google 및 파트너 광고가 표시될 수 있습니다.
+  사이트는 Google AdSense 승인을 준비 중이며, 승인 후 Google 및 파트너 광고가 표시될 수 있습니다.
   Google 등 제3자 광고 사업자는 쿠키를 이용해 이전 방문 기록에 기반한 광고를 게재할 수 있습니다.
 </p>
 <ul>
@@ -110,7 +110,14 @@
   </li>
 </ul>
 
-<h2>6. 이용 목적</h2>
+<h2>6. 제휴 링크</h2>
+<p>
+  일부 페이지에 숙박·eSIM·투어 등 <strong>제휴(어필리에이트) 링크</strong> 또는 파트너 배너가 있습니다.
+  링크를 통해 예약·구매가 이루어지면 {{ site.site_name }}에 수수료가 지급될 수 있으며,
+  이용자에게 추가 비용은 없습니다. 제휴 관계는 콘텐츠 작성에 영향을 주지 않도록 표시합니다.
+</p>
+
+<h2>7. 이용 목적</h2>
 <ul>
   <li>사이트 운영·유지·개선</li>
   <li>문의·오류 신고 응대</li>
@@ -119,7 +126,7 @@
   <li>관련 법령 준수</li>
 </ul>
 
-<h2>7. 정보 제공</h2>
+<h2>8. 정보 제공</h2>
 <p>개인정보를 판매하지 않습니다. 다음의 경우 정보가 제공될 수 있습니다.</p>
 <ul>
   <li>호스팅, 분석, 문의 처리, 광고 등 서비스 제공업체</li>
@@ -127,74 +134,74 @@
   <li>합병·양도 등 사업 이전 시(관련 통지가 필요한 경우 안내)</li>
 </ul>
 
-<h2>8. 외부 링크</h2>
+<h2>9. 외부 링크</h2>
 <p>
   지도, 예약, 학교·업체 사이트 등 외부 링크가 포함될 수 있습니다.
   해당 사이트의 개인정보 처리에 대해서는 책임지지 않습니다.
 </p>
 
-<h2>9. 보관 기간</h2>
+<h2>10. 보관 기간</h2>
 <p>
   로그·분석 데이터는 운영·보안·분석에 필요한 기간 보관 후 삭제 또는 집계 처리합니다.
   문의 내용은 응대 및 기록 유지를 위해 합리적인 기간 보관합니다.
 </p>
 
-<h2>10. 보안</h2>
+<h2>11. 보안</h2>
 <p>
   합리적 수준의 관리·기술적 보호 조치를 취하나, 완벽한 보안을 보장할 수는 없습니다.
 </p>
 
-<h2>11. 아동의 개인정보</h2>
+<h2>12. 아동의 개인정보</h2>
 <p>
   본 사이트는 만 13세 미만(또는 관할 법률상 이에 상응하는 연령) 아동을 대상으로 하지 않으며,
   고의로 아동의 개인정보를 수집하지 않습니다.
 </p>
 
-<h2>12. 해외 이용자</h2>
+<h2>13. 해외 이용자</h2>
 <p>
   전 세계에서 접속할 수 있으며, 정보 처리가 이루어지는 국가의 법령이
   이용자 거주 국가와 다를 수 있습니다.
 </p>
 
-<h2>13. 이용자 선택</h2>
+<h2>14. 이용자 선택</h2>
 <ul>
   <li>브라우저 쿠키 설정 변경</li>
   <li>Google 광고/Analytics 선택 해제 도구 이용</li>
   <li>제출하신 문의 정보의 수정·삭제 요청(가능한 범위)</li>
 </ul>
 
-<h2>14. 방침 변경</h2>
+<h2>15. 방침 변경</h2>
 <p>
   본 방침은 변경될 수 있으며, 변경 시 상단의 “최종 업데이트” 날짜를 수정합니다.
   변경 후에도 사이트를 계속 이용하시면 변경된 방침에 동의한 것으로 봅니다.
 </p>
 
-<h2>15. 문의</h2>
+<h2>16. 문의</h2>
 <p>
   개인정보 관련 문의:
-  <a href="/contact.html">OK Template 문의하기</a>
+  <a href="/contact.html">{{ site.site_name }} 문의하기</a>
 </p>
     {% else %}
     <h1>Privacy Policy</h1>
   Shared Privacy Policy body (English).
   Variables: site_name, domain, contact_url, updated_at
 #}
-<p><strong>Last updated:</strong> July 12, 2026</p>
+<p><strong>Last updated:</strong> September 1, 2026</p>
 
 <p>
-  This Privacy Policy describes how <strong>OK Template</strong>
+  This Privacy Policy describes how <strong>{{ site.site_name }}</strong>
   (“we,” “us,” or “the Site”), operated at
-  <strong>example.com</strong>, collects, uses, and shares information
+  <strong>{{ site.site_url }}</strong>, collects, uses, and shares information
   when you visit or use this website. By using the Site, you agree to this Policy.
   If you do not agree, please do not use the Site.
 </p>
 
 <h2>1. Who we are</h2>
 <p>
-  OK Template provides free editorial and informational content
-  (guides, maps, directories, and related pages). We are not a school, restaurant,
-  hotel, golf course, or other venue listed on the Site, and we are not
-  affiliated with those third parties unless explicitly stated.
+  {{ site.site_name }} provides free editorial and informational content
+  (medical-travel guides, maps, clinic directories, and related pages). We are an independent
+  information site — not a clinic, hospital, or hotel listed on the Site.
+  Some pages include clearly labeled affiliate links and partner banners.
 </p>
 
 <h2>2. Information we collect</h2>
@@ -251,8 +258,8 @@
 
 <h2>5. Google AdSense and advertising</h2>
 <p>
-  This Site uses <strong>Google AdSense</strong> and may display ads from Google
-  and participating partners. Third-party vendors, including Google, use cookies
+  We are preparing this Site for Google AdSense approval. If approved, ads from Google
+  and participating partners may be displayed. Third-party vendors, including Google, use cookies
   to serve ads based on your prior visits to this Site and/or other sites on the Internet.
 </p>
 <ul>
@@ -275,7 +282,14 @@
   policies for details.
 </p>
 
-<h2>6. How we use information</h2>
+<h2>6. Affiliate links</h2>
+<p>
+  Some pages include <strong>affiliate links</strong> or partner banners (for example stays, eSIM, or tours).
+  If you book or purchase through these links, {{ site.site_name }} may earn a commission at no extra cost to you.
+  Affiliate relationships are disclosed and do not control our editorial guides.
+</p>
+
+<h2>7. How we use information</h2>
 <p>We use collected information to:</p>
 <ul>
   <li>Operate, maintain, and improve the Site</li>
@@ -285,7 +299,7 @@
   <li>Comply with legal obligations where applicable</li>
 </ul>
 
-<h2>7. Sharing of information</h2>
+<h2>8. Sharing of information</h2>
 <p>
   We do not sell personal information. We may share information with:
 </p>
@@ -295,14 +309,14 @@
   <li><strong>Business transfers</strong> if we undergo a merger, acquisition, or asset sale (you will be notified where required)</li>
 </ul>
 
-<h2>8. External links</h2>
+<h2>9. External links</h2>
 <p>
   The Site links to third-party websites (maps, booking partners, schools,
   venues, social networks, etc.). We are not responsible for their content or
   privacy practices. Review their policies before providing personal data.
 </p>
 
-<h2>9. Data retention</h2>
+<h2>10. Data retention</h2>
 <p>
   Server logs and analytics data are retained for as long as needed for
   operations, security, and analysis, then deleted or aggregated.
@@ -310,46 +324,46 @@
   handle your request and keep basic records of correspondence.
 </p>
 
-<h2>10. Security</h2>
+<h2>11. Security</h2>
 <p>
   We take reasonable administrative and technical measures to protect information.
   No method of transmission or storage is 100% secure; we cannot guarantee absolute security.
 </p>
 
-<h2>11. Children’s privacy</h2>
+<h2>12. Children’s privacy</h2>
 <p>
   The Site is not directed to children under 13 (or the equivalent minimum age
   in your jurisdiction). We do not knowingly collect personal information from children.
   If you believe a child has provided information, please contact us and we will delete it.
 </p>
 
-<h2>12. International visitors</h2>
+<h2>13. International visitors</h2>
 <p>
   The Site may be accessed worldwide. Information may be processed in countries
   where we or our providers operate, which may have different data-protection laws
   than your country of residence.
 </p>
 
-<h2>13. Your choices</h2>
+<h2>14. Your choices</h2>
 <ul>
   <li>Adjust browser cookie settings</li>
   <li>Use Google Ads Settings / Analytics opt-out tools linked above</li>
   <li>Contact us to update or request deletion of inquiry data you submitted, where applicable</li>
 </ul>
 
-<h2>14. Changes to this Policy</h2>
+<h2>15. Changes to this Policy</h2>
 <p>
   We may update this Privacy Policy from time to time. The “Last updated” date
   at the top will change when we do. Continued use of the Site after changes
   means you accept the revised Policy.
 </p>
 
-<h2>15. Contact</h2>
+<h2>16. Contact</h2>
 <p>
   Questions about this Privacy Policy or your information:
 </p>
 <p>
-  <a href="/contact.html">Contact OK Template</a>
+  <a href="/contact.html">Contact {{ site.site_name }}</a>
 </p>
     {% endif %}
     <div class="btn-row"><a class="btn" href="/">Back to Home</a></div>

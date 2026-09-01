@@ -6,7 +6,7 @@ lng: 128.4802121609
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364859.jpg"
 address: "1035 Dalgubeol-daero, Dalseo-gu, Daegu (42601)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

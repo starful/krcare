@@ -6,7 +6,7 @@ lng: 129.1766811994
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366568.jpg"
 address: "(#B-203, Ungsin Cine Art), 802 Haeundae-daero, Haeundae-gu, Busan (48111)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

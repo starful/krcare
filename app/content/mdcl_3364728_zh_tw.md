@@ -6,7 +6,7 @@ lng: 127.0240159147
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364728.jpg"
 address: "(#301-304), 59 Seocho-daero 77-gil, Seocho-gu, Seoul (06611)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

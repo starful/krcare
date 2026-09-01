@@ -6,7 +6,7 @@ lng: 129.0576418365
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364765.jpg"
 address: "(11th-13th Floors, Youngkwang Bookstore Building), 10 Seomyeonmunhwa-ro, Busanjin-gu, Busan (47256)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

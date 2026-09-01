@@ -6,7 +6,7 @@ lng: 129.0077919845
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539987.jpg"
 address: "4th Floor, 24 Mandeok-daero, Buk-gu, Busan (46576)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

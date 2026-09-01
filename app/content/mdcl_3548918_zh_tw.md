@@ -6,7 +6,7 @@ lng: 128.4228715987
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548918.jpg"
 address: "46 Indong 20-gil, Gumi-si, Gyeongsangbuk-do (39399)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

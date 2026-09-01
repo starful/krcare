@@ -6,7 +6,7 @@ lng: 126.9934475995
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539793.jpg"
 address: "#1014, 2 Toegye-ro 36-gil, Jung-gu, Seoul (04626)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

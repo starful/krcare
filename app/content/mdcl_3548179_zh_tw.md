@@ -6,7 +6,7 @@ lng: 126.7937373126
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548179.jpg"
 address: "327 Sosa-ro, Wonmi-gu, Bucheon-si, Gyeonggi-do (14647)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.4511335285
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364644.jpg"
 address: "(#1032, 2nd Floor, Terminal 1), 272 Gonghang-ro, Yeongjong-gu, Incheon (22382)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

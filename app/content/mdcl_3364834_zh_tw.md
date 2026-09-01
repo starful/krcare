@@ -6,7 +6,7 @@ lng: 127.0204465215
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364834.jpg"
 address: "(4th Floor, Peyto Plaza), 563 Gangnam-daero, Seocho-gu, Seoul (06531)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

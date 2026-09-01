@@ -6,7 +6,7 @@ lng: 127.0048647593
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3448339.jpg"
 address: "2F, 189 Sinbanpo-ro, Seocho-gu, Seoul (06512)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

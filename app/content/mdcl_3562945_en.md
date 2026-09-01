@@ -6,7 +6,7 @@ lng: 127.0259380793
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562945.jpg"
 address: "B2 Floor, GT Tower, 411 Seocho-daero, Seocho-gu, Seoul (06615)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

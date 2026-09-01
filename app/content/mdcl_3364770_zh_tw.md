@@ -6,7 +6,7 @@ lng: 127.0235325821
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364770.jpg"
 address: "(5th-6th Floors, K-Platz), 368 Sapyeong-daero, Seocho-gu, Seoul (06611)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

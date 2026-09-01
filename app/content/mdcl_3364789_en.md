@@ -6,7 +6,7 @@ lng: 128.5911165067
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364789.jpg"
 address: "(2nd Floor), 7 Bongdeok-ro 1-gil, Nam-gu, Daegu (42430)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

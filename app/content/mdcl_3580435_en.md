@@ -6,7 +6,7 @@ lng: 126.8853628995
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3580435.jpg"
 address: "957 Mujin-daero, Seo-gu, Jeonnam-Gwangju Special Metropolitan City (61917)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

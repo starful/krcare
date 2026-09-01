@@ -6,7 +6,7 @@ lng: 127.0289737485
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364619.jpg"
 address: "(B2, B1, 1st, 2nd Floors), 49 Gangnam-daero 110-gil, Gangnam-gu, Seoul (06127)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0191743078
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3563030.jpg"
 address: "10th Floor, Human Tower, 605 Gangnam-daero, Seocho-gu, Seoul (06526)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

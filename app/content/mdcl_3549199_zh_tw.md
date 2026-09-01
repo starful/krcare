@@ -6,7 +6,7 @@ lng: 127.0206713808
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549199.jpg"
 address: "9th-10th Floors, Lex Tower, 108 Dosan-daero, Gangnam-gu, Seoul (06038)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

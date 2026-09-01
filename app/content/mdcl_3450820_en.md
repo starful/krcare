@@ -6,7 +6,7 @@ lng: 126.8489330215
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3450820.jpg"
 address: "8F-10F, 58 Sangmujungang-ro, Seo-gu, Jeonnam-Gwangju Special Metropolitan City (61949)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

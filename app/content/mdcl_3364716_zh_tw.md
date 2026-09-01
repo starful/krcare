@@ -6,7 +6,7 @@ lng: 126.7021633751
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364716.jpg"
 address: "(6th Floor), 588 Inju-daero, Namdong-gu, Incheon (21570)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

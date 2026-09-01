@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <meta name="theme-color" content="{{ site.accent_color }}">
+    <title>Medical &amp; Travel Disclaimer — {{ site.site_name }}</title>
+    <meta name="description" content="Medical and travel disclaimer for {{ site.site_name }} — not medical advice; verify with clinics directly.">
+    <link rel="canonical" href="{{ site.site_url }}/disclaimer.html">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+        .legal-container { max-width: 800px; margin: 40px auto; padding: 40px; background: #fff; border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08); line-height: 1.8; color: #444; }
+        .legal-container h1 { font-size: 2rem; color: var(--primary-color); text-align: center; margin-bottom: 8px; }
+        .legal-container h2 { font-size: 1.25rem; color: var(--accent-color); margin-top: 32px; }
+        .legal-meta { text-align: center; color: #888; font-size: 0.9rem; margin-bottom: 24px; }
+        .legal-callout { background: #f3f7f6; border-left: 4px solid var(--accent-color); padding: 16px 20px; margin: 24px 0; border-radius: 0 8px 8px 0; }
+    </style>
+</head>
+<body>
+    <header style="padding: 20px; text-align: center; border-bottom: 1px solid #eaeaea;">
+        <a href="/"><img src="/static/images/logo.png" alt="{{ site.site_name }} Logo" style="height: 60px;"></a>
+    </header>
+    <div class="legal-container">
+        {% set _lang = request.args.get('lang') or active_lang or 'en' %}
+        {% if _lang == 'ko' %}
+        <h1>의료·여행 면책 조항</h1>
+        <p class="legal-meta">최종 업데이트: 2026년 9월 1일</p>
+        <div class="legal-callout">
+            <strong>{{ site.site_name }}는 의료·법률·여행 전문 자문을 제공하지 않습니다.</strong>
+            응급 상황에는 현지 응급 서비스(119) 또는 해당 국가 대사관·영사관에 연락하세요.
+        </div>
+        <h2>정보 목적</h2>
+        <p>가이드·클리닉 페이지·지도는 <strong>일반 정보</strong>입니다. 개인 진단, 치료 권고, 수술 적합성 판단이 아닙니다.</p>
+        <h2>클리닉 목록</h2>
+        <p>많은 클리닉 페이지는 한국관광공사(KTO) 공개 의료관광 API 등 <strong>공개 목록 데이터</strong>를 바탕으로 합니다. 가격·의사 자격·시술 결과·언어 지원은 검증하지 않습니다.</p>
+        <h2>이용자 책임</h2>
+        <ul>
+            <li>예약·수술·시술 전 클리닉에 직접 상담·확인</li>
+            <li>여권·비자·보험·귀국 일정은 본인 책임</li>
+            <li>제3자 예약·결제·숙박 서비스 약관은 해당 업체 기준</li>
+        </ul>
+        <h2>제휴 링크</h2>
+        <p>숙박·eSIM 등 제휴 링크는 편의를 위한 것이며, {{ site.site_name }}가 해당 서비스를 운영·보증하지 않습니다.</p>
+        <h2>문의</h2>
+        <p>목록 오류·가이드 수정: <a href="/contact.html?lang=ko">문의하기</a></p>
+        {% else %}
+        <h1>Medical &amp; Travel Disclaimer</h1>
+        <p class="legal-meta">Last updated: September 1, 2026</p>
+        <div class="legal-callout">
+            <strong>{{ site.site_name }} does not provide medical, legal, or travel professional advice.</strong>
+            In an emergency, contact local emergency services (119 in Korea) or your embassy/consulate.
+        </div>
+        <h2>Informational purpose only</h2>
+        <p>Guides, clinic pages, and maps are <strong>general information</strong> — not a diagnosis, treatment recommendation, or suitability assessment for any procedure.</p>
+        <h2>Clinic listings</h2>
+        <p>Many clinic pages are based on <strong>public directory data</strong> (including Korea Tourism Organization medical-tourism OpenAPI). We do not verify prices, outcomes, doctor credentials, or language support.</p>
+        <h2>Your responsibility</h2>
+        <ul>
+            <li>Consult the clinic directly before booking or treatment</li>
+            <li>Passports, visas, insurance, and return travel are your responsibility</li>
+            <li>Third-party booking, payment, and stay services are governed by their own terms</li>
+        </ul>
+        <h2>Affiliate links</h2>
+        <p>Stay, eSIM, and partner links are provided for convenience. {{ site.site_name }} does not operate or guarantee those services.</p>
+        <h2>Corrections</h2>
+        <p>Listing or guide corrections: <a href="/contact.html">Contact us</a></p>
+        {% endif %}
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>

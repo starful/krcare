@@ -6,7 +6,7 @@ lng: 127.1070098987
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364727.jpg"
 address: "(#428-36), 46 Dolma-ro, Bundang-gu, Seongnam-si, Gyeonggi-do (13630)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

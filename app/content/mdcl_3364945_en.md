@@ -6,7 +6,7 @@ lng: 128.5969264260
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364945.jpg"
 address: "(1st-3rd and 11th-13th Floors), 95 Dongseong-ro 2-gil, Jung-gu, Daegu (41938)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

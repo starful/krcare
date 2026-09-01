@@ -6,7 +6,7 @@ lng: 127.1217935811
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548137.jpg"
 address: "4th Floor, New Building, 20 Seohyeon-ro 180beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (13590)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

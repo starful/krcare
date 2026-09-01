@@ -6,7 +6,7 @@ lng: 128.6335259766
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549360.jpg"
 address: "3rd Floor, Jasam Building, 50 Hwarang-ro, Suseong-gu, Daegu (42038)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

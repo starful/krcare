@@ -6,7 +6,7 @@ lng: 127.0577404698
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366246.jpg"
 address: "(#105, 10th Floor, WeWork Building), 507 Teheran-ro, Gangnam-gu, Seoul (06168)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

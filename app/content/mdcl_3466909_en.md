@@ -6,7 +6,7 @@ lng: 129.0581557245
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3466909.jpg"
 address: "8F-11F, 74 Seomyeon-ro, Busanjin-gu, Busan (47286)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

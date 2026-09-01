@@ -6,7 +6,7 @@ lng: 126.9039347180
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562726.jpg"
 address: "CM Chungmu Hospital, 13 Yeongdeungpo-ro 36-gil, Yeongdeungpo-gu, Seoul (07301)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

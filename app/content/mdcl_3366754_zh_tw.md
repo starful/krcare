@@ -6,7 +6,7 @@ lng: 129.0514007375
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366754.jpg"
 address: "729 Gaya-daero, Busanjin-gu, Busan (47195)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

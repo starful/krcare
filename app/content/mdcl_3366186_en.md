@@ -6,7 +6,7 @@ lng: 127.0279927959
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366186.jpg"
 address: "(3rd-6th Floors, Yeongseok Building), 813 Nonhyeon-ro, Gangnam-gu, Seoul (06032)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

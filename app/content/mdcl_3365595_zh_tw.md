@@ -6,7 +6,7 @@ lng: 126.6875394883
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365595.jpg"
 address: "(9th Floor), 428 Gyeongin-ro, Michuhol-gu, Incheon (22149)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0266462605
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549160.jpg"
 address: "8th Floor, Jump Milano, 432 Gangnam-daero, Gangnam-gu, Seoul (06129)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

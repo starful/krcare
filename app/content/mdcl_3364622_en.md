@@ -6,7 +6,7 @@ lng: 129.0856043560
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364622.jpg"
 address: "1523 Jungang-daero, Dongnae-gu, Busan (47710)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0441516773
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3575655.jpg"
 address: "#G704, HEYGROUND, 115 Wangsimni-ro, Seongdong-gu, Seoul (04768)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

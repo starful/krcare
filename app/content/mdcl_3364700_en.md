@@ -6,7 +6,7 @@ lng: 129.0983472266
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364700.jpg"
 address: "(#505, Sewoong Building), 295 Suyeong-ro, Nam-gu, Busan (48434)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

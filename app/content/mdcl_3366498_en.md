@@ -6,7 +6,7 @@ lng: 126.9816428989
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366498.jpg"
 address: "10F, Unit B1031, 8, Gangnam-daero 69-gil, Seocho-gu, Seoul (04521)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

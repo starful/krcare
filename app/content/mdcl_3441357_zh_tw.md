@@ -6,7 +6,7 @@ lng: 126.8922697078
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3441357.jpg"
 address: "#1404, 3 Gongwon-ro, Guro-gu, Seoul (08298)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

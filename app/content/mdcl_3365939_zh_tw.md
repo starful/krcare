@@ -6,7 +6,7 @@ lng: 127.0525857180
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365939.jpg"
 address: "23 Kyungheedae-ro, Dongdaemun-gu, Seoul (02447)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.8740745411
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3477597.jpg"
 address: "33, Daejasil-ro, Buk-gu, Jeonnam-Gwangju Special Metropolitan City (61256)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

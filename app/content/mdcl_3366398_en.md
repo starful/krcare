@@ -6,7 +6,7 @@ lng: 126.9608659589
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366398.jpg"
 address: "102 Heukseok-ro, Dongjak-gu, Seoul (06973)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -8,7 +8,9 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="{{ site.accent_color }}">
-    <title>About & Contact - {{ site.site_name }}</title>
+    <title>About — {{ site.site_name }}</title>
+    <meta name="description" content="About {{ site.site_name }} — maps, guides, and clinic listings for medical travel in Korea.">
+    <link rel="canonical" href="{{ site.site_url }}/about.html">
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -33,19 +35,45 @@
 
         <h2>{{ site.emoji }} Our Mission</h2>
         <p>
-            {{ site.site_name }} is a dedicated platform for discovering the best Japan has to offer.
-            {{ site.footer_tagline }}
+            {{ site.site_name }} helps international visitors plan safe, informed medical trips in
+            <strong>South Korea</strong>. {{ site.tagline }}
         </p>
 
         <h2>🌟 What We Do</h2>
         <p>
-            We curate and map the finest experiences across Japan, providing detailed guides,
-            filters, and maps to make your journey seamless and memorable.
+            We publish practical guides on clinic selection, recovery stays, visas, and language support,
+            and map clinics from official Korea Tourism Organization (KTO) medical-tourism listings.
+            Use our filters to explore Seoul, Busan, and other regions — then confirm every detail
+            directly with your chosen clinic before booking.
+        </p>
+
+        <h2>⚠️ Important</h2>
+        <p>
+            {{ site.site_name }} is an independent information site, not a hospital or booking agency.
+            We do not verify prices, medical outcomes, or doctor credentials beyond public listing data.
+            Read our <a href="/disclaimer.html">medical &amp; travel disclaimer</a> and
+            <a href="/terms.html">terms of use</a>.
+        </p>
+
+        <h2>✏️ Editorial standards</h2>
+        <p>
+            Guides are written for international visitors planning care in Korea. Clinic map data comes from
+            Korea Tourism Organization (KTO) medical-tourism OpenAPI listings. We label directory-only pages
+            and exclude thin listings from search indexing where appropriate. Spotted an error?
+            <a href="/contact.html">Send a correction</a>.
+        </p>
+
+        <h2>🔗 Affiliate disclosure</h2>
+        <p>
+            Some pages include partner links (for example stay, eSIM, or tour bookings) and banner ads.
+            If you book through these links, we may earn a commission at no extra cost to you.
+            This helps fund free guides and maps. See our <a href="/privacy.html">Privacy Policy</a> for details.
+            We are not owned by clinics or booking platforms listed on the Site.
         </p>
 
         <div style="margin-top: 50px; text-align: center; padding: 30px; background: #f9f9f9; border-radius: 12px;">
             <h2>💌 Get In Touch</h2>
-            <p>Know a great spot we missed? Tell us!</p>
+            <p>Spotted an error or have a suggestion? Let us know.</p>
             <a href="/contact.html"
                style="display: inline-block; background: var(--accent-color); color: white; padding: 12px 25px; border-radius: 30px; text-decoration: none; font-weight: bold;">
                Open Contact Form

@@ -6,7 +6,7 @@ lng: 126.9616244818
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3574617.jpg"
 address: "#202, 2nd Floor, 188 Burim-ro, Dongan-gu, Anyang-si, Gyeonggi-do (14055)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 129.0418526750
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366195.jpg"
 address: "(#303, Hando Building), 3-6 Jungang-daero 226beon-gil, Dong-gu, Busan (48733)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

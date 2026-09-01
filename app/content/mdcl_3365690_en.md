@@ -6,7 +6,7 @@ lng: 127.0277631817
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365690.jpg"
 address: "73 Goryeodae-ro, Seongbuk-gu, Seoul (02841)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

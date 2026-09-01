@@ -6,7 +6,7 @@ lng: 127.0275573454
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548684.jpg"
 address: "3rd Floor, YBM Gangnam Center, 408 Gangnam-daero, Gangnam-gu, Seoul (06134)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

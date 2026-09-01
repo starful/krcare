@@ -6,7 +6,7 @@ lng: 129.0651637455
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3563149.jpg"
 address: "8th Floor, Busan International Finance Center (BIFC), 40 Munhyeongeumyung-ro, Nam-gu, Busan (48400)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

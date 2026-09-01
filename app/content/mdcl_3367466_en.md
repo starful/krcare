@@ -6,7 +6,7 @@ lng: 127.0292372084
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367466.jpg"
 address: "(5th Floor, Patio9), 742 Nonhyeon-ro, Gangnam-gu, Seoul (06049)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

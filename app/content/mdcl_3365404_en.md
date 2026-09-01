@@ -6,7 +6,7 @@ lng: 126.7374636026
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365404.jpg"
 address: "149 Jochon-ro, Gunsan-si, Jeonbuk-do (54033)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

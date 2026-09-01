@@ -6,7 +6,7 @@ lng: 129.0591560867
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549488.jpg"
 address: "119 Beomil-ro, Dong-gu, Busan (48735)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

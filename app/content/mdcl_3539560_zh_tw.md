@@ -6,7 +6,7 @@ lng: 129.0350065894
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539560.jpg"
 address: "6th–7th Floors, Eungwa & Medical Building, 5 Gudeok-ro, Jung-gu, Busan (48984)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.7629813619
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364645.jpg"
 address: "(4th Floor, Buil Building), 135 Sohyang-ro, Bucheon-si, Gyeonggi-do (14547)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 129.1313296159
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3450964.jpg"
 address: "14F, 50 Centum nam-daero, Haeundae-gu, Busan (48060)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

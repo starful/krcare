@@ -6,7 +6,7 @@ lng: 127.0830526451
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367337.jpg"
 address: "81 Irwon-ro, Gangnam-gu, Seoul (06351)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

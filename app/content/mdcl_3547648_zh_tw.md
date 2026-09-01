@@ -6,7 +6,7 @@ lng: 127.0582478006
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547648.jpg"
 address: "#705, 38 Ttukseom-ro 13-gil (Seongsu-dong 2-ga, Sangsang Planet), Seongdong-gu, Seoul (04785)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

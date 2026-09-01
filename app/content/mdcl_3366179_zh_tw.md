@@ -6,7 +6,7 @@ lng: 126.9737773174
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366179.jpg"
 address: "(2nd Floor, Seoul Square), 416 Hangang-daero, Jung-gu, Seoul (04637)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.9240022713
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364611.jpg"
 address: "(4th Floor, Islex), 108 Uisadang-daero, Yeongdeungpo-gu, Seoul (07322)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

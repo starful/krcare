@@ -6,7 +6,7 @@ lng: 127.0438316008
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364691.jpg"
 address: "720 Dobong-ro, Dobong-gu, Seoul (01333)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.8781298265
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539762.jpg"
 address: "#303, Gasan Urban Work I, 135 Gasan digital 2-ro, Geumcheon-gu, Seoul (08504)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

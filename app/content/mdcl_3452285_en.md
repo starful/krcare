@@ -6,7 +6,7 @@ lng: 127.0284684895
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3452285.jpg"
 address: "4F-5F, 363 Gangnam-daero, Seocho-gu, Seoul (06621)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 128.5942324526
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3450849.jpg"
 address: "B1-B2, 20 Jungang-daero 66-gil, Jung-gu, Daegu (41961)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

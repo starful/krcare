@@ -6,7 +6,7 @@ lng: 129.0160309182
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364075.jpg"
 address: "262 Gamcheon-ro, Seo-gu, Busan (49267)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 129.1821917183
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547906.jpg"
 address: "875 Haeun-daero, Haeundae-gu, Busan (48108)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

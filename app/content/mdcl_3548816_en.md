@@ -6,7 +6,7 @@ lng: 126.8509190354
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548816.jpg"
 address: "1st Floor, International Healthcare Center, 389 Gonghang-daero, Gangseo-gu, Seoul (07590)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

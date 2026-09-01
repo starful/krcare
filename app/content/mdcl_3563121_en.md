@@ -6,7 +6,7 @@ lng: 128.5959488076
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3563121.jpg"
 address: "4th Floor, Dongwon Building, 26 Dongseong-ro 5-gil, Jung-gu, Daegu (41942)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

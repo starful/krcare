@@ -6,7 +6,7 @@ lng: 127.1054988676
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364741.jpg"
 address: "(3rd Floor), 245 Hongsan-ro, Wansan-gu, Jeonju-si, Jeonbuk-do (54966)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

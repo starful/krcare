@@ -6,7 +6,7 @@ lng: 127.0275629971
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3467117.jpg"
 address: "5F, 22 Seocho-daero 78-gil, Seocho-gu, Seoul (06621)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

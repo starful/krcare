@@ -6,7 +6,7 @@ lng: 129.0840028018
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366062.jpg"
 address: "82 World cup-daero, Yeonje-gu, Busan (47580)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

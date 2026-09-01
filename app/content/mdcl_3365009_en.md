@@ -6,7 +6,7 @@ lng: 127.0380013098
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365009.jpg"
 address: "(1st Floor), 52 Yangnyeongdong-gil, Dongdaemun-gu, Seoul (02570)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

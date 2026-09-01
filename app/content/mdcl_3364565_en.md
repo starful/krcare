@@ -6,7 +6,7 @@ lng: 127.0341448033
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364565.jpg"
 address: "(7th Floor, Ssangbong Building), 874 Eonju-ro, Gangnam-gu, Seoul (06017)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

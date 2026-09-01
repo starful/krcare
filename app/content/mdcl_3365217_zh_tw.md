@@ -6,7 +6,7 @@ lng: 126.5452192161
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365217.jpg"
 address: "15 Aran 13-gil, Jeju-si, Jeju-do (63241)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.7625703789
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365517.jpg"
 address: "170 Jomaru-ro, Wonmi-gu, Bucheon-si, Gyeonggi-do (14584)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

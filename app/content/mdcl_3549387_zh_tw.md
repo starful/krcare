@@ -6,7 +6,7 @@ lng: 127.0010690978
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3549387.jpg"
 address: "B1 Floor, International Medical Center, 322 Seoyang-ro, Hwasun-eup, Hwasun-gun, Jeonnam-Gwangju Special Metropolitan City (58128)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

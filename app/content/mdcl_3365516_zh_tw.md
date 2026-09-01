@@ -6,7 +6,7 @@ lng: 127.0365231734
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365516.jpg"
 address: "(38th,39th Floors and Part of 3rd Floor), 152 Teheran-ro, Gangnam-gu, Seoul (06236)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

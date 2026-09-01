@@ -6,7 +6,7 @@ lng: 127.0223406327
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364647.jpg"
 address: "(3th-4th Floors, Gyeongseo Building), 127 Dosan-daero, Gangnam-gu, Seoul (06035)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

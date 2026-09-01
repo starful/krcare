@@ -1,0 +1,18 @@
+{% set _dl = (post.lang if post is defined and post.lang else lang)|default('en') %}
+<aside class="medical-disclaimer" role="note" aria-label="Medical disclaimer"
+       style="margin:28px 0;padding:16px 20px;background:#f3f7f6;border-left:4px solid var(--accent-color,#2EB5A8);border-radius:0 8px 8px 0;font-size:0.92rem;color:#555;">
+    <p class="medical-disclaimer__title" style="margin:0 0 8px;font-weight:700;color:#0F2A32;">
+        {% if _dl == 'ko' %}의료·여행 안내{% else %}Medical &amp; travel notice{% endif %}
+    </p>
+    <p class="medical-disclaimer__body" style="margin:0;line-height:1.6;">
+        {% if _dl == 'ko' %}
+        {{ site.site_name }}는 정보 제공 사이트이며 의료·법률·여행 자문을 제공하지 않습니다.
+        치료·수술·비용·자격은 반드시 해당 클리닉에 직접 확인하세요.
+        <a href="/disclaimer.html?lang=ko">면책 조항</a>
+        {% else %}
+        {{ site.site_name }} is an independent information site — not medical, legal, or travel advice.
+        Confirm treatment, pricing, and credentials directly with the clinic.
+        <a href="/disclaimer.html">Full disclaimer</a>
+        {% endif %}
+    </p>
+</aside>

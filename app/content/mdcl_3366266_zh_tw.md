@@ -6,7 +6,7 @@ lng: 127.0385833910
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366266.jpg"
 address: "(3rd Floor, Postam Building), 12 Seolleung-ro 153-gil, Gangnam-gu, Seoul (06019)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

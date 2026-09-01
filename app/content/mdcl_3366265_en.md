@@ -6,7 +6,7 @@ lng: 127.0287620889
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366265.jpg"
 address: "(4th Floor, Apgujeong Building), 842 Nonhyeon-ro, Gangnam-gu, Seoul (06025)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

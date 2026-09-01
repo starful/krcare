@@ -6,7 +6,7 @@ lng: 127.0303211426
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3575139.jpg"
 address: "8th Floor, Gyeongwon Building, 340 Gangnam-daero, Gangnam-gu, Seoul (06242)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0307239634
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364782.jpg"
 address: "(#1111, Korea Business Center), 309 Gangnam-daero, Seocho-gu, Seoul (06628)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

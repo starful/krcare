@@ -6,7 +6,7 @@ lng: 129.1096608507
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3466939.jpg"
 address: "25-14 Yongho-ro 232beon-gil, Nam-gu, Busan (48575)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

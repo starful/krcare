@@ -6,7 +6,7 @@ lng: 129.0133325186
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539891.jpg"
 address: "#702–704, 287 Geumgok-daero, Buk-gu, Busan (46526)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0241296820
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364783.jpg"
 address: "(2nd-10th and 12th-13th Floors, HM Tower), 492 Gamnam-daero, Gangnam-gu, Seoul (06119)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

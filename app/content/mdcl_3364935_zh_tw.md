@@ -6,7 +6,7 @@ lng: 127.0262268942
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364935.jpg"
 address: "(12th-18th Floors, Pagoda Tower), 419 Gangnam-daero, Seocho-gu, Seoul (06614)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 126.9847760746
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3467038.jpg"
 address: "7F, 43 Myeongdong-gil, Jung-gu, Seoul (04534)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

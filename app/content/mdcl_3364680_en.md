@@ -6,7 +6,7 @@ lng: 128.5966043686
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364680.jpg"
 address: "(3rd,11th,12th Floors, S Tower), 2127 Dalgubeol-daero, Jung-gu, Daegu (41943)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

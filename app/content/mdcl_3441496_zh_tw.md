@@ -6,7 +6,7 @@ lng: 126.9568315593
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3441496.jpg"
 address: "3F, 6-3 Bugahyeon-ro 2-gil, Seodaemun-gu, Seoul (03757)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0679441480
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3562681.jpg"
 address: "2nd Floor, 219 Achasan-ro, Gwangjin-gu, Seoul (05019)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

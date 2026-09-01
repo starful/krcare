@@ -6,7 +6,7 @@ lng: 127.0710745564
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367406.jpg"
 address: "(#323), 9 Gongneung-ro 59ga-gil, Nowon-gu, Seoul (01830)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

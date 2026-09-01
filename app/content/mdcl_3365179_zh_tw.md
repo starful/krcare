@@ -6,7 +6,7 @@ lng: 126.9248548795
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365179.jpg"
 address: "13F-15F & 17F-18F, 24 Gukjegeumyung-ro 2-gil, Yeongdeungpo-gu, Seoul (07325)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

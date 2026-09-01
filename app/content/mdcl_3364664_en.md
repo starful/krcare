@@ -6,7 +6,7 @@ lng: 127.1040749597
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364664.jpg"
 address: "(11th Floor), 300 Olympic-ro, Songpa-gu, Seoul (05551)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

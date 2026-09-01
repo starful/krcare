@@ -6,7 +6,7 @@ lng: 126.8871668279
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539693.jpg"
 address: "7th Floor, 10 Seonyu-ro 9-gil, Yeongdeungpo-gu, Seoul (07281)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

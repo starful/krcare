@@ -6,7 +6,7 @@ lng: 129.0166131276
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3580187.jpg"
 address: "26 Daesingongwon-ro, Seo-gu, Busan (49201)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

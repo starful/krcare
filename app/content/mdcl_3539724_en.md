@@ -6,7 +6,7 @@ lng: 126.6285733053
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539724.jpg"
 address: "#2211, Cheongna Cube Signature 1st Officetel, 10 Cheongna hannae-ro 100beon-gil, Seohae-gu, Incheon (22758)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

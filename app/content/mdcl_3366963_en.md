@@ -6,7 +6,7 @@ lng: 127.0256073724
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366963.jpg"
 address: "(9th Floor, Glaston Building), 108 Bongeunsa-ro, Gangnam-gu, Seoul (06123)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

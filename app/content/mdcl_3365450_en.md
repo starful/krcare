@@ -6,7 +6,7 @@ lng: 127.0279899273
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3365450.jpg"
 address: "(6th Floor, EGI Building), 843 Nonhyeon-ro, Gangnam-gu, Seoul (06031)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

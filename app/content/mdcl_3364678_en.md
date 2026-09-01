@@ -6,7 +6,7 @@ lng: 127.0299150153
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364678.jpg"
 address: "(April 31 Building), 707 Nonhyeon-ro, Gangnam-gu, Seoul (06046)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.9542500014
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548866.jpg"
 address: "22 Wonil-ro, Wonju-si, Gangwon-do (26429)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

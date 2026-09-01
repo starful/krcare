@@ -6,7 +6,7 @@ lng: 126.9384859539
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3548909.jpg"
 address: "50-1 Yonsei-ro, Seodaemun-gu, Seoul (03722)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

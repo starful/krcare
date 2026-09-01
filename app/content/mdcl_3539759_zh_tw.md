@@ -6,7 +6,7 @@ lng: 126.9221598111
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3539759.jpg"
 address: "10th Floor, H-CUBE, 140 Yanghwa-ro, Mapo-gu, Seoul (04050)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

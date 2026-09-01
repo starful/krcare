@@ -6,7 +6,7 @@ lng: 126.8247435978
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3575462.jpg"
 address: "#912-913, Magok M-Signature, 20 Magokjungang 1-ro, Gangseo-gu, Seoul (07807)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0267074350
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3366188.jpg"
 address: "(10th Floor, Tongyeong Building), 405 Gangnam-daero, Seocho-gu, Seoul (06615)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

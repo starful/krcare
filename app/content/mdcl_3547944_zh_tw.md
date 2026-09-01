@@ -6,7 +6,7 @@ lng: 127.1235139411
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3547944.jpg"
 address: "3rd Floor, Building 1, International Healthcare Center, 82 Gumi-ro 173beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do (13620)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.0295091903
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364076.jpg"
 address: "(4th Floor, Miseung Building, Sinsa-dong) 23 Apgujeong-ro 30-gil, Gangnam-gu, Seoul (06022)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

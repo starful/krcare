@@ -6,7 +6,7 @@ lng: 129.1258743142
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3441540.jpg"
 address: "#1012, 10F, 1-dong, 99 Centum dong-ro, Haeundae-gu, Busan (48059)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

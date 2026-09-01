@@ -6,7 +6,7 @@ lng: 126.9544736796
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3367550.jpg"
 address: "(#1227), 173 Mapo-daero, Mapo-gu, Seoul (04130)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

@@ -6,7 +6,7 @@ lng: 127.9468311240
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3447081.jpg"
 address: "20 Ilsan-ro, Wonju-si, Gangwon-do (26426)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

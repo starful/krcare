@@ -6,7 +6,7 @@ lng: 127.0269982998
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3364641.jpg"
 address: "(2nd Floor), 158 Apgujeong-ro, Gangnam-gu, Seoul (06030)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

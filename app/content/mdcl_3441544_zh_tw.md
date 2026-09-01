@@ -6,7 +6,7 @@ lng: 127.0356782255
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3441544.jpg"
 address: "#207, Ra-dong, 14 Eonju-ro 148-gil, Gangnam-gu, Seoul (06057)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""

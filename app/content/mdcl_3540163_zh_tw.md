@@ -6,7 +6,7 @@ lng: 126.6566777632
 categories: ["Clinic"]
 thumbnail: "/static/images/mdcl_3540163.jpg"
 address: "5th Floor, Honestar Mall, 157 Songdogukje-daero, Yeonsu-gu, Incheon (21984)"
-date: "2026-08-22"
+date: "2026-09-01"
 website: ""
 tel: ""
 source_image: ""
