@@ -1101,7 +1101,7 @@ footer {
     .family-sites-strip { padding: 28px 12px 32px; }
     .family-site-card { flex: 1 1 100%; max-width: none; justify-content: center; }
 }
-/* A8.net banner row (300×250) */
+/* A8.net partner buttons (text, not remote images) */
 .affiliate-box--a8 {
     margin: 24px auto;
     max-width: 100%;
@@ -1119,80 +1119,71 @@ footer {
 }
 .a8-banners__grid {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
     align-items: stretch;
 }
 .a8-banners__item {
     position: relative;
-    flex: 1 1 0;
+    flex: 1 1 160px;
     min-width: 0;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 280px;
 }
 .a8-banners__link {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
     width: 100%;
+    min-height: 52px;
+    padding: 12px 16px;
+    border-radius: 14px;
     text-decoration: none;
-    color: inherit;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #fff;
+    color: #fff;
+    background: #0f766e;
     box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    transition: transform 0.18s ease, background 0.15s ease, box-shadow 0.18s ease;
 }
 .a8-banners__link:hover {
     transform: translateY(-2px);
+    background: #0d9488;
     box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
-}
-.a8-banners__link:hover .a8-banners__label {
-    text-decoration: underline;
-}
-.a8-banners__img {
-    display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 300 / 250;
-    object-fit: contain;
-    background: #f1f5f9;
 }
 .a8-banners__label {
     display: block;
     margin: 0;
-    padding: 8px 10px 10px;
-    font-size: 0.78rem;
-    font-weight: 700;
-    line-height: 1.35;
-    color: #0369a1;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    max-width: 100%;
+    padding: 0;
+    font-size: 0.92rem;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #fff;
+    text-decoration: none;
 }
 .a8-banners__desc {
-    display: none;
+    display: block;
+    margin: 4px 0 0;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: rgba(255, 255, 255, 0.88);
 }
 .affiliate-box--a8 .affiliate-box__note {
     margin: 10px 0 0;
     font-size: 0.68rem;
     color: #94a3b8;
 }
+.a8-affiliate-pixel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
 @media (max-width: 520px) {
-    .a8-banners__grid {
-        gap: 8px;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        scroll-snap-type: x proximity;
-        justify-content: flex-start;
-        padding-bottom: 4px;
-    }
     .a8-banners__item {
-        flex: 0 0 72%;
-        max-width: 300px;
-        scroll-snap-align: start;
+        flex: 1 1 100%;
+        max-width: none;
     }
 }

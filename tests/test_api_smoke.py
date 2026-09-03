@@ -75,6 +75,7 @@ class ApiSmokeTest(unittest.TestCase):
         body = detail.get_data(as_text=True)
         self.assertIn("px.a8.net/svt/ejp", body)
         self.assertIn("a8-banners", body)
+        self.assertNotIn("a8-banners__img", body)
         self.assertIn("booking-box", body)
         self.assertIn("https://a.r10.to/hPhGZl", body)
         self.assertIn("https://a.r10.to/h9O1Fq", body)
