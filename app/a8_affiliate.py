@@ -1,4 +1,7 @@
-"""A8.net affiliate banners for KR Care."""
+"""A8.net affiliate banners for KR Care.
+
+Agoda Partners + KKday + Korean College. BUYMA removed.
+"""
 
 from __future__ import annotations
 
@@ -8,15 +11,15 @@ from typing import Any
 _BANNERS: dict[str, dict[str, str]] = {
     "agoda": {
         "id": "agoda",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9J+13ASVM+4X1W+5ZMCH",
-        "image_url": "https://www27.a8.net/svt/bgt?aid=260829415066&wid=009&eno=01&mid=s00000022946001006000&mc=1",
-        "pixel_url": "https://www19.a8.net/0.gif?a8mat=4BAH9J+13ASVM+4X1W+5ZMCH",
+        "click_url": "",
+        "image_url": "",
+        "pixel_url": "",
         "label_en": "Agoda — Korea hotels",
         "label_ko": "Agoda — 한국 숙소",
         "desc_en": "Book stays near clinics and treatment areas.",
         "desc_ko": "병원·치료 지역 주변 숙소.",
-        "alt_en": "Agoda — affiliate",
-        "alt_ko": "Agoda — 제휴",
+        "alt_en": "Agoda — hotels",
+        "alt_ko": "Agoda — 숙소",
     },
     "kkday": {
         "id": "kkday",
@@ -42,18 +45,6 @@ _BANNERS: dict[str, dict[str, str]] = {
         "alt_en": "Korean College — affiliate",
         "alt_ko": "코리안칼리지 — 제휴",
     },
-    "buyma_travel": {
-        "id": "buyma_travel",
-        "click_url": "https://px.a8.net/svt/ejp?a8mat=4BAH9J+4TURLE+54RO+BXQOH",
-        "image_url": "https://www28.a8.net/svt/bgt?aid=260829415292&wid=009&eno=01&mid=s00000023946002005000&mc=1",
-        "pixel_url": "https://www11.a8.net/0.gif?a8mat=4BAH9J+4TURLE+54RO+BXQOH",
-        "label_en": "BUYMA TRAVEL — private tours",
-        "label_ko": "BUYMA TRAVEL — 프라이빗 투어",
-        "desc_en": "Local guides for Seoul and Busan.",
-        "desc_ko": "서울·부산 현지 가이드 투어.",
-        "alt_en": "BUYMA TRAVEL — affiliate",
-        "alt_ko": "BUYMA TRAVEL — 제휴",
-    },
 }
 
 
@@ -66,11 +57,38 @@ def _enabled() -> bool:
     )
 
 
-def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
+def _copy(
+    banner_id: str,
+    *,
+    lang: str,
+    lat: float | None = None,
+    lng: float | None = None,
+) -> dict[str, str]:
     src = _BANNERS[banner_id]
     is_ko = (lang or "en").lower() == "ko"
     suffix = "ko" if is_ko else "en"
     key = banner_id.upper()
+    if banner_id == "agoda":
+        try:
+            from agoda_partners import url_for_location
+        except ImportError:
+            from .agoda_partners import url_for_location
+        click = url_for_location(
+            lang=lang,
+            lat=lat,
+            lng=lng,
+            country="kr",
+            default_city=14690,
+        )
+        return {
+            "id": src["id"],
+            "click_url": click,
+            "image_url": "",
+            "pixel_url": "",
+            "label": src[f"label_{suffix}"],
+            "desc": src[f"desc_{suffix}"],
+            "alt": src[f"alt_{suffix}"],
+        }
     return {
         "id": src["id"],
         "click_url": os.getenv(f"A8_{key}_CLICK_URL", src["click_url"]),
@@ -82,12 +100,18 @@ def _copy(banner_id: str, *, lang: str) -> dict[str, str]:
     }
 
 
-def a8_banners_context(*, lang: str = "en") -> dict[str, Any]:
+def a8_banners_context(
+    *,
+    lang: str = "en",
+    lat: float | None = None,
+    lng: float | None = None,
+) -> dict[str, Any]:
     if not _enabled():
         return {"show_a8_banners": False, "a8_banners": []}
     is_ko = (lang or "en").lower() == "ko"
-    keys = ("agoda", "kkday", "korean_college", "buyma_travel")
-    banners = [_copy(k, lang=lang) for k in keys]
+    keys = ("agoda", "kkday", "korean_college")
+    kw = {"lang": lang, "lat": lat, "lng": lng}
+    banners = [_copy(k, **kw) for k in keys]
     return {
         "show_a8_banners": True,
         "a8_banners": banners,

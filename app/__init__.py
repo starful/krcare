@@ -893,13 +893,12 @@ def item_detail(item_id):
         **_og_image_context(base_id),
         **share_ctx,
         **stats,
-        **a8_banners_context(lang=lang),
+        **a8_banners_context(
+            lang=lang,
+            lat=post.get("lat"),
+            lng=post.get("lng"),
+        ),
     )
-
-
-@app.route('/social/<slug>.jpg')
-def social_image(slug):
-    """Serve thumbnail on-site for OG/Twitter (1200×630 JPEG, no redirect)."""
     safe = re.sub(r"[^a-z0-9_-]", "", slug.lower())
     if not safe:
         abort(404)
