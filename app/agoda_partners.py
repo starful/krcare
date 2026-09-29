@@ -1,6 +1,6 @@
 """Agoda Partners (CID) search links — replaces A8 Agoda click URLs.
 
-CID 1969838 = Approval Site. Deep-link with city= when possible.
+CID 1976216 = Agoda Partners site for krcare. Deep-link with city= when possible.
 
 City IDs below are partner-confirmed (2026-09). If a hub is missing, ask
 for the Agoda city code rather than guessing.
@@ -13,7 +13,7 @@ import os
 from typing import Any
 from urllib.parse import urlencode
 
-AGODA_CID = os.getenv("AGODA_PARTNERS_CID", "1969838").strip() or "1969838"
+AGODA_CID = os.getenv("AGODA_PARTNERS_CID", "1976216").strip() or "1976216"
 
 # Partner-confirmed Agoda city IDs (hub coords for nearest-city matching).
 AGODA_CITIES: tuple[dict[str, Any], ...] = (
