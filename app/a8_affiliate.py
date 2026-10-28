@@ -107,11 +107,17 @@ def a8_banners_context(
     lng: float | None = None,
 ) -> dict[str, Any]:
     if not _enabled():
-        return {"show_a8_banners": False, "a8_banners": []}
+        return {
+            "show_a8_banners": False,
+            "a8_banners": [],
+            "agoda_cta": None,
+            "show_agoda_cta": False,
+        }
     is_ko = (lang or "en").lower() == "ko"
     keys = ("agoda", "kkday", "korean_college")
     kw = {"lang": lang, "lat": lat, "lng": lng}
     banners = [_copy(k, **kw) for k in keys]
+    agoda = next((b for b in banners if b.get("id") == "agoda"), None)
     return {
         "show_a8_banners": True,
         "a8_banners": banners,
@@ -123,4 +129,6 @@ def a8_banners_context(
             if is_ko
             else "Affiliate ads · opens in new tab"
         ),
+        "agoda_cta": agoda,
+        "show_agoda_cta": agoda is not None,
     }
