@@ -1165,12 +1165,9 @@ footer {
 .a8-banners__item--agoda .a8-banners__link { background: #5c2d91; }
 .a8-banners__item--agoda .a8-banners__link:hover { background: #4a2474; }
 .a8-banners__item--agoda .a8-banners__link::before { content: "🏨"; }
-.a8-banners__item--kkday .a8-banners__link { background: #ea580c; }
-.a8-banners__item--kkday .a8-banners__link:hover { background: #c2410c; }
-.a8-banners__item--kkday .a8-banners__link::before { content: "🎫"; }
-.a8-banners__item--korean_college .a8-banners__link { background: #7c3aed; }
-.a8-banners__item--korean_college .a8-banners__link:hover { background: #6d28d9; }
-.a8-banners__item--korean_college .a8-banners__link::before { content: "📖"; }
+.a8-banners__item--amazon .a8-banners__link { background: #ff9900; color: #111; }
+.a8-banners__item--amazon .a8-banners__link:hover { background: #e88b00; }
+.a8-banners__item--amazon .a8-banners__link::before { content: "🛒"; }
 .a8-banners__item--buyma_travel .a8-banners__link { background: #db2777; }
 .a8-banners__item--buyma_travel .a8-banners__link:hover { background: #be185d; }
 .a8-banners__item--buyma_travel .a8-banners__link::before { content: "🧭"; }
