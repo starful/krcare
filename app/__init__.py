@@ -839,6 +839,10 @@ def guide_detail(guide_id):
         from .a8_affiliate import a8_banners_context
     except ImportError:
         from a8_affiliate import a8_banners_context
+    try:
+        from .amazon_affiliate import amazon_context
+    except ImportError:
+        from amazon_affiliate import amazon_context
     return render_template('guide_detail.html',
                            title=title, content=content_html, lang=lang,
                            guide_id=guide_id, base_id=base_id,
@@ -847,7 +851,8 @@ def guide_detail(guide_id):
                            alt_en=alt_en, alt_ja=alt_ja, alt_zh=alt_zh, alt_zh_tw=alt_zh_tw,
                            post=post,
                            **_og_image_context(base_id), **share_ctx, **stats,
-                           **a8_banners_context(lang=lang))
+                           **a8_banners_context(lang=lang),
+                           **amazon_context(kind="guide", lang=lang))
 
 @app.route('/item/<item_id>')
 def item_detail(item_id):
@@ -882,6 +887,10 @@ def item_detail(item_id):
         from .a8_affiliate import a8_banners_context
     except ImportError:
         from a8_affiliate import a8_banners_context
+    try:
+        from .amazon_affiliate import amazon_context
+    except ImportError:
+        from amazon_affiliate import amazon_context
     return render_template(
         'detail.html',
         post=post,
@@ -898,6 +907,7 @@ def item_detail(item_id):
             lat=post.get("lat"),
             lng=post.get("lng"),
         ),
+        **amazon_context(kind="clinic", lang=lang),
     )
     safe = re.sub(r"[^a-z0-9_-]", "", slug.lower())
     if not safe:

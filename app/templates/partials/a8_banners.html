@@ -1,13 +1,15 @@
-{# A8.net partner buttons — click URL + pixel, no remote images #}
-{% if show_a8_banners and a8_banners %}
+{# Agoda partner button + Amazon search link — click URL only, no remote images #}
+{% set _a8_list = a8_banners if (show_a8_banners and a8_banners) else [] %}
+{% set _amz = amazon_cta if (show_amazon and amazon_cta) else None %}
+{% if _a8_list or _amz %}
 <aside class="a8-banners affiliate-box affiliate-box--a8"
        role="complementary"
        aria-label="{{ '제휴 광고' if current_lang == 'kr' else 'Affiliate ads' }}">
-    {% if a8_banners_title %}
+    {% if a8_banners_title and _a8_list %}
     <p class="affiliate-box__title">{{ a8_banners_title }}</p>
     {% endif %}
     <div class="a8-banners__grid">
-        {% for banner in a8_banners %}
+        {% for banner in _a8_list %}
         <div class="a8-banners__item a8-banners__item--{{ banner.id }}">
             <a class="a8-banners__link"
                href="{{ banner.click_url }}"
@@ -21,12 +23,33 @@
                 <span class="a8-banners__desc">{{ banner.desc }}</span>
                 {% endif %}
             </a>
+            {% if banner.pixel_url %}
             <img class="a8-affiliate-pixel" src="{{ banner.pixel_url }}" width="1" height="1" alt="" aria-hidden="true">
+            {% endif %}
         </div>
         {% endfor %}
+        {% if _amz %}
+        <div class="a8-banners__item a8-banners__item--amazon">
+            <a class="a8-banners__link"
+               href="{{ _amz.click_url }}"
+               target="_blank"
+               rel="nofollow sponsored noopener noreferrer"
+               title="{{ _amz.label }}{% if _amz.desc %} — {{ _amz.desc }}{% endif %}"
+               data-track="affiliate_amazon"
+               data-track-label="{{ _amz.keyword }}">
+                <span class="a8-banners__label">{{ _amz.label }}</span>
+                {% if _amz.desc %}
+                <span class="a8-banners__desc">{{ _amz.desc }}</span>
+                {% endif %}
+            </a>
+        </div>
+        {% endif %}
     </div>
     {% if a8_banners_note %}
     <p class="affiliate-box__note">{{ a8_banners_note }}</p>
+    {% endif %}
+    {% if _amz and amazon_note and amazon_note != a8_banners_note %}
+    <p class="affiliate-box__note">{{ amazon_note }}</p>
     {% endif %}
 </aside>
 {% endif %}
