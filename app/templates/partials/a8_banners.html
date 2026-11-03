@@ -47,7 +47,8 @@
     </div>
     {% if a8_banners_note %}
     <p class="affiliate-box__note">{{ a8_banners_note }}</p>
-    {% elif _amz %}
+    {% endif %}
+    {% if _amz and amazon_note and amazon_note != a8_banners_note %}
     <p class="affiliate-box__note">{{ amazon_note }}</p>
     {% endif %}
 </aside>

@@ -64,7 +64,7 @@ class ApiSmokeTest(unittest.TestCase):
         self.assertEqual(detail.status_code, 200)
         self.assertIn(b"reaction-panel", detail.data)
 
-    def test_item_detail_shows_a8_and_rakuten(self):
+    def test_item_detail_shows_agoda_amazon_and_rakuten(self):
         items_resp = self.client.get("/api/items?lang=en")
         payload = items_resp.get_json()
         items = payload.get("items") or []
@@ -73,7 +73,13 @@ class ApiSmokeTest(unittest.TestCase):
         detail = self.client.get(f"/item/{item_id}")
         self.assertEqual(detail.status_code, 200)
         body = detail.get_data(as_text=True)
-        self.assertIn("px.a8.net/svt/ejp", body)
+        self.assertNotIn("px.a8.net", body)
+        self.assertNotIn("a8-banners__item--kkday", body)
+        self.assertNotIn("a8-banners__item--korean_college", body)
+        self.assertIn("a8-banners__item--agoda", body)
+        self.assertIn("a8-banners__item--amazon", body)
+        self.assertIn("amazon.co.jp/s?k=", body)
+        self.assertIn("tag=starful06-22", body)
         self.assertIn("a8-banners", body)
         self.assertNotIn("a8-banners__img", body)
         self.assertIn("booking-box", body)
