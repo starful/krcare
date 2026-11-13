@@ -107,6 +107,8 @@
       {% set lbl_stay_btn = 'Klookで空港アクセスを見る →' %}
       {% set lbl_stay_note = 'アフィリエイトリンク · 新しいタブで開きます' %}
       {% set lbl_back = '地図に戻る' %}
+      {% set lbl_verified = 'KR Careが確認済みの掲載情報' %}
+      {% set lbl_lang_switch = '言語を切り替え' %}
     {% elif lang == 'zh' %}
       {% set lbl_site = '官方网站' %}
       {% set lbl_call = '拨打电话' %}
@@ -123,6 +125,8 @@
       {% set lbl_stay_btn = '在 Klook 查看机场接送 →' %}
       {% set lbl_stay_note = '联盟链接 · 在新标签页打开' %}
       {% set lbl_back = '返回地图' %}
+      {% set lbl_verified = 'KR Care 已核实的信息' %}
+      {% set lbl_lang_switch = '切换语言' %}
     {% elif lang == 'zh_tw' %}
       {% set lbl_site = '官方網站' %}
       {% set lbl_call = '撥打電話' %}
@@ -139,6 +143,8 @@
       {% set lbl_stay_btn = '在 Klook 查看機場接送 →' %}
       {% set lbl_stay_note = '聯盟連結 · 於新分頁開啟' %}
       {% set lbl_back = '返回地圖' %}
+      {% set lbl_verified = 'KR Care 已核實的資訊' %}
+      {% set lbl_lang_switch = '切換語言' %}
     {% else %}
       {% set lbl_site = 'Official website' %}
       {% set lbl_call = 'Call' %}
@@ -155,6 +161,8 @@
       {% set lbl_stay_btn = 'Airport transfers on Klook →' %}
       {% set lbl_stay_note = 'Affiliate links · opens in a new tab' %}
       {% set lbl_back = 'Back to map' %}
+      {% set lbl_verified = 'Listing checked by KR Care' %}
+      {% set lbl_lang_switch = 'Switch language' %}
     {% endif %}
 
     <article class="detail-container">
@@ -170,6 +178,20 @@
             {% if post.summary %}
             <p class="detail-lede">{{ post.summary }}</p>
             {% endif %}
+        </div>
+
+        <div class="detail-top-bar">
+            <span class="detail-verified-badge">
+                <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                {{ lbl_verified }}
+            </span>
+            <div class="detail-lang-cta" role="group" aria-label="{{ lbl_lang_switch }}">
+                <span class="detail-lang-cta-label">{{ lbl_lang_switch }}</span>
+                <a href="/item/{{ base_id }}_en" class="detail-lang-btn {% if lang == 'en' %}active{% endif %}">EN</a>
+                <a href="/item/{{ base_id }}_ja" class="detail-lang-btn {% if lang == 'ja' %}active{% endif %}">JA</a>
+                <a href="/item/{{ base_id }}_zh" class="detail-lang-btn {% if lang == 'zh' %}active{% endif %}">中文</a>
+                <a href="/item/{{ base_id }}_zh_tw" class="detail-lang-btn {% if lang == 'zh_tw' %}active{% endif %}">繁中</a>
+            </div>
         </div>
 
         {% if show_agoda_cta and agoda_cta %}
