@@ -15,10 +15,9 @@ image_prompt: ""
 content_id: "3364596"
 source: "MdclTursmService"
 ---
-
 ## Overview
 
-Medien International (메디엔인터내셔날)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
+Medien International(메디엔인터내셔날)為韓國觀光公社醫療觀光 OpenAPI 收錄的醫療機構資訊，實際語言服務、營業時間與預約方式請直接向診所確認。
 
 ## Listed details
 
@@ -29,5 +28,4 @@ Medien International (메디엔인터내셔날)為韓國觀光公社醫療觀光
 
 ## Before you book
 
-我們不保證超出公開資訊的價格、療效或資格。請直接向診所確認語言、時間與預約規則。
-
+本頁資訊僅供參考，我們不保證公開資訊以外的價格、療效或資格認證。預約前請直接向診所確認語言服務、營業時間與預約規則。
