@@ -19,13 +19,13 @@ source: "MdclTursmService"
 
 Wowvos(㈜와우보스)는 한국관광공사 의료관광 OpenAPI에 수록된 정보를 제공합니다. 언어, 진료 시간, 예약 가능 여부는 반드시 병원에 직접 확인해 주세요.
 
-## Listed details
+## Listed Details
 
 - **전화:** 병원에 직접 확인 필요
 - **주소:** (4th Floor, Buil Building), 135 Sohyang-ro, Bucheon-si, Gyeonggi-do (14547)
 - **웹사이트:** 병원에 직접 확인 필요
 - **출처:** 한국관광공사 의료관광 OpenAPI (MdclTursmService)
 
-## Before you book
+## Before You Book
 
 공개된 정보 범위를 벗어나는 가격, 치료 효과, 자격 요건은 보증하지 않습니다. 언어, 진료 시간, 예약 규정은 반드시 병원에 직접 확인해 주세요.
