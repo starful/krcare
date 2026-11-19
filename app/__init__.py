@@ -1178,6 +1178,16 @@ def disclaimer():
 def contact():
     return render_template('contact.html', site=SITE_CONFIG)
 
+# Anonymous visit log for Starful HQ「이용자 보기」(visitkit).
+try:
+    from visitkit.flask_api import register_visitlog
+except ImportError:
+    import sys
+    sys.path.insert(0, os.path.dirname(BASE_DIR))
+    from visitkit.flask_api import register_visitlog
+register_visitlog(app, site_id="krcare", db_path=os.path.join(os.path.dirname(BASE_DIR), "data", "visitlog.sqlite3"))
+
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
     app.run(host='0.0.0.0', port=port)
