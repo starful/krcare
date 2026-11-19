@@ -18,3 +18,7 @@ app/static/images/*.png
 
 # macOS Finder custom folder icon (Icon + CR; Icon? matches one trailing char)
 Icon?
+
+# visitkit local store
+data/visitlog.sqlite3
+data/visitlog.sqlite3-*

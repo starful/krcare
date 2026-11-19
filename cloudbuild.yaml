@@ -37,8 +37,8 @@ steps:
       - '--allow-unauthenticated'
       - '--port=8080'
       - '--memory=1Gi'
-      - '--set-env-vars=SITE_URL=${_SITE_URL},ASSET_VERSION=${_ASSET_VERSION},MAPS_ID=${_MAPS_ID},GA_ID=${_GA_ID}'
-      - '--set-secrets=MAPS_API_KEY=${_MAPS_API_SECRET}:latest,GOOGLE_PLACES_API_KEY=${_PLACES_API_SECRET}:latest,GEMINI_API_KEY=${_GEMINI_API_SECRET}:latest'
+      - '--set-env-vars=SITE_URL=${_SITE_URL},ASSET_VERSION=${_ASSET_VERSION},MAPS_ID=${_MAPS_ID},GA_ID=${_GA_ID},STORE_BACKEND=firestore,FIRESTORE_COLLECTION=krcare'
+      - '--set-secrets=MAPS_API_KEY=${_MAPS_API_SECRET}:latest,GOOGLE_PLACES_API_KEY=${_PLACES_API_SECRET}:latest,GEMINI_API_KEY=${_GEMINI_API_SECRET}:latest,VISITLOG_SECRET=VISITLOG_SECRET:latest'
     waitFor: ['docker-push']
 
 images:
