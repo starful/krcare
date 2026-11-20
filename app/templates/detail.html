@@ -61,28 +61,8 @@
     {% set maps_query = (post.lat|string ~ ',' ~ post.lng|string) if post.lat and post.lng else (post.address or '') %}
     {% set maps_url = 'https://www.google.com/maps/search/?api=1&query=' ~ (maps_query|urlencode) %}
 
-    <!-- JSON-LD structured data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "{{ site.schema_type }}",
-      "name": "{{ post.title }}",
-      "image": "{{ og_image_abs }}",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "{{ post.address }}",
-        "addressCountry": "KR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": {{ post.lat if post.lat else 0 }},
-        "longitude": {{ post.lng if post.lng else 0 }}
-      },
-      "description": "{{ post.summary }}"{% if tel %},
-      "telephone": "{{ tel }}"{% endif %}{% if website %},
-      "url": "{{ website }}"{% endif %}
-    }
-    </script>
+    <!-- JSON-LD structured data (MedicalBusiness / LocalBusiness) -->
+    <script type="application/ld+json">{{ schema_jsonld | tojson }}</script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="/static/css/style.css">
