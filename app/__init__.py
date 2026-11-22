@@ -633,6 +633,40 @@ def _absolute_url(path_or_url):
         return path_or_url
     return f"{SITE_CONFIG['site_url'].rstrip('/')}/{path_or_url.lstrip('/')}"
 
+
+def _clinic_schema_jsonld(post, canonical_url, image_abs):
+    """MedicalBusiness/LocalBusiness JSON-LD for a clinic detail page."""
+    types = [SITE_CONFIG['schema_type']]
+    for t in ("MedicalBusiness", "LocalBusiness"):
+        if t not in types:
+            types.append(t)
+
+    data = {
+        "@context": "https://schema.org",
+        "@type": types,
+        "@id": f"{canonical_url}#business",
+        "name": str(post.get('title') or ''),
+        "description": str(post.get('summary') or ''),
+        "url": canonical_url,
+        "mainEntityOfPage": canonical_url,
+        "image": image_abs,
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": str(post.get('address') or ''),
+            "addressCountry": "KR",
+        },
+    }
+    lat, lng = post.get('lat'), post.get('lng')
+    if lat and lng:
+        data["geo"] = {"@type": "GeoCoordinates", "latitude": lat, "longitude": lng}
+    tel = str(post.get('tel') or '').strip()
+    if tel:
+        data["telephone"] = tel
+    website = str(post.get('website') or '').strip()
+    if website:
+        data["sameAs"] = [website]
+    return data
+
 # Initial startup load
 load_items()
 load_nearby()
@@ -891,6 +925,8 @@ def item_detail(item_id):
         from .amazon_affiliate import amazon_context
     except ImportError:
         from amazon_affiliate import amazon_context
+    canonical_url = f"{SITE_URL}/item/{item_id}"
+    og_ctx = _og_image_context(base_id)
     return render_template(
         'detail.html',
         post=post,
@@ -899,7 +935,9 @@ def item_detail(item_id):
         base_id=base_id,
         indexable=indexable,
         thumbnail_abs=_absolute_url(str(post.get('thumbnail', '/static/images/default.jpg'))),
-        **_og_image_context(base_id),
+        canonical_url=canonical_url,
+        schema_jsonld=_clinic_schema_jsonld(post, canonical_url, og_ctx['og_image_abs']),
+        **og_ctx,
         **share_ctx,
         **stats,
         **a8_banners_context(
@@ -1119,7 +1157,9 @@ def sitemap_xml():
         nodes.append(_sitemap_url_node(f'{base}{path}', today, changefreq='monthly', priority='0.3'))
 
     # Clinic detail pages (all UI langs)
+    _DATE_RE = re.compile(r'^\d{4}-\d{2}-\d{2}')
     item_pairs: dict[str, dict[str, str]] = {}
+    item_lastmod: dict[str, str] = {}
     for item in CACHED_DATA.get(SITE_CONFIG['data_key'], []):
         item_id = item.get('id')
         lang = item.get('lang', 'en')
@@ -1129,12 +1169,16 @@ def sitemap_xml():
         if base_id not in INDEXABLE_CLINIC_IDS:
             continue
         item_pairs.setdefault(base_id, {})[lang] = f'{base}/item/{item_id}'
-    for pair in item_pairs.values():
+        published = str(item.get('published') or '').strip()
+        if _DATE_RE.match(published):
+            item_lastmod[base_id] = published[:10]
+    for base_id, pair in item_pairs.items():
         primary = pair.get('en') or next(iter(pair.values()))
-        nodes.append(_sitemap_url_node(primary, today, pair, priority='0.6'))
+        nodes.append(_sitemap_url_node(primary, item_lastmod.get(base_id, today), pair, priority='0.6'))
 
     # Guide detail pages
     guide_pairs: dict[str, dict[str, str]] = {}
+    guide_lastmod: dict[str, str] = {}
     for lang in list_langs:
         for guide in CACHED_GUIDES.get(lang, []):
             gid = guide.get('id')
@@ -1142,9 +1186,12 @@ def sitemap_xml():
                 continue
             base_id, _ = _split_lang_id(gid)
             guide_pairs.setdefault(base_id, {})[lang] = f'{base}/guide/{gid}'
-    for pair in guide_pairs.values():
+            published = str(guide.get('published') or '').strip()
+            if _DATE_RE.match(published):
+                guide_lastmod[base_id] = published[:10]
+    for base_id, pair in guide_pairs.items():
         primary = pair.get('en') or next(iter(pair.values()))
-        nodes.append(_sitemap_url_node(primary, today, pair, priority='0.7'))
+        nodes.append(_sitemap_url_node(primary, guide_lastmod.get(base_id, today), pair, priority='0.7'))
 
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>'
