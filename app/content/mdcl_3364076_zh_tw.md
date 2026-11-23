@@ -15,10 +15,9 @@ image_prompt: ""
 content_id: "3364076"
 source: "MdclTursmService"
 ---
-
 ## Overview
 
-Apgujeong Oracle Clinic (압구정오라클피부과)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
+Apgujeong Oracle Clinic（압구정오라클피부과)是韓國觀光公社醫療觀光 OpenAPI 所收錄的院所資訊之一。詳細語言服務、營業時間與預約方式,請直接向診所確認。
 
 ## Listed details
 
@@ -29,5 +28,4 @@ Apgujeong Oracle Clinic (압구정오라클피부과)為韓國觀光公社醫療
 
 ## Before you book
 
-我們不保證超出公開資訊的價格、療效或資格。請直接向診所確認語言、時間與預約規則。
-
+本頁資訊僅供參考,我們無法保證公開資料以外的價格、療效或醫師資格。預約前請務必直接向診所確認語言服務、看診時間與預約規則。

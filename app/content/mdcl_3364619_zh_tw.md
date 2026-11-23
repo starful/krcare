@@ -15,19 +15,17 @@ image_prompt: ""
 content_id: "3364619"
 source: "MdclTursmService"
 ---
-
 ## Overview
 
-Aimeigroup (아이메이그룹)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
+Aimeigroup(아이메이그룹)는 한국관광공사 의료관광 OpenAPI에 등록된 정보입니다. 언어, 진료 시간, 예약 가능 여부는 반드시 병원에 직접 확인하시기 바랍니다.
 
 ## Listed details
 
-- **電話:** 請向診所確認
-- **地址:** (B2, B1, 1st, 2nd Floors), 49 Gangnam-daero 110-gil, Gangnam-gu, Seoul (06127)
-- **Website:** 請向診所確認
-- **來源:** 韓國觀光公社醫療觀光 OpenAPI (MdclTursmService)
+- **전화:** 병원에 직접 확인 필요
+- **주소:** (B2, B1, 1st, 2nd Floors), 49 Gangnam-daero 110-gil, Gangnam-gu, Seoul (06127)
+- **웹사이트:** 병원에 직접 확인 필요
+- **출처:** 한국관광공사 의료관광 OpenAPI (MdclTursmService)
 
 ## Before you book
 
-我們不保證超出公開資訊的價格、療效或資格。請直接向診所確認語言、時間與預約規則。
-
+공개된 정보 이상의 가격, 치료 효과, 자격 요건은 보장하지 않습니다. 언어, 진료 시간, 예약 관련 규정은 반드시 병원에 직접 확인하시기 바랍니다.

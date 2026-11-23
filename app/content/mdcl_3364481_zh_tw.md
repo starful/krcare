@@ -15,10 +15,9 @@ image_prompt: ""
 content_id: "3364481"
 source: "MdclTursmService"
 ---
-
 ## Overview
 
-Appletree Dental Hospital (사과나무치과병원)為韓國觀光公社醫療觀光 OpenAPI 收錄資訊。請直接向診所確認語言、時間與預約。
+Appletree Dental Hospital(사과나무치과병원)為韓國觀光公社醫療觀光 OpenAPI 所收錄的資訊。實際語言支援、看診時間與預約方式，請直接向診所確認。
 
 ## Listed details
 
@@ -29,5 +28,4 @@ Appletree Dental Hospital (사과나무치과병원)為韓國觀光公社醫療�
 
 ## Before you book
 
-我們不保證超出公開資訊的價格、療效或資格。請直接向診所確認語言、時間與預約規則。
-
+本文僅整理公開資訊，無法保證價格、療效或資格條件。預約前請直接與診所確認語言支援、看診時間與預約規則。
